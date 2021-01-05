@@ -1,15 +1,16 @@
 //Object specific defines
 #define CANDLE_LUM 3 //For how bright candles are
 
-//Directions (already defined on BYOND natively, purely here for reference)
-//#define NORTH		1
-//#define SOUTH		2
-//#define EAST		4
-//#define WEST		8
-//#define NORTHEAST	5
-//#define SOUTHEAST 6
-//#define NORTHWEST 9
-//#define SOUTHWEST 10
+/* Directions (already defined on BYOND natively, purely here for reference)
+ * #define NORTH		1
+ * #define SOUTH		2
+ * #define EAST		4
+ * #define WEST		8
+ * #define NORTHEAST	5
+ * #define SOUTHEAST 6
+ * #define NORTHWEST 9
+ * #define SOUTHWEST 10
+ */
 
 //Security levels
 #define SEC_LEVEL_GREEN	0
@@ -431,6 +432,9 @@
 
 // Filters
 #define FILTER_AMBIENT_OCCLUSION filter(type="drop_shadow", x=0, y=-2, size=4, color="#04080FAA")
+
+//Brain Trauma Text File
+#define BRAIN_DAMAGE_FILE "brain_damage_lines.json"
 
 //Fullscreen overlay resolution in tiles.
 #define FULLSCREEN_OVERLAY_RESOLUTION_X 15

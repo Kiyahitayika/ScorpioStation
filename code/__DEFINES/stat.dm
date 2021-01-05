@@ -1,4 +1,4 @@
-//mob/var/stat things
+//mob/var/stat flags
 #define CONSCIOUS	0
 #define UNCONSCIOUS	1
 #define DEAD		2
@@ -13,7 +13,7 @@
 #define BROKEN		1
 #define NOPOWER		2
 #define POWEROFF	4		// tbd
-#define MAINT		8			// under maintaince
+#define MAINT		8		// under maintaince
 #define EMPED		16		// temporary broken by EMP pulse
 
 /*
@@ -47,8 +47,8 @@
 #define SHUTTLE_SOMEONE_ELSE_DOCKED "someone_else_docked"
 
 // Ripples, effects that signal a shuttle's arrival
-#define SHUTTLE_RIPPLE_TIME 100
-#define SHUTTLE_RIPPLE_FADEIN 50
+#define SHUTTLE_RIPPLE_TIME     100
+#define SHUTTLE_RIPPLE_FADEIN    50
 
 /*
 	Logic

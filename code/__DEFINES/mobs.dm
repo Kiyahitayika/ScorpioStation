@@ -247,7 +247,18 @@
 #define is_ventcrawling(A)  (istype(A.loc, /obj/machinery/atmospherics))
 
 // Hearing protection
-#define HEARING_PROTECTION_NONE	0
-#define HEARING_PROTECTION_MINOR	1
-#define HEARING_PROTECTION_MAJOR	2
-#define HEARING_PROTECTION_TOTAL	3
+#define HEARING_PROTECTION_NONE     0
+#define HEARING_PROTECTION_MINOR    1
+#define HEARING_PROTECTION_MAJOR    2
+#define HEARING_PROTECTION_TOTAL    3
+
+//Brain Damage Defines
+#define BRAIN_DAMAGE_MILD 50
+#define BRAIN_DAMAGE_SEVERE 120
+#define BRAIN_DAMAGE_DEATH 200
+
+#define BRAIN_TRAUMA_MILD /datum/brain_trauma/mild
+#define BRAIN_TRAUMA_SEVERE /datum/brain_trauma/severe
+#define BRAIN_TRAUMA_SPECIAL /datum/brain_trauma/special
+
+#define BRAIN_DAMAGE_INTEGRITY_MULTIPLIER 0.5
