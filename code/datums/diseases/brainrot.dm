@@ -24,14 +24,14 @@
 			if(prob(2))
 				to_chat(affected_mob, "<span class='danger'>You don't feel like yourself.</span>")
 			if(prob(5))
-				affected_mob.adjustBrainLoss(1)
+				affected_mob.adjustBrainLoss(1, 170)
 		if(3)
 			if(prob(2))
 				affected_mob.emote("stare")
 			if(prob(2))
 				affected_mob.emote("drool")
-			if(prob(10) && affected_mob.getBrainLoss()<=98)//shouldn't brainpain you to death now
-				affected_mob.adjustBrainLoss(2)
+			if(prob(10))
+				affected_mob.adjustBrainLoss(2, 170)
 				if(prob(2))
 					to_chat(affected_mob, "<span class='danger'>Your try to remember something important...but can't.</span>")
 
@@ -40,8 +40,8 @@
 				affected_mob.emote("stare")
 			if(prob(2))
 				affected_mob.emote("drool")
-			if(prob(15) && affected_mob.getBrainLoss()<=98) //shouldn't brainpain you to death now
-				affected_mob.adjustBrainLoss(3)
+			if(prob(15))
+				affected_mob.adjustBrainLoss(3, 170)
 				if(prob(2))
 					to_chat(affected_mob, "<span class='danger'>Strange buzzing fills your head, removing all thoughts.</span>")
 			if(prob(3))
@@ -52,5 +52,4 @@
 					affected_mob.emote("snore")
 			if(prob(15))
 				affected_mob.stuttering += 3
-
 	return

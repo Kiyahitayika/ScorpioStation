@@ -55,6 +55,11 @@
 	color = null
 	splatter_type = "xsplatter"
 
+/obj/effect/temp_visual/bluespace_fissure
+	name = "bluespace fissure"
+	icon_state = "bluestream_fade"
+	duration = 9
+
 /obj/effect/temp_visual/dir_setting/speedbike_trail
 	name = "speedbike trails"
 	icon_state = "ion_fade"

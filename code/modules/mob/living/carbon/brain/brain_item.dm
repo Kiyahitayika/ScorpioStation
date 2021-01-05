@@ -17,6 +17,7 @@
 	hidden_pain = TRUE //the brain has no pain receptors, and brain damage is meant to be a stealthy damage type.
 	var/mmi_icon = 'icons/obj/assemblies.dmi'
 	var/mmi_icon_state = "mmi_full"
+	var/list/datum/brain_trauma/traumas = list()
 
 /obj/item/organ/internal/brain/xeno
 	name = "xenomorph brain"
@@ -53,11 +54,17 @@
 	else
 		. += "This one seems particularly lifeless. Perhaps it will regain some of its luster later.."
 
-/obj/item/organ/internal/brain/remove(var/mob/living/user,special = 0)
+/obj/item/organ/internal/brain/remove(var/mob/living/user, special = 0)
+
 	if(dna)
 		name = "[dna.real_name]'s [initial(name)]"
+	if(!owner)
+		return ..() // Probably a redundant removal; just bail
 
-	if(!owner) return ..() // Probably a redundant removal; just bail
+	for(var/X in traumas)
+		var/datum/brain_trauma/BT = X
+		BT.on_lose(TRUE)
+		BT.owner = null
 
 	var/obj/item/organ/internal/brain/B = src
 	if(!special)
@@ -68,18 +75,18 @@
 		if(owner.mind && !non_primary)//don't transfer if the owner does not have a mind.
 			B.transfer_identity(user)
 
-	if(istype(owner,/mob/living/carbon/human))
+	if(istype(owner, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H = owner
 		H.update_hair()
 	. = ..()
 
-/obj/item/organ/internal/brain/insert(var/mob/living/target,special = 0)
-
+/obj/item/organ/internal/brain/insert(var/mob/living/target, special = 0)
 	name = "[initial(name)]"
-	var/brain_already_exists = 0
+	var/brain_already_exists = FALSE
+
 	if(istype(target,/mob/living/carbon/human)) // No more IPC multibrain shenanigans
 		if(target.get_int_organ(/obj/item/organ/internal/brain))
-			brain_already_exists = 1
+			brain_already_exists = TRUE
 
 		var/mob/living/carbon/human/H = target
 		H.update_hair()
@@ -92,9 +99,37 @@
 				brainmob.mind.transfer_to(target)
 			else
 				target.key = brainmob.key
+		for(var/X in traumas)
+			var/datum/brain_trauma/BT = X
+			BT.owner = owner
+			BT.on_gain()
 	else
 		log_debug("Multibrain shenanigans at ([target.x],[target.y],[target.z]), mob '[target]'")
 	..(target, special = special)
+
+/obj/item/organ/brain/proc/get_brain_damage()
+	var/brain_damage_threshold = max_integrity * BRAIN_DAMAGE_INTEGRITY_MULTIPLIER
+	var/offset_integrity = obj_integrity - (max_integrity - brain_damage_threshold)
+	. = (1 - (offset_integrity / brain_damage_threshold)) * BRAIN_DAMAGE_DEATH
+
+/obj/item/organ/brain/proc/adjust_brain_damage(amount, maximum)
+	var/adjusted_amount
+	if(amount >= 0 && maximum)
+		var/brainloss = get_brain_damage()
+		var/new_brainloss = Clamp(brainloss + amount, 0, maximum)
+		if(brainloss > new_brainloss) //brainloss is over the cap already
+			return 0
+		adjusted_amount = new_brainloss - brainloss
+	else
+		adjusted_amount = amount
+
+	adjusted_amount *= BRAIN_DAMAGE_INTEGRITY_MULTIPLIER
+	if(adjusted_amount)
+		if(adjusted_amount >= 0.1)
+			take_damage(adjusted_amount)
+		else if(adjusted_amount <= -0.1)
+			obj_integrity = min(max_integrity, obj_integrity-adjusted_amount)
+	. = adjusted_amount
 
 /obj/item/organ/internal/brain/receive_damage(amount, silent = 0) //brains are special; if they receive damage by other means, we really just want the damage to be passed ot the owner and back onto the brain.
 	if(owner)
@@ -111,6 +146,10 @@
 
 /obj/item/organ/internal/brain/prepare_eat()
 	return // Too important to eat.
+
+/*
+ * Species Brain Types
+ */
 
 /obj/item/organ/internal/brain/slime
 	name = "slime core"
@@ -137,3 +176,45 @@
 	if(ishuman(target) && make_cluwne)
 		var/mob/living/carbon/human/H = target
 		H.makeCluwne() //No matter where you go, no matter what you do, you cannot escape
+
+/*
+ * Traumas
+ */
+
+/obj/item/organ/brain/proc/has_trauma_type(brain_trauma_type, consider_permanent = FALSE)
+	for(var/X in traumas)
+		var/datum/brain_trauma/BT = X
+		if(istype(BT, brain_trauma_type) && (consider_permanent || !BT.permanent))
+			return BT
+
+//Add a specific trauma
+/obj/item/organ/brain/proc/gain_trauma(datum/brain_trauma/trauma, permanent = FALSE, list/arguments)
+	var/trauma_type
+	if(ispath(trauma))
+		trauma_type = trauma
+		traumas += new trauma_type(arglist(list(src, permanent) + arguments))
+	else
+		traumas += trauma
+		trauma.permanent = permanent
+
+//Add a random trauma of a certain subtype
+/obj/item/organ/brain/proc/gain_trauma_type(brain_trauma_type = /datum/brain_trauma, permanent = FALSE)
+	var/list/datum/brain_trauma/possible_traumas = list()
+	for(var/T in subtypesof(brain_trauma_type))
+		var/datum/brain_trauma/BT = T
+		if(initial(BT.can_gain))
+			possible_traumas += BT
+	var/trauma_type = pick(possible_traumas)
+	traumas += new trauma_type(src, permanent)
+
+//Cure a random trauma of a certain subtype
+/obj/item/organ/brain/proc/cure_trauma_type(brain_trauma_type, cure_permanent = FALSE)
+	var/datum/brain_trauma/trauma = has_trauma_type(brain_trauma_type)
+	if(trauma && (cure_permanent || !trauma.permanent))
+		qdel(trauma)
+
+/obj/item/organ/brain/proc/cure_all_traumas(cure_permanent = FALSE)
+	for(var/X in traumas)
+		var/datum/brain_trauma/trauma = X
+		if(cure_permanent || !trauma.permanent)
+			qdel(trauma)

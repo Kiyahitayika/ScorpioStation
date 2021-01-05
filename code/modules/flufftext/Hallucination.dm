@@ -511,21 +511,29 @@ Gunshots/explosions/opening doors/less rare audio (done)
 	switch(kind)
 		if("clown")//Clown
 			A = image('icons/mob/animal.dmi',target,"clown")
+			A.name = "Slippo"
 		if("carp")//Carp
 			A = image('icons/mob/animal.dmi',target,"carp")
+			A.name = "Space Carp"
 		if("corgi")//Corgi
 			A = image('icons/mob/pets.dmi',target,"corgi")
+			A.name = pick("Ian", "Yan")
 		if("skeleton")//Skeletons
 			A = image('icons/mob/human.dmi',target,"skeleton_s")
+			A.name = "Skelebones"
 		if("zombie")//Zombies
 			A = image('icons/mob/human.dmi',target,"zombie2_s")
+			A.name = "Brains"
 		if("demon")//Demon
 			A = image('icons/mob/mob.dmi',target,"daemon")
+			A.name = "Demon"
 		if("robot")//Cyborg
 			A = image('icons/mob/robots.dmi',target,"robot")
 			target.playsound_local(target,'sound/voice/liveagain.ogg', 75, 1)
+			A.name = "Cyborg #[rand(1, 999)]"
 		if("custom")
 			A = image(custom_icon_file, target, custom_icon)
+			A.name = custom_name
 	A.override = 1
 	if(target.client)
 		to_chat(target, "<span class='italics'>...wabbajack...wabbajack...</span>")

@@ -214,14 +214,22 @@ REAGENT SCANNER
 		to_chat(user, "<span class='warning'>Subject suffering from aberrant brain activity. Recommend further scanning.</span>")
 
 	if(H.get_int_organ(/obj/item/organ/internal/brain))
-		if(H.getBrainLoss() >= 100)
+		if(H.getBrainLoss() >= 200)
 			to_chat(user, "<span class='warning'>Subject is brain dead.</span>")
-		else if(H.getBrainLoss() >= 60)
+		else if(H.getBrainLoss() >= 120)
 			to_chat(user, "<span class='warning'>Severe brain damage detected. Subject likely to have dementia.</span>")
-		else if(H.getBrainLoss() >= 10)
+		else if(H.getBrainLoss() >= 45)
 			to_chat(user, "<span class='warning'>Significant brain damage detected. Subject may have had a concussion.</span>")
 	else
 		to_chat(user, "<span class='warning'>Subject has no brain.</span>")
+
+	if(iscarbon(M))
+		var/mob/living/carbon/C = M
+		if(LAZYLEN(C.get_traumas()))
+			var/list/trauma_text = list()
+			for(var/datum/brain_trauma/B in C.get_traumas())
+				trauma_text += B.scan_desc
+			to_chat(user, "\t<span class='alert'>Cerebral traumas detected: subjects appears to be suffering from [english_list(trauma_text)].</span>")
 
 	for(var/name in H.bodyparts_by_name)
 		var/obj/item/organ/external/e = H.bodyparts_by_name[name]

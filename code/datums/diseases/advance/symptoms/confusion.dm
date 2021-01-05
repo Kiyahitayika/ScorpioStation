@@ -36,5 +36,7 @@ Bonus
 			else
 				to_chat(M, "<span class='userdanger'>You can't think straight!</span>")
 				M.AdjustConfused(8, bound_lower = 0, bound_upper = 100)
-
+				if(brain_damage)
+					M.adjustBrainLoss(3 * power, 80)
+					M.updatehealth()
 	return

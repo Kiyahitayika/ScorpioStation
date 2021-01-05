@@ -433,7 +433,7 @@
 						H.Paralyse(5)
 						H.emote("gasp")
 						if(tplus > tloss)
-							H.setBrainLoss( max(0, min(99, ((tlimit - tplus) / tlimit * 100))))
+							H.adjustBrainLoss( max(0, min(99, ((tlimit - tplus) / tlimit * 100))), 150)
 						H.shock_internal_organs(100)
 						H.med_hud_set_health()
 						H.med_hud_set_status()

@@ -23,13 +23,19 @@ Bonus
 	transmittable = -3
 	level = 5
 	severity = 0
+	var/trauma_heal = FALSE
+
+/datum/symptom/mind_restoration/Start(datum/disease/advance/A)
+	if(!..())
+		return
+	if(A.properties["resistance"] >= 9) //heal brain traumas
+		trauma_heal = TRUE
 
 /datum/symptom/mind_restoration/Activate(datum/disease/advance/A)
 	..()
 	if(prob(SYMPTOM_ACTIVATION_PROB * 3))
 		var/mob/living/M = A.affected_mob
 		var/datum/reagents/RD = M.reagents
-
 		if(A.stage >= 3)
 			M.AdjustSlur(-2)
 			M.AdjustDrunk(-4)
@@ -43,7 +49,14 @@ Bonus
 			M.AdjustHallucinate(-10)
 		if(A.stage >= 5)
 			RD.check_and_add("mannitol", 10, 10)
+			if(brain_heal && trauma_heal && iscarbon(M))
+				var/mob/living/carbon/C = M
+				if(prob(30) && C.has_trauma_type(BRAIN_TRAUMA_SPECIAL))
+					C.cure_trauma_type(BRAIN_TRAUMA_SPECIAL)
+				if(prob(10) && C.has_trauma_type(BRAIN_TRAUMA_MILD))
+					C.cure_trauma_type(BRAIN_TRAUMA_MILD)
 
+/////////////////////////////////////////////////
 /datum/symptom/sensory_restoration
 	name = "Sensory Restoration"
 	stealth = -1

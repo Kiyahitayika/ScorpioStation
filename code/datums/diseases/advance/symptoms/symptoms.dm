@@ -9,12 +9,9 @@ GLOBAL_LIST_INIT(list_symptoms, subtypesof(/datum/symptom))
 	var/resistance = 0
 	var/stage_speed = 0
 	var/transmittable = 0
-	// The type level of the symptom. Higher is harder to generate.
-	var/level = 0
-	// The severity level of the symptom. Higher is more dangerous.
-	var/severity = 0
-	// The hash tag for our diseases, we will add it up with our other symptoms to get a unique id! ID MUST BE UNIQUE!!!
-	var/id = ""
+	var/level = 0		// The type level of the symptom. Higher is harder to generate.
+	var/severity = 0	// The severity level of the symptom. Higher is more dangerous.
+	var/id = ""			// The hash tag for our diseases, we will add it up with our other symptoms to get a unique id! ID MUST BE UNIQUE!!!
 
 /datum/symptom/New()
 	var/list/S = GLOB.list_symptoms
