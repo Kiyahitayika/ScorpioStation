@@ -13,16 +13,66 @@
 	Therefore, the top right corner (except during admin shenanigans) is at "15,15"
 */
 
+
+//HUD styles. Please ensure HUD_VERSIONS is the same as the maximum index. Index order defines how they are cycled in F12.
+#define HUD_STYLE_STANDARD   1	// Standard Hud
+#define HUD_STYLE_REDUCED    2	// Reduced Hud - HUD just hands and intent switcher
+#define HUD_STYLE_NOHUD      3	// No HUD - Absent HUD for screenshots
+#define HUD_STYLE_OUTSIDEHUD 4	// Outside HUD - HUD Outside the play screen (uses black space)
+#define HUD_VERSIONS         4	// Used in show_hud()
+
+#define HUD_LAYER_SCREEN 20
+#define HUD_LAYER_BUILDMODE 30
+
+
+/*
+ * All HUD Styles
+ */
+
+
 //Middle left indicators
+///Alien
 #define ui_alienplasmadisplay "EAST-1:28,CENTER-2:15"
+///Devil
+#define ui_devilsouldisplay "WEST:6,CENTER-1:15"
+///Changeling
+#define ui_lingchemdisplay "WEST:6,CENTER-1:15"
+#define ui_lingstingdisplay "WEST:6,CENTER-3:11"
+
+//Ghosts
+#define ui_ghost_jumptomob "SOUTH:6,CENTER-2"
+#define ui_ghost_orbit "SOUTH:6,CENTER-1"
+#define ui_ghost_reenter_corpse "SOUTH:6,CENTER"
+#define ui_ghost_teleport "SOUTH:6,CENTER+1"
+#define ui_ghost_respawn_list "SOUTH:6,CENTER+2"
+#define ui_ghost_respawn_mob "SOUTH:6+1,CENTER+2"
+#define ui_ghost_respawn_pai "SOUTH:6+2,CENTER+2"
+
+// AI
+#define ui_ai_core "SOUTH:6,WEST"
+#define ui_ai_camera_list "SOUTH:6,WEST+1"
+#define ui_ai_track_with_camera "SOUTH:6,WEST+2"
+#define ui_ai_camera_light "SOUTH:6,WEST+3"
+#define ui_ai_crew_monitor "SOUTH:6,WEST+4"
+#define ui_ai_crew_manifest "SOUTH:6,WEST+5"
+#define ui_ai_alerts "SOUTH:6,WEST+6"
+#define ui_ai_announcement "SOUTH:6,WEST+7"
+#define ui_ai_shuttle "SOUTH:6,WEST+8"
+#define ui_ai_state_laws "SOUTH:6,WEST+9"
+#define ui_ai_pda_send "SOUTH:6,WEST+10"
+#define ui_ai_pda_log "SOUTH:6,WEST+11"
+#define ui_ai_take_picture "SOUTH:6,WEST+12"
+#define ui_ai_view_images "SOUTH:6,WEST+13"
+#define ui_ai_sensor "SOUTH:6,WEST+14"
+#define ui_ai_multicam "SOUTH+1:6,WEST+13"
+#define ui_ai_add_multicam "SOUTH+1:6,WEST+14"
+
+/*
+ * STANDARD & REDUCED Style HUDs
+ */
 
 //Lower left, persistant menu
 #define ui_inventory "WEST:6,SOUTH:5"
-
-//Middle left indicators
-#define ui_lingchemdisplay "WEST:6,CENTER-1:15"
-#define ui_lingstingdisplay "WEST:6,CENTER-3:11"
-#define ui_devilsouldisplay "WEST:6,CENTER-1:15"
 
 //Lower center, persistant menu
 #define ui_sstore1 "CENTER-5:10,SOUTH:5"
@@ -136,51 +186,13 @@
 
 #define ui_head "WEST+1:8,SOUTH+3:11"
 
-// AI
-
-#define ui_ai_core "SOUTH:6,WEST"
-#define ui_ai_camera_list "SOUTH:6,WEST+1"
-#define ui_ai_track_with_camera "SOUTH:6,WEST+2"
-#define ui_ai_camera_light "SOUTH:6,WEST+3"
-#define ui_ai_crew_monitor "SOUTH:6,WEST+4"
-#define ui_ai_crew_manifest "SOUTH:6,WEST+5"
-#define ui_ai_alerts "SOUTH:6,WEST+6"
-#define ui_ai_announcement "SOUTH:6,WEST+7"
-#define ui_ai_shuttle "SOUTH:6,WEST+8"
-#define ui_ai_state_laws "SOUTH:6,WEST+9"
-#define ui_ai_pda_send "SOUTH:6,WEST+10"
-#define ui_ai_pda_log "SOUTH:6,WEST+11"
-#define ui_ai_take_picture "SOUTH:6,WEST+12"
-#define ui_ai_view_images "SOUTH:6,WEST+13"
-#define ui_ai_sensor "SOUTH:6,WEST+14"
-#define ui_ai_multicam "SOUTH+1:6,WEST+13"
-#define ui_ai_add_multicam "SOUTH+1:6,WEST+14"
-
 // Bots
 #define ui_bot_radio "EAST-1:28,SOUTH:7"
 #define ui_bot_pull "EAST-2:26,SOUTH:7"
 
-//Ghosts
-#define ui_ghost_jumptomob "SOUTH:6,CENTER-2"
-#define ui_ghost_orbit "SOUTH:6,CENTER-1"
-#define ui_ghost_reenter_corpse "SOUTH:6,CENTER"
-#define ui_ghost_teleport "SOUTH:6,CENTER+1"
-#define ui_ghost_respawn_list "SOUTH:6,CENTER+2"
-#define ui_ghost_respawn_mob "SOUTH:6+1,CENTER+2"
-#define ui_ghost_respawn_pai "SOUTH:6+2,CENTER+2"
-
-//HUD styles. Please ensure HUD_VERSIONS is the same as the maximum index. Index order defines how they are cycled in F12.
-#define HUD_STYLE_STANDARD 1
-#define HUD_STYLE_REDUCED 2
-#define HUD_STYLE_NOHUD 3
+/*
+ * OUTSIDE Style HUD
+ */
 
 
-#define HUD_VERSIONS 3	//used in show_hud()
-//1 = standard hud
-//2 = reduced hud (just hands and intent switcher)
-//3 = no hud (for screenshots)
 
-
-#define HUD_LAYER_SCREEN 20
-
-#define HUD_LAYER_BUILDMODE 30
