@@ -4,7 +4,7 @@
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
 	requires_power = FALSE
 
-// Used by /turf/unsimulated/floor/upperlevel as a reference for where the other floor is
+// Used by /turf/open/ind_floor/upperlevel as a reference for where the other floor is
 /obj/effect/levelref
 	name = "level reference"
 	icon = 'icons/mob/screen_gen.dmi'
@@ -30,7 +30,7 @@
 			update_offset()
 			O.other = src
 			O.update_offset()
-			for(var/turf/unsimulated/floor/upperlevel/U in get_area(loc))
+			for(var/turf/open/ind_floor/upperlevel/U in get_area(loc))
 				U.init(src)
 			return
 
@@ -43,7 +43,7 @@
 	offset_y = other.y - y
 	offset_z = other.z - z
 
-// Used by /turf/unsimulated/floor/upperlevel and /obj/effect/view_portal/visual
+// Used by /turf/open/ind_floor/upperlevel and /obj/effect/view_portal/visual
 // to know if the world changed on the remote side
 /obj/effect/portal_sensor
 	invisibility = 101
@@ -101,7 +101,7 @@
 			trigger()
 
 // for second floor showing floor below
-/turf/unsimulated/floor/upperlevel
+/turf/open/ind_floor/upperlevel
 	icon = 'icons/turf/areas.dmi'
 	icon_state = "dark128"
 	layer = AREA_LAYER + 0.5
@@ -109,22 +109,22 @@
 	var/turf/lower_turf
 	var/obj/effect/portal_sensor/sensor
 
-/turf/unsimulated/floor/upperlevel/New()
+/turf/open/ind_floor/upperlevel/New()
 	..()
 	var/obj/effect/levelref/R = locate() in get_area(src)
 	if(R && R.other)
 		init(R)
 
-/turf/unsimulated/floor/upperlevel/Destroy()
+/turf/open/ind_floor/upperlevel/Destroy()
 	QDEL_NULL(sensor)
 	return ..()
 
-/turf/unsimulated/floor/upperlevel/proc/init(var/obj/effect/levelref/R)
+/turf/open/ind_floor/upperlevel/proc/init(var/obj/effect/levelref/R)
 	lower_turf = locate(x + R.offset_x, y + R.offset_y, z + R.offset_z)
 	if(lower_turf)
 		sensor = new(lower_turf, src)
 
-/turf/unsimulated/floor/upperlevel/Entered(atom/movable/AM, atom/OL, ignoreRest = 0)
+/turf/open/ind_floor/upperlevel/Entered(atom/movable/AM, atom/OL, ignoreRest = 0)
 	if(isliving(AM) || istype(AM, /obj))
 		if(isliving(AM))
 			var/mob/living/M = AM
@@ -132,10 +132,10 @@
 			M.SpinAnimation(5, 1)
 		AM.forceMove(lower_turf)
 
-/turf/unsimulated/floor/upperlevel/attack_ghost(mob/user)
+/turf/open/ind_floor/upperlevel/attack_ghost(mob/user)
 	user.forceMove(lower_turf)
 
-/turf/unsimulated/floor/upperlevel/proc/trigger()
+/turf/open/ind_floor/upperlevel/proc/trigger()
 	name = lower_turf.name
 	desc = lower_turf.desc
 

@@ -16,12 +16,12 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
 "d" = (
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
@@ -34,7 +34,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
@@ -50,7 +50,7 @@
 	pixel_x = -28
 	},
 /obj/machinery/light/small,
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
@@ -61,7 +61,7 @@
 	pixel_x = 28
 	},
 /obj/machinery/light/small,
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
@@ -80,7 +80,7 @@
 	id = "beach_room"
 	},
 /obj/structure/curtain/open,
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)
@@ -107,7 +107,7 @@
 	id = "beach";
 	radius = 1
 	},
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "wood"
 	},
 /area/template_noop)

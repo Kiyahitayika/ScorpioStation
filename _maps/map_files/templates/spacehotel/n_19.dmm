@@ -12,7 +12,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "floor"
 	},
 /area/template_noop)
@@ -23,7 +23,7 @@
 	id = "mazeland";
 	radius = 1
 	},
-/turf/unsimulated/floor{
+/turf/open/ind_floor{
 	icon_state = "floor"
 	},
 /area/template_noop)
