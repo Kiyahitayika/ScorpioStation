@@ -197,9 +197,9 @@ GLOBAL_LIST_INIT(blacklisted_pylon_turfs, typecacheof(list(
 	/turf/space,
 	/turf/simulated/floor/plating/lava,
 	/turf/simulated/floor/chasm,
-	/turf/simulated/wall/cult,
-	/turf/simulated/wall/cult/artificer,
-	/turf/unsimulated/wall
+	/turf/closed/wall/cult,
+	/turf/closed/wall/cult/artificer,
+	/turf/closed/ind_wall
 	)))
 
 /obj/structure/cult/functional/pylon
@@ -280,8 +280,8 @@ GLOBAL_LIST_INIT(blacklisted_pylon_turfs, typecacheof(list(
 		if(T)
 			if(istype(T, /turf/simulated/floor))
 				T.ChangeTurf(/turf/simulated/floor/engine/cult)
-			if(istype(T, /turf/simulated/wall))
-				T.ChangeTurf(/turf/simulated/wall/cult/artificer)
+			if(istype(T, /turf/closed/wall))
+				T.ChangeTurf(/turf/closed/wall/cult/artificer)
 		else
 			var/turf/simulated/floor/engine/cult/F = safepick(cultturfs)
 			if(F)

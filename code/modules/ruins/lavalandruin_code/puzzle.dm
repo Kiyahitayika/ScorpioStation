@@ -48,7 +48,7 @@
 		var/turf/T = get_turf_for_id(id)
 		if(!T)
 			return FALSE
-		if(istype(T, /turf/simulated/wall/indestructible) || istype(T, /turf/simulated/floor/indestructible))
+		if(istype(T, /turf/closed/wall/indestructible) || istype(T, /turf/simulated/floor/indestructible))
 			return FALSE
 	return TRUE
 

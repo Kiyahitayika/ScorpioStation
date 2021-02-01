@@ -62,7 +62,7 @@
 /turf/space,
 /area/ruin/space)
 "hs" = (
-/turf/unsimulated/wall/fakeglass{
+/turf/closed/ind_wall/fakeglass{
 	dir = 4
 	},
 /area/ruin/unpowered)
@@ -100,7 +100,7 @@
 	icon_state = "1-2";
 	tag = ""
 	},
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/ruin/unpowered)
 "ls" = (
 /obj/structure/lattice,
@@ -233,7 +233,7 @@
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "xT" = (
-/turf/unsimulated/floor/plating/airless,
+/turf/open/ind_floor/plating/airless,
 /area/space)
 "yU" = (
 /obj/item/stack/sheet/metal,
@@ -257,14 +257,14 @@
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "zo" = (
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/space)
 "zt" = (
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
 /area/space)
 "zF" = (
-/turf/unsimulated/wall/fakeglass{
+/turf/closed/ind_wall/fakeglass{
 	dir = 8
 	},
 /area/ruin/unpowered)
@@ -287,7 +287,7 @@
 /area/template_noop)
 "AJ" = (
 /obj/effect/spawner/random_spawners/wall_rusted_probably,
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/space)
 "BG" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -328,7 +328,7 @@
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "EJ" = (
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/ruin/unpowered)
 "Fw" = (
 /obj/item/stack/cable_coil/cut,
@@ -394,7 +394,7 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "KS" = (
-/turf/unsimulated/floor/plating/airless,
+/turf/open/ind_floor/plating/airless,
 /area/ruin)
 "Le" = (
 /obj/structure/cable{
@@ -449,7 +449,7 @@
 /area/ruin)
 "QI" = (
 /obj/effect/spawner/random_spawners/wall_rusted_probably,
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/ruin)
 "Ra" = (
 /obj/machinery/power/terminal{
