@@ -243,7 +243,11 @@ GLOBAL_LIST_INIT(potential_theft_objectives, (subtypesof(/datum/theft_objective)
 				if(issilicon(player))
 					continue
 				if(get_area(player) == A)
+<<<<<<< Updated upstream
 					if(player.real_name != owner.current.real_name && !istype(get_turf(player.mind.current), /turf/open/shuttle/floor4))
+=======
+					if(player.real_name != owner.current.real_name && !istype(get_turf(player.mind.current), //turf/open/shuttle/floor4))
+>>>>>>> Stashed changes
 						return 0
 
 	for(var/mob/living/player in GLOB.player_list) //Make sure at least one of you is onboard
@@ -252,7 +256,11 @@ GLOBAL_LIST_INIT(potential_theft_objectives, (subtypesof(/datum/theft_objective)
 				if(issilicon(player))
 					continue
 				if(get_area(player) == A)
+<<<<<<< Updated upstream
 					if(player.real_name == owner.current.real_name && !istype(get_turf(player.mind.current), /turf/open/shuttle/floor4))
+=======
+					if(player.real_name == owner.current.real_name && !istype(get_turf(player.mind.current), //turf/open/shuttle/floor4))
+>>>>>>> Stashed changes
 						return 1
 	return 0
 
@@ -300,7 +308,11 @@ GLOBAL_LIST_INIT(potential_theft_objectives, (subtypesof(/datum/theft_objective)
 	if(!location)
 		return 0
 
+<<<<<<< Updated upstream
 	if(istype(location, /turf/open/shuttle/floor4) || istype(location, turf/open/floor/mineral/plastitanium/red/brig)) // Fails traitors if they are in the shuttle brig -- Polymorph
+=======
+	if(istype(location, //turf/open/shuttle/floor4) || istype(location, /turf/open/floor/mineral/plastitanium/red/brig)) // Fails traitors if they are in the shuttle brig -- Polymorph
+>>>>>>> Stashed changes
 		return 0
 
 	if(location.onCentcom() || location.onSyndieBase())

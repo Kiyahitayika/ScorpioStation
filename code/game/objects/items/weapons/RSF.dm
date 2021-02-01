@@ -56,7 +56,11 @@ RSF
 
 /obj/item/rsf/afterattack(atom/A, mob/user as mob, proximity)
 	if(!proximity) return
+<<<<<<< Updated upstream
 	if(!(istype(A, /obj/structure/table) || istype(A, turf/open/floor)))
+=======
+	if(!(istype(A, /obj/structure/table) || istype(A, /turf/open/floor)))
+>>>>>>> Stashed changes
 		return
 	var/spawn_location
 	var/turf/T = get_turf(A)

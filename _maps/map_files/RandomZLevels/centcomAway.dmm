@@ -721,7 +721,11 @@
 	},
 /area/awaymission/centcomAway/cafe)
 "bU" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "bV" = (
 /obj/structure/table,
@@ -740,10 +744,17 @@
 /area/awaymission/centcomAway/cafe)
 "bX" = (
 /obj/structure/closet/emcloset,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission/centcomAway/hangar)
 "bY" = (
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor,
+/area/awaymission/centcomAway/hangar)
+"bY" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -780,14 +791,22 @@
 	},
 /area/awaymission/centcomAway/maint)
 "cd" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
 	},
 /area/awaymission/centcomAway/hangar)
 "ce" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
@@ -800,7 +819,11 @@
 	pixel_y = 4
 	},
 /obj/item/storage/firstaid/toxin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cg" = (
 /obj/structure/table,
@@ -812,7 +835,11 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "ch" = (
 /obj/structure/grille,
@@ -840,14 +867,22 @@
 	dir = 1;
 	in_use = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cj" = (
 /obj/structure/sign/botany,
 /turf/closed/wall/r_wall,
 /area/awaymission/centcomAway/cafe)
 "ck" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	dir = 2;
 	icon_state = "swall_f10";
@@ -872,7 +907,11 @@
 /turf/open/floor/plating,
 /area/awaymission/centcomAway/maint)
 "cn" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
@@ -895,7 +934,11 @@
 	},
 /area/awaymission/centcomAway/cafe)
 "cq" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cr" = (
 /obj/structure/disposalpipe/segment,
@@ -969,7 +1012,11 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cB" = (
 /obj/structure/cable{
@@ -1087,7 +1134,11 @@
 /area/awaymission/centcomAway/maint)
 "cP" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1096,7 +1147,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cR" = (
 /turf/closed/shuttle/wall{
@@ -1108,14 +1163,22 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cT" = (
 /obj/machinery/light{
 	icon_state = "tube1";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "cU" = (
 /turf/open/floor/plating,
@@ -1151,7 +1214,11 @@
 /area/awaymission/centcomAway/cafe)
 "cY" = (
 /obj/machinery/computer/secure_data,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1169,7 +1236,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1205,12 +1276,20 @@
 "de" = (
 /obj/structure/table,
 /obj/item/flash,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
 "df" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1218,7 +1297,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "dh" = (
 /turf/open/floor/plasteel{
@@ -1274,7 +1357,11 @@
 "dm" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1285,14 +1372,22 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
 "do" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1301,7 +1396,11 @@
 	icon_state = "sleeper-open";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "dq" = (
 /turf/closed/shuttle/wall{
@@ -1317,7 +1416,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "ds" = (
 /obj/machinery/light{
@@ -1384,7 +1487,11 @@
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
 /obj/item/stamp/granted,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1409,7 +1516,11 @@
 /area/awaymission/centcomAway/maint)
 "dE" = (
 /obj/structure/bed,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "dF" = (
 /obj/structure/grille,
@@ -1423,7 +1534,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "dG" = (
 /turf/open/floor/plasteel{
@@ -1521,7 +1636,11 @@
 "dS" = (
 /obj/structure/table,
 /obj/item/storage/box/handcuffs,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1533,7 +1652,11 @@
 	name = "Security Desk";
 	req_access_txt = "103"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1652,7 +1775,11 @@
 "ei" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "ej" = (
 /obj/structure/disposalpipe/segment,
@@ -1770,7 +1897,11 @@
 	icon_state = "tube1";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1779,7 +1910,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1833,7 +1968,11 @@
 	name = "Rest Room";
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -1867,7 +2006,11 @@
 "eK" = (
 /obj/structure/table,
 /obj/item/radio/off,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "eL" = (
 /obj/structure/closet/crate,
@@ -1876,7 +2019,11 @@
 /area/awaymission/centcomAway/hangar)
 "eM" = (
 /obj/structure/filingcabinet,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "eN" = (
 /obj/effect/decal/warning_stripes/southeast,
@@ -1964,16 +2111,28 @@
 "fa" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fb" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission/centcomAway/hangar)
 "fc" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission/centcomAway/hangar)
+"fc" = (
+/obj/structure/chair/comfy/shuttle,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fd" = (
 /obj/machinery/portable_atmospherics/pump,
@@ -2039,11 +2198,19 @@
 /area/awaymission/centcomAway/cafe)
 "fl" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission/centcomAway/hangar)
 "fm" = (
 /obj/structure/computerframe,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission/centcomAway/hangar)
+"fm" = (
+/obj/structure/computerframe,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fn" = (
 /obj/structure/flora/ausbushes,
@@ -2088,7 +2255,11 @@
 	icon_state = "tube1";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fs" = (
 /obj/structure/closet/chefcloset,
@@ -2149,7 +2320,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fA" = (
 /obj/structure/grille,
@@ -2157,7 +2332,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fB" = (
 /obj/structure/grille,
@@ -2168,7 +2347,11 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "fC" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -2285,7 +2468,11 @@
 	name = "Cockpit";
 	req_access_txt = "109"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -2733,7 +2920,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hb" = (
 /obj/structure/table/reinforced,
@@ -2906,7 +3097,11 @@
 "hx" = (
 /obj/structure/table,
 /obj/item/storage/lockbox,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hy" = (
 /obj/structure/grille,
@@ -2944,7 +3139,11 @@
 /area/awaymission/centcomAway/courtroom)
 "hD" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hE" = (
 /obj/structure/chair{
@@ -2956,7 +3155,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hF" = (
 /obj/structure/grille,
@@ -2970,7 +3173,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hG" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -2980,7 +3187,11 @@
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hI" = (
 /obj/structure/morgue,
@@ -3001,7 +3212,11 @@
 "hL" = (
 /obj/structure/table,
 /obj/item/paper_bin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "hM" = (
 /obj/structure/cable{
@@ -4071,7 +4286,11 @@
 /mob/living/simple_animal/hostile/russian/ranged{
 	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged)
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaymission/centcomAway/hangar)
@@ -5774,7 +5993,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/thunderdome)
 "nV" = (
 /obj/machinery/light,
@@ -5787,14 +6010,22 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/thunderdome)
 "nX" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/thunderdome)
 "nY" = (
 /obj/structure/computerframe,
@@ -6810,7 +7041,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/centcomAway/hangar)
 "JB" = (
 /obj/effect/decal/warning_stripes/yellow,

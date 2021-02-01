@@ -54,14 +54,24 @@
 						colour = rgb(10,10,10)
 						sense = 0
 
+<<<<<<< Updated upstream
 					if("turf/open/floor")
 						colour = rgb(150,150,150)
 						varturf/open/floor/TF = T
+=======
+					if("/turf/open/floor")
+						colour = rgb(150,150,150)
+						var/turf/open/floor/TF = T
+>>>>>>> Stashed changes
 						if(TF.burnt == 1)
 							sense = 0
 							colour = rgb(130,130,130)
 
+<<<<<<< Updated upstream
 					if("turf/open/floor/engine")
+=======
+					if("/turf/open/floor/engine")
+>>>>>>> Stashed changes
 						colour = rgb(128,128,128)
 
 					if("/turf/closed/wall")
@@ -209,7 +219,11 @@
 						colour = rgb(10,10,10)
 						sense = 0
 
+<<<<<<< Updated upstream
 					if("turf/open/floor", "turf/open/floor/engine")
+=======
+					if("/turf/open/floor", "/turf/open/floor/engine")
+>>>>>>> Stashed changes
 						var/datum/gas_mixture/environment = T.return_air()
 						var/turf_total = environment.total_moles()
 						var/t1 = turf_total / MOLES_CELLSTANDARD * 175

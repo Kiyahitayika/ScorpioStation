@@ -4,7 +4,11 @@
 	desc = "A tile made out of highly flammable plasma. This can only end well."
 	icon_state = "tile_plasma"
 	origin_tech = "plasmatech=1"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/plasma
+=======
+	turf_type = /turf/open/floor/mineral/plasma
+>>>>>>> Stashed changes
 	mineralType = "plasma"
 	materials = list(MAT_PLASMA=500)
 
@@ -23,7 +27,11 @@
 	singular_name = "uranium floor tile"
 	desc = "A tile made out of uranium. You feel a bit woozy."
 	icon_state = "tile_uranium"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/uranium
+=======
+	turf_type = /turf/open/floor/mineral/uranium
+>>>>>>> Stashed changes
 	mineralType = "uranium"
 	materials = list(MAT_URANIUM=500)
 
@@ -36,7 +44,11 @@ GLOBAL_LIST_INIT(gold_tile_recipes, list ( \
 	singular_name = "gold floor tile"
 	desc = "A tile made out of gold, the swag seems strong here."
 	icon_state = "tile_gold"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/gold
+=======
+	turf_type = /turf/open/floor/mineral/gold
+>>>>>>> Stashed changes
 	mineralType = "gold"
 	materials = list(MAT_GOLD=500)
 
@@ -50,7 +62,11 @@ GLOBAL_LIST_INIT(goldfancy_tile_recipes, list ( \
 
 /obj/item/stack/tile/mineral/gold/fancy
 	icon_state = "tile_goldfancy"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/gold/fancy
+=======
+	turf_type = /turf/open/floor/mineral/gold/fancy
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/mineral/gold/fancy/New(loc, amount=null)
 	..()
@@ -65,7 +81,11 @@ GLOBAL_LIST_INIT(silver_tile_recipes, list ( \
 	singular_name = "silver floor tile"
 	desc = "A tile made out of silver, the light shining from it is blinding."
 	icon_state = "tile_silver"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/silver
+=======
+	turf_type = /turf/open/floor/mineral/silver
+>>>>>>> Stashed changes
 	mineralType = "silver"
 	materials = list(MAT_SILVER=500)
 
@@ -79,7 +99,11 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 
 /obj/item/stack/tile/mineral/silver/fancy
 	icon_state = "tile_silverfancy"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/silver/fancy
+=======
+	turf_type = /turf/open/floor/mineral/silver/fancy
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/mineral/silver/fancy/New(loc, amount=null)
 	..()
@@ -91,7 +115,11 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	desc = "A tile made out of diamond. Wow, just, wow."
 	icon_state = "tile_diamond"
 	origin_tech = "materials=2"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/diamond
+=======
+	turf_type = /turf/open/floor/mineral/diamond
+>>>>>>> Stashed changes
 	mineralType = "diamond"
 	materials = list(MAT_DIAMOND=500)
 
@@ -100,7 +128,11 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	singular_name = "bananium floor tile"
 	desc = "A tile made out of bananium, HOOOOOOOOONK!"
 	icon_state = "tile_bananium"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/bananium
+=======
+	turf_type = /turf/open/floor/mineral/bananium
+>>>>>>> Stashed changes
 	mineralType = "bananium"
 	materials = list(MAT_BANANIUM=500)
 
@@ -109,7 +141,11 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	singular_name = "silent floor tile"
 	desc = "A tile made out of tranquillite, SHHHHHHHHH!"
 	icon_state = "tile_tranquillite"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/tranquillite
+=======
+	turf_type = /turf/open/floor/mineral/tranquillite
+>>>>>>> Stashed changes
 	mineralType = "tranquillite"
 	materials = list(MAT_TRANQUILLITE=500)
 
@@ -120,7 +156,11 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "tile_abductor"
 	origin_tech = "materials=6;abductor=1"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/abductor
+=======
+	turf_type = /turf/open/floor/mineral/abductor
+>>>>>>> Stashed changes
 	mineralType = "abductor"
 
 /obj/item/stack/tile/mineral/titanium
@@ -128,12 +168,20 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	singular_name = "titanium floor tile"
 	desc = "A tile made of titanium, used for shuttles."
 	icon_state = "tile_shuttle"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/titanium
+=======
+	turf_type = /turf/open/floor/mineral/titanium
+>>>>>>> Stashed changes
 	mineralType = "titanium"
 	materials = list(MAT_TITANIUM=500)
 
 /obj/item/stack/tile/mineral/titanium/purple
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/titanium/purple
+=======
+	turf_type = /turf/open/floor/mineral/titanium/purple
+>>>>>>> Stashed changes
 	icon_state = "tile_plasma"
 
 /obj/item/stack/tile/mineral/plastitanium
@@ -141,6 +189,10 @@ GLOBAL_LIST_INIT(silverfancy_tile_recipes, list ( \
 	singular_name = "plas-titanium floor tile"
 	desc = "A tile made of plas-titanium, used for very evil shuttles."
 	icon_state = "tile_darkshuttle"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/mineral/plastitanium
+=======
+	turf_type = /turf/open/floor/mineral/plastitanium
+>>>>>>> Stashed changes
 	mineralType = "plastitanium"
 	materials = list(MAT_TITANIUM=250, MAT_PLASMA=250)

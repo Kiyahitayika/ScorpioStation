@@ -35,8 +35,13 @@
 		contents_loop = range(srange, src)
 
 	for(var/turf/T in contents_loop)
+<<<<<<< Updated upstream
 		if(istype(T, turf/open/floor/beach/water))
 			varturf/open/floor/beach/water/W = T
+=======
+		if(istype(T, /turf/open/floor/beach/water))
+			var/turf/open/floor/beach/water/W = T
+>>>>>>> Stashed changes
 			W.linkedcontroller = src
 			linkedturfs += T
 		else if(istype(T, /turf/unsimulated/beach/water))
@@ -76,7 +81,11 @@
 /obj/machinery/poolcontroller/proc/processMob()
 	for(var/M in mobinpool) //They're already typecasted when entering the turf
 		// Following two are sanity check. If the mob is no longer in the pool for whatever reason (Looking at you teleport), remove them
+<<<<<<< Updated upstream
 		if(!istype(get_turf(M), turf/open/floor/beach/water) && !istype(get_turf(M), /turf/unsimulated/beach/water)) // Water component when?
+=======
+		if(!istype(get_turf(M), /turf/open/floor/beach/water) && !istype(get_turf(M), /turf/unsimulated/beach/water)) // Water component when?
+>>>>>>> Stashed changes
 			mobinpool -= M
 			continue
 		handleTemp(M)	//handles pool temp effects on the swimmers
@@ -140,7 +149,11 @@
 	if(linkedmist.len)
 		return
 
+<<<<<<< Updated upstream
 	for(varturf/open/floor/beach/water/W in linkedturfs)
+=======
+	for(var/turf/open/floor/beach/water/W in linkedturfs)
+>>>>>>> Stashed changes
 		var/M = new /obj/effect/mist(W)
 		linkedmist += M
 

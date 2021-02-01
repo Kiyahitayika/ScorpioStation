@@ -3,7 +3,11 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "ac" = (
 /turf/closed/mineral,
@@ -16,7 +20,11 @@ turf/open/floor/plating/asteroid/airless,
 /obj/item/shard{
 	icon_state = "small"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
@@ -26,13 +34,21 @@ turf/open/floor/wood{
 /area/ruin/unpowered)
 "af" = (
 /obj/structure/computerframe,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
 /area/ruin/unpowered)
 "ag" = (
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken7";
 	icon_state = "wood-broken7"
 	},
@@ -43,13 +59,21 @@ turf/open/floor/wood{
 	icon_state = "brokengrille"
 	},
 /obj/item/shard,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
 /area/ruin/unpowered)
 "ai" = (
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	broken = 1;
 	icon_state = "wood-broken"
 	},
@@ -58,21 +82,37 @@ turf/open/floor/wood{
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "ak" = (
 /obj/item/shard,
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"ak" = (
+/obj/item/shard,
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "al" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "am" = (
 /obj/structure/table/wood,
 /obj/item/dice/d20,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "an" = (
 /obj/item/shard{
@@ -81,7 +121,11 @@ turf/open/floor/wood,
 /obj/structure/chair/wood{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "ao" = (
 /obj/item/flag/wiz,
@@ -89,6 +133,7 @@ turf/open/floor/wood,
 	dir = 1;
 	in_use = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "ap" = (
@@ -98,6 +143,17 @@ turf/open/floor/wood,
 "aq" = (
 /obj/item/clothing/suit/wizrobe,
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"ap" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"aq" = (
+/obj/item/clothing/suit/wizrobe,
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "ar" = (
 /obj/item/flag/wiz,
@@ -105,7 +161,11 @@ turf/open/floor/wood,
 	dir = 1;
 	in_use = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
@@ -114,33 +174,56 @@ turf/open/floor/wood{
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "at" = (
 /obj/item/bedsheet/wiz,
 /obj/structure/bed,
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "au" = (
 /obj/structure/table/wood,
 /obj/item/pen,
 /obj/item/paper/fluff/ruins/wizardcrash,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "av" = (
 /obj/structure/chair/wood{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aw" = (
 /obj/item/shard{
 	icon_state = "small"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "ax" = (
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"ax" = (
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
@@ -149,6 +232,7 @@ turf/open/floor/wood{
 /obj/effect/decal/remains/robot,
 /obj/item/clothing/head/wizard,
 /obj/effect/decal/cleanable/blood/oil,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "az" = (
@@ -157,15 +241,32 @@ turf/open/floor/wood,
 /area/ruin/unpowered)
 "aA" = (
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"az" = (
+/obj/item/spellbook/oneuse/emp/used,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"aA" = (
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken6";
 	icon_state = "wood-broken6"
 	},
 /area/ruin/unpowered)
 "aB" = (
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
 /area/ruin/unpowered)
 "aC" = (
 turf/open/floor/wood,
+=======
+/turf/open/floor/carpet,
+/area/ruin/unpowered)
+"aC" = (
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aD" = (
 /obj/structure/closet{
@@ -175,17 +276,29 @@ turf/open/floor/wood,
 	},
 /obj/item/storage/backpack/satchel,
 /obj/item/lighter/zippo,
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aE" = (
 /obj/structure/bookcase,
 /obj/item/book/codex_gigas,
 /obj/item/book/manual/hydroponics_pod_people,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "aF" = (
 /obj/structure/table/wood,
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"aF" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken6";
 	icon_state = "wood-broken6"
 	},
@@ -193,22 +306,38 @@ turf/open/floor/wood{
 "aG" = (
 /obj/structure/table/wood,
 /obj/item/candle/eternal,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aH" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aI" = (
 /obj/structure/table/wood,
 /obj/item/toy/character/wizard,
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
 /area/ruin/unpowered)
 "aJ" = (
 /obj/structure/cult/pylon,
 turf/open/floor/wood,
+=======
+/turf/open/floor/carpet,
+/area/ruin/unpowered)
+"aJ" = (
+/obj/structure/cult/pylon,
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aK" = (
 /obj/structure/window/reinforced,
@@ -216,14 +345,22 @@ turf/open/floor/wood,
 	dir = 1
 	},
 /obj/machinery/door/window/westleft,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aL" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aM" = (
 /obj/machinery/door/airlock/external,
@@ -233,32 +370,55 @@ turf/open/floor/plating,
 /obj/structure/bookcase,
 /obj/item/book/manual/barman_recipes,
 /obj/item/book/manual/engineering_hacking,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aO" = (
 /obj/item/storage/bag/books,
 /obj/structure/table/wood,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aP" = (
 /obj/item/reagent_containers/food/drinks/oilcan,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "aQ" = (
 /obj/machinery/recharge_station,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"aQ" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aR" = (
 /obj/machinery/light{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "aS" = (
 turf/open/floor/plating,
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"aS" = (
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aT" = (
 /obj/machinery/light{
@@ -266,21 +426,37 @@ turf/open/floor/plating,
 	dir = 4
 	},
 /obj/structure/reagent_dispensers/oil,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aU" = (
 /obj/structure/window/full/reinforced,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "aV" = (
 /obj/item/flag/wiz,
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"aV" = (
+/obj/item/flag/wiz,
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aW" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken6";
 	icon_state = "wood-broken6"
 	},
@@ -288,12 +464,17 @@ turf/open/floor/wood{
 "aX" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "aY" = (
 /obj/machinery/light{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "aZ" = (
@@ -303,13 +484,28 @@ turf/open/floor/plating,
 "ba" = (
 /obj/structure/kitchenspike,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"aZ" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"ba" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bb" = (
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "chapel"
 	},
@@ -317,11 +513,19 @@ turf/open/floor/plasteel{
 "bc" = (
 /obj/effect/decal/remains/human,
 /obj/item/reagent_containers/food/snacks/meat/monkey,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "bd" = (
 /obj/structure/showcase,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bd" = (
+/obj/structure/showcase,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "chapel"
 	},
@@ -332,12 +536,17 @@ turf/open/floor/plasteel{
 	icon_state = "brokengrille"
 	},
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bf" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "bg" = (
@@ -350,6 +559,20 @@ turf/open/floor/wood,
 /area/ruin/unpowered)
 "bi" = (
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bg" = (
+/obj/item/reagent_containers/food/snacks/meat/monkey,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bh" = (
+/obj/machinery/door/window,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"bi" = (
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "chapel"
 	},
@@ -357,13 +580,21 @@ turf/open/floor/plasteel{
 "bj" = (
 /obj/item/reagent_containers/food/snacks/meat/human,
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bk" = (
 /obj/structure/rack,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
@@ -372,22 +603,37 @@ turf/open/floor/plasteel{
 	health = 150;
 	name = "Experiment 17e"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bm" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood,
 /area/ruin/unpowered)
 "bn" = (
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"bn" = (
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bo" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "chapel"
 	},
@@ -395,23 +641,38 @@ turf/open/floor/plasteel{
 "bp" = (
 /obj/structure/rack,
 /obj/item/twohanded/staff,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bq" = (
 /obj/effect/decal/remains/human,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "bs" = (
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bs" = (
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bt" = (
 /obj/structure/showcase,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "chapel"
 	},
@@ -419,45 +680,76 @@ turf/open/floor/plasteel{
 "bu" = (
 /obj/structure/rack,
 /obj/item/twohanded/staff/broom,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bv" = (
 /obj/machinery/door/airlock/maintenance_hatch,
+<<<<<<< Updated upstream
 turf/open/floor/wood,
+=======
+/turf/open/floor/wood,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bw" = (
 /obj/item/storage/toolbox/electrical,
 /obj/structure/table,
 /obj/item/clothing/gloves/color/yellow,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "bx" = (
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bx" = (
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "by" = (
 /obj/machinery/light{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
 /area/ruin/unpowered)
 "bz" = (
 /mob/living/simple_animal/hostile/mimic/crate,
 turf/open/floor/plating,
+=======
+/turf/open/floor/mineral/plasma,
+/area/ruin/unpowered)
+"bz" = (
+/mob/living/simple_animal/hostile/mimic/crate,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bA" = (
 /obj/structure/table,
 /obj/item/wrench,
 /obj/item/weldingtool,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bB" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bC" = (
 /obj/structure/rack,
@@ -466,18 +758,30 @@ turf/open/floor/mineral/plasma,
 /obj/machinery/light{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "chapel"
 	},
 /area/ruin/unpowered)
 "bD" = (
 /obj/machinery/portable_atmospherics/canister/air,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/ruin/unpowered)
 "bE" = (
 /obj/effect/decal/cleanable/blood/drip,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"bE" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "chapel"
 	},
@@ -488,25 +792,41 @@ turf/open/floor/plasteel{
 	dir = 1;
 	layer = 2.9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
 /area/ruin/unpowered)
 "bG" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/shuttle/plating,
+=======
+/turf/open/floor/mineral/plasma,
+/area/ruin/unpowered)
+"bG" = (
+/obj/structure/shuttle/engine/propulsion,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bH" = (
 /turf/closed/wall/mineral/titanium,
 /area/space/nearstation)
 "bI" = (
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bJ" = (
 /obj/structure/window/reinforced{
 	dir = 4;
 	pixel_x = 0
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bK" = (
 /obj/singularity/academy,
@@ -516,14 +836,22 @@ turf/open/floor/mineral/plasma,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bM" = (
 /obj/structure/window/reinforced{
 	dir = 1;
 	layer = 2.9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/plasma,
+=======
+/turf/open/floor/mineral/plasma,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bN" = (
 /obj/effect/spawner/lootdrop/wizardcrash,
@@ -531,7 +859,11 @@ turf/open/floor/mineral/plasma,
 	icon_state = "crateopen";
 	opened = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "bO" = (
 /obj/structure/shuttle/window,
@@ -542,7 +874,11 @@ turf/open/floor/plating,
 /obj/item/stack/sheet/mineral/plasma,
 /obj/item/stack/sheet/mineral/plasma,
 /obj/structure/table,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 
 (1,1,1) = {"

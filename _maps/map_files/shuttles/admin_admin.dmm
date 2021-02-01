@@ -21,7 +21,11 @@
 	req_access_txt = "101"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -42,7 +46,11 @@
 	width = 18
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -62,21 +70,33 @@
 "ah" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/beer,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "ai" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/drinkingglasses,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aj" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/soda,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -97,19 +117,31 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "am" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "an" = (
 /obj/machinery/cell_charger,
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -117,7 +149,11 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/item/multitool,
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -126,7 +162,11 @@
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -136,7 +176,11 @@
 	icon_state = "tube1";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -152,7 +196,11 @@
 	opacity = 1;
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -162,7 +210,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -173,20 +225,32 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "au" = (
 /obj/machinery/mecha_part_fabricator/upgraded,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "av" = (
 /obj/machinery/kitchen_machine/microwave/upgraded,
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -194,20 +258,32 @@
 /obj/machinery/door/window/northright{
 	name = "bar"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "ax" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "ay" = (
 /obj/item/ashtray/glass,
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -217,7 +293,11 @@
 	pixel_x = 5
 	},
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -228,7 +308,11 @@
 	pixel_x = -30;
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -239,7 +323,11 @@
 	opacity = 1;
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -249,7 +337,11 @@
 	icon_state = "propulsion_l";
 	tag = "icon-propulsion_l (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/administration)
 "aD" = (
 /obj/structure/shuttle/engine/heater{
@@ -261,29 +353,49 @@
 	color = "#FF0000";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/shuttle/administration)
 "aE" = (
 /obj/structure/chair/stool/bar,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/shuttle/administration)
+"aE" = (
+/obj/structure/chair/stool/bar,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aF" = (
 /obj/structure/reagent_dispensers/fueltank,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aG" = (
 /obj/structure/reagent_dispensers/watertank,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aH" = (
 /obj/machinery/recharge_station/upgraded,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -291,13 +403,21 @@
 /obj/machinery/autolathe/upgraded{
 	hacked = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aJ" = (
 /obj/structure/dispenser,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -307,11 +427,19 @@
 	icon_state = "propulsion_r";
 	tag = "icon-propulsion_r (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/shuttle/administration)
 "aL" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/shuttle/administration)
+"aL" = (
+/obj/machinery/door/airlock/public/glass,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -330,38 +458,62 @@
 /area/shuttle/administration)
 "aO" = (
 /obj/machinery/vending/snack,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aP" = (
 /obj/machinery/vending/cola,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aQ" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aR" = (
 /obj/machinery/vending/cigarette,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aS" = (
 /obj/machinery/computer/card,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "aT" = (
 /obj/machinery/computer/communications,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -411,7 +563,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -422,7 +578,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -430,7 +590,11 @@
 /obj/machinery/computer/shuttle/admin{
 	name = "NTV Argos shuttle console"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -454,13 +618,21 @@
 /area/shuttle/administration)
 "aZ" = (
 /obj/machinery/dna_scannernew/upgraded,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "ba" = (
 /obj/machinery/computer/cloning,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -471,13 +643,21 @@
 	icon_state = "tube1";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "bc" = (
 /obj/machinery/computer/scan_consolenew,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -488,7 +668,11 @@
 	opacity = 1;
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -496,7 +680,11 @@
 /obj/machinery/computer/camera_advanced/shuttle_docker/admin{
 	name = "NTV Argos shuttle navigation computer"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -519,7 +707,11 @@
 /turf/open/floor/plating,
 /area/shuttle/administration)
 "bg" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -530,13 +722,21 @@
 	opacity = 1;
 	req_access_txt = "101"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "bi" = (
 /obj/machinery/bodyscanner,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -545,7 +745,11 @@
 	color = "#FF0000";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -558,7 +762,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -566,19 +774,31 @@
 /obj/machinery/sleeper/upgraded{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "bn" = (
 /obj/machinery/chem_master,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "bo" = (
 /obj/machinery/chem_dispenser,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -589,7 +809,11 @@
 	opacity = 1;
 	req_access_txt = "104"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -598,7 +822,11 @@
 	color = "#d70000";
 	req_access_txt = "104"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -606,13 +834,21 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "bs" = (
 /obj/machinery/iv_drip,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -622,7 +858,11 @@
 	icon_state = "tube1";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
@@ -634,7 +874,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -646,7 +890,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -654,7 +902,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -669,32 +921,52 @@
 /obj/item/scalpel,
 /obj/item/retractor,
 /obj/item/FixOVein,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "by" = (
 /obj/machinery/optable,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "bz" = (
 /obj/machinery/vending/medical,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
 "bA" = (
 /obj/machinery/light,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
 "bB" = (
 /obj/structure/table,
 /obj/item/storage/lockbox/mindshield,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
@@ -705,7 +977,11 @@
 	pixel_y = 3
 	},
 /obj/item/storage/box/trackimp,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)

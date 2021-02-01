@@ -3,7 +3,11 @@
 /turf/closed/wall/indestructible/boss,
 /area/lavaland/surface/outdoors)
 "ab" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ac" = (
 /obj/structure/stone_tile/block{
@@ -12,7 +16,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ad" = (
 /turf/closed/mineral/random/high_chance/volcanic,
@@ -22,7 +30,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "af" = (
 /obj/structure/necropolis_gate/legion_gate,
@@ -30,7 +42,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	pixel_y = -40
 	},
 /obj/structure/stone_tile/slab,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ag" = (
 /obj/structure/stone_tile/cracked{
@@ -43,7 +59,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ah" = (
 /obj/structure/stone_tile/cracked{
@@ -56,13 +76,21 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ai" = (
 /turf/closed/mineral/random/volcanic,
 /area/lavaland/surface/outdoors)
 "aj" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ak" = (
 /turf/closed/mineral/random/volcanic,
@@ -82,11 +110,19 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 4
 	},
 /obj/effect/decal/cleanable/cobweb,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "ap" = (
 /obj/effect/spawner/window/reinforced,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"ap" = (
+/obj/effect/spawner/window/reinforced,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "aq" = (
 /turf/closed/wall,
@@ -98,12 +134,20 @@ turf/open/floor/plating,
 	network = list("Labor Camp")
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "as" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "at" = (
 /obj/machinery/shower{
@@ -111,7 +155,11 @@ turf/open/floor/plasteel/white,
 	},
 /obj/structure/curtain/open/shower,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "au" = (
 /obj/structure/rack,
@@ -125,20 +173,32 @@ turf/open/floor/plasteel/white,
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/suit/storage/hazardvest,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "av" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "aw" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "ax" = (
 /obj/effect/decal/cleanable/dirt,
@@ -146,7 +206,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ay" = (
 /obj/item/bikehorn/rubberducky,
@@ -155,10 +219,17 @@ turf/open/floor/plasteel/white,
 	dir = 8
 	},
 /obj/structure/curtain/open/shower,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
 /area/mine/laborcamp)
 "az" = (
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/plasteel/white,
+/area/mine/laborcamp)
+"az" = (
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "aA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -174,7 +245,11 @@ turf/open/floor/bluegrid,
 	dir = 1;
 	network = list("Labor Camp")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "aB" = (
 /obj/machinery/door/airlock{
@@ -182,10 +257,17 @@ turf/open/floor/plasteel,
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
 /area/mine/laborcamp)
 "aD" = (
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel/white,
+/area/mine/laborcamp)
+"aD" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "aE" = (
 /obj/item/radio/intercom/locked/prison{
@@ -200,7 +282,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 4;
 	level = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -216,7 +302,11 @@ turf/open/floor/plasteel{
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -227,13 +317,21 @@ turf/open/floor/plasteel{
 	pixel_y = -24
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "aJ" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "aK" = (
 /obj/machinery/camera{
@@ -246,7 +344,11 @@ turf/open/floor/plasteel,
 	dir = 4;
 	pixel_x = -23
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "barber"
 	},
@@ -259,14 +361,22 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "aM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "aN" = (
 /obj/structure/cable{
@@ -275,12 +385,20 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "aP" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/ancient,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "barber"
 	},
@@ -296,21 +414,33 @@ turf/open/floor/plasteel{
 	},
 /obj/item/stack/medical/bruise_pack/advanced,
 /obj/item/stack/medical/bruise_pack/advanced,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "barber"
 	},
 /area/mine/laborcamp)
 "aS" = (
 /obj/machinery/mineral/ore_redemption/labor,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "aT" = (
 /obj/structure/ore_box,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "aU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -320,11 +450,19 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "aV" = (
 /obj/effect/turf_decal/delivery,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"aV" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -333,14 +471,22 @@ turf/open/floor/plasteel{
 /obj/machinery/light/small{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "aX" = (
 /obj/structure/closet/crate,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "aY" = (
 /obj/machinery/light/small{
@@ -357,7 +503,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	pixel_y = 0;
 	specialfunctions = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "aZ" = (
 /obj/machinery/light/small{
@@ -376,7 +526,11 @@ turf/open/floor/carpet,
 	pixel_x = 0;
 	pixel_y = 34
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ba" = (
 /obj/machinery/door/poddoor/preopen{
@@ -387,7 +541,11 @@ turf/open/floor/plasteel,
 	name = "Labor Camp Shuttle Cockpit";
 	req_access_txt = "2"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -396,7 +554,11 @@ turf/open/floor/plasteel,
 	initialize_directions = 11
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "be" = (
 /obj/structure/table,
@@ -405,7 +567,11 @@ turf/open/floor/plasteel,
 	pixel_y = 9
 	},
 /obj/item/pen,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -415,7 +581,11 @@ turf/open/floor/plasteel{
 /area/mine/eva)
 "bg" = (
 /obj/effect/spawner/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -424,7 +594,11 @@ turf/open/floor/plating,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "darkred"
 	},
@@ -444,19 +618,31 @@ turf/open/floor/plasteel{
 	pixel_y = 0;
 	specialfunctions = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "bj" = (
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "bk" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bl" = (
 /obj/effect/decal/cleanable/dirt,
@@ -468,7 +654,11 @@ turf/open/floor/plasteel,
 	department = "Labor Camp";
 	pixel_y = -32
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
@@ -479,7 +669,11 @@ turf/open/floor/plasteel{
 	dir = 9
 	},
 /obj/machinery/cryopod,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "brown"
 	},
@@ -489,7 +683,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "browncorner"
 	},
@@ -505,7 +703,11 @@ turf/open/floor/plasteel{
 	pixel_y = -24;
 	specialfunctions = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "bp" = (
 /obj/effect/turf_decal/tile/purple{
@@ -518,7 +720,11 @@ turf/open/floor/plasteel/freezer,
 	dir = 4
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bq" = (
 /turf/closed/wall,
@@ -538,7 +744,11 @@ turf/open/floor/plasteel,
 	pixel_y = 0;
 	specialfunctions = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "bs" = (
 /obj/effect/turf_decal/tile/brown{
@@ -548,7 +758,11 @@ turf/open/floor/carpet,
 	dir = 4
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bt" = (
 /obj/effect/turf_decal/tile/brown{
@@ -558,7 +772,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bu" = (
 /obj/effect/turf_decal/tile/purple{
@@ -569,13 +787,21 @@ turf/open/floor/plasteel,
 	},
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bv" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bw" = (
 /obj/machinery/alarm{
@@ -590,7 +816,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -599,7 +829,11 @@ turf/open/floor/plasteel,
 /obj/machinery/light_switch{
 	pixel_y = -25
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "by" = (
 /obj/structure/cable{
@@ -607,7 +841,11 @@ turf/open/floor/plasteel,
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
@@ -616,7 +854,11 @@ turf/open/floor/plasteel{
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bA" = (
 /obj/machinery/door/airlock/security/glass{
@@ -627,7 +869,11 @@ turf/open/floor/plasteel,
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bB" = (
 /obj/machinery/power/apc{
@@ -645,7 +891,11 @@ turf/open/floor/plasteel,
 /obj/machinery/computer/cryopod{
 	pixel_y = 38
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bC" = (
 /obj/structure/closet/crate,
@@ -656,7 +906,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bD" = (
 /obj/machinery/camera{
@@ -677,7 +931,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bE" = (
 /obj/effect/turf_decal/tile/purple{
@@ -699,11 +957,19 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/eva)
 "bF" = (
 /obj/effect/spawner/window,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plasteel,
+/area/mine/eva)
+"bF" = (
+/obj/effect/spawner/window,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bG" = (
 /obj/machinery/light_switch{
@@ -716,23 +982,39 @@ turf/open/floor/plating,
 	dir = 4
 	},
 /obj/effect/baseturf_helper/lava_land/surface,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/eva)
 "bH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/eva)
+"bH" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bI" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/structure/dispenser/oxygen,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bJ" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/sign/securearea{
 	name = "\improper KEEP CLEAR: DOCKING AREA"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bK" = (
 /obj/machinery/light/small{
@@ -747,7 +1029,11 @@ turf/open/floor/plating,
 	tag_exterior_door = "mining_outer";
 	tag_interior_door = "mining_inner"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bL" = (
 /obj/machinery/door/airlock/security/glass{
@@ -760,7 +1046,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "bM" = (
 /obj/machinery/door/airlock/maintenance{
@@ -771,11 +1061,19 @@ turf/open/floor/plasteel/dark,
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/mine/laborcamp)
 "bN" = (
 /obj/effect/spawner/window/reinforced,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+/area/mine/laborcamp)
+"bN" = (
+/obj/effect/spawner/window/reinforced,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bO" = (
 /obj/docking_port/stationary{
@@ -785,17 +1083,28 @@ turf/open/floor/plating,
 	height = 5;
 	id = "laborcamp_away";
 	name = "labor camp";
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/plating/asteroid/basalt/lava_land_surface;
 	width = 9
 	},
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 9
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "bP" = (
 /obj/item/radio/beacon,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bQ" = (
 /obj/structure/cable{
@@ -804,7 +1113,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -822,7 +1135,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bS" = (
 /obj/structure/cable{
@@ -835,7 +1152,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bT" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -843,19 +1164,31 @@ turf/open/floor/plasteel,
 	dir = 6
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "bU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bW" = (
 /obj/structure/extinguisher_cabinet{
@@ -866,7 +1199,11 @@ turf/open/floor/plasteel,
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bX" = (
 /obj/machinery/access_button{
@@ -884,10 +1221,17 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/eva)
 "bY" = (
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/eva)
+"bY" = (
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "bZ" = (
 /obj/machinery/alarm{
@@ -902,7 +1246,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "darkredcorners"
 	},
@@ -921,7 +1269,11 @@ turf/open/floor/plasteel{
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "darkred"
 	},
@@ -937,7 +1289,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "darkred"
 	},
@@ -957,7 +1313,11 @@ turf/open/floor/plasteel{
 	desc = "Powered by the tears and sweat of laborers.";
 	name = "Prison Ofitser"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "darkred"
 	},
@@ -981,7 +1341,11 @@ turf/open/floor/plasteel{
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "darkredcorners"
 	},
@@ -993,26 +1357,42 @@ turf/open/floor/plasteel{
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cg" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ch" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ci" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "darkred"
 	},
@@ -1028,7 +1408,11 @@ turf/open/floor/plasteel{
 	req_access_txt = "54"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "ck" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1037,13 +1421,21 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "cl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cm" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1053,7 +1445,11 @@ turf/open/floor/plasteel,
 	icon_state = "1-2"
 	},
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cn" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1062,7 +1458,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "co" = (
 /obj/machinery/power/apc{
@@ -1076,11 +1476,19 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/eva)
 "cp" = (
 /obj/machinery/suit_storage_unit/lavaland,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/eva)
+"cp" = (
+/obj/machinery/suit_storage_unit/lavaland,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "cq" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1089,14 +1497,22 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "cr" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "cs" = (
 /obj/structure/cable{
@@ -1111,12 +1527,17 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "ct" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "cu" = (
@@ -1126,6 +1547,17 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 "cv" = (
 /obj/structure/ore_box,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"cu" = (
+/obj/item/pickaxe,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"cv" = (
+/obj/structure/ore_box,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1142,7 +1574,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 8;
 	network = list("Mining Outpost")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cx" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1151,11 +1587,19 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "cy" = (
 /obj/effect/baseturf_helper/lava_land/surface,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"cy" = (
+/obj/effect/baseturf_helper/lava_land/surface,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cz" = (
 /obj/machinery/power/terminal{
@@ -1165,7 +1609,11 @@ turf/open/floor/plasteel,
 	icon_state = "0-4"
 	},
 /obj/structure/reagent_dispensers/fueltank,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cA" = (
 /obj/structure/cable{
@@ -1175,12 +1623,20 @@ turf/open/floor/plating,
 	pixel_x = 0;
 	tag = ""
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cB" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/machinery/portable_atmospherics/canister/air,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cC" = (
 /obj/machinery/power/port_gen/pacman{
@@ -1190,7 +1646,11 @@ turf/open/floor/plating,
 	d2 = 8;
 	icon_state = "0-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "cD" = (
 /obj/item/radio/intercom{
@@ -1204,14 +1664,22 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cF" = (
 /obj/structure/extinguisher_cabinet{
@@ -1226,11 +1694,19 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 2
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "cG" = (
 /obj/effect/spawner/window/reinforced,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"cG" = (
+/obj/effect/spawner/window/reinforced,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp/security)
 "cH" = (
 /obj/machinery/power/apc{
@@ -1251,7 +1727,11 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1260,23 +1740,39 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cJ" = (
 /obj/machinery/door/airlock{
 	name = "Closet"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cK" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/mine/production)
 "cL" = (
 /obj/machinery/space_heater,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+/area/mine/production)
+"cL" = (
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cM" = (
 /turf/closed/wall,
@@ -1292,7 +1788,11 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cO" = (
 /obj/machinery/light/small{
@@ -1304,7 +1804,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cP" = (
 /obj/structure/closet/crate,
@@ -1312,14 +1816,22 @@ turf/open/floor/plasteel,
 	pixel_y = 23
 	},
 /obj/effect/turf_decal/bot,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cQ" = (
 /turf/closed/wall/r_wall,
 /area/mine/maintenance)
 "cR" = (
 /obj/effect/spawner/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "cS" = (
 /obj/machinery/power/smes{
@@ -1328,7 +1840,11 @@ turf/open/floor/plating,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "cT" = (
 /obj/structure/cable{
@@ -1341,13 +1857,18 @@ turf/open/floor/plating,
 /obj/structure/sign/electricshock{
 	pixel_y = 32
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "cU" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/mine/living_quarters)
 "cV" = (
@@ -1356,11 +1877,25 @@ turf/open/floor/plating,
 "cW" = (
 /obj/structure/reagent_dispensers/fueltank,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+/area/mine/living_quarters)
+"cV" = (
+/turf/open/floor/plating,
+/area/mine/living_quarters)
+"cW" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "cX" = (
 /obj/structure/ore_box,
 /obj/effect/turf_decal/bot,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "cY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1370,17 +1905,29 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "cZ" = (
 /obj/effect/turf_decal/bot,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"cZ" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "da" = (
 /obj/machinery/mineral/mint{
 	input_dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "db" = (
 /obj/machinery/light/small{
@@ -1396,7 +1943,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dc" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -1406,7 +1957,11 @@ turf/open/floor/plasteel/white,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dd" = (
 /obj/structure/extinguisher_cabinet{
@@ -1414,7 +1969,11 @@ turf/open/floor/plasteel/white,
 	pixel_y = 30
 	},
 /obj/structure/table,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "de" = (
 /obj/effect/turf_decal/tile/blue{
@@ -1423,7 +1982,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "df" = (
 /obj/structure/table,
@@ -1441,13 +2004,21 @@ turf/open/floor/plasteel/white,
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dg" = (
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "dh" = (
 /obj/structure/cable{
@@ -1460,18 +2031,30 @@ turf/open/floor/bluegrid,
 	pixel_y = 25
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "di" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/machinery/tcomms/relay/mining,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
 /area/mine/maintenance)
 "dj" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel/dark,
+/area/mine/maintenance)
+"dj" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "dk" = (
 /obj/structure/cable{
@@ -1480,7 +2063,11 @@ turf/open/floor/plasteel/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "dl" = (
 /obj/machinery/mineral/equipment_vendor,
@@ -1488,17 +2075,29 @@ turf/open/floor/bluegrid,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "dm" = (
 /obj/effect/turf_decal/loading_area,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"dm" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dn" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "do" = (
 /obj/machinery/power/terminal{
@@ -1507,7 +2106,11 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dp" = (
 /obj/structure/cable{
@@ -1517,26 +2120,42 @@ turf/open/floor/plating,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dq" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dr" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ds" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dt" = (
 /obj/structure/table,
@@ -1545,7 +2164,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "du" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1561,7 +2184,11 @@ turf/open/floor/plasteel/white,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dv" = (
 /obj/machinery/light{
@@ -1582,14 +2209,22 @@ turf/open/floor/plasteel,
 	dir = 8;
 	network = list("Mining Outpost")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dw" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
 /obj/effect/turf_decal/bot,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dx" = (
 /obj/machinery/light_switch{
@@ -1598,7 +2233,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "dy" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -1609,7 +2248,11 @@ turf/open/floor/bluegrid,
 	dir = 4
 	},
 /obj/effect/baseturf_helper/lava_land/surface,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dz" = (
 /obj/machinery/camera{
@@ -1617,7 +2260,11 @@ turf/open/floor/plasteel,
 	dir = 8;
 	network = list("Mining Outpost")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "dA" = (
 /obj/machinery/camera{
@@ -1636,7 +2283,11 @@ turf/open/floor/bluegrid,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dB" = (
 /obj/structure/closet/crate/freezer,
@@ -1667,17 +2318,29 @@ turf/open/floor/plasteel,
 	dir = 1;
 	network = list("Mining Outpost")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
 /area/mine/living_quarters)
 "dD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+/area/mine/living_quarters)
+"dD" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dE" = (
 /obj/machinery/mineral/unloading_machine{
@@ -1689,7 +2352,11 @@ turf/open/floor/plasteel/white,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dF" = (
 /obj/structure/cable,
@@ -1699,7 +2366,11 @@ turf/open/floor/plating,
 /obj/machinery/power/port_gen/pacman{
 	anchored = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dG" = (
 /obj/machinery/power/port_gen/pacman{
@@ -1708,40 +2379,68 @@ turf/open/floor/plating,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dH" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/binary/pump/on,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dJ" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "dK" = (
 /obj/effect/turf_decal/tile/purple,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"dK" = (
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dL" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "dM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"dM" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dN" = (
 /obj/machinery/conveyor_switch/oneway{
@@ -1752,7 +2451,11 @@ turf/open/floor/plasteel,
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dO" = (
 /obj/machinery/conveyor{
@@ -1762,7 +2465,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dP" = (
 /obj/machinery/door/airlock/maintenance{
@@ -1773,18 +2480,30 @@ turf/open/floor/plating,
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/maintenance)
 "dQ" = (
 /obj/effect/spawner/window,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plasteel,
+/area/mine/maintenance)
+"dQ" = (
+/obj/effect/spawner/window,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dR" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Infirmary"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dS" = (
 /obj/structure/cable{
@@ -1795,7 +2514,11 @@ turf/open/floor/plasteel/white,
 	req_access_txt = "48"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1804,7 +2527,11 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1817,6 +2544,7 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "dV" = (
@@ -1826,12 +2554,27 @@ turf/open/floor/plating,
 "dW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"dV" = (
+/obj/effect/spawner/window,
+/turf/open/floor/plating,
+/area/mine/production)
+"dW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "dX" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "dY" = (
 /obj/machinery/door/airlock/external{
@@ -1844,7 +2587,11 @@ turf/open/floor/plasteel,
 	req_access_txt = "54"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "dZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1854,13 +2601,21 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ea" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eb" = (
 /obj/structure/cable{
@@ -1873,7 +2628,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ec" = (
 /obj/machinery/camera{
@@ -1883,7 +2642,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ed" = (
 /obj/machinery/camera{
@@ -1891,11 +2654,19 @@ turf/open/floor/plasteel,
 	network = list("Mining Outpost")
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "ee" = (
 /obj/effect/turf_decal/tile/purple,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"ee" = (
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ef" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1904,7 +2675,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eg" = (
 /obj/machinery/power/apc{
@@ -1916,14 +2691,22 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eh" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -5;
 	pixel_y = 30
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ei" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1935,7 +2718,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "ej" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1947,7 +2734,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "ek" = (
 /obj/machinery/light{
@@ -1962,7 +2753,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "el" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -1972,7 +2767,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "em" = (
 /obj/machinery/mineral/processing_unit{
@@ -1982,7 +2781,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "en" = (
 /obj/machinery/mineral/processing_unit_console,
@@ -1993,13 +2796,21 @@ turf/open/floor/plating,
 	dir = 4
 	},
 /obj/machinery/suit_storage_unit/lavaland,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "ep" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eq" = (
 /obj/structure/cable{
@@ -2008,7 +2819,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "er" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2017,14 +2832,22 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "es" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "et" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2037,7 +2860,11 @@ turf/open/floor/plasteel,
 	icon_state = "1-4"
 	},
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eu" = (
 /obj/structure/cable{
@@ -2047,7 +2874,11 @@ turf/open/floor/plasteel,
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ev" = (
 /obj/structure/cable{
@@ -2056,14 +2887,22 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ew" = (
 /obj/structure/ore_box,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "ex" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -2079,7 +2918,11 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ey" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2097,7 +2940,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ez" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2115,7 +2962,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eA" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -2131,7 +2982,11 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2149,7 +3004,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -2160,7 +3019,11 @@ turf/open/floor/plasteel,
 	icon_state = "2-8"
 	},
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2178,7 +3041,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2190,7 +3057,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eF" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -2200,7 +3071,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2212,20 +3087,32 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2238,7 +3125,11 @@ turf/open/floor/plasteel,
 	dir = 8
 	},
 /obj/structure/ore_box,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eK" = (
 /obj/effect/turf_decal/tile/purple{
@@ -2248,26 +3139,42 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eM" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2280,7 +3187,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 2
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2289,7 +3200,11 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eQ" = (
 /obj/machinery/door/airlock/mining{
@@ -2297,13 +3212,21 @@ turf/open/floor/plasteel,
 	req_access_txt = "48"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eR" = (
 /obj/machinery/door/airlock/glass{
 	name = "Break Room"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2312,11 +3235,19 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "eT" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"eT" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eU" = (
 /obj/machinery/light/small,
@@ -2326,16 +3257,27 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "eV" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "eW" = (
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"eW" = (
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eX" = (
 /obj/machinery/conveyor{
@@ -2343,7 +3285,11 @@ turf/open/floor/plasteel,
 	id = "mining_internal"
 	},
 /obj/structure/plasticflaps,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "eY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2352,7 +3298,11 @@ turf/open/floor/plating,
 	dir = 5;
 	level = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "eZ" = (
 /obj/effect/turf_decal/tile/brown{
@@ -2361,14 +3311,22 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fb" = (
 /obj/machinery/alarm{
@@ -2380,13 +3338,21 @@ turf/open/floor/plasteel,
 	},
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/recharge_station,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fc" = (
 /obj/machinery/alarm{
 	pixel_y = 23
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fd" = (
 /obj/machinery/light,
@@ -2398,7 +3364,11 @@ turf/open/floor/plasteel,
 	},
 /obj/machinery/mech_bay_recharge_port,
 /obj/structure/cable,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fe" = (
 /obj/structure/bed,
@@ -2406,13 +3376,21 @@ turf/open/floor/plasteel,
 /obj/machinery/alarm{
 	pixel_y = 23
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ff" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fg" = (
 /obj/machinery/door/airlock{
@@ -2422,16 +3400,27 @@ turf/open/floor/carpet,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "fh" = (
 turf/open/floor/mech_bay_recharge_floor,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"fh" = (
+/turf/open/floor/mech_bay_recharge_floor,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fi" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fj" = (
 /obj/effect/turf_decal/tile/brown{
@@ -2444,16 +3433,27 @@ turf/open/floor/plasteel,
 	icon_state = "computer";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/production)
 "fk" = (
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/production)
+"fk" = (
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fl" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fm" = (
 /obj/machinery/conveyor{
@@ -2463,7 +3463,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fn" = (
 /obj/machinery/conveyor{
@@ -2476,7 +3480,11 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/production)
 "fo" = (
 /obj/machinery/mineral/equipment_vendor,
@@ -2489,20 +3497,32 @@ turf/open/floor/plating,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fr" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/carpet,
+=======
+/turf/open/floor/carpet,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fs" = (
 /obj/machinery/light/small{
@@ -2515,7 +3535,11 @@ turf/open/floor/carpet,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ft" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2525,7 +3549,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fu" = (
 /obj/machinery/alarm{
@@ -2535,7 +3563,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fv" = (
 /obj/machinery/camera{
@@ -2557,7 +3589,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 2
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2570,7 +3606,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fx" = (
 /obj/machinery/vending/snack,
@@ -2578,7 +3618,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2586,14 +3630,22 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fz" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2603,11 +3655,19 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "fB" = (
 /obj/structure/lattice/catwalk,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"fB" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "fC" = (
 /obj/machinery/vending/cigarette,
@@ -2618,7 +3678,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fD" = (
 /obj/structure/table,
@@ -2629,7 +3693,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fE" = (
 /obj/effect/turf_decal/tile/purple{
@@ -2638,7 +3706,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fF" = (
 /obj/item/radio/intercom{
@@ -2653,7 +3725,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fG" = (
 /obj/machinery/camera{
@@ -2667,7 +3743,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fH" = (
 /obj/machinery/door/airlock{
@@ -2677,7 +3757,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fI" = (
 /obj/structure/chair,
@@ -2685,7 +3769,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fJ" = (
 /obj/docking_port/stationary{
@@ -2695,10 +3783,17 @@ turf/open/floor/plasteel,
 	height = 5;
 	id = "mining_away";
 	name = "lavaland mine";
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/plating/asteroid/basalt/lava_land_surface;
 	width = 7
 	},
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 7
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "fK" = (
 /obj/structure/table,
@@ -2707,7 +3802,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fL" = (
 /obj/effect/turf_decal/tile/brown{
@@ -2720,7 +3819,11 @@ turf/open/floor/plasteel,
 	dir = 2
 	},
 /obj/structure/closet/secure_closet/miner,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fM" = (
 /obj/effect/turf_decal/tile/purple,
@@ -2728,7 +3831,11 @@ turf/open/floor/plasteel,
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/miner,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2738,7 +3845,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fO" = (
 /obj/machinery/door/airlock{
@@ -2748,7 +3859,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fP" = (
 /obj/structure/closet/secure_closet/miner,
@@ -2758,16 +3873,27 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/brown{
 	dir = 2
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "fQ" = (
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"fQ" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/unexplored/danger)
 "fR" = (
 /turf/closed/mineral/random/high_chance/volcanic,
 /area/lavaland/surface/outdoors/unexplored)
 "fS" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/unexplored)
 "fT" = (
 /obj/structure/stone_tile/block{
@@ -2776,7 +3902,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "fU" = (
 /obj/structure/closet/secure_closet/miner,
@@ -2784,7 +3914,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/purple,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fV" = (
 /turf/closed/wall/indestructible/boss/see_through,
@@ -2792,7 +3926,11 @@ turf/open/floor/plasteel,
 "fW" = (
 /obj/structure/necropolis_gate/locked,
 /obj/structure/stone_tile/slab,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "fX" = (
 /obj/structure/closet/secure_closet/miner,
@@ -2805,7 +3943,11 @@ turf/open/floor/indestructible/boss,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2815,7 +3957,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "fZ" = (
 /obj/structure/chair{
@@ -2828,7 +3974,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ga" = (
 /obj/structure/table,
@@ -2847,7 +3997,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gb" = (
 /obj/structure/chair{
@@ -2860,7 +4014,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gc" = (
 /obj/machinery/door/window/southleft,
@@ -2871,11 +4029,19 @@ turf/open/floor/plasteel,
 	dir = 4
 	},
 /obj/structure/curtain/open/shower,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
 /area/mine/living_quarters)
 "gd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel/freezer,
+/area/mine/living_quarters)
+"gd" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "ge" = (
 /obj/machinery/door/window/southright,
@@ -2886,7 +4052,11 @@ turf/open/floor/plasteel,
 	dir = 4
 	},
 /obj/structure/curtain/open/shower,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gf" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2896,7 +4066,11 @@ turf/open/floor/plasteel/freezer,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gg" = (
 /obj/structure/table,
@@ -2905,7 +4079,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gh" = (
 /obj/item/radio/intercom{
@@ -2917,7 +4095,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gi" = (
 /obj/machinery/camera{
@@ -2934,7 +4116,11 @@ turf/open/floor/plasteel,
 	},
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gj" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -2945,7 +4131,11 @@ turf/open/floor/plasteel,
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/center,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gk" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -2958,7 +4148,11 @@ turf/open/floor/indestructible/boss,
 	dir = 8
 	},
 /obj/structure/stone_tile/center,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gl" = (
 /obj/machinery/alarm{
@@ -2969,7 +4163,11 @@ turf/open/floor/indestructible/boss,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gm" = (
 /obj/machinery/firealarm{
@@ -2980,7 +4178,11 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gn" = (
 /obj/structure/sink{
@@ -2991,18 +4193,30 @@ turf/open/floor/plasteel,
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "go" = (
 /obj/structure/stone_tile/block,
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"go" = (
+/obj/structure/stone_tile/block,
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gp" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gq" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -3011,7 +4225,11 @@ turf/open/floor/plasteel,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gr" = (
 /obj/structure/stone_tile{
@@ -3024,7 +4242,11 @@ turf/open/floor/plasteel,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gs" = (
 /obj/structure/stone_tile/cracked{
@@ -3037,7 +4259,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 4
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3046,7 +4272,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gu" = (
 /obj/machinery/door/airlock/external{
@@ -3056,7 +4286,11 @@ turf/open/floor/plasteel,
 	req_access_txt = "2"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "gv" = (
 /obj/machinery/door/airlock/external{
@@ -3067,7 +4301,11 @@ turf/open/floor/plasteel,
 	req_one_access_txt = "48"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "gw" = (
 /obj/machinery/door/airlock/external{
@@ -3078,7 +4316,11 @@ turf/open/floor/plasteel,
 	req_access_txt = "48"
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "gx" = (
 /obj/structure/fans/tiny,
@@ -3092,7 +4334,11 @@ turf/open/floor/plasteel,
 	req_access_txt = null;
 	req_one_access_txt = null
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "gy" = (
 /obj/structure/stone_tile/cracked,
@@ -3105,11 +4351,19 @@ turf/open/floor/plasteel,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "gA" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"gA" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gB" = (
 /obj/structure/stone_tile/block{
@@ -3121,7 +4375,11 @@ turf/open/floor/plasteel,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gC" = (
 /obj/structure/stone_tile,
@@ -3134,13 +4392,21 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "gF" = (
 /obj/structure/fans/tiny,
@@ -3152,7 +4418,11 @@ turf/open/floor/plasteel,
 	req_access_txt = null;
 	req_one_access_txt = null
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "gG" = (
 /obj/structure/stone_tile{
@@ -3165,7 +4435,11 @@ turf/open/floor/plasteel,
 	dir = 8
 	},
 /obj/structure/stone_tile/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gH" = (
 /obj/machinery/access_button{
@@ -3177,7 +4451,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	pixel_y = -25;
 	req_access_txt = null
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gI" = (
 /obj/structure/cable{
@@ -3188,7 +4466,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	},
 /obj/effect/baseturf_helper/lava_land/surface,
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/maintenance)
 "gJ" = (
 /obj/machinery/atmospherics/unary/outlet_injector/on{
@@ -3196,54 +4478,90 @@ turf/open/floor/plasteel/dark,
 	name = "scrubber outlet"
 	},
 /obj/structure/lattice/catwalk,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
 /obj/structure/lattice/catwalk,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/baseturf_helper/lava_land/surface,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "gM" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gO" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "gP" = (
 /obj/structure/stone_tile/slab,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"gP" = (
+/obj/structure/stone_tile/slab,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "gR" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "hg" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/stone_tile/center/cracked,
 /mob/living/simple_animal/hostile/megafauna/legion,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "hs" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "hv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3258,7 +4576,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 5
 	},
 /obj/machinery/light/small,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkred"
 	},
@@ -3267,13 +4589,21 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "hA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "hH" = (
 /obj/structure/stone_tile/block{
@@ -3283,7 +4613,11 @@ turf/open/floor/plasteel,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "hJ" = (
 /obj/structure/stone_tile/block{
@@ -3293,7 +4627,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "hQ" = (
 /obj/machinery/door/airlock/external{
@@ -3304,13 +4642,21 @@ turf/open/floor/indestructible/boss,
 	req_one_access_txt = null
 	},
 /obj/structure/fans/tiny,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ic" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/cigbutt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkred"
 	},
@@ -3326,7 +4672,11 @@ turf/open/floor/plasteel{
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ir" = (
 /obj/structure/stone_tile/slab/cracked{
@@ -3335,17 +4685,29 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/slab/cracked{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "it" = (
 /obj/structure/stone_tile/block,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"it" = (
+/obj/structure/stone_tile/block,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iu" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iw" = (
 /obj/structure/stone_tile/slab/cracked{
@@ -3354,6 +4716,7 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/slab/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "ix" = (
@@ -3363,20 +4726,39 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 "iy" = (
 /obj/structure/stone_tile/cracked,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"ix" = (
+/obj/structure/stone_tile/block/cracked,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"iy" = (
+/obj/structure/stone_tile/cracked,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iC" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /obj/structure/stone_tile/block/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iK" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iX" = (
 /obj/structure/stone_tile,
@@ -3386,26 +4768,42 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "iY" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ja" = (
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jb" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3416,7 +4814,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/machinery/mineral/labor_points_checker{
 	pixel_y = -32
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
@@ -3432,7 +4834,11 @@ turf/open/floor/plasteel{
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jk" = (
 /obj/structure/stone_tile/center,
@@ -3443,7 +4849,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/surrounding_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jl" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3456,7 +4866,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 8
 	},
 /obj/structure/stone_tile/center/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jm" = (
 /obj/structure/stone_tile/cracked,
@@ -3469,7 +4883,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jp" = (
 /obj/machinery/camera{
@@ -3479,26 +4897,42 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkred"
 	},
 /area/mine/laborcamp)
 "jq" = (
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "js" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jx" = (
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jF" = (
 /obj/structure/stone_tile/surrounding_tile,
@@ -3509,7 +4943,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/surrounding_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jH" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3520,7 +4958,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/surrounding_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jL" = (
 /obj/structure/stone_tile/surrounding_tile,
@@ -3531,7 +4973,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/surrounding_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jN" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3542,29 +4988,49 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/center/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jQ" = (
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jR" = (
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "jS" = (
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "kg" = (
 /obj/structure/fluff/drake_statue,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"kg" = (
+/obj/structure/fluff/drake_statue,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kj" = (
 /obj/structure/stone_tile/block{
@@ -3573,11 +5039,19 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "kl" = (
 /obj/structure/fluff/drake_statue/falling,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"kl" = (
+/obj/structure/fluff/drake_statue/falling,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ko" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3587,7 +5061,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 1
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ky" = (
 /obj/structure/stone_tile/cracked{
@@ -3596,7 +5074,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kB" = (
 /obj/structure/stone_tile/surrounding_tile,
@@ -3607,7 +5089,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/surrounding_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kD" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3620,7 +5106,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 8
 	},
 /obj/structure/stone_tile/center,
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kH" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3631,7 +5121,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 4
 	},
 /obj/structure/stone_tile/center/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kJ" = (
 /obj/structure/stone_tile/surrounding_tile{
@@ -3644,23 +5138,39 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 1
 	},
 /obj/structure/stone_tile/center,
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kM" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "kN" = (
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "kR" = (
 /obj/structure/stone_tile/slab/cracked,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"kR" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "le" = (
 /obj/structure/stone_tile,
@@ -3670,7 +5180,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lg" = (
 /obj/structure/stone_tile/block{
@@ -3679,7 +5193,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lj" = (
 /obj/structure/stone_tile/block{
@@ -3689,7 +5207,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ll" = (
 /obj/structure/stone_tile/cracked{
@@ -3698,7 +5220,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lp" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3710,27 +5236,43 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lq" = (
 /obj/structure/stone_tile/block/cracked,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lr" = (
 /obj/structure/stone_tile/cracked,
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ls" = (
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lu" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3739,7 +5281,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lv" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3749,17 +5295,29 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "lw" = (
 /obj/structure/stone_tile/cracked,
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"lw" = (
+/obj/structure/stone_tile/cracked,
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ly" = (
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lz" = (
 /obj/structure/stone_tile/cracked{
@@ -3768,7 +5326,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lD" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3777,7 +5339,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lE" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3786,7 +5352,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lF" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3798,20 +5368,32 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lG" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
 /obj/structure/stone_tile/block,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lI" = (
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3819,7 +5401,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 	dir = 6
 	},
 /obj/machinery/meter,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "lP" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3828,13 +5414,21 @@ turf/open/floor/plasteel,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lQ" = (
 /obj/structure/stone_tile/surrounding/cracked{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lR" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3844,7 +5438,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lS" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3856,14 +5454,22 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lW" = (
 /obj/structure/stone_tile/block/cracked,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "lZ" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3872,7 +5478,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ma" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3881,7 +5491,11 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mb" = (
 /obj/structure/stone_tile/cracked,
@@ -3891,12 +5505,20 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mj" = (
 /obj/item/clothing/under/color/orange,
 /obj/effect/decal/cleanable/ash,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mk" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3905,21 +5527,33 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ml" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
 /obj/structure/stone_tile/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mn" = (
 /obj/structure/stone_tile/block/cracked,
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mq" = (
 /obj/structure/stone_tile/block/cracked{
@@ -3931,7 +5565,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mr" = (
 /obj/structure/stone_tile{
@@ -3944,7 +5582,11 @@ turf/open/floor/indestructible/boss,
 	dir = 1
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ms" = (
 /obj/structure/stone_tile/block{
@@ -3954,27 +5596,43 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mt" = (
 /obj/structure/stone_tile{
 	dir = 1
 	},
 /obj/structure/stone_tile/cracked,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mu" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mv" = (
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mw" = (
 /obj/structure/stone_tile{
@@ -3983,11 +5641,19 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "mx" = (
 /obj/structure/stone_tile,
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"mx" = (
+/obj/structure/stone_tile,
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "my" = (
 /obj/structure/stone_tile/cracked{
@@ -3997,21 +5663,33 @@ turf/open/floor/plating/lava/smooth/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mA" = (
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mB" = (
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mC" = (
 /obj/structure/stone_tile{
@@ -4020,21 +5698,33 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/smooth/lava_land_surface,
+=======
+/turf/open/floor/plating/lava/smooth/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mD" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mE" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mF" = (
 /obj/structure/stone_tile/block/cracked,
@@ -4044,7 +5734,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mG" = (
 /obj/structure/stone_tile{
@@ -4053,7 +5747,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mH" = (
 /obj/structure/stone_tile/cracked{
@@ -4063,7 +5761,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 1
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mI" = (
 /obj/structure/stone_tile/cracked{
@@ -4072,7 +5774,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mJ" = (
 /obj/structure/stone_tile{
@@ -4081,7 +5787,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mK" = (
 /obj/structure/stone_tile{
@@ -4091,7 +5801,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mL" = (
 /obj/structure/stone_tile{
@@ -4100,21 +5814,33 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mM" = (
 /obj/structure/stone_tile/cracked,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mN" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mO" = (
 /obj/structure/stone_tile{
@@ -4123,7 +5849,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mP" = (
 /obj/structure/stone_tile{
@@ -4132,7 +5862,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mQ" = (
 /obj/structure/stone_tile/block{
@@ -4141,7 +5875,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mS" = (
 /obj/structure/stone_tile/cracked{
@@ -4154,7 +5892,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mV" = (
 /obj/structure/stone_tile/block{
@@ -4166,7 +5908,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mW" = (
 /obj/structure/stone_tile/block/cracked{
@@ -4175,7 +5921,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mX" = (
 /obj/structure/stone_tile/cracked,
@@ -4188,7 +5938,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/cracked{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mY" = (
 /obj/structure/stone_tile/block/cracked{
@@ -4198,7 +5952,11 @@ turf/open/floor/indestructible/boss,
 	dir = 1
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "mZ" = (
 /obj/structure/stone_tile{
@@ -4211,7 +5969,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "nb" = (
 /obj/structure/stone_tile/cracked{
@@ -4224,7 +5986,11 @@ turf/open/floor/indestructible/boss,
 	dir = 4
 	},
 /obj/structure/stone_tile,
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "nc" = (
 /obj/structure/stone_tile/cracked{
@@ -4237,7 +6003,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ne" = (
 /obj/structure/stone_tile/block{
@@ -4247,11 +6017,19 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
 /area/lavaland/surface/outdoors)
 "nf" = (
 /obj/structure/stone_tile/slab/cracked,
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+/area/lavaland/surface/outdoors)
+"nf" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "ng" = (
 /obj/structure/stone_tile,
@@ -4261,7 +6039,11 @@ turf/open/floor/indestructible/boss,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/indestructible/boss,
+=======
+/turf/open/floor/indestructible/boss,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "on" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4270,14 +6052,22 @@ turf/open/floor/indestructible/boss,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "oA" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -4285,19 +6075,31 @@ turf/open/floor/plasteel{
 "oR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/dispenser/oxygen,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "pa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "qw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/cigbutt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -4314,7 +6116,11 @@ turf/open/floor/plasteel{
 	dir = 4;
 	level = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -4328,7 +6134,11 @@ turf/open/floor/plasteel{
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/cigbutt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ro" = (
 /obj/machinery/camera{
@@ -4336,7 +6146,11 @@ turf/open/floor/plasteel/dark,
 	dir = 4;
 	network = list("Labor Camp")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "rr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4344,7 +6158,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	dir = 5;
 	level = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	broken = 1;
 	icon_state = "wood-broken"
 	},
@@ -4353,7 +6171,11 @@ turf/open/floor/wood{
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "brown"
 	},
@@ -4363,17 +6185,29 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "sF" = (
 /obj/machinery/door/airlock,
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"sF" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "sL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "sO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4383,7 +6217,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkredcorners"
 	},
@@ -4396,7 +6234,11 @@ turf/open/floor/plasteel{
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "barber"
 	},
@@ -4409,6 +6251,7 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "tj" = (
@@ -4418,6 +6261,17 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 "ty" = (
 /obj/structure/lattice/catwalk,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"tj" = (
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"ty" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors/explored)
 "tC" = (
 /obj/machinery/camera{
@@ -4425,7 +6279,11 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 	network = list("Labor Camp")
 	},
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -4437,25 +6295,41 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
 /area/mine/living_quarters)
 "tJ" = (
 /obj/machinery/light/small,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel/freezer,
+/area/mine/living_quarters)
+"tJ" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "tK" = (
 /obj/structure/ore_box,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "tT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "tZ" = (
 /obj/effect/decal/cleanable/fungus,
@@ -4472,14 +6346,22 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken6";
 	icon_state = "wood-broken6"
 	},
 /area/mine/laborcamp)
 "ug" = (
 /obj/item/cigbutt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4489,11 +6371,19 @@ turf/open/floor/plasteel{
 	id = "labor"
 	},
 /obj/effect/spawner/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/mine/laborcamp)
 "vq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating,
+/area/mine/laborcamp)
+"vq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "vw" = (
 /obj/structure/table,
@@ -4501,7 +6391,11 @@ turf/open/floor/plasteel,
 /obj/item/lighter/random{
 	pixel_x = 2
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "darkred"
 	},
@@ -4513,7 +6407,11 @@ turf/open/floor/plasteel{
 	},
 /obj/item/trash/syndi_cakes,
 /obj/effect/decal/cleanable/cobweb2,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkred"
 	},
@@ -4522,17 +6420,26 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "wg" = (
 /obj/machinery/mineral/equipment_vendor/labor,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"wg" = (
+/obj/machinery/mineral/equipment_vendor/labor,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "wh" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
 /area/mine/laborcamp)
 "wD" = (
@@ -4542,13 +6449,28 @@ turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 "wY" = (
 /obj/item/clothing/mask/gas/clown_hat,
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plasteel/dark,
+/area/mine/laborcamp)
+"wD" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"wY" = (
+/obj/item/clothing/mask/gas/clown_hat,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "xx" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -4557,7 +6479,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "xL" = (
 /obj/machinery/atmospherics/unary/outlet_injector/on{
@@ -4565,11 +6491,19 @@ turf/open/floor/plasteel,
 	name = "scrubber outlet"
 	},
 /obj/structure/lattice/catwalk,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/mine/laborcamp)
 "xR" = (
 /obj/effect/decal/cleanable/dirt,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/mine/laborcamp)
+"xR" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "browncorner"
 	},
@@ -4577,7 +6511,11 @@ turf/open/floor/plasteel{
 "ym" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "darkred"
 	},
@@ -4586,12 +6524,20 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "zo" = (
 /obj/structure/table,
 /obj/item/kitchen/utensil/fork,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "darkred"
 	},
@@ -4602,7 +6548,11 @@ turf/open/floor/plasteel{
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	broken = 1;
 	icon_state = "wood-broken"
 	},
@@ -4611,7 +6561,11 @@ turf/open/floor/wood{
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "AB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4619,7 +6573,11 @@ turf/open/floor/plasteel,
 	dir = 4
 	},
 /obj/machinery/hologram/holopad,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "BD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4637,11 +6595,19 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/living_quarters)
 "Cy" = (
 /obj/effect/decal/cleanable/dirt,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel,
+/area/mine/living_quarters)
+"Cy" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "brown"
 	},
@@ -4652,7 +6618,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4662,7 +6632,11 @@ turf/open/floor/plasteel{
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/cobweb2,
 /obj/effect/spawner/lootdrop/maintenance,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "De" = (
 /obj/effect/decal/cleanable/cobweb2,
@@ -4675,7 +6649,11 @@ turf/open/floor/plasteel/white,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken6";
 	icon_state = "wood-broken6"
 	},
@@ -4685,18 +6663,30 @@ turf/open/floor/wood{
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "Eg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"Eg" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Ej" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "El" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4707,7 +6697,11 @@ turf/open/floor/plasteel,
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4719,7 +6713,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Fe" = (
 /obj/structure/sink{
@@ -4732,13 +6730,21 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Fp" = (
 /obj/structure/bed,
 /obj/item/bedsheet/orange,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken7";
 	icon_state = "wood-broken7"
 	},
@@ -4758,7 +6764,11 @@ turf/open/floor/wood{
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/suit/storage/hazardvest,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4774,30 +6784,50 @@ turf/open/floor/plasteel{
 "GF" = (
 /obj/item/clothing/shoes/orange,
 /obj/effect/decal/cleanable/ash,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "Hi" = (
 /obj/structure/bedsheetbin,
 /obj/structure/table,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Hj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "HA" = (
 /obj/machinery/atmospherics/binary/pump/on,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"HA" = (
+/obj/machinery/atmospherics/binary/pump/on,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
 "HJ" = (
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4813,7 +6843,11 @@ turf/open/floor/plasteel{
 	dir = 5;
 	level = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -4822,11 +6856,19 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "Il" = (
 /obj/machinery/vending/cola/free,
 turf/open/floor/plasteel/dark,
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"Il" = (
+/obj/machinery/vending/cola/free,
+/turf/open/floor/plasteel/dark,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "IK" = (
 /obj/structure/toilet{
@@ -4835,14 +6877,22 @@ turf/open/floor/plasteel/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Jl" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "JP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4852,7 +6902,11 @@ turf/open/floor/plating,
 	dir = 1;
 	network = list("Labor Camp")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
@@ -4863,7 +6917,11 @@ turf/open/floor/wood{
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/canister/oxygen,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -4871,11 +6929,19 @@ turf/open/floor/plasteel{
 "JV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/sustenance,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/dark,
 /area/mine/laborcamp)
 "JZ" = (
 /obj/effect/decal/cleanable/dirt,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel/dark,
+/area/mine/laborcamp)
+"JZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Kb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4887,33 +6953,53 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Kl" = (
 /obj/structure/table,
 /obj/item/trash/plate,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "darkred"
 	},
 /area/mine/laborcamp)
 "KE" = (
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Lz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
 /obj/structure/lattice/catwalk,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "LO" = (
 /obj/effect/spawner/window,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "LQ" = (
 /obj/item/cigbutt,
@@ -4927,7 +7013,11 @@ turf/open/floor/plating,
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -4939,7 +7029,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "brown"
 	},
@@ -4951,14 +7045,22 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Ni" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Nj" = (
 /obj/machinery/door/airlock{
@@ -4967,12 +7069,20 @@ turf/open/floor/plating,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "ND" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken3";
 	icon_state = "wood-broken3"
 	},
@@ -4990,17 +7100,29 @@ turf/open/floor/wood{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "NZ" = (
 /obj/structure/toilet,
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/clothing/mask/balaclava,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
 /area/mine/laborcamp)
 "Oh" = (
 /obj/effect/decal/cleanable/dirt,
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel/white,
+/area/mine/laborcamp)
+"Oh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -5008,12 +7130,20 @@ turf/open/floor/plasteel{
 "OF" = (
 /obj/item/card/id/prisoner/random,
 /obj/effect/decal/cleanable/ash,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+=======
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+>>>>>>> Stashed changes
 /area/lavaland/surface/outdoors)
 "PQ" = (
 /obj/effect/spawner/window,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "QE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5027,7 +7157,11 @@ turf/open/floor/plating,
 	icon_state = "alarm0";
 	pixel_x = -22
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -5047,7 +7181,11 @@ turf/open/floor/plasteel{
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/suit/storage/hazardvest,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -5063,7 +7201,11 @@ turf/open/floor/plasteel{
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/suit/storage/hazardvest,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -5074,7 +7216,11 @@ turf/open/floor/plasteel{
 	c_tag = "Labor Camp Central";
 	network = list("Labor Camp")
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Tk" = (
 /obj/machinery/camera{
@@ -5086,7 +7232,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	broken = 1;
 	icon_state = "wood-broken"
 	},
@@ -5096,14 +7246,22 @@ turf/open/floor/wood{
 	dir = 4
 	},
 /obj/machinery/light/small,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Ts" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "brown"
 	},
@@ -5122,7 +7280,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "UQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5134,13 +7296,21 @@ turf/open/floor/plasteel,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "Vt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -5150,7 +7320,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Vz" = (
 /obj/machinery/door/airlock{
@@ -5162,20 +7336,32 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/production)
 "VJ" = (
 /obj/machinery/computer/secure_data{
 	icon_state = "computer";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "darkredcorners"
 	},
@@ -5183,14 +7369,22 @@ turf/open/floor/plasteel{
 "VN" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/wood{
+=======
+/turf/open/floor/wood{
+>>>>>>> Stashed changes
 	tag = "icon-wood-broken7";
 	icon_state = "wood-broken7"
 	},
 /area/mine/laborcamp)
 "VO" = (
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -5199,18 +7393,30 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/mine/laborcamp)
 "Ww" = (
 /obj/machinery/hologram/holopad,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/mine/laborcamp)
+"Ww" = (
+/obj/machinery/hologram/holopad,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/eva)
 "WJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "brown"
 	},
@@ -5220,12 +7426,20 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Xd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -5236,7 +7450,11 @@ turf/open/floor/plasteel{
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "YV" = (
 /obj/structure/chair{
@@ -5245,7 +7463,11 @@ turf/open/floor/plasteel,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "darkred"
 	},
@@ -5256,7 +7478,11 @@ turf/open/floor/plasteel{
 	},
 /obj/item/soap/homemade,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/white,
+=======
+/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "Zf" = (
 /obj/machinery/door/airlock{
@@ -5266,7 +7492,11 @@ turf/open/floor/plasteel/white,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/freezer,
+=======
+/turf/open/floor/plasteel/freezer,
+>>>>>>> Stashed changes
 /area/mine/living_quarters)
 "Zk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5274,14 +7504,22 @@ turf/open/floor/plasteel/freezer,
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 "ZZ" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/mine/laborcamp)
 
 (1,1,1) = {"

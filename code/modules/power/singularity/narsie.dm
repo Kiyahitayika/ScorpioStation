@@ -90,7 +90,11 @@
 
 	else if(isturf(A))
 		var/turf/T = A
+<<<<<<< Updated upstream
 		T.ChangeTurf(turf/open/floor/engine/cult)
+=======
+		T.ChangeTurf(/turf/open/floor/engine/cult)
+>>>>>>> Stashed changes
 
 /obj/singularity/narsie/mezzer()
 	for(var/mob/living/carbon/M in oviewers(8, src))

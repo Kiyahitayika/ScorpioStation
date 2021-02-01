@@ -3,8 +3,13 @@
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "x2"
 	var/list/result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plasteel = 1,
 	turf/open/floor/plating = 1,
+=======
+	/turf/open/floor/plasteel = 1,
+	/turf/open/floor/plating = 1,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/blood/splatter = 1,
 	/obj/effect/decal/cleanable/blood/oil = 1,
 	/obj/effect/decal/cleanable/fungus = 1)
@@ -37,25 +42,41 @@
 /obj/effect/spawner/random_spawners/blood_maybe
 	name = "blood maybe"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 20,
+=======
+	/turf/open/floor/plating = 20,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/blood/splatter = 1)
 
 /obj/effect/spawner/random_spawners/blood_often
 	name = "blood often"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 5,
+=======
+	/turf/open/floor/plating = 5,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/blood/splatter = 1)
 
 /obj/effect/spawner/random_spawners/oil_maybe
 	name = "oil maybe"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 20,
+=======
+	/turf/open/floor/plating = 20,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/blood/oil = 1)
 
 /obj/effect/spawner/random_spawners/oil_maybe
 	name = "oil often"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 5,
+=======
+	/turf/open/floor/plating = 5,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/blood/oil = 1)
 
 /obj/effect/spawner/random_spawners/wall_rusted_probably
@@ -73,37 +94,61 @@
 /obj/effect/spawner/random_spawners/cobweb_left_frequent
 	name = "cobweb left frequent"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 1,
+=======
+	/turf/open/floor/plating = 1,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/cobweb = 1)
 
 /obj/effect/spawner/random_spawners/cobweb_right_frequent
 	name = "cobweb right frequent"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 1,
+=======
+	/turf/open/floor/plating = 1,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/cobweb2 = 1)
 
 /obj/effect/spawner/random_spawners/cobweb_left_rare
 	name = "cobweb left rare"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 10,
+=======
+	/turf/open/floor/plating = 10,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/cobweb = 1)
 
 /obj/effect/spawner/random_spawners/cobweb_right_rare
 	name = "cobweb right rare"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 10,
+=======
+	/turf/open/floor/plating = 10,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/cobweb2 = 1)
 
 /obj/effect/spawner/random_spawners/dirt_frequent
 	name = "dirt frequent"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 1,
+=======
+	/turf/open/floor/plating = 1,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/dirt = 1)
 
 /obj/effect/spawner/random_spawners/dirt_rare
 	name = "dirt rare"
 	result = list(
+<<<<<<< Updated upstream
 	turf/open/floor/plating = 10,
+=======
+	/turf/open/floor/plating = 10,
+>>>>>>> Stashed changes
 	/obj/effect/decal/cleanable/dirt = 1)
 
 /obj/effect/spawner/random_spawners/fungus_maybe

@@ -11,7 +11,11 @@
 	plane = FLOOR_PLANE
 	var/number_of_rods = 1
 	canSmoothWith = list(/obj/structure/lattice,
+<<<<<<< Updated upstream
 						turf/open/floor,
+=======
+						/turf/open/floor,
+>>>>>>> Stashed changes
 						/turf/closed/wall,
 						/obj/structure/falsewall)
 	smooth = SMOOTH_MORE
@@ -102,7 +106,11 @@
 	name = "clockwork catwalk"
 	icon = 'icons/obj/smooth_structures/catwalk_clockwork.dmi'
 	canSmoothWith = list(/obj/structure/lattice,
+<<<<<<< Updated upstream
 	turf/open/floor,
+=======
+	/turf/open/floor,
+>>>>>>> Stashed changes
 	/turf/closed/wall,
 	/obj/structure/falsewall)
 	smooth = SMOOTH_MORE

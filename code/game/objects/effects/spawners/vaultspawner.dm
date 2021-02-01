@@ -22,7 +22,11 @@
 			if(i == lowBoundX || i == hiBoundX || j == lowBoundY || j == hiBoundY)
 				new /turf/closed/wall/vault(locate(i,j,z),type)
 			else
+<<<<<<< Updated upstream
 				var/turf/T = new turf/open/floor/vault(locate(i, j, z))
+=======
+				var/turf/T = new /turf/open/floor/vault(locate(i, j, z))
+>>>>>>> Stashed changes
 				T.icon_state = "[type]vault"
 
 	qdel(src)

@@ -1876,7 +1876,11 @@
 		log_admin("[key_name(M)] has been hit by Bluespace Artillery fired by [key_name(owner)]")
 		message_admins("[key_name_admin(M)] has been hit by Bluespace Artillery fired by [key_name_admin(owner)]")
 
+<<<<<<< Updated upstream
 		varturf/open/floor/T = get_turf(M)
+=======
+		var/turf/open/floor/T = get_turf(M)
+>>>>>>> Stashed changes
 		if(istype(T))
 			if(prob(80))
 				T.break_tile_to_plating()

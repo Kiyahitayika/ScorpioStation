@@ -1,9 +1,17 @@
+<<<<<<< Updated upstream
 turf/open/floor/plating/smatter
+=======
+/turf/open/floor/plating/smatter
+>>>>>>> Stashed changes
 	name = "supermatter floor"
 	icon_state = "smatter"
 	light_color = "#8A8A00"
 
+<<<<<<< Updated upstream
 turf/open/floor/plating/smatter/New()
+=======
+/turf/open/floor/plating/smatter/New()
+>>>>>>> Stashed changes
 	..()
 
 	var/r = rand( 0, 3 )
@@ -13,11 +21,19 @@ turf/open/floor/plating/smatter/New()
 		var/list/step_overlays = list("s" = NORTH, "n" = SOUTH, "w" = EAST, "e" = WEST)
 		for(var/direction in step_overlays)
 			var/turf/turf_to_check = get_step(src,step_overlays[direction])
+<<<<<<< Updated upstream
 			if((istype(turf_to_check,/turf/space) || istype(turf_to_check,turf/open/floor)) && !istype(turf_to_check,turf/open/floor/plating/smatter))
 				turf_to_check.overlays += image('icons/turf/floors.dmi', "smatter_side_[direction]")
 
 
 turf/open/floor/plating/smatter/Destroy()
+=======
+			if((istype(turf_to_check,/turf/space) || istype(turf_to_check,/turf/open/floor)) && !istype(turf_to_check,/turf/open/floor/plating/smatter))
+				turf_to_check.overlays += image('icons/turf/floors.dmi', "smatter_side_[direction]")
+
+
+/turf/open/floor/plating/smatter/Destroy()
+>>>>>>> Stashed changes
 	. = ..()
 
 	var/list/step_overlays = list("n" = NORTH, "s" = SOUTH, "e" = EAST, "w" = WEST)
@@ -26,7 +42,11 @@ turf/open/floor/plating/smatter/Destroy()
 		var/turf/space/T = get_step(src, step_overlays[direction])
 		if(istype(T))
 			for(var/next_direction in step_overlays)
+<<<<<<< Updated upstream
 				if(istype(get_step(T, step_overlays[next_direction]),turf/open/floor/plating/smatter))
+=======
+				if(istype(get_step(T, step_overlays[next_direction]),/turf/open/floor/plating/smatter))
+>>>>>>> Stashed changes
 					T.overlays += image('icons/turf/floors.dmi', "smatter_side_[next_direction]")
 
 /turf/closed/wall/smatter
@@ -56,7 +76,11 @@ turf/open/floor/plating/smatter/Destroy()
 		var/list/step_overlays = list("s" = NORTH, "n" = SOUTH, "w" = EAST, "e" = WEST)
 		for(var/direction in step_overlays)
 			var/turf/turf_to_check = get_step(src,step_overlays[direction])
+<<<<<<< Updated upstream
 			if(istype(turf_to_check,/turf/space) || istype(turf_to_check,turf/open/floor))
+=======
+			if(istype(turf_to_check,/turf/space) || istype(turf_to_check,/turf/open/floor))
+>>>>>>> Stashed changes
 				turf_to_check.overlays += image('icons/turf/walls.dmi', "smatter_side_[direction]")
 
 /turf/simulated/smatter/Destroy()

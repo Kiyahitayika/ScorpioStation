@@ -30,8 +30,13 @@
 		if(metal)
 			var/turf/T = get_turf(src)
 			if(istype(T, /turf/space) && !istype(T, /turf/space/transit))
+<<<<<<< Updated upstream
 				T.ChangeTurf(turf/open/floor/plating/metalfoam)
 				varturf/open/floor/plating/metalfoam/MF = get_turf(src)
+=======
+				T.ChangeTurf(/turf/open/floor/plating/metalfoam)
+				var/turf/open/floor/plating/metalfoam/MF = get_turf(src)
+>>>>>>> Stashed changes
 				MF.metal = metal
 				MF.update_icon()
 

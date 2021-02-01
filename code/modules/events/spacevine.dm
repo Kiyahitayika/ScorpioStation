@@ -101,7 +101,11 @@
 	hue = "#aa77aa"
 	quality = POSITIVE
 
+<<<<<<< Updated upstream
 turf/open/floor/vines
+=======
+/turf/open/floor/vines
+>>>>>>> Stashed changes
 	color = "#aa77aa"
 	icon_state = "vinefloor"
 	broken_states = list()
@@ -109,6 +113,7 @@ turf/open/floor/vines
 
 //All of this shit is useless for vines
 
+<<<<<<< Updated upstream
 turf/open/floor/vines/attackby()
 	return
 
@@ -133,11 +138,41 @@ turf/open/floor/vines/narsie_act()
 		ChangeTurf(baseturf) //nar sie eats this shit
 
 turf/open/floor/vines/singularity_pull(S, current_size)
+=======
+/turf/open/floor/vines/attackby()
+	return
+
+/turf/open/floor/vines/burn_tile()
+	return
+
+/turf/open/floor/vines/break_tile()
+	return
+
+/turf/open/floor/vines/make_plating()
+	return
+
+/turf/open/floor/vines/break_tile_to_plating()
+	return
+
+/turf/open/floor/vines/ex_act(severity)
+	if(severity < 3)
+		ChangeTurf(baseturf)
+
+/turf/open/floor/vines/narsie_act()
+	if(prob(20))
+		ChangeTurf(baseturf) //nar sie eats this shit
+
+/turf/open/floor/vines/singularity_pull(S, current_size)
+>>>>>>> Stashed changes
 	if(current_size >= STAGE_FIVE)
 		if(prob(50))
 			ChangeTurf(baseturf)
 
+<<<<<<< Updated upstream
 turf/open/floor/vines/ChangeTurf(turf/simulated/floor/T, defer_change = FALSE, keep_icon = TRUE, ignore_air = FALSE)
+=======
+/turf/open/floor/vines/ChangeTurf(turf/open/floor/T, defer_change = FALSE, keep_icon = TRUE, ignore_air = FALSE)
+>>>>>>> Stashed changes
 	. = ..()
 	//Do this *after* the turf has changed as qdel in spacevines will call changeturf again if it hasn't
 	for(var/obj/structure/spacevine/SV in src)
@@ -168,12 +203,20 @@ turf/open/floor/vines/ChangeTurf(turf/simulated/floor/T, defer_change = FALSE, k
 	var/turf/T = get_turf(holder)
 	if(is_type_in_typecache(T, coverable_turfs))
 		var/currtype = T.type
+<<<<<<< Updated upstream
 		T.ChangeTurf(turf/open/floor/vines)
+=======
+		T.ChangeTurf(/turf/open/floor/vines)
+>>>>>>> Stashed changes
 		T.baseturf = currtype
 
 /datum/spacevine_mutation/space_covering/on_deletion(obj/structure/spacevine/holder)
 	var/turf/T = get_turf(holder)
+<<<<<<< Updated upstream
 	if(istype(T, turf/open/floor/vines))
+=======
+	if(istype(T, /turf/open/floor/vines))
+>>>>>>> Stashed changes
 		T.ChangeTurf(T.baseturf)
 
 /datum/spacevine_mutation/bluespace

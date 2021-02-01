@@ -51,7 +51,11 @@
 /obj/structure/sign/poster/official/nanotrasen_logo
 
 // from: code/game/machinery/computer/HolodeckControl.dm
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/space
+=======
+/turf/open/floor/holofloor/space
+>>>>>>> Stashed changes
 
 //------------------------------------------------------------------------------
 // upstream_shim.dm

@@ -1,5 +1,9 @@
 /datum/mapGeneratorModule/bottomLayer/lavaland_default
+<<<<<<< Updated upstream
 	spawnableTurfs = list(turf/open/floor/plating/asteroid/basalt/lava_land_surface = 100)
+=======
+	spawnableTurfs = list(/turf/open/floor/plating/asteroid/basalt/lava_land_surface = 100)
+>>>>>>> Stashed changes
 
 /datum/mapGeneratorModule/bottomLayer/lavaland_mineral
 	spawnableTurfs = list(/turf/closed/mineral/random/volcanic = 100)

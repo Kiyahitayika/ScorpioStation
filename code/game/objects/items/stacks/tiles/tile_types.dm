@@ -49,7 +49,11 @@
 	desc = "A patch of grass like they often use on golf courses"
 	icon_state = "tile_grass"
 	origin_tech = "biotech=1"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/grass
+=======
+	turf_type = /turf/open/floor/grass
+>>>>>>> Stashed changes
 	resistance_flags = FLAMMABLE
 
 //Wood
@@ -60,7 +64,11 @@
 	desc = "an easy to fit wood floor tile"
 	icon_state = "tile-wood"
 	origin_tech = "biotech=1"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/wood
+=======
+	turf_type = /turf/open/floor/wood
+>>>>>>> Stashed changes
 	resistance_flags = FLAMMABLE
 
 //Carpets
@@ -69,7 +77,11 @@
 	singular_name = "carpet"
 	desc = "A piece of carpet. It is the same size as a floor tile"
 	icon_state = "tile-carpet"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/carpet
+=======
+	turf_type = /turf/open/floor/carpet
+>>>>>>> Stashed changes
 	resistance_flags = FLAMMABLE
 
 /obj/item/stack/tile/carpet/twenty
@@ -78,7 +90,11 @@
 /obj/item/stack/tile/carpet/black
 	name = "black carpet"
 	icon_state = "tile-carpet-black"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/carpet/black
+=======
+	turf_type = /turf/open/floor/carpet/black
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/carpet/black/twenty
 	amount = 20
@@ -96,7 +112,11 @@
 	throw_speed = 3
 	throw_range = 7
 	flags = CONDUCT
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/plasteel
+=======
+	turf_type = /turf/open/floor/plasteel
+>>>>>>> Stashed changes
 	mineralType = "metal"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 70)
 	resistance_flags = FIRE_PROOF
@@ -111,7 +131,11 @@
 	force = 3
 	throwforce = 5
 	attack_verb = list("bashed", "battered", "bludgeoned", "thrashed", "smashed")
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/light
+=======
+	turf_type = /turf/open/floor/light
+>>>>>>> Stashed changes
 
 //Fakespace
 /obj/item/stack/tile/fakespace
@@ -119,7 +143,11 @@
 	singular_name = "astral carpet"
 	desc = "A piece of carpet with a convincing star pattern."
 	icon_state = "tile_space"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/fakespace
+=======
+	turf_type = /turf/open/floor/fakespace
+>>>>>>> Stashed changes
 	resistance_flags = FLAMMABLE
 	merge_type = /obj/item/stack/tile/fakespace
 
@@ -132,7 +160,11 @@
 	singular_name = "high-traction floor tile"
 	desc = "A high-traction floor tile. It feels rubbery in your hand."
 	icon_state = "tile_noslip"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/noslip
+=======
+	turf_type = /turf/open/floor/noslip
+>>>>>>> Stashed changes
 	origin_tech = "materials=3"
 	merge_type = /obj/item/stack/tile/noslip
 
@@ -145,28 +177,44 @@
 	singular_name = "pod floor tile"
 	desc = "A grooved floor tile."
 	icon_state = "tile_pod"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/pod
+=======
+	turf_type = /turf/open/floor/pod
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/pod/light
 	name = "light pod floor tile"
 	singular_name = "light pod floor tile"
 	desc = "A lightly colored grooved floor tile."
 	icon_state = "tile_podlight"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/pod
+=======
+	turf_type = /turf/open/floor/pod
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/pod/dark
 	name = "dark pod floor tile"
 	singular_name = "dark pod floor tile"
 	desc = "A darkly colored grooved floor tile."
 	icon_state = "tile_poddark"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/pod/dark
+=======
+	turf_type = /turf/open/floor/pod/dark
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/arcade_carpet
 	name = "arcade carpet"
 	singular_name = "arcade carpet"
 	desc= "A piece of carpet with a retro spaceship pattern."
 	icon_state = "tile_space"
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/carpet/arcade
+=======
+	turf_type = /turf/open/floor/carpet/arcade
+>>>>>>> Stashed changes
 	merge_type = /obj/item/stack/tile/arcade_carpet
 	resistance_flags = FLAMMABLE
 

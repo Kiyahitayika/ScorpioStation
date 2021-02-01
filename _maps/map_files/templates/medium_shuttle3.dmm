@@ -8,7 +8,11 @@
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -26,7 +30,11 @@
 	icon_state = "heater";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -52,7 +60,11 @@
 	})
 "g" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (SOUTHEAST)";
 	icon_state = "wall3";
 	dir = 6
@@ -67,7 +79,11 @@
 	})
 "i" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (SOUTHWEST)";
 	icon_state = "wall3";
 	dir = 10
@@ -103,7 +119,11 @@
 	icon_state = "propulsion";
 	tag = "icon-propulsion (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -113,7 +133,11 @@
 	icon_state = "heater";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -129,7 +153,11 @@
 	icon_state = "heater";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -139,13 +167,21 @@
 	icon_state = "propulsion";
 	tag = "icon-propulsion (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
 "s" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (NORTHEAST)";
 	icon_state = "wall3";
 	dir = 5
@@ -161,7 +197,11 @@
 	})
 "u" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (NORTHWEST)";
 	icon_state = "wall3";
 	dir = 9
@@ -260,13 +300,21 @@
 	})
 "F" = (
 /obj/structure/shuttle/engine/heater,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
 "G" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})

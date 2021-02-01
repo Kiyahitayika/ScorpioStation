@@ -15,7 +15,11 @@
 	..()
 
 /datum/mapGeneratorModule/river
+<<<<<<< Updated upstream
 	var/river_type = turf/open/floor/plating/lava/smooth
+=======
+	var/river_type = /turf/open/floor/plating/lava/smooth
+>>>>>>> Stashed changes
 	var/river_nodes = 4
 
 /datum/mapGeneratorModule/river/generate()

@@ -8104,7 +8104,11 @@
 "lB" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8144,7 +8148,11 @@
 	icon_state = "burst_r";
 	tag = "icon-burst_r (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8207,7 +8215,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8338,7 +8350,11 @@
 	name = "MO19 Arrivals"
 	})
 "lW" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
@@ -8350,7 +8366,11 @@
 "lX" = (
 /obj/structure/table,
 /obj/item/storage/lockbox,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8358,7 +8378,11 @@
 "lY" = (
 /obj/structure/table,
 /obj/item/radio/off,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8379,7 +8403,11 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8393,13 +8421,21 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
 	})
 "mc" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8408,7 +8444,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8421,14 +8461,22 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
 	})
 "mf" = (
 /obj/structure/closet/emcloset,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8439,7 +8487,11 @@
 	icon_state = "burst_l";
 	tag = "icon-burst_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8560,7 +8612,11 @@
 "mq" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8572,7 +8628,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8580,7 +8640,11 @@
 	name = "MO19 Arrivals"
 	})
 "ms" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8591,7 +8655,11 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8603,7 +8671,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8615,7 +8687,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8764,7 +8840,11 @@
 	})
 "mH" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8773,7 +8853,11 @@
 /obj/machinery/door/airlock/shuttle{
 	name = "Shuttle Cockpit"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8784,7 +8868,11 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8801,7 +8889,11 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8812,7 +8904,11 @@
 /obj/machinery/door/airlock/shuttle{
 	name = "Shuttle Airlock"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8933,7 +9029,11 @@
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -8943,7 +9043,11 @@
 	dir = 4
 	},
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -8964,7 +9068,11 @@
 	dir = 4
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/awaycontent/a1{
@@ -9027,7 +9135,11 @@
 	name = "MO19 Arrivals"
 	})
 "nf" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f10";
 	dir = 2
@@ -9038,7 +9150,11 @@
 	})
 "ng" = (
 /obj/structure/filingcabinet,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -9048,7 +9164,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"
@@ -9059,7 +9179,11 @@
 	pixel_y = -30
 	},
 /obj/machinery/light/small,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaycontent/a1{
 	has_gravity = 1;
 	name = "MO19 Arrivals"

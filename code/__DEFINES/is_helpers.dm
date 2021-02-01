@@ -49,7 +49,11 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 
 #define isspaceturf(A) istype(A, /turf/space)
 
+<<<<<<< Updated upstream
 #define isfloorturf(A) istype(A, turf/open/floor)
+=======
+#define isfloorturf(A) istype(A, /turf/open/floor)
+>>>>>>> Stashed changes
 
 #define isunsimulatedturf(A) istype(A, /turf/unsimulated)
 
@@ -59,9 +63,15 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 
 #define ismineralturf(A) istype(A, /turf/closed/mineral)
 
+<<<<<<< Updated upstream
 #define islava(A) (istype(A, turf/open/floor/plating/lava))
 
 #define ischasm(A) (istype(A, turf/open/floor/chasm))
+=======
+#define islava(A) (istype(A, /turf/open/floor/plating/lava))
+
+#define ischasm(A) (istype(A, /turf/open/floor/chasm))
+>>>>>>> Stashed changes
 
 //Mobs
 #define isliving(A) (istype(A, /mob/living))

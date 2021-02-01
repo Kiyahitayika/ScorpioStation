@@ -27,13 +27,18 @@
 /area/ruin/powered)
 "f" = (
 /obj/structure/closet/crate/secure/loot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/ruin/powered)
 "g" = (
 /obj/structure/table,
 /obj/machinery/door_control{
 	id = "mecha cargo"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/ruin/powered)
 "h" = (
@@ -54,16 +59,46 @@
 /area/ruin/powered)
 "l" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"h" = (
+/obj/structure/table,
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"i" = (
+/obj/machinery/computer/shuttle,
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"j" = (
+/obj/effect/decal/cleanable/vomit,
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"k" = (
+/obj/effect/decal/remains/human,
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"l" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/ruin/powered)
 "m" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/ruin/powered)
 "n" = (
 /obj/machinery/computer/mecha,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/ruin/powered)
+"n" = (
+/obj/machinery/computer/mecha,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/ruin/powered)
 "o" = (
 /turf/closed/shuttle/wall{
@@ -73,7 +108,11 @@
 /area/ruin/powered)
 "p" = (
 /obj/machinery/door/airlock/hatch,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor3";
 	icon_state = "floor3"
 	},
@@ -85,48 +124,76 @@
 	},
 /area/ruin/powered)
 "r" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor3";
 	icon_state = "floor3"
 	},
 /area/ruin/powered)
 "s" = (
 /obj/structure/mecha_wreckage/phazon,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "t" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "u" = (
 /obj/structure/mecha_wreckage/ripley/firefighter,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "v" = (
 /obj/structure/mecha_wreckage/ripley,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "w" = (
 /obj/effect/decal/cleanable/blood/oil,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "x" = (
 /obj/effect/decal/cleanable/blood/gibs/robot/up,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -137,21 +204,33 @@
 	name = "Cargo Bay Door";
 	tag = ""
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor3";
 	icon_state = "floor3"
 	},
 /area/ruin/powered)
 "z" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
 /area/ruin/powered)
 "A" = (
 /obj/structure/mecha_wreckage/durand,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -184,7 +263,11 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/blood/gibs/robot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -195,7 +278,11 @@
 /area/ruin/powered)
 "J" = (
 /obj/structure/mecha_wreckage/odysseus,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -206,7 +293,11 @@
 /area/space/nearstation)
 "L" = (
 /obj/structure/mecha_wreckage/gygax,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor3";
 	icon_state = "floor3"
 	},
@@ -238,7 +329,11 @@
 /area/ruin/powered)
 "R" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered)
 "U" = (
 /obj/item/gps/ruin,

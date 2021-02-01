@@ -54,7 +54,11 @@
 /obj/structure/rack/holorack,
 /obj/item/clothing/under/dress/dress_saloon,
 /obj/item/clothing/head/hairflower,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-cult";
 	icon_state = "cult";
 	dir = 2
@@ -72,7 +76,11 @@ turf/open/floor/holofloor{
 "al" = (
 /obj/effect/landmark/costume/random,
 /obj/structure/rack/holorack,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-cult";
 	icon_state = "cult";
 	dir = 2
@@ -80,8 +88,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "am" = (
 /obj/structure/flora/ausbushes/brflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding2 (EAST)";
 	icon_state = "wood_siding2";
 	dir = 4
@@ -102,7 +115,11 @@ turf/open/floor/holofloor{
 "ao" = (
 /obj/structure/chair/stool/holostool,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -119,7 +136,11 @@ turf/open/floor/holofloor{
 	},
 /area/space)
 "ar" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -128,7 +149,11 @@ turf/open/floor/holofloor{
 "as" = (
 /obj/structure/table/holotable,
 /obj/machinery/readybutton,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "red"
 	},
@@ -142,7 +167,11 @@ turf/open/floor/holofloor{
 "av" = (
 /obj/structure/table/holotable/wood,
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -150,15 +179,24 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aw" = (
 /obj/structure/flora/ausbushes/ywflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding2 (EAST)";
 	icon_state = "wood_siding2";
 	dir = 4
 	},
 /area/holodeck/source_picnicarea)
 "ax" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "engine";
 	name = "Holodeck Projector Floor"
 	},
@@ -170,13 +208,21 @@ turf/open/floor/holofloor{
 	},
 /area/vox_station)
 "az" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "engine";
 	name = "Holodeck Projector Floor"
 	},
 /area/holodeck/source_plating)
 "aA" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "engine";
 	name = "Burn-Mix Floor";
 	nitrogen = 0;
@@ -187,16 +233,27 @@ turf/open/floor/holofloor{
 /area/holodeck/source_burntest)
 "aB" = (
 /obj/machinery/door/airlock/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/centcom/evac)
 "aC" = (
 turf/open/floor/holofloor{
+=======
+//turf/open/shuttle/plating,
+/area/centcom/evac)
+"aC" = (
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
 /area/holodeck/source_emptycourt)
 "aD" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "red"
 	},
@@ -212,8 +269,13 @@ turf/open/floor/holofloor{
 /area/space)
 "aF" = (
 /obj/structure/flora/ausbushes/grassybush,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding5";
 	icon_state = "wood_siding5";
 	dir = 2
@@ -221,8 +283,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aG" = (
 /obj/structure/flora/ausbushes/grassybush,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding9";
 	icon_state = "wood_siding9";
 	dir = 2
@@ -230,7 +297,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aH" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet7-3 (EAST)";
 	icon_state = "carpet7-3";
 	dir = 4
@@ -250,7 +321,11 @@ turf/open/floor/holofloor{
 /area/vox_station)
 "aL" = (
 /obj/structure/flora/ausbushes/fullgrass,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -258,7 +333,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_desert)
 "aM" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet15-15 (EAST)";
 	icon_state = "carpet15-15";
 	dir = 4
@@ -268,7 +347,11 @@ turf/open/floor/holofloor{
 /turf/space,
 /area/space)
 "aO" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-cult";
 	icon_state = "cult";
 	dir = 2
@@ -278,7 +361,11 @@ turf/open/floor/holofloor{
 /obj/effect/landmark{
 	name = "Holocarp Spawn"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "engine";
 	name = "Holodeck Projector Floor"
 	},
@@ -287,7 +374,11 @@ turf/open/floor/holofloor{
 /obj/effect/landmark{
 	name = "Atmospheric Test Start"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "engine";
 	name = "Burn-Mix Floor";
 	nitrogen = 0;
@@ -297,14 +388,22 @@ turf/open/floor/holofloor{
 	},
 /area/holodeck/source_burntest)
 "aR" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
 /area/holodeck/source_emptycourt)
 "aS" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet11-12 (EAST)";
 	icon_state = "carpet11-12";
 	dir = 4
@@ -312,8 +411,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "aT" = (
 /obj/structure/flora/ausbushes/grassybush,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding6";
 	icon_state = "wood_siding6";
 	dir = 2
@@ -321,8 +425,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aU" = (
 /obj/structure/flora/ausbushes/grassybush,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding10";
 	icon_state = "wood_siding10";
 	dir = 2
@@ -330,21 +439,33 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aV" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet5-1 (EAST)";
 	icon_state = "carpet5-1";
 	dir = 4
 	},
 /area/holodeck/source_theatre)
 "aW" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "red"
 	},
 /area/holodeck/source_emptycourt)
 "aX" = (
 /obj/structure/flora/ausbushes/sparsegrass,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -352,7 +473,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_desert)
 "aY" = (
 /obj/effect/decal/cleanable/dirt,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid";
 	icon_state = "asteroid";
 	dir = 2
@@ -360,7 +485,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "aZ" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet13-5 (EAST)";
 	icon_state = "carpet13-5";
 	dir = 4
@@ -368,7 +497,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "ba" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet9-4 (EAST)";
 	icon_state = "carpet9-4";
 	dir = 4
@@ -376,7 +509,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "bb" = (
 /obj/structure/table/holotable/wood,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-grimy";
 	icon_state = "grimy";
 	dir = 2
@@ -384,14 +521,22 @@ turf/open/floor/holofloor{
 /area/holodeck/source_meetinghall)
 "bc" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet6-0 (EAST)";
 	icon_state = "carpet6-0";
 	dir = 4
 	},
 /area/holodeck/source_meetinghall)
 "bd" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid7";
 	icon_state = "asteroid7";
 	dir = 2
@@ -405,7 +550,11 @@ turf/open/floor/holofloor{
 /area/centcom/specops)
 "bf" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet14-0 (EAST)";
 	icon_state = "carpet14-0";
 	dir = 4
@@ -413,7 +562,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_meetinghall)
 "bg" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet10-0 (EAST)";
 	icon_state = "carpet10-0";
 	dir = 4
@@ -429,7 +582,11 @@ turf/open/floor/holofloor{
 /area/vox_station)
 "bj" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet7-0 (EAST)";
 	icon_state = "carpet7-0";
 	dir = 4
@@ -446,21 +603,33 @@ turf/open/floor/holofloor{
 /area/vox_station)
 "bm" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet15-0 (EAST)";
 	icon_state = "carpet15-0";
 	dir = 4
 	},
 /area/holodeck/source_meetinghall)
 "bn" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet6-2 (EAST)";
 	icon_state = "carpet6-2";
 	dir = 4
 	},
 /area/holodeck/source_theatre)
 "bo" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood (EAST)";
 	icon_state = "wood";
 	dir = 4
@@ -468,14 +637,22 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "bp" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet11-0 (EAST)";
 	icon_state = "carpet11-0";
 	dir = 4
 	},
 /area/holodeck/source_meetinghall)
 "bq" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet14-10 (EAST)";
 	icon_state = "carpet14-10";
 	dir = 4
@@ -483,7 +660,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "br" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet5-0 (EAST)";
 	icon_state = "carpet5-0";
 	dir = 4
@@ -491,7 +672,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_meetinghall)
 "bs" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet13-0 (EAST)";
 	icon_state = "carpet13-0";
 	dir = 4
@@ -499,17 +684,28 @@ turf/open/floor/holofloor{
 /area/holodeck/source_meetinghall)
 "bt" = (
 /obj/structure/flora/ausbushes/fullgrass,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
 "bu" = (
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/area/holodeck/source_picnicarea)
+"bu" = (
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
 /area/holodeck/source_emptycourt)
 "bv" = (
 /obj/structure/chair/stool/holostool,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet9-0 (EAST)";
 	icon_state = "carpet9-0";
 	dir = 4
@@ -517,8 +713,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_meetinghall)
 "bw" = (
 /obj/structure/flora/ausbushes/brflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding1";
 	icon_state = "wood_siding1";
 	dir = 2
@@ -526,8 +727,13 @@ turf/open/floor/holofloor{
 /area/holodeck/source_picnicarea)
 "bx" = (
 /obj/structure/flora/ausbushes/ywflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood_siding1";
 	icon_state = "wood_siding1";
 	dir = 2
@@ -572,14 +778,22 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership)
 "bC" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "green"
 	},
 /area/holodeck/source_emptycourt)
 "bD" = (
 /obj/machinery/porta_turret/syndicate/pod,
+<<<<<<< Updated upstream
 turf/open/floor/pod,
+=======
+/turf/open/floor/pod,
+>>>>>>> Stashed changes
 /turf/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
@@ -588,7 +802,11 @@ turf/open/floor/pod,
 /area/shuttle/assault_pod)
 "bE" = (
 /obj/machinery/porta_turret/syndicate/pod,
+<<<<<<< Updated upstream
 turf/open/floor/pod,
+=======
+/turf/open/floor/pod,
+>>>>>>> Stashed changes
 /turf/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
@@ -597,7 +815,11 @@ turf/open/floor/pod,
 /area/shuttle/assault_pod)
 "bF" = (
 /obj/machinery/porta_turret/syndicate/pod,
+<<<<<<< Updated upstream
 turf/open/floor/pod,
+=======
+/turf/open/floor/pod,
+>>>>>>> Stashed changes
 /turf/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-diagonalWall3";
@@ -607,7 +829,11 @@ turf/open/floor/pod,
 /area/shuttle/assault_pod)
 "bG" = (
 /obj/machinery/porta_turret/syndicate/pod,
+<<<<<<< Updated upstream
 turf/open/floor/pod,
+=======
+/turf/open/floor/pod,
+>>>>>>> Stashed changes
 /turf/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
@@ -616,11 +842,19 @@ turf/open/floor/pod,
 /area/shuttle/assault_pod)
 "bH" = (
 /obj/structure/flora/ausbushes/brflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
 "bI" = (
 /obj/structure/holowindow,
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor/grass,
+/area/holodeck/source_picnicarea)
+"bI" = (
+/obj/structure/holowindow,
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
@@ -655,7 +889,11 @@ turf/open/floor/holofloor{
 	},
 /area/space)
 "bM" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_emptycourt)
 "bN" = (
 /obj/structure/flora/grass/brown,
@@ -694,7 +932,11 @@ turf/open/floor/holofloor,
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "blue"
 	},
@@ -703,7 +945,11 @@ turf/open/floor/holofloor{
 /turf/space/transit/horizontal,
 /area/space)
 "bX" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "green"
 	},
@@ -712,7 +958,11 @@ turf/open/floor/holofloor{
 /turf/closed/ind_wall,
 /area/space)
 "ca" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "green"
 	},
@@ -759,7 +1009,11 @@ turf/open/floor/holofloor{
 	},
 /area/space)
 "ch" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/space,
+=======
+/turf/open/floor/holofloor/space,
+>>>>>>> Stashed changes
 /area/holodeck/source_space)
 "cj" = (
 /turf/closed/ind_wall,
@@ -768,20 +1022,32 @@ turf/open/floor/holofloor/space,
 /turf/space/transit,
 /area/space)
 "cl" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
 /area/holodeck/source_snowfield)
 "cm" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-grimy";
 	icon_state = "grimy";
 	dir = 2
 	},
 /area/holodeck/source_meetinghall)
 "cn" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "red"
 	},
@@ -800,7 +1066,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/ferry)
 "cq" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "red"
 	},
@@ -811,13 +1081,21 @@ turf/open/floor/holofloor{
 	},
 /area/space)
 "cu" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
 /area/holodeck/source_thunderdomecourt)
 "cw" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
@@ -825,7 +1103,11 @@ turf/open/floor/holofloor{
 "cx" = (
 /obj/structure/table/holotable,
 /obj/item/clothing/gloves/boxing/hologlove,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "red"
 	},
@@ -843,33 +1125,53 @@ turf/open/floor/holofloor{
 /area/space)
 "cA" = (
 /obj/structure/flora/grass/both,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
 /area/holodeck/source_snowfield)
 "cB" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid3 (EAST)";
 	icon_state = "asteroid3";
 	dir = 4
 	},
 /area/holodeck/source_desert)
 "cD" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpetsymbol (SOUTHEAST)";
 	icon_state = "carpetsymbol";
 	dir = 6
 	},
 /area/holodeck/source_meetinghall)
 "cE" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
 /area/holodeck/source_basketball)
 "cF" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
@@ -890,7 +1192,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/evac)
 "cL" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
@@ -910,13 +1216,21 @@ turf/open/floor/holofloor{
 /area/space)
 "cO" = (
 /obj/structure/flora/tree/pine,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
 /area/holodeck/source_snowfield)
 "cQ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
@@ -1085,32 +1399,52 @@ turf/open/floor/holofloor{
 /turf/unsimulated/beach/sand,
 /area/ninja/holding)
 "dj" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
 /area/holodeck/source_knightarena)
 "dk" = (
 /obj/structure/flora/grass/green,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
 /area/holodeck/source_snowfield)
 "dp" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "red"
 	},
 /area/holodeck/source_basketball)
 "dq" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "red"
 	},
 /area/holodeck/source_basketball)
 "dr" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "red"
 	},
@@ -1160,7 +1494,11 @@ turf/open/floor/holofloor{
 /area/ninja/holding)
 "dA" = (
 /obj/structure/flora/tree/dead,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
@@ -1190,7 +1528,11 @@ turf/open/floor/holofloor{
 	},
 /area/tdome/arena_source)
 "dG" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "green"
 	},
@@ -1220,25 +1562,41 @@ turf/open/floor/holofloor{
 	},
 /area/tdome/arena)
 "dJ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "dK" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "dL" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
 /area/holodeck/source_boxingcourt)
 "dO" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "green"
 	},
@@ -1321,13 +1679,21 @@ turf/open/floor/holofloor{
 /turf/space/transit,
 /area/space)
 "dY" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "dZ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "green"
 	},
@@ -1394,13 +1760,21 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership)
 "el" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "em" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	icon_state = "sand";
 	name = "Soft sand"
 	},
@@ -1457,7 +1831,11 @@ turf/open/floor/holofloor{
 	},
 /area/ninja/holding)
 "ev" = (
+<<<<<<< Updated upstream
 turf/open/floor/beach/sand,
+=======
+/turf/open/floor/beach/sand,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "ew" = (
 /obj/machinery/vending/snack,
@@ -1497,41 +1875,69 @@ turf/open/floor/beach/sand,
 	},
 /area/syndicate_mothership)
 "eB" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "eC" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "eH" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "green"
 	},
 /area/holodeck/source_boxingcourt)
 "eI" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_basketball)
 "eJ" = (
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
 /area/holodeck/source_thunderdomecourt)
 "eK" = (
 /obj/effect/overlay/palmtree_r,
 turf/open/floor/beach/sand,
+=======
+/turf/open/floor/holofloor,
+/area/holodeck/source_thunderdomecourt)
+"eK" = (
+/obj/effect/overlay/palmtree_r,
+/turf/open/floor/beach/sand,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "eL" = (
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "green"
 	},
@@ -1542,13 +1948,21 @@ turf/open/floor/holofloor{
 	icon_state = "boxinggreen";
 	item_state = "boxinggreen"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "green"
 	},
 /area/holodeck/source_boxingcourt)
 "eN" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_thunderdomecourt)
 "eO" = (
 /obj/machinery/vending/cigarette,
@@ -1565,7 +1979,11 @@ turf/open/floor/holofloor,
 	},
 /area/ninja/holding)
 "eQ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_boxingcourt)
 "eR" = (
 /obj/structure/chair/stool,
@@ -1957,7 +2375,11 @@ turf/open/floor/holofloor,
 	},
 /area/tdome/arena_source)
 "fN" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 8
 	},
@@ -1972,7 +2394,11 @@ turf/open/floor/plasteel{
 	},
 /area/tdome/arena_source)
 "fP" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "green";
 	dir = 4
 	},
@@ -2003,7 +2429,11 @@ turf/open/floor/plasteel{
 	},
 /area/wizard_station)
 "fT" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "green"
 	},
@@ -2032,7 +2462,11 @@ turf/open/floor/holofloor{
 	pixel_x = -32;
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -2151,7 +2585,11 @@ turf/open/floor/holofloor{
 	id = "flash";
 	name = "Thunderdome Flash"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena_source)
 "gl" = (
 /obj/item/flag/wiz,
@@ -2176,7 +2614,11 @@ turf/open/floor/bluegrid,
 	network = list("Thunderdome");
 	c_tag = "Thunderdome Arena"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena_source)
 "go" = (
 /turf/closed/ind_wall/fakeglass{
@@ -2201,7 +2643,11 @@ turf/open/floor/bluegrid,
 /area/wizard_station)
 "gr" = (
 /obj/item/beach_ball,
+<<<<<<< Updated upstream
 turf/open/floor/beach/sand,
+=======
+/turf/open/floor/beach/sand,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "gs" = (
 /turf/closed/ind_wall/fakeglass{
@@ -2338,7 +2784,11 @@ turf/open/floor/beach/sand,
 /area/tdome/arena_source)
 "gK" = (
 /obj/item/beach_ball/holoball,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_basketball)
 "gL" = (
 /mob/living/simple_animal/hostile/creature{
@@ -3018,7 +3468,11 @@ turf/open/floor/holofloor,
 	opacity = 1;
 	req_one_access_txt = "150"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/shuttle/assault_pod)
 "iR" = (
 /turf/closed/ind_wall/fakeglass{
@@ -3028,7 +3482,11 @@ turf/open/floor/plating,
 	},
 /area/syndicate_mothership)
 "iS" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -3046,17 +3504,29 @@ turf/open/floor/plating,
 	},
 /area/syndicate_mothership)
 "iV" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/syndicate_mothership)
 "iW" = (
 /obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/syndicate_mothership)
 "iX" = (
 /obj/machinery/light,
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+/area/syndicate_mothership)
+"iX" = (
+/obj/machinery/light,
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/syndicate_mothership)
 "iY" = (
 /mob/living/simple_animal/pet/cat/Syndi,
@@ -3079,10 +3549,17 @@ turf/open/floor/plating,
 /area/tdome/arena)
 "jb" = (
 /obj/machinery/igniter/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/tdome/arena)
 "jc" = (
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/tdome/arena)
+"jc" = (
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/tdome/arena)
 "jd" = (
 /turf/closed/ind_wall/fakeglass{
@@ -3190,7 +3667,11 @@ turf/open/floor/plasteel,
 	},
 /area/syndicate_mothership)
 "jp" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/tdome/arena_source)
 "jq" = (
 /obj/machinery/light/spot{
@@ -3230,7 +3711,11 @@ turf/open/floor/plasteel,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -3251,7 +3736,11 @@ turf/open/floor/plasteel,
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -3508,7 +3997,11 @@ turf/open/floor/plasteel,
 	req_one_access_txt = "150"
 	},
 /obj/docking_port/mobile/assault_pod,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/shuttle/assault_pod)
 "kn" = (
 /obj/machinery/sleeper/syndie{
@@ -3596,7 +4089,11 @@ turf/open/floor/plating,
 /turf/open/ind_floor/abductor,
 /area/abductor_ship)
 "kB" = (
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena_source)
 "kC" = (
 /obj/structure/chair/stool,
@@ -3967,11 +4464,19 @@ turf/open/floor/bluegrid,
 /area/tdome/arena_source)
 "lD" = (
 /obj/machinery/igniter/on,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel,
 /area/tdome/arena_source)
 "lE" = (
 /obj/machinery/light/spot,
 turf/open/floor/plasteel,
+=======
+/turf/open/floor/plasteel,
+/area/tdome/arena_source)
+"lE" = (
+/obj/machinery/light/spot,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/tdome/arena_source)
 "lF" = (
 /turf/closed/ind_wall/abductor{
@@ -4542,7 +5047,11 @@ turf/open/floor/plasteel,
 	id_tag = "CCGAMMA";
 	name = "Gamma Security"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "dark"
 	},
 /area/centcom/gamma)
@@ -4635,7 +5144,11 @@ turf/open/floor/plasteel{
 /obj/machinery/sleeper{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/centcom/evac)
@@ -5007,7 +5520,11 @@ turf/open/floor/plasteel{
 	},
 /area/shuttle/gamma/space)
 "og" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -5026,14 +5543,22 @@ turf/open/floor/plasteel{
 /area/shuttle/gamma/space)
 "oj" = (
 /obj/effect/spawner/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 1
 	},
 /area/centcom/gamma)
 "ok" = (
 /obj/machinery/porta_turret/centcom/pulse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 9
 	},
@@ -5046,7 +5571,11 @@ turf/open/floor/plasteel{
 	},
 /obj/structure/table/reinforced,
 /obj/item/paper,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 1
 	},
@@ -5055,7 +5584,11 @@ turf/open/floor/plasteel{
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 1
 	},
@@ -5073,7 +5606,11 @@ turf/open/floor/plasteel{
 /area/centcom/specops)
 "op" = (
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -5081,7 +5618,11 @@ turf/open/floor/plasteel{
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 1
 	},
@@ -5095,14 +5636,22 @@ turf/open/floor/plasteel{
 	pixel_x = 0;
 	req_access = list(114)
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 1
 	},
 /area/centcom/gamma)
 "os" = (
 /obj/machinery/porta_turret/centcom/pulse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 5
 	},
@@ -5211,7 +5760,11 @@ turf/open/floor/plasteel{
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5228,13 +5781,21 @@ turf/open/floor/plasteel{
 /obj/machinery/ai_status_display{
 	pixel_y = 32
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
 "oD" = (
 /obj/effect/spawner/window/reinforced,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 8
 	},
@@ -5265,7 +5826,11 @@ turf/open/floor/plasteel{
 	},
 /area/centcom/specops)
 "oH" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 8
 	},
@@ -5291,7 +5856,11 @@ turf/open/floor/plasteel{
 /obj/item/gun/projectile/automatic/pistol{
 	name = "pistol"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5337,18 +5906,30 @@ turf/open/floor/plasteel{
 	opacity = 1;
 	req_access_txt = "114"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "dark"
 	},
 /area/centcom/gamma)
 "oP" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 10
 	},
 /area/centcom/gamma)
 "oQ" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 6
 	},
@@ -5375,7 +5956,11 @@ turf/open/floor/plasteel{
 	},
 /area/centcom/specops)
 "oT" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red"
 	},
 /area/centcom/gamma)
@@ -5405,7 +5990,11 @@ turf/open/floor/plasteel{
 /obj/item/gun/energy/gun/nuclear,
 /obj/item/gun/energy/gun/nuclear,
 /obj/item/gun/energy/gun/nuclear,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5442,7 +6031,11 @@ turf/open/floor/plasteel{
 	pixel_x = 32;
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5500,7 +6093,11 @@ turf/open/floor/plasteel{
 	},
 /area/centcom/specops)
 "pf" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5508,7 +6105,11 @@ turf/open/floor/plasteel{
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 32
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5528,7 +6129,11 @@ turf/open/floor/plasteel{
 /obj/item/ammo_casing/rocket,
 /obj/item/ammo_casing/rocket,
 /obj/item/gun/rocketlauncher,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5554,7 +6159,11 @@ turf/open/floor/plasteel{
 /area/centcom/specops)
 "pn" = (
 /obj/machinery/door/airlock/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5567,7 +6176,11 @@ turf/open/floor/plasteel{
 /obj/item/kitchen/knife/combat,
 /obj/item/kitchen/knife/combat,
 /obj/item/kitchen/knife/combat,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5583,7 +6196,11 @@ turf/open/floor/plasteel{
 	pixel_x = 0
 	},
 /obj/machinery/mech_bay_recharge_port/upgraded,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5593,7 +6210,11 @@ turf/open/floor/plasteel{
 	icon_state = "0-8"
 	},
 /obj/machinery/computer/mech_bay_power_console,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5601,7 +6222,11 @@ turf/open/floor/plasteel{
 /obj/machinery/door/airlock/shuttle{
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/gamma/space)
@@ -5615,7 +6240,11 @@ turf/open/floor/plasteel{
 	icon_state = "4-8";
 	pixel_x = 0
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mech_bay_recharge_floor,
+=======
+/turf/open/floor/mech_bay_recharge_floor,
+>>>>>>> Stashed changes
 /area/shuttle/gamma/space)
 "pv" = (
 /obj/machinery/door/poddoor/impassable{
@@ -5962,7 +6591,11 @@ turf/open/floor/mech_bay_recharge_floor,
 /area/centcom/specops)
 "qh" = (
 /obj/structure/holowindow,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "red"
 	},
@@ -6017,7 +6650,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/specops)
 "qo" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "white"
 	},
 /area/centcom/evac)
@@ -6037,7 +6674,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "white"
 	},
 /area/centcom/evac)
@@ -6056,7 +6697,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "white"
 	},
 /area/centcom/evac)
@@ -6159,7 +6804,11 @@ turf/open/floor/plasteel{
 	},
 /area/centcom/bathroom)
 "qF" = (
+<<<<<<< Updated upstream
 turf/open/floor/mech_bay_recharge_floor,
+=======
+/turf/open/floor/mech_bay_recharge_floor,
+>>>>>>> Stashed changes
 /area/syndicate_mothership)
 "qG" = (
 /obj/machinery/computer/mech_bay_power_console,
@@ -6605,7 +7254,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "rK" = (
 /turf/closed/ind_wall/splashscreen,
@@ -6616,7 +7269,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "rM" = (
 /turf/closed/shuttle/wall{
@@ -6631,7 +7288,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "rO" = (
 /obj/docking_port/stationary{
@@ -6669,7 +7330,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	icon_state = "heater";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "rS" = (
 /turf/closed/shuttle/wall{
@@ -6714,7 +7379,11 @@ turf/open/floor/mech_bay_recharge_floor,
 /turf/space,
 /area/space)
 "rX" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
@@ -6722,7 +7391,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	},
 /area/centcom/evac)
 "rY" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -6730,7 +7403,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	},
 /area/centcom/evac)
 "rZ" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -6742,7 +7419,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_x = -2;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "sb" = (
 /obj/structure/table,
@@ -6751,7 +7432,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_y = 4
 	},
 /obj/item/storage/firstaid/toxin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "sc" = (
 /obj/structure/table,
@@ -6763,10 +7448,17 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_x = -2;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "sd" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"sd" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -6774,7 +7466,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	},
 /area/centcom/evac)
 "se" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	dir = 3;
 	icon_state = "swall_f10";
@@ -6800,7 +7496,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_y = 0;
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "sh" = (
 /turf/closed/shuttle/wall{
@@ -6816,7 +7516,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_y = 0;
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "sj" = (
 /turf/open/ind_floor{
@@ -6849,7 +7553,11 @@ turf/open/floor/mech_bay_recharge_floor,
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "so" = (
 /obj/machinery/vending/boozeomat,
@@ -6928,7 +7636,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -6961,7 +7673,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	name = "Security Desk";
 	req_access_txt = "104"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -7003,7 +7719,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_y = 4
 	},
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/centcom/evac)
@@ -7037,7 +7757,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	name = "Infirmary";
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -7107,7 +7831,11 @@ turf/open/floor/mech_bay_recharge_floor,
 	pixel_y = 0;
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/centcom/evac)
@@ -7213,14 +7941,22 @@ turf/open/floor/mech_bay_recharge_floor,
 /area/centcom/ferry)
 "te" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (NORTHWEST)";
 	icon_state = "whiteblue";
 	dir = 9
 	},
 /area/centcom/evac)
 "tf" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (NORTH)";
 	icon_state = "whiteblue";
 	dir = 1
@@ -7228,7 +7964,11 @@ turf/open/floor/plasteel{
 /area/centcom/evac)
 "tg" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (NORTH)";
 	icon_state = "whiteblue";
 	dir = 1
@@ -7248,7 +7988,11 @@ turf/open/floor/plasteel{
 	},
 /area/centcom/specops)
 "tj" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (NORTHEAST)";
 	icon_state = "whiteblue";
 	dir = 5
@@ -7262,7 +8006,11 @@ turf/open/floor/plasteel{
 	req_access_txt = "0"
 	},
 /obj/machinery/vending/snack,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "tl" = (
 /obj/structure/chair,
@@ -7293,7 +8041,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (WEST)";
 	icon_state = "whiteblue";
 	dir = 8
@@ -7304,12 +8056,20 @@ turf/open/floor/plasteel{
 	dir = 9;
 	icon_state = "intact"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "white"
 	},
 /area/centcom/evac)
 "tq" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (EAST)";
 	icon_state = "whiteblue";
 	dir = 4
@@ -7327,7 +8087,11 @@ turf/open/floor/plasteel{
 	name = "Cockpit";
 	req_access_txt = "106"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	tag = "icon-floor2";
 	icon_state = "floor2"
 	},
@@ -7370,7 +8134,11 @@ turf/open/floor/plasteel{
 	dir = 10;
 	initialize_directions = 10
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (EAST)";
 	icon_state = "whiteblue";
 	dir = 4
@@ -7384,7 +8152,11 @@ turf/open/floor/plasteel{
 /obj/machinery/portable_atmospherics/canister/oxygen{
 	name = "Canister: \[O2] (CRYO)"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (SOUTHWEST)";
 	icon_state = "whiteblue";
 	dir = 10
@@ -7400,7 +8172,11 @@ turf/open/floor/plasteel{
 	pixel_x = 0;
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "whiteblue";
 	tag = "icon-whitehall (WEST)"
@@ -7414,7 +8190,11 @@ turf/open/floor/plasteel{
 /obj/machinery/portable_atmospherics/canister/oxygen{
 	name = "Canister: \[O2] (CRYO)"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "whiteblue";
 	tag = "icon-whitehall (WEST)"
@@ -7424,7 +8204,11 @@ turf/open/floor/plasteel{
 /obj/machinery/atmospherics/unary/cold_sink/freezer{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	tag = "icon-whiteblue (SOUTHEAST)";
 	icon_state = "whiteblue";
 	dir = 6
@@ -7437,7 +8221,11 @@ turf/open/floor/plasteel{
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/brute,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "whiteblue";
 	tag = "icon-whitehall (WEST)"
@@ -7481,7 +8269,11 @@ turf/open/floor/plasteel{
 	req_access = null;
 	req_access_txt = "106"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "tG" = (
 /obj/machinery/door/poddoor{
@@ -7510,7 +8302,11 @@ turf/open/floor/plasteel{
 	dir = 10;
 	icon_state = "9"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "tJ" = (
 /obj/machinery/door/poddoor{
@@ -7522,7 +8318,11 @@ turf/open/floor/plating,
 	},
 /area/tdome/arena)
 "tK" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "red";
 	dir = 8
 	},
@@ -7537,7 +8337,11 @@ turf/open/floor/plasteel{
 	},
 /area/tdome/arena)
 "tM" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	icon_state = "green";
 	dir = 4
 	},
@@ -7561,7 +8365,11 @@ turf/open/floor/plasteel{
 	id = "flash";
 	name = "Thunderdome Flash"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena)
 "tP" = (
 /obj/machinery/camera{
@@ -7600,7 +8408,11 @@ turf/open/floor/bluegrid,
 	network = list("Thunderdome");
 	c_tag = "Thunderdome Arena"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena)
 "tT" = (
 /obj/machinery/door/poddoor{
@@ -9834,7 +10646,11 @@ turf/open/floor/bluegrid,
 	},
 /area/admin)
 "xL" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel{
+=======
+/turf/open/floor/plasteel{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "neutralfull"
 	},
@@ -10150,7 +10966,11 @@ turf/open/floor/plasteel{
 	},
 /area/admin)
 "yv" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "yw" = (
 /obj/machinery/light{
@@ -10170,7 +10990,11 @@ turf/open/floor/plasteel{
 /area/trader_station/sol)
 "yy" = (
 /obj/structure/closet/emcloset,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "yz" = (
 /obj/structure/chair/comfy/black{
@@ -10271,7 +11095,11 @@ turf/open/floor/plasteel{
 	},
 /area/admin)
 "yM" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "yN" = (
 /turf/open/ind_floor{
@@ -10323,7 +11151,11 @@ turf/open/floor/plasteel{
 /obj/machinery/door/airlock/maintenance_hatch{
 	req_access_txt = "106"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "yU" = (
 /obj/machinery/computer/secure_data,
@@ -10350,7 +11182,11 @@ turf/open/floor/plasteel{
 "yW" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10359,20 +11195,32 @@ turf/open/floor/plasteel{
 /obj/machinery/recharger{
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "yY" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "yZ" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10397,7 +11245,11 @@ turf/open/floor/plasteel{
 /area/admin)
 "zc" = (
 /obj/machinery/computer/arcade,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "zd" = (
 /obj/machinery/door/airlock/hatch{
@@ -10429,7 +11281,11 @@ turf/open/floor/plasteel{
 /area/admin)
 "zh" = (
 /obj/machinery/computer/card,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10439,7 +11295,11 @@ turf/open/floor/plasteel{
 	icon_state = "boxinggreen";
 	item_state = "boxinggreen"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "green"
 	},
@@ -10458,7 +11318,11 @@ turf/open/floor/holofloor{
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
 /obj/item/stamp/granted,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10501,7 +11365,11 @@ turf/open/floor/holofloor{
 	},
 /area/trader_station/sol)
 "zr" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10553,7 +11421,11 @@ turf/open/floor/holofloor{
 /obj/structure/table,
 /obj/item/storage/box/handcuffs,
 /obj/item/flash,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -10630,7 +11502,11 @@ turf/open/floor/holofloor{
 /area/trader_station/sol)
 "zH" = (
 /obj/machinery/vending/cola,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "zI" = (
 /obj/effect/decal/cleanable/blood,
@@ -10688,7 +11564,11 @@ turf/open/floor/holofloor{
 /area/syndicate_mothership)
 "zO" = (
 /obj/structure/closet/secure_closet/personal/patient,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/centcom/evac)
@@ -10707,11 +11587,19 @@ turf/open/floor/holofloor{
 /obj/structure/window/full/shuttle{
 	icon_state = "16"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/centcom/evac)
 "zR" = (
 /obj/machinery/vending/coffee,
 /turf/open/shuttle/floor,
+=======
+/turf/open/floor/plating,
+/area/centcom/evac)
+"zR" = (
+/obj/machinery/vending/coffee,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "zS" = (
 /obj/machinery/light{
@@ -10746,10 +11634,17 @@ turf/open/floor/plating,
 "zV" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/centcom/evac)
 "zW" = (
 /turf/open/shuttle/floor{
+=======
+/turf/open/floor/plating,
+/area/centcom/evac)
+"zW" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/centcom/evac)
@@ -10758,7 +11653,11 @@ turf/open/floor/plating,
 /obj/structure/window/full/shuttle{
 	icon_state = "15"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "zY" = (
 /obj/structure/window/reinforced,
@@ -11116,12 +12015,20 @@ turf/open/floor/plating,
 /area/admin)
 "AM" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "AN" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "AO" = (
 /obj/structure/table,
@@ -11244,11 +12151,19 @@ turf/open/floor/plating,
 /area/syndicate_mothership)
 "Bb" = (
 /obj/machinery/computer/crew,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "Bc" = (
 /obj/machinery/computer/communications,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"Bc" = (
+/obj/machinery/computer/communications,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bd" = (
 /obj/machinery/vending/coffee/free,
@@ -11267,7 +12182,11 @@ turf/open/floor/plating,
 "Bf" = (
 /obj/structure/table,
 /obj/item/radio,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bg" = (
 /obj/structure/table/wood,
@@ -11288,24 +12207,40 @@ turf/open/floor/plating,
 "Bi" = (
 /obj/structure/table,
 /obj/item/stamp/captain,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bj" = (
 /obj/machinery/computer{
 	name = "EMERGENCY SHUTTLE COMPUTER"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bk" = (
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bl" = (
 /obj/structure/table,
 /obj/item/paper_bin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bm" = (
 /obj/structure/table,
@@ -11343,7 +12278,11 @@ turf/open/floor/plating,
 /obj/structure/window/full/shuttle{
 	icon_state = "window4"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Br" = (
 /obj/structure/chair/office/dark,
@@ -11356,7 +12295,11 @@ turf/open/floor/plating,
 /obj/structure/window/full/shuttle{
 	icon_state = "17"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating,
+=======
+/turf/open/floor/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Bt" = (
 /obj/structure/chair/comfy/red{
@@ -11689,7 +12632,11 @@ turf/open/floor/plating,
 /area/syndicate_mothership/jail)
 "Cm" = (
 /obj/structure/table/holotable,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "red"
 	},
@@ -11701,13 +12648,21 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership/jail)
 "CF" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "blue"
 	},
 /area/holodeck/source_knightarena)
 "CR" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "green"
 	},
@@ -11718,7 +12673,11 @@ turf/open/floor/holofloor{
 /obj/item/clothing/suit/armor/tdome/red,
 /obj/item/clothing/under/color/red,
 /obj/item/holo/esword/red,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
@@ -11749,7 +12708,11 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership/jail)
 "DX" = (
+<<<<<<< Updated upstream
 turf/open/floor/mech_bay_recharge_floor,
+=======
+/turf/open/floor/mech_bay_recharge_floor,
+>>>>>>> Stashed changes
 /area/admin)
 "DY" = (
 /obj/machinery/door/airlock/hatch/syndicate{
@@ -11763,20 +12726,32 @@ turf/open/floor/mech_bay_recharge_floor,
 /obj/structure/holohoop{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "green"
 	},
 /area/holodeck/source_basketball)
 "Ew" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet2-0 (EAST)";
 	icon_state = "carpet2-0";
 	dir = 4
 	},
 /area/holodeck/source_theatre)
 "Ez" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet8-0 (EAST)";
 	icon_state = "carpet8-0";
 	dir = 4
@@ -11792,21 +12767,33 @@ turf/open/floor/holofloor{
 /area/syndicate_mothership/jail)
 "Fe" = (
 /obj/structure/table/holotable,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "blue"
 	},
 /area/holodeck/source_knightarena)
 "Fx" = (
 /obj/structure/table/holotable,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "red"
 	},
 /area/holodeck/source_knightarena)
 "FF" = (
 /obj/structure/table/holotable,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "green"
 	},
@@ -11821,7 +12808,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/specops)
 "Gg" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid11 (EAST)";
 	icon_state = "asteroid11";
 	dir = 4
@@ -11834,12 +12825,20 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership/jail)
 "Gx" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-wood (EAST)";
 	icon_state = "wood";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-siding1";
 	icon_state = "siding1";
 	dir = 2
@@ -11900,7 +12899,11 @@ turf/open/floor/holofloor{
 /turf/closed/ind_wall,
 /area/tdome)
 "Hp" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-rampbottom";
 	icon_state = "rampbottom";
 	dir = 2
@@ -11947,7 +12950,11 @@ turf/open/floor/holofloor{
 /obj/item/clothing/suit/armor/riot/knight/red,
 /obj/item/clothing/head/helmet/riot/knight/red,
 /obj/item/holo/claymore/red,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
@@ -12046,7 +13053,11 @@ turf/open/floor/holofloor{
 	},
 /area/tdome/tdome1)
 "Iw" = (
+<<<<<<< Updated upstream
 turf/open/floor/bluegrid,
+=======
+/turf/open/floor/bluegrid,
+>>>>>>> Stashed changes
 /area/tdome/arena)
 "Iz" = (
 /obj/structure/chair/stool,
@@ -12082,7 +13093,11 @@ turf/open/floor/bluegrid,
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid7";
 	icon_state = "asteroid7";
 	dir = 2
@@ -12094,7 +13109,11 @@ turf/open/floor/holofloor{
 /obj/item/clothing/suit/armor/tdome/green,
 /obj/item/clothing/under/color/green,
 /obj/item/holo/esword/green,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "green"
 	},
@@ -12105,7 +13124,11 @@ turf/open/floor/holofloor{
 	},
 /area/tdome/tdomeadmin)
 "IU" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet10-8 (EAST)";
 	icon_state = "carpet10-8";
 	dir = 4
@@ -12127,7 +13150,11 @@ turf/open/floor/holofloor{
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "blue"
 	},
@@ -12148,7 +13175,11 @@ turf/open/floor/holofloor{
 /area/vox_station)
 "KA" = (
 /obj/structure/chair/sofa/left,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -12170,7 +13201,11 @@ turf/open/floor/holofloor{
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -12179,7 +13214,11 @@ turf/open/floor/holofloor{
 	dir = 1
 	},
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -12187,7 +13226,11 @@ turf/open/floor/holofloor{
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -12195,19 +13238,31 @@ turf/open/floor/holofloor{
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
 "Lf" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid8 (EAST)";
 	icon_state = "asteroid8";
 	dir = 4
 	},
 /area/holodeck/source_desert)
 "Ll" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "green"
 	},
@@ -12216,13 +13271,21 @@ turf/open/floor/holofloor{
 /obj/structure/holowindow{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "green"
 	},
 /area/holodeck/source_thunderdomecourt)
 "LG" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet1-0 (EAST)";
 	icon_state = "carpet1-0";
 	dir = 4
@@ -12230,7 +13293,11 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "LL" = (
 /obj/structure/holowindow,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
@@ -12261,7 +13328,11 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership/jail)
 "MR" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid1 (EAST)";
 	icon_state = "asteroid1";
 	dir = 4
@@ -12325,7 +13396,11 @@ turf/open/floor/holofloor{
 /area/centcom/control)
 "Ol" = (
 /obj/structure/holohoop,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 1;
 	icon_state = "red"
 	},
@@ -12385,7 +13460,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/specops)
 "OT" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid2 (EAST)";
 	icon_state = "asteroid2";
 	dir = 4
@@ -12440,20 +13519,32 @@ turf/open/floor/holofloor{
 "QB" = (
 /obj/structure/table/holotable,
 /obj/item/clothing/gloves/boxing/hologlove,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 5;
 	icon_state = "red"
 	},
 /area/holodeck/source_boxingcourt)
 "QE" = (
 /obj/structure/chair/sofa/right,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
 "QI" = (
 /obj/structure/chair/sofa,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -12469,7 +13560,11 @@ turf/open/floor/holofloor{
 	},
 /area/syndicate_mothership/jail)
 "QQ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid6";
 	icon_state = "asteroid6";
 	dir = 2
@@ -12477,12 +13572,20 @@ turf/open/floor/holofloor{
 /area/holodeck/source_desert)
 "QT" = (
 /obj/structure/flora/ausbushes/ywflowers,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
+=======
+/turf/open/floor/holofloor/grass,
+>>>>>>> Stashed changes
 /area/holodeck/source_picnicarea)
 "QV" = (
 /obj/item/clothing/under/rainbow,
 /obj/item/clothing/glasses/sunglasses_fake,
+<<<<<<< Updated upstream
 turf/open/floor/beach/sand,
+=======
+/turf/open/floor/beach/sand,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "Rf" = (
 /obj/structure/chair{
@@ -12501,7 +13604,11 @@ turf/open/floor/beach/sand,
 /area/syndicate_mothership/jail)
 "Rj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass,
+=======
+/turf/open/floor/holofloor/grass,
+>>>>>>> Stashed changes
 /area/holodeck/source_picnicarea)
 "RD" = (
 /obj/effect/decal/warning_stripes/south,
@@ -12512,7 +13619,11 @@ turf/open/floor/holofloor/grass,
 "RU" = (
 /obj/effect/overlay/palmtree_l,
 /obj/effect/overlay/coconut,
+<<<<<<< Updated upstream
 turf/open/floor/beach/sand,
+=======
+/turf/open/floor/beach/sand,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "RX" = (
 /turf/closed/ind_wall{
@@ -12527,7 +13638,11 @@ turf/open/floor/beach/sand,
 	},
 /area/centcom/specops)
 "Ss" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
@@ -12548,7 +13663,11 @@ turf/open/floor/holofloor{
 /obj/item/clothing/suit/armor/riot/knight/blue,
 /obj/item/clothing/head/helmet/riot/knight/blue,
 /obj/item/holo/claymore/blue,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 2;
 	icon_state = "blue"
 	},
@@ -12588,7 +13707,11 @@ turf/open/floor/holofloor{
 /area/centcom/control)
 "Tk" = (
 /obj/structure/holowindow,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor,
+=======
+/turf/open/floor/holofloor,
+>>>>>>> Stashed changes
 /area/holodeck/source_thunderdomecourt)
 "Tl" = (
 /obj/structure/chair/office/dark,
@@ -12605,21 +13728,33 @@ turf/open/floor/holofloor,
 	},
 /area/centcom/control)
 "Tz" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
 /area/holodeck/source_thunderdomecourt)
 "TQ" = (
 /obj/structure/holowindow,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid7";
 	icon_state = "asteroid7";
 	dir = 2
 	},
 /area/holodeck/source_knightarena)
 "TX" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "green"
 	},
@@ -12633,7 +13768,11 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/specops)
 "Uv" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid5";
 	icon_state = "asteroid5";
 	dir = 2
@@ -12644,7 +13783,11 @@ turf/open/floor/holofloor{
 /obj/machinery/readybutton{
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "green"
 	},
@@ -12658,13 +13801,21 @@ turf/open/floor/holofloor{
 	},
 /area/centcom/specops)
 "UI" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 8;
 	icon_state = "blue"
 	},
 /area/holodeck/source_knightarena)
 "UK" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet3-0 (EAST)";
 	icon_state = "carpet3-0";
 	dir = 4
@@ -12672,14 +13823,22 @@ turf/open/floor/holofloor{
 /area/holodeck/source_theatre)
 "UM" = (
 /obj/structure/flora/grass/brown,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-snow";
 	icon_state = "snow"
 	},
 /area/holodeck/source_snowfield)
 "UV" = (
 /obj/structure/holowindow,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 4;
 	icon_state = "red"
 	},
@@ -12749,7 +13908,11 @@ turf/open/floor/holofloor{
 	},
 /area/wizard_station)
 "VZ" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-asteroid7";
 	icon_state = "asteroid7";
 	dir = 2
@@ -12779,13 +13942,21 @@ turf/open/floor/holofloor{
 /area/centcom/evac)
 "Wf" = (
 /obj/structure/chair/stool,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "Wk" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -12793,7 +13964,11 @@ turf/open/floor/holofloor{
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -12806,19 +13981,31 @@ turf/open/floor/holofloor{
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "WP" = (
 /obj/structure/table/holotable,
 /obj/machinery/readybutton,
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 6;
 	icon_state = "blue"
 	},
 /area/holodeck/source_knightarena)
 "WU" = (
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "WW" = (
 /obj/structure/flora/ausbushes/pointybush,
@@ -12892,7 +14079,11 @@ turf/open/floor/holofloor{
 /turf/open/ind_floor/abductor,
 /area/abductor_ship)
 "XT" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	tag = "icon-carpet4-0 (EAST)";
 	icon_state = "carpet4-0";
 	dir = 4
@@ -12903,13 +14094,21 @@ turf/open/floor/holofloor{
 /obj/machinery/readybutton{
 	pixel_y = 0
 	},
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 9;
 	icon_state = "red"
 	},
 /area/holodeck/source_thunderdomecourt)
 "Yp" = (
+<<<<<<< Updated upstream
 turf/open/floor/beach/water,
+=======
+/turf/open/floor/beach/water,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "Yx" = (
 /obj/machinery/door/airlock/hatch/syndicate{
@@ -12923,13 +14122,21 @@ turf/open/floor/beach/water,
 	},
 /area/syndicate_mothership/jail)
 "Zv" = (
+<<<<<<< Updated upstream
 turf/open/floor/beach/coastline,
+=======
+/turf/open/floor/beach/coastline,
+>>>>>>> Stashed changes
 /area/holodeck/source_beach)
 "ZE" = (
 /turf/closed/ind_wall/fakeglass,
 /area/syndicate_mothership/jail)
 "ZR" = (
+<<<<<<< Updated upstream
 turf/open/floor/holofloor{
+=======
+/turf/open/floor/holofloor{
+>>>>>>> Stashed changes
 	dir = 10;
 	icon_state = "green"
 	},

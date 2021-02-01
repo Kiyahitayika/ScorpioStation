@@ -17,7 +17,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "d" = (
 /turf/template_noop,
@@ -29,24 +33,40 @@
 /area/space/nearstation)
 "e" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "f" = (
 /obj/item/broken_bottle,
 /obj/effect/mob_spawn/human/mime/corpse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "g" = (
 /obj/item/shard,
 /obj/effect/mob_spawn/human/mime/corpse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "h" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /obj/effect/mob_spawn/human/mime/corpse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "i" = (
 /turf/closed/shuttle/wall{
@@ -65,10 +85,17 @@ turf/open/floor/plasteel/airless,
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "k" = (
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+/area/space/nearstation)
+"k" = (
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "l" = (
 /turf/closed/shuttle/wall{
@@ -80,10 +107,17 @@ turf/open/floor/plasteel/airless,
 /turf/closed/mineral,
 /area/space/nearstation)
 "n" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "o" = (
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+/area/space/nearstation)
+"o" = (
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
@@ -93,7 +127,11 @@ turf/open/floor/plating/asteroid/airless,
 /obj/item/shard{
 	icon_state = "small"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "q" = (
 /obj/structure/closet/crate,
@@ -104,7 +142,11 @@ turf/open/floor/plating/asteroid/airless,
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "r" = (
 /turf/template_noop,
@@ -116,13 +158,21 @@ turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "s" = (
 /obj/item/shard,
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "t" = (
 /obj/effect/mob_spawn/human/mime/corpse{
 	name = "Mime Pilot"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "u" = (
 /turf/closed/shuttle/wall{
@@ -138,7 +188,11 @@ turf/open/floor/plasteel/airless,
 	},
 /area/space/nearstation)
 "w" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
@@ -147,7 +201,11 @@ turf/open/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "x" = (
 /obj/effect/mob_spawn/human/clown/corpse,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "y" = (
 /obj/structure/closet/crate,
@@ -156,7 +214,11 @@ turf/open/floor/plasteel/airless,
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "z" = (
 /obj/structure/closet/crate{
@@ -165,7 +227,11 @@ turf/open/floor/plasteel/airless,
 	},
 /obj/item/stack/ore/bananium,
 /obj/item/grenade/bananade,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "A" = (
 /obj/structure/shuttle/engine/heater{
@@ -176,7 +242,11 @@ turf/open/floor/plasteel/airless,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "B" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -189,6 +259,7 @@ turf/open/floor/plasteel/airless,
 	icon_state = "burst_r";
 	tag = "icon-burst_r (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/space/nearstation)
 "C" = (
@@ -198,6 +269,17 @@ turf/open/floor/plasteel/airless,
 "D" = (
 /obj/item/stack/ore/bananium,
 turf/open/floor/plasteel/airless,
+=======
+//turf/open/shuttle/plating,
+/area/space/nearstation)
+"C" = (
+/obj/effect/mob_spawn/human/corpse/clownmili,
+/turf/open/floor/plasteel/airless,
+/area/space/nearstation)
+"D" = (
+/obj/item/stack/ore/bananium,
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "E" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -205,11 +287,19 @@ turf/open/floor/plasteel/airless,
 	icon_state = "propulsion_l";
 	tag = "icon-propulsion_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/space/nearstation)
 "F" = (
 /obj/structure/computerframe/HONKputer,
 turf/open/floor/plasteel/airless,
+=======
+//turf/open/shuttle/plating,
+/area/space/nearstation)
+"F" = (
+/obj/structure/computerframe/HONKputer,
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "G" = (
 /obj/item/shard{
@@ -218,17 +308,29 @@ turf/open/floor/plasteel/airless,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "H" = (
 /obj/effect/mob_spawn/human/clown/corpse{
 	name = "Clown Pilot"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "I" = (
 /obj/item/paper/clownship,
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+/area/space/nearstation)
+"I" = (
+/obj/item/paper/clownship,
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "J" = (
 /obj/structure/grille,
@@ -246,16 +348,27 @@ turf/open/floor/plasteel/airless,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "L" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "M" = (
 /turf/closed/mineral/random/labormineral,
+=======
+/turf/open/floor/plasteel/airless,
+/area/space/nearstation)
+"M" = (
+/turf/simulated/mineral/random/labormineral,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -263,7 +376,11 @@ turf/open/floor/plasteel/airless,
 	},
 /area/space/nearstation)
 "N" = (
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
@@ -272,11 +389,19 @@ turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "O" = (
 /obj/effect/mob_spawn/human/corpse/clownoff,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "P" = (
 /obj/item/pickaxe,
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+/area/space/nearstation)
+"P" = (
+/obj/item/pickaxe,
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "Q" = (
 /obj/structure/closet/crate,
@@ -284,7 +409,11 @@ turf/open/floor/plasteel/airless,
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
+<<<<<<< Updated upstream
 turf/open/floor/plasteel/airless,
+=======
+/turf/open/floor/plasteel/airless,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "R" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -297,7 +426,11 @@ turf/open/floor/plasteel/airless,
 	icon_state = "propulsion_l";
 	tag = "icon-propulsion_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 
 (1,1,1) = {"

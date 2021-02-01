@@ -19,7 +19,11 @@
 	if(..()) //if we pass the parent tests
 		var/turf/turf_loc = get_turf(user)
 
+<<<<<<< Updated upstream
 		if(src.mount_reqs.Find("simfloor") && !istype(turf_loc, turf/open/floor))
+=======
+		if(src.mount_reqs.Find("simfloor") && !istype(turf_loc, /turf/open/floor))
+>>>>>>> Stashed changes
 			to_chat(user, "<span class='warning'>[src] cannot be placed on this spot.</span>")
 			return
 		if(src.mount_reqs.Find("nospace"))

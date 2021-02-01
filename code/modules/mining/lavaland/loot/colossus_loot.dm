@@ -115,18 +115,30 @@
 	terrain_theme = pick("lavaland","winter","jungle","alien")
 	switch(terrain_theme)
 		if("lavaland")//Depressurizes the place... and free cult metal, I guess.
+<<<<<<< Updated upstream
 			NewTerrainFloors = turf/open/floor/plating/asteroid/basalt // Needs to be updated after turf update
+=======
+			NewTerrainFloors = /turf/open/floor/plating/asteroid/basalt // Needs to be updated after turf update
+>>>>>>> Stashed changes
 			NewTerrainWalls = /turf/closed/wall/cult
 			NewFlora = list(/mob/living/simple_animal/hostile/asteroid/goldgrub)
 			florachance = 1
 		if("winter") //Snow terrain is slow to move in and cold! Get the assistants to shovel your driveway.
+<<<<<<< Updated upstream
 			NewTerrainFloors = turf/open/floor/snow // Needs to be updated after turf update
+=======
+			NewTerrainFloors = /turf/open/floor/snow // Needs to be updated after turf update
+>>>>>>> Stashed changes
 			NewTerrainWalls = /turf/closed/wall/mineral/wood
 			NewTerrainChairs = /obj/structure/chair/wood
 			NewTerrainTables = /obj/structure/table/glass
 			NewFlora = list(/obj/structure/flora/grass/green, /obj/structure/flora/grass/brown, /obj/structure/flora/grass/both)
 		if("jungle") //Beneficial due to actually having breathable air. Plus, monkeys and bows and arrows.
+<<<<<<< Updated upstream
 			NewTerrainFloors = turf/open/floor/grass
+=======
+			NewTerrainFloors = /turf/open/floor/grass
+>>>>>>> Stashed changes
 			NewTerrainWalls = /turf/closed/wall/mineral/sandstone
 			NewTerrainChairs = /obj/structure/chair/wood
 			NewTerrainTables = /obj/structure/table/wood
@@ -135,7 +147,11 @@
 							/obj/item/gun/projectile/bow, /obj/item/storage/backpack/quiver/full)
 			florachance = 20
 		if("alien") //Beneficial, turns stuff into alien alloy which is useful to cargo and research. Also repairs atmos.
+<<<<<<< Updated upstream
 			NewTerrainFloors = turf/open/floor/mineral/abductor
+=======
+			NewTerrainFloors = /turf/open/floor/mineral/abductor
+>>>>>>> Stashed changes
 			NewTerrainWalls = /turf/closed/wall/mineral/abductor
 			NewTerrainChairs = /obj/structure/bed/abductor //ayys apparently don't have chairs. An entire species of people who only recline.
 			NewTerrainTables = /obj/structure/table/abductor

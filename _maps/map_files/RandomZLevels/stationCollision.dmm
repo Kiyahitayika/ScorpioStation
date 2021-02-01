@@ -177,7 +177,11 @@
 	icon_state = "burst_l";
 	tag = "icon-burst_l (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "aJ" = (
 /turf/open/floor/plating/airless,
@@ -244,10 +248,17 @@
 /obj/machinery/portable_atmospherics/canister/toxins{
 	destroyed = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/syndishuttle)
 "aY" = (
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/syndishuttle)
+"aY" = (
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -272,10 +283,17 @@
 /area/awaymission/northblock)
 "be" = (
 /obj/structure/shuttle/engine/heater,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/syndishuttle)
 "bf" = (
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/syndishuttle)
+"bf" = (
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "bg" = (
 /turf/open/floor/plasteel/airless{
@@ -333,7 +351,11 @@
 /area/awaymission/northblock)
 "bp" = (
 /obj/structure/shuttle/engine/router,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "bq" = (
 /obj/structure/shuttle/engine/heater{
@@ -341,11 +363,19 @@
 	icon_state = "heater";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/syndishuttle)
 "br" = (
 /obj/item/storage/toolbox/syndicate,
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/syndishuttle)
+"br" = (
+/obj/item/storage/toolbox/syndicate,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "bs" = (
 /obj/structure/lattice,
@@ -353,7 +383,11 @@
 /area/awaymission/syndishuttle)
 "bt" = (
 /obj/machinery/door/airlock/centcom,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "bu" = (
 /turf/open/floor/plasteel/airless{
@@ -376,7 +410,11 @@
 /area/awaymission/research)
 "by" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/syndishuttle)
 "bz" = (
 /obj/structure/table,
@@ -532,10 +570,17 @@
 	icon_state = "heater";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/syndishuttle)
 "bW" = (
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/syndishuttle)
+"bW" = (
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -741,7 +786,11 @@
 	icon_state = "burst_l";
 	tag = "icon-burst_l (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/research)
 "cz" = (
 /obj/structure/shuttle/engine/heater{
@@ -756,7 +805,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/research)
 "cA" = (
 /turf/open/floor/plasteel{
@@ -839,7 +892,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/research)
 "cL" = (
 /obj/effect/decal/remains/human{
@@ -1488,7 +1545,11 @@
 /area/awaymission/northblock)
 "eh" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1497,7 +1558,11 @@
 /area/awaymission/syndishuttle)
 "ei" = (
 /obj/machinery/vending/snack,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1555,7 +1620,11 @@
 /area/awaymission/northblock)
 "ep" = (
 /obj/machinery/vending/cigarette,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1571,7 +1640,11 @@
 /area/awaymission/northblock)
 "er" = (
 /obj/machinery/vending/cola,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1638,7 +1711,11 @@
 /area/awaymission/northblock)
 "ex" = (
 /obj/machinery/vending/coffee,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1717,7 +1794,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/research)
 "eI" = (
 /obj/structure/window/reinforced{
@@ -1731,7 +1812,11 @@
 /area/awaymission/northblock)
 "eJ" = (
 /obj/structure/closet/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1739,7 +1824,11 @@
 	},
 /area/awaymission/syndishuttle)
 "eK" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1748,7 +1837,11 @@
 /area/awaymission/syndishuttle)
 "eL" = (
 /obj/machinery/door/airlock/centcom,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1859,7 +1952,11 @@
 	desc = "A dark little medical robot. She looks somewhat underwhelmed.";
 	name = "Nightingale"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1868,7 +1965,11 @@
 /area/awaymission/syndishuttle)
 "eX" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1944,7 +2045,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1955,7 +2060,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1965,7 +2074,11 @@
 "fh" = (
 /obj/structure/table,
 /obj/item/paper/sc_safehint_paper_shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -1976,7 +2089,11 @@
 /obj/machinery/sleeper{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4";
 	nitrogen = 0.01;
 	oxygen = 0.01;
@@ -2270,7 +2387,11 @@
 	dir = 1
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "fO" = (
 /obj/structure/window/reinforced,
@@ -2278,7 +2399,11 @@
 	dir = 1
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "fP" = (
 /obj/structure/window/reinforced,
@@ -2289,7 +2414,11 @@
 	dir = 1
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "fQ" = (
 /turf/space,
@@ -2376,7 +2505,11 @@
 	},
 /area/awaymission/arrivalblock)
 "gb" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -2384,7 +2517,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -2528,13 +2665,21 @@
 	dir = 1
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "gx" = (
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -2550,7 +2695,11 @@
 	},
 /obj/structure/grille,
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "gz" = (
 /turf/closed/wall,
@@ -2671,13 +2820,21 @@
 	dir = 4
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "gR" = (
 /obj/machinery/door/unpowered/shuttle{
 	name = "Shuttle Airlock"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -2855,7 +3012,11 @@
 	dir = 4
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "ho" = (
 /obj/structure/window/reinforced,
@@ -2869,7 +3030,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "hp" = (
 /obj/structure/window/reinforced{
@@ -2993,7 +3158,11 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "hF" = (
 /turf/open/floor/plasteel{
@@ -3410,7 +3579,11 @@
 	},
 /obj/structure/grille,
 /obj/item/shard,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "iL" = (
 /obj/item/shard{
@@ -3535,14 +3708,22 @@
 	icon_state = "propulsion_r"
 	},
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "je" = (
 /turf/space,
 /area/awaymission/arrivalblock)
 "jf" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "jg" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -3558,7 +3739,11 @@
 	icon_state = "propulsion_l"
 	},
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "jh" = (
 /obj/structure/cable{
@@ -3992,7 +4177,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "km" = (
 /obj/structure/window/reinforced,
@@ -4092,7 +4281,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "kB" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -4101,7 +4294,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "kC" = (
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -4199,13 +4396,21 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
 "kP" = (
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -4213,7 +4418,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/awaymission/arrivalblock)
@@ -4387,7 +4596,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/arrivalblock)
 "lt" = (
 /obj/structure/closet/crate/hydroponics,

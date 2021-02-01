@@ -218,7 +218,11 @@
 /obj/item/gun/swarmer_act() //Stops you from eating the entire armory
 	return FALSE
 
+<<<<<<< Updated upstream
 turf/open/floor/swarmer_act() //ex_act() on turf calls it on its contents, this is to prevent attacking mobs by DisIntegrate()'ing the floor
+=======
+/turf/open/floor/swarmer_act() //ex_act() on turf calls it on its contents, this is to prevent attacking mobs by DisIntegrate()'ing the floor
+>>>>>>> Stashed changes
 	return FALSE
 
 /obj/structure/lattice/catwalk/swarmer_catwalk/swarmer_act(mob/living/simple_animal/hostile/swarmer/S)
@@ -242,7 +246,11 @@ turf/open/floor/swarmer_act() //ex_act() on turf calls it on its contents, this 
 /obj/structure/flora/swarmer_act()
 	return FALSE
 
+<<<<<<< Updated upstream
 turf/open/floor/plating/lava/swarmer_act()
+=======
+/turf/open/floor/plating/lava/swarmer_act()
+>>>>>>> Stashed changes
 	if(!is_safe())
 		new /obj/structure/lattice/catwalk/swarmer_catwalk(src)
 	return FALSE
@@ -501,7 +509,11 @@ turf/open/floor/plating/lava/swarmer_act()
 	if(!do_mob(src, target, 30))
 		return
 
+<<<<<<< Updated upstream
 	varturf/open/floor/F
+=======
+	var/turf/open/floor/F
+>>>>>>> Stashed changes
 	F = find_safe_turf(zlevels = z, extended_safety_checks = TRUE)
 
 	if(!F)

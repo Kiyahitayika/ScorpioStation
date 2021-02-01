@@ -208,7 +208,11 @@
 	name = "greentext"
 	},
 /obj/item/reagent_containers/food/condiment/saltshaker,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aI" = (
 /obj/machinery/door/airlock/security/glass{
@@ -276,7 +280,11 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aQ" = (
 /obj/item/radio/intercom{
@@ -323,7 +331,11 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aU" = (
 /obj/machinery/status_display{
@@ -349,7 +361,11 @@
 	id_tag = null;
 	name = "Shuttle Cargo Hatch"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -497,7 +513,11 @@
 /obj/structure/window/reinforced,
 /obj/item/stack/sheet/mineral/bananium,
 /obj/item/bikehorn/rubberducky,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "bp" = (
 /turf/closed/shuttle/wall{
@@ -519,7 +539,11 @@
 /obj/structure/window/reinforced,
 /obj/item/stack/sheet/mineral/bananium,
 /obj/item/bikehorn/rubberducky,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "bs" = (
 /turf/space,
@@ -530,7 +554,11 @@
 /area/shuttle/escape)
 "bt" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 
 (1,1,1) = {"

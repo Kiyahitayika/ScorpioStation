@@ -129,13 +129,21 @@
 		to_chat(user, "<span class='notice'>You start adding [W] to [src]...</span>")
 		if(do_after(user, 20, target = src))
 			var/brass_floor = FALSE
+<<<<<<< Updated upstream
 			if(istype(T, turf/open/floor/clockwork)) //if the floor is already brass, costs less to make(conservation of masssssss)
+=======
+			if(istype(T, /turf/open/floor/clockwork)) //if the floor is already brass, costs less to make(conservation of masssssss)
+>>>>>>> Stashed changes
 				brass_floor = TRUE
 			if(W.use(2 - brass_floor))
 				if(anchored)
 					T.ChangeTurf(/turf/closed/wall/clockwork)
 				else
+<<<<<<< Updated upstream
 					T.ChangeTurf(turf/open/floor/clockwork)
+=======
+					T.ChangeTurf(/turf/open/floor/clockwork)
+>>>>>>> Stashed changes
 					new /obj/structure/falsewall/brass(T)
 				qdel(src)
 			else

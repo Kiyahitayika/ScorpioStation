@@ -179,6 +179,7 @@
 	var/turf/E = get_step(src, EAST)
 	var/turf/W = get_step(src, WEST)
 	if(!locate(/obj/structure/alien) in N.contents)
+<<<<<<< Updated upstream
 		if(istype(N, turf/open/floor))
 			overlays += weedImageCache[WEED_SOUTH_EDGING]
 	if(!locate(/obj/structure/alien) in S.contents)
@@ -189,6 +190,18 @@
 			overlays += weedImageCache[WEED_WEST_EDGING]
 	if(!locate(/obj/structure/alien) in W.contents)
 		if(istype(W, turf/open/floor))
+=======
+		if(istype(N, /turf/open/floor))
+			overlays += weedImageCache[WEED_SOUTH_EDGING]
+	if(!locate(/obj/structure/alien) in S.contents)
+		if(istype(S, /turf/open/floor))
+			overlays += weedImageCache[WEED_NORTH_EDGING]
+	if(!locate(/obj/structure/alien) in E.contents)
+		if(istype(E, /turf/open/floor))
+			overlays += weedImageCache[WEED_WEST_EDGING]
+	if(!locate(/obj/structure/alien) in W.contents)
+		if(istype(W, /turf/open/floor))
+>>>>>>> Stashed changes
 			overlays += weedImageCache[WEED_EAST_EDGING]
 
 

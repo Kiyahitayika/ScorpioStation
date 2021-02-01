@@ -42,7 +42,11 @@
 
 /mob/living/simple_animal/mouse/handle_automated_action()
 	if(prob(chew_probability) && isturf(loc))
+<<<<<<< Updated upstream
 		varturf/open/floor/F = get_turf(src)
+=======
+		var/turf/open/floor/F = get_turf(src)
+>>>>>>> Stashed changes
 		if(istype(F) && !F.intact)
 			var/obj/structure/cable/C = locate() in F
 			if(C && prob(15))

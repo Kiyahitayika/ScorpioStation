@@ -23,12 +23,20 @@
 "d" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "e" = (
 /obj/structure/grille,
 /obj/structure/shuttle/window,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "f" = (
 /turf/space,
@@ -123,7 +131,11 @@
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "q" = (
 /obj/item/stack/sheet/animalhide/cat,
@@ -150,7 +162,11 @@
 	timid = 1;
 	width = 5
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "s" = (
 /obj/structure/shuttle/engine/propulsion{

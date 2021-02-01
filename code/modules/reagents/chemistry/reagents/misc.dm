@@ -244,9 +244,15 @@
 	taste_description = "a carpet...what?"
 
 /datum/reagent/carpet/reaction_turf(turf/simulated/T, volume)
+<<<<<<< Updated upstream
 	if(istype(T, turf/open/floor/plating) || istype(T, turf/open/floor/plasteel))
 		varturf/open/floor/F = T
 		F.ChangeTurf(turf/open/floor/carpet)
+=======
+	if(istype(T, /turf/open/floor/plating) || istype(T, /turf/open/floor/plasteel))
+		var/turf/open/floor/F = T
+		F.ChangeTurf(/turf/open/floor/carpet)
+>>>>>>> Stashed changes
 	..()
 
 /datum/reagent/bromine

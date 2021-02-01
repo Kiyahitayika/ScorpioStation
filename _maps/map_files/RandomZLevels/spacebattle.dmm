@@ -26,7 +26,11 @@
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate2)
 "af" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -55,41 +59,68 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate2)
 "aj" = (
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate2)
+"aj" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "ak" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "al" = (
 /mob/living/simple_animal/hostile/syndicate/ranged,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "am" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/space/hardsuit/syndi,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "an" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "ao" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -97,40 +128,64 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "aq" = (
 /mob/living/simple_animal/hostile/syndicate/melee,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "ar" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "as" = (
 /obj/structure/table/reinforced,
 /obj/item/grenade/empgrenade,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "at" = (
 /obj/structure/table/reinforced,
 /obj/item/ammo_casing/c10mm,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "au" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/projectile/automatic/c20r,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -147,7 +202,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate3)
 "ax" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -155,7 +214,11 @@
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate3)
 "ay" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -163,7 +226,11 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate3)
 "az" = (
 /turf/space,
@@ -175,7 +242,11 @@
 "aA" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/projectile/automatic/pistol,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -191,16 +262,27 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate3)
 "aD" = (
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate3)
+"aD" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
 "aE" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
@@ -208,7 +290,11 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
@@ -221,7 +307,11 @@
 "aH" = (
 /obj/structure/chair/comfy/shuttle,
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -234,25 +324,41 @@
 /area/awaymission/spacebattle/syndicate2)
 "aJ" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
 "aK" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/projectile/automatic/pistol/deagle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
 "aL" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "aM" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -261,7 +367,11 @@
 	},
 /area/awaymission/spacebattle/syndicate2)
 "aN" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -282,7 +392,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate1)
 "aQ" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -290,7 +404,11 @@
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate1)
 "aR" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -298,7 +416,11 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate1)
 "aS" = (
 /turf/space,
@@ -309,11 +431,19 @@
 /area/awaymission/spacebattle/syndicate1)
 "aT" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate2)
 "aU" = (
 /obj/machinery/sleeper,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate2)
+"aU" = (
+/obj/machinery/sleeper,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
@@ -329,7 +459,11 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate1)
 "aX" = (
 /obj/structure/window/reinforced,
@@ -356,7 +490,11 @@
 /turf/open/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "aZ" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -364,7 +502,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -372,13 +514,21 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
 "bc" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -386,7 +536,11 @@
 /obj/effect/landmark{
 	name = "awaystart"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -400,33 +554,53 @@
 /area/awaymission/spacebattle/syndicate2)
 "bf" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
 "bg" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bi" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/gloves/combat,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bj" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bk" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/helmet/swat,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
@@ -435,7 +609,11 @@
 	id_tags = list("spacebattlepod3");
 	name = "Hull Door Control"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate2)
@@ -446,18 +624,30 @@
 	name = "Front Hull Door";
 	opacity = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate2)
 "bn" = (
 /obj/machinery/door/unpowered/shuttle,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate2)
+"bn" = (
+/obj/machinery/door/unpowered/shuttle,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bo" = (
 /obj/structure/table/reinforced,
 /obj/item/grenade/spawnergrenade/manhacks,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -470,7 +660,11 @@
 "bq" = (
 /obj/structure/chair/comfy/shuttle,
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
@@ -483,12 +677,20 @@
 /area/awaymission/spacebattle/syndicate3)
 "bs" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate3)
 "bt" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -497,7 +699,11 @@
 	},
 /area/awaymission/spacebattle/syndicate3)
 "bu" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -508,7 +714,11 @@
 "bv" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/helmet/swat,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -529,7 +739,11 @@
 "by" = (
 /obj/structure/chair/comfy/shuttle,
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
@@ -542,12 +756,20 @@
 /area/awaymission/spacebattle/syndicate1)
 "bA" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bB" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -556,7 +778,11 @@
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bC" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /turf/closed/shuttle/wall{
@@ -589,7 +815,11 @@
 /area/awaymission/spacebattle/cruiser)
 "bG" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "bH" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -624,7 +854,11 @@
 /turf/open/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bL" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/cruiser)
@@ -644,7 +878,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/cruiser)
@@ -652,7 +890,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/cruiser)
@@ -723,7 +965,11 @@
 	id_tags = list("spacebattlepod");
 	name = "Hull Door Control"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/cruiser)
@@ -767,7 +1013,11 @@
 	opacity = 1;
 	tag = "icon-pdoor0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "cg" = (
 /turf/open/floor/plasteel,
@@ -1039,7 +1289,11 @@
 	id_tags = list("spacebattlepod2");
 	name = "Hull Door Control"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/cruiser)
@@ -1137,7 +1391,11 @@
 	opacity = 1;
 	tag = "icon-pdoor0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "dq" = (
 /turf/space,
@@ -1579,13 +1837,21 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "eI" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate4)
 "eJ" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate4)
@@ -1624,7 +1890,11 @@
 /area/awaymission/spacebattle/cruiser)
 "eP" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate4)
@@ -1633,7 +1903,11 @@
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate4)
@@ -1741,7 +2015,11 @@
 /area/awaymission/spacebattle/cruiser)
 "fj" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate4)
@@ -1927,7 +2205,11 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "gn" = (
 /obj/structure/closet/crate/secure/weapon,
@@ -2092,7 +2374,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate4)
 "gO" = (
 /obj/structure/reagent_dispensers/beerkeg,
@@ -2164,7 +2450,11 @@
 /area/awaymission/spacebattle/syndicate7)
 "gY" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate4)
 "gZ" = (
 /obj/item/pickaxe,
@@ -2205,12 +2495,20 @@
 /area/awaymission/spacebattle/syndicate7)
 "he" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate7)
 "hf" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate7)
@@ -2223,7 +2521,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate7)
 "hh" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2231,7 +2533,11 @@
 	icon_state = "propulsion_l";
 	tag = "icon-propulsion_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate7)
 "hi" = (
 /obj/structure/largecrate,
@@ -2404,7 +2710,11 @@
 /area/awaymission/spacebattle/cruiser)
 "hL" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate7)
@@ -2413,13 +2723,21 @@
 	dir = 8
 	},
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate7)
 "hN" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate7)
@@ -2687,13 +3005,21 @@
 /turf/open/floor/plasteel/airless,
 /area/space/nearstation)
 "iD" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate5)
 "iE" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate5)
@@ -2712,7 +3038,11 @@
 /area/space/nearstation)
 "iH" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate5)
@@ -2721,7 +3051,11 @@
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate5)
@@ -2730,6 +3064,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/space/nearstation)
 "iK" = (
@@ -2739,6 +3074,17 @@
 "iL" = (
 /obj/machinery/door/airlock/external,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/space/nearstation)
+"iK" = (
+/obj/structure/shuttle/engine/propulsion,
+//turf/open/shuttle/plating,
+/area/space/nearstation)
+"iL" = (
+/obj/machinery/door/airlock/external,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate5)
@@ -2760,11 +3106,19 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate5)
 "iP" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate5)
+"iP" = (
+/obj/structure/shuttle/engine/propulsion,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate5)
 "iQ" = (
 /turf/space,
@@ -2786,19 +3140,31 @@
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iT" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iU" = (
 /obj/machinery/computer/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iV" = (
 /obj/machinery/sleeper,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate6)
@@ -2807,13 +3173,21 @@
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/syndicate,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iX" = (
 /obj/machinery/door/airlock/external,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/awaymission/spacebattle/syndicate6)
@@ -2835,11 +3209,19 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate6)
 "jb" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/awaymission/spacebattle/syndicate6)
+"jb" = (
+/obj/structure/shuttle/engine/propulsion,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate6)
 "jc" = (
 /turf/open/floor/plating/asteroid/airless,
@@ -2867,7 +3249,11 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "qC" = (
 /obj/structure/window/reinforced,
@@ -2879,7 +3265,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "zS" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2887,7 +3277,11 @@
 	icon_state = "propulsion_l";
 	tag = "icon-propulsion_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "Jj" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2895,7 +3289,11 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate2)
 "Jw" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2903,7 +3301,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/syndicate2)
 "JS" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2911,7 +3313,11 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "JW" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2919,7 +3325,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 "YV" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -2927,7 +3337,11 @@
 	icon_state = "burst_r";
 	tag = "icon-burst_r (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/spacebattle/cruiser)
 
 (1,1,1) = {"

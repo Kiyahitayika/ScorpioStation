@@ -1499,7 +1499,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Aft)
 "ec" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -1507,7 +1511,11 @@
 	icon_state = "propulsion";
 	tag = "icon-propulsion (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Aft)
 "ed" = (
 /obj/item/multitool,
@@ -1792,7 +1800,11 @@
 	dir = 4;
 	id = "meatConvey1"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "eH" = (
 /obj/structure/closet/crate,
@@ -1807,7 +1819,11 @@
 	id = "meatConvey1"
 	},
 /obj/structure/plasticflaps,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "eJ" = (
 /obj/structure/disposalpipe/segment{
@@ -1846,7 +1862,11 @@
 /obj/machinery/disposal/deliveryChute{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "eN" = (
 /obj/structure/disposalpipe/segment{
@@ -2086,7 +2106,11 @@
 /turf/open/floor/plating,
 /area/awaymission/BMPship/Aft)
 "fo" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Aft)
 "fp" = (
 /obj/structure/window/reinforced{
@@ -2538,7 +2562,11 @@
 	id = "meatConvey2"
 	},
 /obj/item/kitchen/knife,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "gm" = (
 /obj/structure/kitchenspike,
@@ -2561,7 +2589,11 @@
 	dir = 4;
 	id = "meatConvey2"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "gp" = (
 /obj/machinery/conveyor{
@@ -2569,7 +2601,11 @@
 	id = "meatConvey2"
 	},
 /obj/structure/plasticflaps,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission/BMPship/Midship)
 "gq" = (
 /obj/structure/disposalpipe/segment{

@@ -114,7 +114,11 @@
 			to_chat(user, "<span class='warning'>[src] is blocked!</span>")
 			return
 		if(istype(W, /obj/item/screwdriver))
+<<<<<<< Updated upstream
 			if(!istype(T, turf/open/floor))
+=======
+			if(!istype(T, /turf/open/floor))
+>>>>>>> Stashed changes
 				to_chat(user, "<span class='warning'>[src] bolts must be tightened on the floor!</span>")
 				return
 			user.visible_message("<span class='notice'>[user] tightens some bolts on the wall.</span>", "<span class='warning'>You tighten the bolts on the wall.</span>")

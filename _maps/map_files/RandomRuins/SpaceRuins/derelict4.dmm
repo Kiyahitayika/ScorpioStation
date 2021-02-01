@@ -6,7 +6,11 @@
 /turf/closed/mineral,
 /area/ruin/unpowered)
 "c" = (
+<<<<<<< Updated upstream
 turf/open/floor/plating/asteroid/airless,
+=======
+/turf/open/floor/plating/asteroid/airless,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "d" = (
 /turf/closed/mineral/random/high_chance,
@@ -22,7 +26,11 @@ turf/open/floor/plating/asteroid/airless,
 /turf/open/floor/plating/airless,
 /area/ruin/unpowered)
 "h" = (
+<<<<<<< Updated upstream
 turf/open/floor/mineral/titanium/blue,
+=======
+/turf/open/floor/mineral/titanium/blue,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "i" = (
 /obj/structure/window/reinforced{
@@ -31,6 +39,7 @@ turf/open/floor/mineral/titanium/blue,
 	dir = 8
 	},
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 turf/open/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 "j" = (
@@ -40,6 +49,17 @@ turf/open/floor/mineral/titanium/blue,
 "k" = (
 /obj/effect/spawner/lootdrop/crate_spawner,
 turf/open/floor/mineral/titanium/blue,
+=======
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/unpowered)
+"j" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/unpowered)
+"k" = (
+/obj/effect/spawner/lootdrop/crate_spawner,
+/turf/open/floor/mineral/titanium/blue,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "l" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -47,7 +67,11 @@ turf/open/floor/mineral/titanium/blue,
 	icon_state = "propulsion";
 	tag = "icon-propulsion (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "m" = (
 /obj/item/shard,
@@ -65,14 +89,22 @@ turf/open/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 "p" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 turf/open/floor/mineral/titanium/blue,
+=======
+/turf/open/floor/mineral/titanium/blue,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "q" = (
 /obj/item/shard,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/titanium/blue,
+=======
+/turf/open/floor/mineral/titanium/blue,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "r" = (
 /obj/structure/window/reinforced{
@@ -83,7 +115,11 @@ turf/open/floor/mineral/titanium/blue,
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 turf/open/floor/mineral/titanium/blue,
+=======
+/turf/open/floor/mineral/titanium/blue,
+>>>>>>> Stashed changes
 /area/ruin/unpowered)
 "s" = (
 /obj/structure/chair/comfy/shuttle{

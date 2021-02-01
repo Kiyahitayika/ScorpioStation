@@ -1441,7 +1441,11 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "dS" = (
 /turf/closed/shuttle/wall{
@@ -1454,14 +1458,22 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "dU" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "dV" = (
 /turf/closed/shuttle/wall{
@@ -1573,7 +1585,11 @@
 	},
 /area/centcom/evac)
 "el" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
@@ -1602,7 +1618,11 @@
 	},
 /area/tdome/arena_source)
 "eo" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
@@ -1615,7 +1635,11 @@
 	pixel_y = 4
 	},
 /obj/item/storage/firstaid/toxin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eq" = (
 /obj/structure/table,
@@ -1627,7 +1651,11 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "er" = (
 /obj/structure/table,
@@ -1636,10 +1664,17 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "es" = (
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"es" = (
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	dir = 2;
 	icon_state = "swall_f10";
@@ -1647,7 +1682,11 @@
 	},
 /area/centcom/evac)
 "et" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
@@ -1704,7 +1743,11 @@
 	icon_state = "sleeper-open";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eF" = (
 /turf/closed/shuttle/wall{
@@ -1720,7 +1763,11 @@
 	name = "Security Desk";
 	req_access_txt = "103"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -1766,21 +1813,33 @@
 /area/centcom/evac)
 "eM" = (
 /obj/machinery/door/airlock/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eN" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Cockpit";
 	req_access_txt = "109"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/centcom/evac)
 "eO" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eP" = (
 /obj/structure/flora/grass/brown,
@@ -1799,7 +1858,11 @@
 	},
 /area/centcom/suppy)
 "eR" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eS" = (
 /obj/structure/closet,
@@ -1818,7 +1881,11 @@
 /area/centcom/suppy)
 "eU" = (
 /obj/structure/closet/emcloset,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "eV" = (
 /turf/closed/ind_wall/fakeglass{
@@ -1880,10 +1947,17 @@
 	},
 /area/centcom/suppy)
 "fd" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "fe" = (
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"fe" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/centcom/evac)
@@ -1919,27 +1993,43 @@
 "fj" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "fk" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "fl" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "fm" = (
 /obj/structure/table/reinforced,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -1975,7 +2065,11 @@
 /area/centcom/suppy)
 "fq" = (
 /obj/machinery/computer/secure_data,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -2000,19 +2094,31 @@
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
 /obj/item/stamp,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "fu" = (
 /obj/structure/table,
 /obj/item/flash,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
 "fv" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -2028,7 +2134,11 @@
 "fy" = (
 /obj/structure/table,
 /obj/item/storage/box/handcuffs,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -2051,11 +2161,19 @@
 "fC" = (
 /obj/structure/grille,
 /obj/structure/shuttle/window,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/centcom/evac)
 "fD" = (
 /obj/machinery/door/airlock/shuttle,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/centcom/evac)
+"fD" = (
+/obj/machinery/door/airlock/shuttle,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor2"
 	},
 /area/centcom/evac)
@@ -2078,17 +2196,29 @@
 "fG" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fH" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fI" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fJ" = (
 /turf/closed/ind_wall/fakeglass{
@@ -2127,7 +2257,11 @@
 "fM" = (
 /obj/structure/table,
 /obj/item/radio/off,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fN" = (
 /obj/machinery/door/airlock/external{
@@ -2141,7 +2275,11 @@
 /area/centcom/control)
 "fO" = (
 /obj/structure/filingcabinet,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fP" = (
 /obj/structure/table/wood,
@@ -2157,6 +2295,7 @@
 "fQ" = (
 /obj/structure/table,
 /obj/item/storage/lockbox,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "fR" = (
@@ -2166,17 +2305,36 @@
 "fS" = (
 /obj/machinery/computer/shuttle,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"fR" = (
+/obj/structure/table,
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"fS" = (
+/obj/machinery/computer/shuttle,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fT" = (
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/pen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fU" = (
 /obj/structure/table,
 /obj/item/paper_bin,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "fV" = (
 /turf/closed/ind_wall,
@@ -2713,7 +2871,11 @@
 	},
 /area/centcom/ferry)
 "hy" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -3479,7 +3641,11 @@
 	},
 /area/wizard_station)
 "jE" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -3521,7 +3687,11 @@
 /area/syndicate_mothership)
 "jK" = (
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -3762,7 +3932,11 @@
 	icon_state = "propulsion";
 	tag = "icon-propulsion (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "kr" = (
 /obj/structure/flora/grass/brown,
@@ -3779,7 +3953,11 @@
 	icon_state = "heater";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "kt" = (
 /obj/structure/cult/altar{
@@ -4642,14 +4820,22 @@
 	dir = 4;
 	icon_state = "propulsion"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "mP" = (
 /obj/structure/shuttle/engine/heater{
 	icon_state = "heater";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "mQ" = (
 /obj/machinery/light{
@@ -5076,7 +5262,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -5089,7 +5279,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -5973,7 +6167,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "th" = (
 /turf/closed/ind_wall,
@@ -5982,7 +6180,11 @@
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_l"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/wizard_station)
 "tq" = (
 /obj/structure/rack,
@@ -6056,7 +6258,11 @@
 /area/centcom/holding)
 "tP" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space)
 "tQ" = (
 /turf/unsimulated/beach/coastline,
@@ -6126,7 +6332,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -6134,7 +6344,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/centcom/evac)
@@ -6142,16 +6356,25 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "yc" = (
 /obj/structure/bed,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"yc" = (
+/obj/structure/bed,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/centcom/evac)
 "yd" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/centcom/evac)
 "yf" = (
@@ -6161,12 +6384,27 @@
 "yg" = (
 /obj/structure/chair/sofa/right,
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"yf" = (
+/obj/structure/chair/comfy/shuttle,
+//turf/open/shuttle/floor,
+/area/centcom/evac)
+"yg" = (
+/obj/structure/chair/sofa/right,
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
 "yk" = (
 /obj/structure/chair/sofa,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)
@@ -6273,7 +6511,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -6282,7 +6524,11 @@
 	dir = 1
 	},
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -6290,7 +6536,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -6298,7 +6548,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
@@ -6311,7 +6565,11 @@
 /area/wizard_station)
 "Gw" = (
 /obj/structure/chair/sofa/left,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor4"
 	},
 /area/shuttle/escape)

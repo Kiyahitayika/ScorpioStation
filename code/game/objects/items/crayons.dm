@@ -20,7 +20,11 @@
 	var/colourName = "red" //for updateIcon purposes
 	var/dat
 	var/busy = FALSE
+<<<<<<< Updated upstream
 	var/list/validSurfaces = list(turf/open/floor)
+=======
+	var/list/validSurfaces = list(/turf/open/floor)
+>>>>>>> Stashed changes
 
 /obj/item/toy/crayon/suicide_act(mob/user)
 	user.visible_message("<span class='suicide'>[user] is jamming the [name] up [user.p_their()] nose and into [user.p_their()] brain. It looks like [user.p_theyre()] trying to commit suicide.</span>")
@@ -236,7 +240,11 @@
 	desc = "A metallic container containing tasty paint."
 	var/capped = 1
 	instant = 1
+<<<<<<< Updated upstream
 	validSurfaces = list(turf/open/floor,/turf/closed/wall)
+=======
+	validSurfaces = list(/turf/open/floor,/turf/closed/wall)
+>>>>>>> Stashed changes
 
 /obj/item/toy/crayon/spraycan/New()
 	..()

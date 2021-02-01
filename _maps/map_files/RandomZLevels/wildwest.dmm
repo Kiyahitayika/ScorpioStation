@@ -13,7 +13,11 @@
 /turf/open/floor/engine/cult,
 /area/awaymission/wwvault)
 "ae" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-cultdamage5";
 	icon_state = "cultdamage5"
 	},
@@ -23,7 +27,11 @@
 /turf/open/floor/engine/cult,
 /area/awaymission/wwvault)
 "ag" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-bcircuitoff";
 	icon_state = "bcircuitoff"
 	},
@@ -40,13 +48,21 @@
 /turf/closed/wall/cult,
 /area/awaymission/wwvault)
 "aj" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-cultdamage3";
 	icon_state = "cultdamage3"
 	},
 /area/awaymission/wwvault)
 "ak" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-cultdamage6";
 	icon_state = "cultdamage6"
 	},
@@ -57,7 +73,11 @@
 /area/awaymission/wwvault)
 "am" = (
 /mob/living/simple_animal/hostile/faithless,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-bcircuitoff";
 	icon_state = "bcircuitoff"
 	},
@@ -71,21 +91,33 @@
 /turf/closed/shuttle/wall,
 /area/awaymission/wwvault)
 "ao" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
 /area/awaymission/wwvault)
 "ap" = (
 /obj/machinery/wish_granter_dark,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
 /area/awaymission/wwvault)
 "aq" = (
 /obj/structure/cult/pylon,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -94,7 +126,11 @@
 /obj/machinery/gateway{
 	dir = 9
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -103,7 +139,11 @@
 /obj/machinery/gateway{
 	dir = 5
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -112,7 +152,11 @@
 /obj/machinery/gateway{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -121,7 +165,11 @@
 /obj/machinery/gateway{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -130,7 +178,11 @@
 /obj/machinery/gateway{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -139,7 +191,11 @@
 /obj/machinery/gateway/centeraway{
 	calibrated = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -148,7 +204,11 @@
 /obj/machinery/gateway{
 	dir = 10
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
@@ -157,34 +217,54 @@
 /obj/machinery/gateway{
 	dir = 6
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
 /area/awaymission/wwvault)
 "az" = (
 /obj/machinery/gateway,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
 /area/awaymission/wwvault)
 "aA" = (
 /obj/effect/meatgrinder,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-gcircuitoff";
 	icon_state = "gcircuitoff"
 	},
 /area/awaymission/wwvault)
 "aB" = (
 /obj/structure/cult/pylon,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-bcircuitoff";
 	icon_state = "bcircuitoff"
 	},
 /area/awaymission/wwvault)
 "aC" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating{
+=======
+//turf/open/shuttle/plating{
+>>>>>>> Stashed changes
 	tag = "icon-cultdamage2";
 	icon_state = "cultdamage2"
 	},

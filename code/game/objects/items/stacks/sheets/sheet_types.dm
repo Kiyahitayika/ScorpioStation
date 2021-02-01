@@ -428,7 +428,11 @@ GLOBAL_LIST_INIT(brass_recipes, list (\
 	max_amount = 50
 	throw_speed = 1
 	throw_range = 3
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/clockwork
+=======
+	turf_type = /turf/open/floor/clockwork
+>>>>>>> Stashed changes
 
 /obj/item/stack/tile/brass/narsie_act()
 	new /obj/item/stack/sheet/runed_metal(loc, amount)

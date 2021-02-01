@@ -511,10 +511,17 @@
 	throw_range = 7
 	flags = CONDUCT
 	max_amount = 60
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/bluespace
 
 
 turf/open/floor/bluespace
+=======
+	turf_type = /turf/open/floor/bluespace
+
+
+/turf/open/floor/bluespace
+>>>>>>> Stashed changes
 	slowdown = -1
 	icon_state = "bluespace"
 	desc = "Through a series of micro-teleports, these tiles let people move at incredible speeds."
@@ -534,7 +541,11 @@ turf/open/floor/bluespace
 	throw_range = 7
 	flags = CONDUCT
 	max_amount = 60
+<<<<<<< Updated upstream
 	turf_type = turf/open/floor/sepia
+=======
+	turf_type = /turf/open/floor/sepia
+>>>>>>> Stashed changes
 
 /obj/item/areaeditor/blueprints/slime
 	name = "cerulean prints"
@@ -549,7 +560,11 @@ turf/open/floor/bluespace
 	A.xenobiology_compatible = TRUE
 	qdel(src)
 
+<<<<<<< Updated upstream
 turf/open/floor/sepia
+=======
+/turf/open/floor/sepia
+>>>>>>> Stashed changes
 	slowdown = 2
 	icon_state = "sepia"
 	desc = "Time seems to flow very slowly around these tiles."

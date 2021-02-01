@@ -286,7 +286,11 @@
 					M.attack_hand(src)
 
 			if(prob(6))
+<<<<<<< Updated upstream
 				for(varturf/open/floor/O in range(src, 6))
+=======
+				for(var/turf/open/floor/O in range(src, 6))
+>>>>>>> Stashed changes
 					O.MakeSlippery(TURF_WET_WATER, 10 SECONDS)
 					playsound(src, 'sound/effects/clownstep1.ogg', 30, 1)
 
@@ -324,7 +328,11 @@
 				H.adjustBruteLoss(10)
 				if(!eating)
 					addtimer(CALLBACK(src, /mob/living/simple_animal/hostile/floor_cluwne/.proc/Grab, H), 70)
+<<<<<<< Updated upstream
 					for(varturf/open/floor/O in range(src, 6))
+=======
+					for(var/turf/open/floor/O in range(src, 6))
+>>>>>>> Stashed changes
 						O.MakeSlippery(TURF_WET_LUBE, 20 SECONDS)
 						playsound(src, 'sound/effects/meteorimpact.ogg', 30, 1)
 

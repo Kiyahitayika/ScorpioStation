@@ -193,10 +193,17 @@
 	return ..()
 
 GLOBAL_LIST_INIT(blacklisted_pylon_turfs, typecacheof(list(
+<<<<<<< Updated upstream
 	turf/open/floor/engine/cult,
 	/turf/space,
 	turf/open/floor/plating/lava,
 	turf/open/floor/chasm,
+=======
+	/turf/open/floor/engine/cult,
+	/turf/space,
+	/turf/open/floor/plating/lava,
+	/turf/open/floor/chasm,
+>>>>>>> Stashed changes
 	/turf/closed/wall/cult,
 	/turf/closed/wall/cult/artificer,
 	/turf/closed/ind_wall
@@ -266,7 +273,11 @@ GLOBAL_LIST_INIT(blacklisted_pylon_turfs, typecacheof(list(
 		var/list/validturfs = list()
 		var/list/cultturfs = list()
 		for(var/T in circleviewturfs(src, 5))
+<<<<<<< Updated upstream
 			if(istype(T, turf/open/floor/engine/cult))
+=======
+			if(istype(T, /turf/open/floor/engine/cult))
+>>>>>>> Stashed changes
 				cultturfs |= T
 				continue
 			if(is_type_in_typecache(T, GLOB.blacklisted_pylon_turfs))
@@ -278,12 +289,21 @@ GLOBAL_LIST_INIT(blacklisted_pylon_turfs, typecacheof(list(
 
 		var/turf/T = safepick(validturfs)
 		if(T)
+<<<<<<< Updated upstream
 			if(istype(T, turf/open/floor))
 				T.ChangeTurf(turf/open/floor/engine/cult)
 			if(istype(T, /turf/closed/wall))
 				T.ChangeTurf(/turf/closed/wall/cult/artificer)
 		else
 			varturf/open/floor/engine/cult/F = safepick(cultturfs)
+=======
+			if(istype(T, /turf/open/floor))
+				T.ChangeTurf(/turf/open/floor/engine/cult)
+			if(istype(T, /turf/closed/wall))
+				T.ChangeTurf(/turf/closed/wall/cult/artificer)
+		else
+			var/turf/open/floor/engine/cult/F = safepick(cultturfs)
+>>>>>>> Stashed changes
 			if(F)
 				new /obj/effect/temp_visual/cult/turf/open/floor(F)
 			else

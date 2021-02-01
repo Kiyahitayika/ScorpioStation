@@ -10,7 +10,11 @@
 	if(..())
 		var/turf/loc = get_turf(usr)
 		var/area/A = loc.loc
+<<<<<<< Updated upstream
 		if(!istype(loc, turf/open/floor))
+=======
+		if(!istype(loc, /turf/open/floor))
+>>>>>>> Stashed changes
 			to_chat(usr, "<span class='alert'>Newscaster cannot be placed on this spot.</span>")
 			return
 		if(A.requires_power == 0 || A.name == "Space")

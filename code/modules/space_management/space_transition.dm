@@ -414,7 +414,11 @@
 			our_spot = locate(center.x + i, center.y + j, center.z)
 			grid_desc = "([i],[j])"
 			if(!isnull(P))
+<<<<<<< Updated upstream
 				our_spot = our_spot.ChangeTurf(turf/open/floor/plating/snow)
+=======
+				our_spot = our_spot.ChangeTurf(/turf/open/floor/plating/snow)
+>>>>>>> Stashed changes
 				grid_desc += ": Z level [P.spl.zpos]. "
 				var/datum/space_level/up = P.spl.get_connection(Z_LEVEL_NORTH)
 				var/datum/space_level/down = P.spl.get_connection(Z_LEVEL_SOUTH)
@@ -425,5 +429,9 @@
 				grid_desc += "Right: [right.zpos], "
 				grid_desc += "Left: [left.zpos]"
 			else
+<<<<<<< Updated upstream
 				our_spot = our_spot.ChangeTurf(turf/open/floor/fakespace)
+=======
+				our_spot = our_spot.ChangeTurf(/turf/open/floor/fakespace)
+>>>>>>> Stashed changes
 			our_spot.desc = grid_desc

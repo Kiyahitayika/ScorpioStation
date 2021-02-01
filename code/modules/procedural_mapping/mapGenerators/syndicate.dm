@@ -1,10 +1,18 @@
 // Modules
 
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor/syndicate //TODO: move to proper file/replace syndie shuttle turfs
 	icon_state = "floor4"
 
 /datum/mapGeneratorModule/bottomLayer/syndieFloor
 	spawnableTurfs = list(/turf/open/shuttle/floor/syndicate = 100)
+=======
+//turf/open/shuttle/floor/syndicate //TODO: move to proper file/replace syndie shuttle turfs
+	icon_state = "floor4"
+
+/datum/mapGeneratorModule/bottomLayer/syndieFloor
+	spawnableTurfs = list(//turf/open/shuttle/floor/syndicate = 100)
+>>>>>>> Stashed changes
 
 /datum/mapGeneratorModule/border/syndieWalls
 	spawnableAtoms = list()

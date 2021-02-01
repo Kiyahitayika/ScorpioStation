@@ -226,10 +226,17 @@
 				occupant_message("Deconstructing [target]...")
 				if(do_after_cooldown(W))
 					chassis.spark_system.start()
+<<<<<<< Updated upstream
 					W.ChangeTurf(turf/open/floor/plating)
 					playsound(W, usesound, 50, 1)
 			else if(istype(target, turf/open/floor))
 				varturf/open/floor/F = target
+=======
+					W.ChangeTurf(/turf/open/floor/plating)
+					playsound(W, usesound, 50, 1)
+			else if(istype(target, /turf/open/floor))
+				var/turf/open/floor/F = target
+>>>>>>> Stashed changes
 				occupant_message("Deconstructing [target]...")
 				if(do_after_cooldown(F))
 					chassis.spark_system.start()
@@ -247,18 +254,30 @@
 				var/turf/space/S = target
 				occupant_message("Building Floor...")
 				if(do_after_cooldown(S))
+<<<<<<< Updated upstream
 					S.ChangeTurf(turf/open/floor/plating)
 					playsound(S, usesound, 50, 1)
 					chassis.spark_system.start()
 			else if(istype(target, turf/open/floor))
 				varturf/open/floor/F = target
+=======
+					S.ChangeTurf(/turf/open/floor/plating)
+					playsound(S, usesound, 50, 1)
+					chassis.spark_system.start()
+			else if(istype(target, /turf/open/floor))
+				var/turf/open/floor/F = target
+>>>>>>> Stashed changes
 				occupant_message("Building Wall...")
 				if(do_after_cooldown(F))
 					F.ChangeTurf(/turf/closed/wall)
 					playsound(F, usesound, 50, 1)
 					chassis.spark_system.start()
 		if(2)
+<<<<<<< Updated upstream
 			if(istype(target, turf/open/floor))
+=======
+			if(istype(target, /turf/open/floor))
+>>>>>>> Stashed changes
 				occupant_message("Building Airlock...")
 				if(do_after_cooldown(target))
 					chassis.spark_system.start()
@@ -307,7 +326,11 @@
 	if(!action_checks(target) || get_dist(chassis, target)>3)
 		return
 
+<<<<<<< Updated upstream
 	if(istype(target, turf/open/floor))
+=======
+	if(istype(target, /turf/open/floor))
+>>>>>>> Stashed changes
 		occupant_message("Building Wall...")
 		if(do_after_cooldown(target))
 			new /obj/structure/barricade/mime/mrcd(target)
@@ -408,9 +431,15 @@
 	last_piece = null
 
 /obj/item/mecha_parts/mecha_equipment/cable_layer/proc/dismantleFloor(var/turf/new_turf)
+<<<<<<< Updated upstream
 	if(istype(new_turf, turf/open/floor))
 		varturf/open/floor/T = new_turf
 		if(!istype(T, turf/open/floor/plating))
+=======
+	if(istype(new_turf, /turf/open/floor))
+		var/turf/open/floor/T = new_turf
+		if(!istype(T, /turf/open/floor/plating))
+>>>>>>> Stashed changes
 			if(!T.broken && !T.burnt)
 				new T.floor_tile(T)
 			T.make_plating()

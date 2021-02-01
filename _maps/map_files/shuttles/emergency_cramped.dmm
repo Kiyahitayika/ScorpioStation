@@ -162,7 +162,11 @@
 	dir = 1;
 	layer = 2.9
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "A" = (
 /turf/closed/shuttle/wall{
@@ -175,14 +179,22 @@
 	tag = "icon-burst_l";
 	icon_state = "burst_l"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "C" = (
 /obj/structure/shuttle/engine/propulsion{
 	tag = "icon-propulsion_r";
 	icon_state = "propulsion_r"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "D" = (
 /turf/closed/shuttle/wall{

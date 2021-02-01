@@ -1,6 +1,10 @@
 //Asteroid turfs
 /datum/mapGeneratorModule/bottomLayer/asteroidTurfs
+<<<<<<< Updated upstream
 	spawnableTurfs = list(turf/open/floor/plating/asteroid/airless = 100)
+=======
+	spawnableTurfs = list(/turf/open/floor/plating/asteroid/airless = 100)
+>>>>>>> Stashed changes
 
 /datum/mapGeneratorModule/bottomLayer/asteroidWalls
 	spawnableTurfs = list(/turf/closed/mineral = 100)

@@ -263,8 +263,13 @@
 				for(var/obj/structure/closet/closet in T.contents)
 					closet.open()
 
+<<<<<<< Updated upstream
 				if(!istype(T, turf/open/floor/plating) && !istype(T, turf/open/floor/engine/cult) && istype(T, turf/open/floor) && prob(15))
 					varturf/open/floor/floor = T
+=======
+				if(!istype(T, /turf/open/floor/plating) && !istype(T, /turf/open/floor/engine/cult) && istype(T, /turf/open/floor) && prob(15))
+					var/turf/open/floor/floor = T
+>>>>>>> Stashed changes
 					if(floor.intact && floor.floor_tile)
 						new floor.floor_tile(floor)
 					floor.broken = 0

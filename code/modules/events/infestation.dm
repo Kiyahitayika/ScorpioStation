@@ -24,7 +24,11 @@
 /datum/event/infestation/start()
 
 	location = rand(0,9)
+<<<<<<< Updated upstream
 	var/listturf/open/floor/turfs = list()
+=======
+	var/list/turf/open/floor/turfs = list()
+>>>>>>> Stashed changes
 	var/spawn_area_type
 	switch(location)
 		if(LOC_KITCHEN)
@@ -60,7 +64,11 @@
 
 	for(var/areapath in typesof(spawn_area_type))
 		var/area/A = locate(areapath)
+<<<<<<< Updated upstream
 		for(varturf/open/floor/F in A.contents)
+=======
+		for(var/turf/open/floor/F in A.contents)
+>>>>>>> Stashed changes
 			if(turf_clear(F))
 				turfs += F
 
@@ -84,7 +92,11 @@
 	spawn(0)
 		var/num = rand(2,max_number)
 		while(turfs.len > 0 && num > 0)
+<<<<<<< Updated upstream
 			varturf/open/floor/T = pick(turfs)
+=======
+			var/turf/open/floor/T = pick(turfs)
+>>>>>>> Stashed changes
 			turfs.Remove(T)
 			num--
 

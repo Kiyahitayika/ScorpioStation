@@ -94,18 +94,30 @@
 	icon_state = "pwindow"
 
 //Floors
+<<<<<<< Updated upstream
 turf/open/floor/pod
+=======
+/turf/open/floor/pod
+>>>>>>> Stashed changes
 	name = "pod floor"
 	icon_state = "podfloor"
 	icon_regular_floor = "podfloor"
 	floor_tile = /obj/item/stack/tile/pod
 
+<<<<<<< Updated upstream
 turf/open/floor/pod/light
+=======
+/turf/open/floor/pod/light
+>>>>>>> Stashed changes
 	icon_state = "podfloor_light"
 	icon_regular_floor = "podfloor_light"
 	floor_tile = /obj/item/stack/tile/pod/light
 
+<<<<<<< Updated upstream
 turf/open/floor/pod/dark
+=======
+/turf/open/floor/pod/dark
+>>>>>>> Stashed changes
 	icon_state = "podfloor_dark"
 	icon_regular_floor = "podfloor_dark"
 	floor_tile = /obj/item/stack/tile/pod/dark

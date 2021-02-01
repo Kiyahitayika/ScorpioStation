@@ -117,7 +117,11 @@
 	name = "Escape Shuttle Cockpit";
 	req_access_txt = "19"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aw" = (
 /obj/structure/chair{
@@ -126,7 +130,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "ax" = (
 /obj/machinery/status_display{
@@ -139,7 +147,11 @@
 	},
 /obj/structure/chair,
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "ay" = (
 /obj/machinery/door/airlock/shuttle{
@@ -201,10 +213,17 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
 /area/shuttle/escape)
 "aF" = (
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+/area/shuttle/escape)
+"aF" = (
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aG" = (
 /obj/machinery/door/airlock/security/glass{
@@ -234,12 +253,20 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aK" = (
 /obj/structure/chair,
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor4,
+=======
+//turf/open/shuttle/floor4,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aL" = (
 /obj/structure/grille,
@@ -280,7 +307,11 @@
 /obj/item/bodybag{
 	pixel_x = 5
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -332,7 +363,11 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "aU" = (
 /obj/structure/table,
@@ -442,7 +477,11 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "bh" = (
 /obj/machinery/status_display{
@@ -459,7 +498,11 @@
 	name = "Toilet";
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -475,7 +518,11 @@
 /obj/structure/window/full/shuttle{
 	icon_state = "15"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -499,7 +546,11 @@
 	name = "Escape Shuttle Infirmary";
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -529,7 +580,11 @@
 	},
 /area/shuttle/escape)
 "br" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -542,7 +597,11 @@
 	req_access_txt = "0"
 	},
 /obj/structure/bed/roller,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -583,7 +642,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -594,7 +657,11 @@
 	pixel_x = 28
 	},
 /obj/structure/bed/roller,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -625,13 +692,21 @@
 	icon_state = "sleeper";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
 "bD" = (
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/escape)
@@ -653,7 +728,11 @@
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "bH" = (
 /turf/closed/shuttle/wall{
@@ -672,7 +751,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 "bK" = (
 /turf/space,
@@ -683,7 +766,11 @@
 /area/shuttle/escape)
 "bL" = (
 /obj/structure/shuttle/engine/propulsion,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/escape)
 
 (1,1,1) = {"

@@ -1798,7 +1798,11 @@ GLOBAL_DATUM_INIT(dview_mob, /mob/dview, new)
 			/obj/vehicle = "VEHICLE",
 			/obj = "O",
 			/datum = "D",
+<<<<<<< Updated upstream
 			turf/open/floor = "SIM_FLOOR",
+=======
+			/turf/open/floor = "SIM_FLOOR",
+>>>>>>> Stashed changes
 			/turf/closed/wall = "SIM_WALL",
 			/turf/open/ind_floor = "UNSIM_FLOOR",
 			/turf/closed/ind_wall = "UNSIM_WALL",

@@ -1167,7 +1167,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "dS" = (
 /obj/machinery/light{
@@ -1177,7 +1181,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "dT" = (
 /obj/effect/overlay/palmtree_l,
@@ -1220,7 +1228,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "ea" = (
 /turf/unsimulated/beach/sand,
@@ -1233,11 +1245,19 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ec" = (
 /obj/machinery/computer,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission/beach)
+"ec" = (
+/obj/machinery/computer,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "ed" = (
 /obj/structure/closet/crate,
@@ -1259,16 +1279,27 @@
 /mob/living/simple_animal/hostile/pirate{
 	loot = list(/obj/effect/mob_spawn/human/corpse/pirate)
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission/beach)
 "eh" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission/beach)
+"eh" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "ei" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "ej" = (
 /obj/structure/table/wood,
@@ -1284,7 +1315,11 @@
 /area/awaymission/beach)
 "el" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/beach)
 "em" = (
 /obj/item/beach_ball,

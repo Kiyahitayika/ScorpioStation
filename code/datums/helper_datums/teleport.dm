@@ -202,7 +202,11 @@
 
 		if(!isfloorturf(random_location))
 			continue
+<<<<<<< Updated upstream
 		varturf/open/floor/F = random_location
+=======
+		var/turf/open/floor/F = random_location
+>>>>>>> Stashed changes
 		if(!F.air)
 			continue
 
@@ -227,7 +231,11 @@
 
 		if(extended_safety_checks)
 			if(islava(F)) //chasms aren't /floor, and so are pre-filtered
+<<<<<<< Updated upstream
 				varturf/open/floor/plating/lava/L = F
+=======
+				var/turf/open/floor/plating/lava/L = F
+>>>>>>> Stashed changes
 				if(!L.is_safe())
 					continue
 

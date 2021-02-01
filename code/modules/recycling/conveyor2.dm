@@ -421,7 +421,11 @@ GLOBAL_LIST_INIT(conveyor_switches, list())
 		return
 	if(user.incapacitated())
 		return
+<<<<<<< Updated upstream
 	if(!istype(T, turf/open/floor))
+=======
+	if(!istype(T, /turf/open/floor))
+>>>>>>> Stashed changes
 		return
 	if(T == get_turf(user))
 		to_chat(user, "<span class='notice'>You cannot place [src] under yourself.</span>")
@@ -456,7 +460,11 @@ GLOBAL_LIST_INIT(conveyor_switches, list())
 		return
 	if(user.incapacitated())
 		return
+<<<<<<< Updated upstream
 	if(!istype(T, turf/open/floor))
+=======
+	if(!istype(T, /turf/open/floor))
+>>>>>>> Stashed changes
 		return
 	var/found = FALSE
 	for(var/obj/machinery/conveyor/C in view())

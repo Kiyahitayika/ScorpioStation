@@ -23,12 +23,20 @@
 "d" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "e" = (
 /obj/structure/grille,
 /obj/structure/shuttle/window,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "f" = (
 /turf/space,
@@ -38,7 +46,11 @@
 	},
 /area/shuttle/transport)
 "g" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9"
@@ -53,6 +65,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/shuttle/transport)
 "i" = (
@@ -62,6 +75,17 @@
 "j" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/shuttle/transport)
+"i" = (
+/obj/machinery/computer/shuttle/ferry/request,
+//turf/open/shuttle/floor,
+/area/shuttle/transport)
+"j" = (
+/obj/structure/chair/comfy/shuttle,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "k" = (
 /obj/machinery/light/spot{
@@ -70,16 +94,27 @@
 	dir = 1
 	},
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "l" = (
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/shuttle/transport)
 "m" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/shuttle/transport)
+"m" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "n" = (
 /obj/machinery/door/airlock/shuttle{
@@ -95,7 +130,11 @@
 	timid = 1;
 	width = 5
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "o" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -110,7 +149,11 @@
 	},
 /area/shuttle/transport)
 "p" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10"
@@ -119,24 +162,40 @@
 "q" = (
 /obj/structure/closet/crate,
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/shuttle/transport)
 "r" = (
 /obj/structure/closet/crate,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/shuttle/transport)
+"r" = (
+/obj/structure/closet/crate,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "t" = (
 /obj/machinery/light/spot,
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/transport)
 "u" = (
 /turf/space,

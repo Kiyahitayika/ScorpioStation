@@ -86,7 +86,11 @@
 			if(prob(spreadIntoAdjacentChance))
 				spreadsIntoAdjacent = TRUE
 
+<<<<<<< Updated upstream
 			for(varturf/open/floor/earth in view(3,src))
+=======
+			for(var/turf/open/floor/earth in view(3,src))
+>>>>>>> Stashed changes
 				if(!ownturf.CanAtmosPass(earth))
 					continue
 				if(spreadsIntoAdjacent || !locate(/obj/structure/glowshroom) in view(1,earth))

@@ -8,7 +8,11 @@
 	magic_fluff_string = "..And draw the CMO, a potent force of life...and death."
 	tech_fluff_string = "Boot sequence complete. Medical modules active. Bluespace modules activated. Holoparasite swarm online."
 	bio_fluff_string = "Your scarab swarm finishes mutating and stirs to life, capable of mending wounds and travelling via bluespace."
+<<<<<<< Updated upstream
 	varturf/open/floor/beacon
+=======
+	var/turf/open/floor/beacon
+>>>>>>> Stashed changes
 	var/beacon_cooldown = 0
 	var/default_beacon_cooldown = 300 SECONDS
 	var/toggle = FALSE
@@ -89,15 +93,24 @@
 	set desc = "Mark a floor as your beacon point, allowing you to warp targets to it. Your beacon will not work in unfavorable atmospheric conditions."
 	if(beacon_cooldown < world.time)
 		var/turf/beacon_loc = get_turf(loc)
+<<<<<<< Updated upstream
 		if(istype(beacon_loc, turf/open/floor))
 			varturf/open/floor/F = beacon_loc
+=======
+		if(istype(beacon_loc, /turf/open/floor))
+			var/turf/open/floor/F = beacon_loc
+>>>>>>> Stashed changes
 			F.icon = 'icons/turf/floors.dmi'
 			F.name = "bluespace recieving pad"
 			F.desc = "A recieving zone for bluespace teleportations. Building a wall over it should disable it."
 			F.icon_state = "light_on-w"
 			to_chat(src, "<span class='danger'>Beacon placed! You may now warp targets to it, including your user, via Alt+Click. </span>")
 			if(beacon)
+<<<<<<< Updated upstream
 				beacon.ChangeTurf(turf/open/floor/plating)
+=======
+				beacon.ChangeTurf(/turf/open/floor/plating)
+>>>>>>> Stashed changes
 			beacon = F
 			beacon_cooldown = world.time + default_beacon_cooldown
 

@@ -57,7 +57,11 @@
 	var/ptype = istype(src, /obj/machinery/disposal/deliveryChute) ? PIPE_DISPOSALS_CHUTE : PIPE_DISPOSALS_BIN //Check what disposaltype it is
 	var/turf/T = OldLoc
 	if(T.intact)
+<<<<<<< Updated upstream
 		varturf/open/floor/F = T
+=======
+		var/turf/open/floor/F = T
+>>>>>>> Stashed changes
 		F.remove_tile(null,TRUE,TRUE)
 		T.visible_message("<span class='warning'>The floortile is ripped from the floor!</span>", "<span class='warning'>You hear a loud bang!</span>")
 	if(trunk)
@@ -789,8 +793,13 @@
 		H.active = 0
 		H.forceMove(src)
 		return
+<<<<<<< Updated upstream
 	if(T.intact && istype(T,turf/open/floor)) //intact floor, pop the tile
 		varturf/open/floor/F = T
+=======
+	if(T.intact && istype(T,/turf/open/floor)) //intact floor, pop the tile
+		var/turf/open/floor/F = T
+>>>>>>> Stashed changes
 		new F.floor_tile(H)
 		F.remove_tile(null, TRUE, FALSE)
 
@@ -1338,7 +1347,11 @@
 	. = ..()
 	var/turf/T = OldLoc
 	if(T.intact)
+<<<<<<< Updated upstream
 		varturf/open/floor/F = T
+=======
+		var/turf/open/floor/F = T
+>>>>>>> Stashed changes
 		F.remove_tile(null,TRUE,TRUE)
 		T.visible_message("<span class='warning'>The floortile is ripped from the floor!</span>", "<span class='warning'>You hear a loud bang!</span>")
 	if(linkedtrunk)

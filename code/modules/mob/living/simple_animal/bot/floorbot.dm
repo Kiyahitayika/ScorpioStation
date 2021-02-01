@@ -193,6 +193,7 @@
 
 		if(!target && replacetiles) //Finds a floor without a tile and gives it one.
 			process_type = REPLACE_TILE //The target must be the floor and not a tile. The floor must not already have a floortile.
+<<<<<<< Updated upstream
 			target = scan(turf/open/floor)
 
 		if(!target && fixfloors) //Repairs damaged floors and tiles.
@@ -202,6 +203,17 @@
 	if(!target && emagged == 2) //We are emagged! Time to rip up the floors!
 		process_type = TILE_EMAG
 		target = scan(turf/open/floor)
+=======
+			target = scan(/turf/open/floor)
+
+		if(!target && fixfloors) //Repairs damaged floors and tiles.
+			process_type = FIX_TILE
+			target = scan(/turf/open/floor)
+
+	if(!target && emagged == 2) //We are emagged! Time to rip up the floors!
+		process_type = TILE_EMAG
+		target = scan(/turf/open/floor)
+>>>>>>> Stashed changes
 
 
 	if(!target)
@@ -238,8 +250,13 @@
 				maketile(target)
 			else if(istype(target, /turf/) && emagged < 2)
 				repair(target)
+<<<<<<< Updated upstream
 			else if(emagged == 2 && istype(target,turf/open/floor))
 				varturf/open/floor/F = target
+=======
+			else if(emagged == 2 && istype(target,/turf/open/floor))
+				var/turf/open/floor/F = target
+>>>>>>> Stashed changes
 				anchored = TRUE
 				mode = BOT_REPAIRING
 				if(prob(90))
@@ -272,7 +289,11 @@
 //Floorbots, having several functions, need sort out special conditions here.
 /mob/living/simple_animal/bot/floorbot/process_scan(atom/scan_target)
 	var/result
+<<<<<<< Updated upstream
 	varturf/open/floor/F
+=======
+	var/turf/open/floor/F
+>>>>>>> Stashed changes
 	switch(process_type)
 		if(HULL_BREACH) //The most common job, patching breaches in the station's hull.
 			if(is_hull_breach(scan_target)) //Ensure that the targeted space turf is actually part of the station, and not random space.
@@ -284,7 +305,11 @@
 				anchored = TRUE
 		if(REPLACE_TILE)
 			F = scan_target
+<<<<<<< Updated upstream
 			if(istype(F, turf/open/floor/plating)) //The floor must not already have a tile.
+=======
+			if(istype(F, /turf/open/floor/plating)) //The floor must not already have a tile.
+>>>>>>> Stashed changes
 				result = F
 		if(FIX_TILE)	//Selects only damaged floors.
 			F = scan_target
@@ -292,7 +317,11 @@
 				result = F
 		if(TILE_EMAG) //Emag mode! Rip up the floor and cause breaches to space!
 			F = scan_target
+<<<<<<< Updated upstream
 			if(!istype(F, turf/open/floor/plating))
+=======
+			if(!istype(F, /turf/open/floor/plating))
+>>>>>>> Stashed changes
 				result = F
 		else //If no special processing is needed, simply return the result.
 			result = scan_target
@@ -305,7 +334,11 @@
 		if(!is_hull_breach(target_turf) && !targetdirection)
 			target = null
 			return
+<<<<<<< Updated upstream
 	else if(!istype(target_turf, turf/open/floor))
+=======
+	else if(!istype(target_turf, /turf/open/floor))
+>>>>>>> Stashed changes
 		return
 	if(amount <= 0)
 		mode = BOT_IDLE
@@ -320,16 +353,26 @@
 		spawn(50)
 			if(mode == BOT_REPAIRING)
 				if(autotile) //Build the floor and include a tile.
+<<<<<<< Updated upstream
 					target_turf.ChangeTurf(turf/open/floor/plasteel)
 				else //Build a hull plating without a floor tile.
 					target_turf.ChangeTurf(turf/open/floor/plating)
+=======
+					target_turf.ChangeTurf(/turf/open/floor/plasteel)
+				else //Build a hull plating without a floor tile.
+					target_turf.ChangeTurf(/turf/open/floor/plating)
+>>>>>>> Stashed changes
 				mode = BOT_IDLE
 				amount -= 1
 				update_icon()
 				anchored = FALSE
 				target = null
 	else
+<<<<<<< Updated upstream
 		varturf/open/floor/F = target_turf
+=======
+		var/turf/open/floor/F = target_turf
+>>>>>>> Stashed changes
 		mode = BOT_REPAIRING
 		icon_state = "[toolbox_color]floorbot-c"
 		visible_message("<span class='notice'>[src] begins repairing the floor.</span>")
@@ -337,7 +380,11 @@
 			if(mode == BOT_REPAIRING)
 				F.broken = 0
 				F.burnt = 0
+<<<<<<< Updated upstream
 				F.ChangeTurf(turf/open/floor/plasteel)
+=======
+				F.ChangeTurf(/turf/open/floor/plasteel)
+>>>>>>> Stashed changes
 				mode = BOT_IDLE
 				amount -= 1
 				update_icon()

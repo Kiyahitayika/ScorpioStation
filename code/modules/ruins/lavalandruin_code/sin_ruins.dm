@@ -116,8 +116,13 @@
 		if(!is_teleport_allowed(level))
 			levels -= level
 
+<<<<<<< Updated upstream
 	T.ChangeTurf(turf/open/floor/chasm)
 	varturf/open/floor/chasm/C = T
+=======
+	T.ChangeTurf(/turf/open/floor/chasm)
+	var/turf/open/floor/chasm/C = T
+>>>>>>> Stashed changes
 	C.drop_x = T.x
 	C.drop_y = T.y
 	C.drop_z = pick(levels)

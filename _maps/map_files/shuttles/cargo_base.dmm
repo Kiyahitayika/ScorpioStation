@@ -30,7 +30,11 @@
 	},
 /area/shuttle/supply)
 "e" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "f" = (
 /obj/machinery/light/spot{
@@ -38,7 +42,11 @@
 	icon_state = "tube1";
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "g" = (
 /obj/machinery/conveyor{
@@ -46,7 +54,11 @@
 	id = "QMLoad2"
 	},
 /obj/structure/plasticflaps/mining,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "h" = (
 /obj/machinery/door/airlock/external{
@@ -54,7 +66,11 @@
 	name = "Shuttle Hatch";
 	req_access_txt = "31"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "i" = (
 /obj/machinery/light/spot{
@@ -62,7 +78,11 @@
 	icon_state = "tube1";
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "j" = (
 /obj/machinery/light/spot{
@@ -86,7 +106,11 @@
 	pixel_y = -8;
 	req_access_txt = "0"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "k" = (
 /obj/machinery/door/airlock/external{
@@ -97,7 +121,11 @@
 /obj/docking_port/mobile/supply{
 	timid = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "l" = (
 /obj/machinery/conveyor{
@@ -105,7 +133,11 @@
 	id = "QMLoad"
 	},
 /obj/structure/plasticflaps/mining,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "m" = (
 /turf/closed/shuttle/wall{
@@ -115,7 +147,11 @@
 	},
 /area/shuttle/supply)
 "n" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10"
@@ -123,10 +159,17 @@
 /area/shuttle/supply)
 "o" = (
 /obj/machinery/light/spot,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/shuttle/supply)
 "p" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/shuttle/supply)
+"p" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6"
@@ -159,7 +202,11 @@
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "u" = (
 /turf/space,
@@ -177,18 +224,30 @@
 	tag = "icon-burst_l";
 	icon_state = "burst_l"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/shuttle/supply)
 "x" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/shuttle/supply)
+"x" = (
+/obj/structure/shuttle/engine/propulsion,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 "y" = (
 /obj/structure/shuttle/engine/propulsion{
 	tag = "icon-burst_r";
 	icon_state = "burst_r"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/supply)
 
 (1,1,1) = {"

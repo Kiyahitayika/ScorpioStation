@@ -324,41 +324,72 @@
 	active = 0
 
 // Holographic Items!
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/
 	thermal_conductivity = 0
 	icon_state = "plating"
 turf/open/floor/holofloor/grass
+=======
+/turf/open/floor/holofloor/
+	thermal_conductivity = 0
+	icon_state = "plating"
+/turf/open/floor/holofloor/grass
+>>>>>>> Stashed changes
 	name = "Lush Grass"
 	icon_state = "grass1"
 	floor_tile = /obj/item/stack/tile/grass
 
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass/New()
+=======
+/turf/open/floor/holofloor/grass/New()
+>>>>>>> Stashed changes
 	..()
 	spawn(1)
 		update_icon()
 
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/grass/update_icon()
+=======
+/turf/open/floor/holofloor/grass/update_icon()
+>>>>>>> Stashed changes
 	..()
 	if(!(icon_state in list("grass1", "grass2", "grass3", "grass4", "sand")))
 		icon_state = "grass[pick("1","2","3","4")]"
 
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/attackby(obj/item/W as obj, mob/user as mob, params)
+=======
+/turf/open/floor/holofloor/attackby(obj/item/W as obj, mob/user as mob, params)
+>>>>>>> Stashed changes
 	return
 	// HOLOFLOOR DOES NOT GIVE A FUCK
 
 /* ONLY RE-ENABLE IF HOLODECK IS IN VERTICAL POSITION
 
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/space
+=======
+/turf/open/floor/holofloor/space
+>>>>>>> Stashed changes
 	name = "\proper space"
 	icon = 'icons/turf/space.dmi'
 	icon_state = "0"
 	plane = PLANE_SPACE
 
+<<<<<<< Updated upstream
 turf/open/floor/holofloor/space/Initialize(mapload)
 	icon_state = SPACE_ICON_STATE // so realistic
 	. = ..()
 
 turf/open/floor/holofloor/space/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
+=======
+/turf/open/floor/holofloor/space/Initialize(mapload)
+	icon_state = SPACE_ICON_STATE // so realistic
+	. = ..()
+
+/turf/open/floor/holofloor/space/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
+>>>>>>> Stashed changes
 	underlay_appearance.icon = 'icons/turf/space.dmi'
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE

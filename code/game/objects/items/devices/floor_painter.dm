@@ -31,7 +31,11 @@
 	if(!proximity)
 		return
 
+<<<<<<< Updated upstream
 	varturf/open/floor/plasteel/F = A
+=======
+	var/turf/open/floor/plasteel/F = A
+>>>>>>> Stashed changes
 
 	if(F.icon_state == floor_state && F.dir == floor_dir)
 		to_chat(user, "<span class='notice'>This is already painted [floor_state] [dir2text(floor_dir)]!</span>")

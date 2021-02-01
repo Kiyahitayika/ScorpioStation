@@ -12,7 +12,11 @@
 	endWhen = rand(40, 80)
 
 /datum/event/wormholes/start()
+<<<<<<< Updated upstream
 	for(varturf/open/floor/T in world)
+=======
+	for(var/turf/open/floor/T in world)
+>>>>>>> Stashed changes
 		if(is_station_level(T.z))
 			pick_turfs += T
 

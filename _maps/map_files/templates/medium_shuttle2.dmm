@@ -8,7 +8,11 @@
 	icon_state = "burst_l";
 	tag = "icon-burst_l (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -23,7 +27,11 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -52,13 +60,21 @@
 	icon_state = "burst_r";
 	tag = "icon-burst_r (EAST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/ruin/powered{
 	name = "Shuttle"
 	})
 "g" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (SOUTHEAST)";
 	icon_state = "wall3";
 	dir = 6
@@ -234,7 +250,11 @@
 	})
 "C" = (
 /turf/closed/shuttle/wall,
+<<<<<<< Updated upstream
 /turf/open/shuttle{
+=======
+/turf/simulated/shuttle{
+>>>>>>> Stashed changes
 	tag = "icon-wall3 (NORTHEAST)";
 	icon_state = "wall3";
 	dir = 5

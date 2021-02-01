@@ -1008,10 +1008,17 @@ GLOBAL_LIST_INIT(non_fakeattack_weapons, list(/obj/item/gun/projectile, /obj/ite
 			//Flashes of danger
 			if(!halimage)
 				var/list/possible_points = list()
+<<<<<<< Updated upstream
 				for(varturf/open/floor/F in view(src,world.view))
 					possible_points += F
 				if(possible_points.len)
 					varturf/open/floor/target = pick(possible_points)
+=======
+				for(var/turf/open/floor/F in view(src,world.view))
+					possible_points += F
+				if(possible_points.len)
+					var/turf/open/floor/target = pick(possible_points)
+>>>>>>> Stashed changes
 
 					switch(rand(1,4))
 						if(1)
@@ -1047,10 +1054,17 @@ GLOBAL_LIST_INIT(non_fakeattack_weapons, list(/obj/item/gun/projectile, /obj/ite
 		if("husks")
 			if(!halbody)
 				var/list/possible_points = list()
+<<<<<<< Updated upstream
 				for(varturf/open/floor/F in view(src,world.view))
 					possible_points += F
 				if(possible_points.len)
 					varturf/open/floor/target = pick(possible_points)
+=======
+				for(var/turf/open/floor/F in view(src,world.view))
+					possible_points += F
+				if(possible_points.len)
+					var/turf/open/floor/target = pick(possible_points)
+>>>>>>> Stashed changes
 					switch(rand(1,4))
 						if(1)
 							var/image/body = image('icons/mob/human.dmi', target, "husk_s", TURF_LAYER)

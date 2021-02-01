@@ -1,7 +1,11 @@
 /datum/holiday/xmas/celebrate()
 	for(var/obj/structure/flora/tree/pine/xmas in world)
 		if(!is_station_level(xmas.z))	continue
+<<<<<<< Updated upstream
 		for(varturf/open/floor/T in orange(1,xmas))
+=======
+		for(var/turf/open/floor/T in orange(1,xmas))
+>>>>>>> Stashed changes
 			for(var/i=1,i<=rand(1,5),i++)
 				new /obj/item/a_gift(T)
 	for(var/mob/living/simple_animal/pet/dog/corgi/Ian/Ian in GLOB.mob_list)

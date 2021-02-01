@@ -2533,7 +2533,11 @@
 	},
 /area/awaymission/spacehotel)
 "eY" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/spacehotel)
 "eZ" = (
 /obj/machinery/light{
@@ -2851,7 +2855,11 @@
 /area/awaymission/spacehotel)
 "fV" = (
 /obj/item/beach_ball,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission/spacehotel)
 "fW" = (
 /turf/closed/ind_wall/metal,
@@ -4609,7 +4617,11 @@
 /area/awaymission)
 "kI" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kJ" = (
 /turf/closed/shuttle/wall{
@@ -4649,43 +4661,70 @@
 /area/awaymission)
 "kP" = (
 /obj/effect/decal/remains/human,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kQ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kR" = (
 /obj/item/paper/hotel_scrap_4,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission)
 "kS" = (
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission)
+"kS" = (
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kT" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kU" = (
 /obj/structure/shuttle/engine/heater{
 	icon_state = "heater";
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kV" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
 	icon_state = "propulsion"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/awaymission)
 "kW" = (
 /turf/closed/shuttle/wall{
@@ -4706,7 +4745,11 @@
 	dir = 4;
 	icon_state = "propulsion"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "la" = (
 /obj/effect/decal/remains/human,
@@ -4714,11 +4757,19 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
 /area/awaymission)
 "lb" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+/area/awaymission)
+"lb" = (
+/obj/machinery/door/airlock/public/glass,
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "lc" = (
 /obj/structure/window/reinforced{
@@ -4726,7 +4777,11 @@
 	},
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "ld" = (
 /turf/closed/shuttle/wall{
@@ -4745,14 +4800,22 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "lg" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor,
+=======
+//turf/open/shuttle/floor,
+>>>>>>> Stashed changes
 /area/awaymission)
 "lh" = (
 /turf/closed/shuttle/wall{

@@ -129,7 +129,11 @@
 			LAZYCLEARLIST(cached_tentacle_turfs)
 			last_location = loc
 			tentacle_recheck_cooldown = world.time + initial(tentacle_recheck_cooldown)
+<<<<<<< Updated upstream
 			for(varturf/open/floor/T in orange(4, loc))
+=======
+			for(var/turf/open/floor/T in orange(4, loc))
+>>>>>>> Stashed changes
 				LAZYADD(cached_tentacle_turfs, T)
 		for(var/t in cached_tentacle_turfs)
 			if(isfloorturf(t))

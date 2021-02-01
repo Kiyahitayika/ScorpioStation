@@ -17,7 +17,11 @@
 	},
 /area/shuttle/abandoned)
 "ad" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /turf/closed/shuttle/wall/interior{
@@ -26,7 +30,11 @@
 	},
 /area/shuttle/abandoned)
 "ae" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -38,12 +46,20 @@
 	dir = 1
 	},
 /obj/effect/decal/remains/human,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "ag" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /turf/closed/shuttle/wall/interior{
@@ -78,7 +94,11 @@
 	icon_state = "burst_r";
 	tag = "icon-burst_r (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "al" = (
 /turf/closed/shuttle/wall{
@@ -89,7 +109,11 @@
 /area/shuttle/abandoned)
 "am" = (
 /obj/machinery/computer/med_data,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -99,7 +123,11 @@
 	pixel_x = 6;
 	pixel_y = -5
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -111,7 +139,11 @@
 	},
 /area/shuttle/abandoned)
 "ap" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9"
@@ -126,7 +158,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "ar" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -134,10 +170,17 @@
 	icon_state = "propulsion";
 	tag = "icon-propulsion (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/shuttle/abandoned)
 "as" = (
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/plating,
+/area/shuttle/abandoned)
+"as" = (
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /turf/closed/shuttle/wall/interior{
@@ -147,7 +190,11 @@
 /area/shuttle/abandoned)
 "at" = (
 /obj/item/scalpel,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -159,13 +206,21 @@
 	},
 /area/shuttle/abandoned)
 "av" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aw" = (
 /obj/structure/computerframe{
 	anchored = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -174,7 +229,11 @@
 	icon_state = "14"
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "ay" = (
 /obj/structure/window/full/shuttle{
@@ -182,20 +241,32 @@
 	icon_state = "9"
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "az" = (
 /obj/structure/window/full/shuttle{
 	icon_state = "17"
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aA" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Hibernation Pods"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -203,19 +274,31 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aC" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aD" = (
 /obj/structure/table,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -228,7 +311,11 @@
 /area/shuttle/abandoned)
 "aF" = (
 /obj/item/multitool,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -237,16 +324,27 @@
 	charge = 100;
 	maxcharge = 15000
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aH" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 turf/open/floor/plating,
 /area/shuttle/abandoned)
 "aI" = (
 /turf/open/shuttle/plating,
+=======
+/turf/open/floor/plating,
+/area/shuttle/abandoned)
+"aI" = (
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6"
@@ -258,7 +356,11 @@ turf/open/floor/plating,
 	icon_state = "burst_l";
 	tag = "icon-burst_l (WEST)"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aK" = (
 /obj/machinery/door/unpowered/shuttle,
@@ -277,7 +379,11 @@ turf/open/floor/plating,
 	id = "whiteship_away";
 	name = "Deep Space"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -286,19 +392,31 @@ turf/open/floor/plating,
 	icon_state = "16"
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aM" = (
 /obj/structure/table,
 /obj/machinery/light{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aN" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /turf/closed/shuttle/wall/interior{
@@ -308,7 +426,11 @@ turf/open/floor/plating,
 /area/shuttle/abandoned)
 "aO" = (
 /obj/machinery/door/airlock/public/glass,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -316,13 +438,21 @@ turf/open/floor/plating,
 /obj/machinery/light_switch{
 	pixel_x = 27
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aQ" = (
 /obj/machinery/portable_atmospherics/scrubber,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -331,12 +461,20 @@ turf/open/floor/plating,
 /obj/structure/window/full/shuttle{
 	icon_state = "8"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aS" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -344,60 +482,96 @@ turf/open/floor/plating,
 /obj/machinery/light{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aU" = (
 /obj/structure/table,
 /obj/item/gun/energy/laser/retro,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aV" = (
 /obj/machinery/computer/shuttle/white_ship,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aW" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "aX" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aY" = (
 /obj/structure/table,
 /obj/item/tank/oxygen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "aZ" = (
 /obj/structure/window/full/shuttle,
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "ba" = (
 /obj/machinery/light{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bb" = (
 /obj/structure/table,
 /obj/item/analyzer,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -406,7 +580,11 @@ turf/open/floor/plating,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -414,13 +592,21 @@ turf/open/floor/plating,
 /obj/machinery/door/airlock/public/glass{
 	name = "Living Module"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "be" = (
 /obj/machinery/door/unpowered/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -428,7 +614,11 @@ turf/open/floor/plating,
 /obj/machinery/light/small{
 	dir = 1
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -437,13 +627,21 @@ turf/open/floor/plating,
 /area/shuttle/abandoned)
 "bh" = (
 /obj/effect/decal/remains/human,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bi" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -466,7 +664,11 @@ turf/open/floor/plating,
 	icon_state = "15"
 	},
 /obj/structure/grille,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "bm" = (
 /obj/machinery/light_switch{
@@ -475,7 +677,11 @@ turf/open/floor/plating,
 /obj/machinery/light{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -484,20 +690,32 @@ turf/open/floor/plating,
 	gpstag = "NT Medical Ship";
 	pixel_x = -32
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bo" = (
 /obj/item/shard,
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bp" = (
 /obj/structure/chair/comfy/shuttle,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -506,7 +724,11 @@ turf/open/floor/plating,
 	anchored = 1
 	},
 /obj/item/stack/cable_coil/cut,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -517,7 +739,11 @@ turf/open/floor/plating,
 /obj/item/tank/emergency_oxygen,
 /obj/item/tank/emergency_oxygen,
 /obj/item/storage/toolbox/mechanical,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -525,7 +751,11 @@ turf/open/floor/plating,
 /obj/structure/rack,
 /obj/item/clothing/suit/space/hardsuit/medical,
 /obj/item/clothing/mask/breath,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -533,18 +763,30 @@ turf/open/floor/plating,
 /obj/structure/rack,
 /obj/item/clothing/suit/space/syndicate/black/med,
 /obj/item/clothing/head/helmet/space/syndicate/black/med,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bu" = (
 /obj/machinery/light/small,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bv" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5"
@@ -560,22 +802,38 @@ turf/open/floor/plating,
 /obj/effect/decal/cleanable/blood{
 	amount = 0
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
 /area/shuttle/abandoned)
 "by" = (
 /obj/structure/spacepoddoor,
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+/area/shuttle/abandoned)
+"by" = (
+/obj/structure/spacepoddoor,
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "bz" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Pod Bay"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bA" = (
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /turf/closed/shuttle/wall/interior{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10"
@@ -583,14 +841,22 @@ turf/open/floor/plating,
 /area/shuttle/abandoned)
 "bB" = (
 /obj/effect/decal/remains/human,
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "bC" = (
 /obj/structure/spacepoddoor,
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{
 	id_tag = "whiteshippoddoor"
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/plating,
+=======
+//turf/open/shuttle/plating,
+>>>>>>> Stashed changes
 /area/shuttle/abandoned)
 "bD" = (
 /obj/machinery/door_control{
@@ -598,7 +864,11 @@ turf/open/floor/plating,
 	name = "Pod Door Control";
 	pixel_y = -24
 	},
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
@@ -606,14 +876,22 @@ turf/open/floor/plating,
 /obj/structure/table,
 /obj/item/screwdriver,
 /obj/machinery/light,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
 "bF" = (
 /obj/structure/table,
 /obj/item/radio,
+<<<<<<< Updated upstream
 /turf/open/shuttle/floor{
+=======
+//turf/open/shuttle/floor{
+>>>>>>> Stashed changes
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
