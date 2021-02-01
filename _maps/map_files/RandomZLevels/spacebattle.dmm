@@ -2845,7 +2845,7 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "jd" = (
-/turf/simulated/wall/mineral/plasma,
+/turf/closed/wall/mineral/plasma,
 /area/awaymission/spacebattle/secret)
 "je" = (
 /turf/open/floor/plasteel{
@@ -2855,7 +2855,7 @@
 /area/awaymission/spacebattle/secret)
 "jf" = (
 /obj/machinery/door/airlock/plasma,
-/turf/simulated/wall/mineral/plasma,
+/turf/closed/wall/mineral/plasma,
 /area/awaymission/spacebattle/secret)
 "nG" = (
 /obj/structure/window/reinforced,

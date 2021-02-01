@@ -1635,7 +1635,7 @@
 	},
 /area/awaymission/BMPship/Midship)
 "er" = (
-/turf/simulated/wall/r_wall,
+/turf/closed/wall/r_wall,
 /area/awaymission/BMPship/Midship)
 "es" = (
 /obj/structure/cable{
@@ -1852,7 +1852,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall,
+/turf/closed/wall/r_wall,
 /area/awaymission/BMPship/Midship)
 "eO" = (
 /obj/structure/cable{

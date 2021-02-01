@@ -43,7 +43,7 @@
 	},
 /area/awaymission/challenge/main)
 "ag" = (
-/turf/simulated/wall,
+/turf/closed/wall,
 /area/awaymission/challenge/main)
 "ah" = (
 /mob/living/simple_animal/hostile/tree,
@@ -247,7 +247,7 @@
 	},
 /area/awaymission/challenge/main)
 "aM" = (
-/turf/simulated/wall/rust,
+/turf/closed/wall/rust,
 /area/awaymission/challenge/main)
 "aN" = (
 /obj/structure/inflatable/door,

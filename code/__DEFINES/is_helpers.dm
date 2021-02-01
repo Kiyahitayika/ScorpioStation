@@ -53,9 +53,9 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 
 #define isunsimulatedturf(A) istype(A, /turf/unsimulated)
 
-#define iswallturf(A) istype(A, /turf/simulated/wall)
+#define iswallturf(A) istype(A, /turf/closed/wall)
 
-#define isreinforcedwallturf(A) istype(A, /turf/simulated/wall/r_wall)
+#define isreinforcedwallturf(A) istype(A, /turf/closed/wall/r_wall)
 
 #define ismineralturf(A) istype(A, /turf/simulated/mineral)
 

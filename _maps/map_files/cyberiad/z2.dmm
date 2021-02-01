@@ -11812,7 +11812,7 @@
 	},
 /area/holodeck/source_thunderdomecourt)
 "FL" = (
-/turf/simulated/wall/r_wall,
+/turf/closed/wall/r_wall,
 /area/adminconstruction)
 "Ga" = (
 /obj/machinery/computer/shuttle/ert,
