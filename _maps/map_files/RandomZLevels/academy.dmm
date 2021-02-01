@@ -284,7 +284,7 @@
 /turf/open/floor/carpet,
 /area/awaymission/academy/headmaster)
 "aS" = (
-/turf/simulated/mineral/random/high_chance,
+/turf/closed/mineral/random/high_chance,
 /area/awaymission/academy)
 "aT" = (
 /obj/structure/noticeboard,
@@ -505,20 +505,20 @@
 /turf/closed/wall,
 /area/awaymission/academy/classrooms)
 "bF" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swallc2";
 	icon_state = "swallc2"
 	},
 /area/awaymission/academy/classrooms)
 "bG" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall12";
 	icon_state = "swall12";
 	dir = 2
 	},
 /area/awaymission/academy/classrooms)
 "bH" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swallc1";
 	icon_state = "swallc1"
 	},
@@ -639,7 +639,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/academy/classrooms)
 "bW" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall3";
 	icon_state = "swall3";
 	dir = 2
@@ -783,7 +783,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/academy/classrooms)
 "cs" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall1";
 	icon_state = "swall1"
 	},
@@ -4068,7 +4068,7 @@
 /mob/living/simple_animal/hostile/carp/megacarp{
 	name = "Elmo"
 	},
-/turf/simulated/mineral/random/high_chance,
+/turf/closed/mineral/random/high_chance,
 /area/awaymission/academy)
 "kD" = (
 /obj/effect/landmark{

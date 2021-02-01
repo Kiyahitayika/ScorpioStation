@@ -837,21 +837,21 @@
 	},
 /area/awaymission/beach)
 "cP" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall8";
 	icon_state = "swall8"
 	},
 /area/awaymission/beach)
 "cQ" = (
 /turf/unsimulated/beach/sand,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6"
 	},
 /area/awaymission/beach)
 "cR" = (
 /turf/unsimulated/beach/sand,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10"
 	},
@@ -998,7 +998,7 @@
 /turf/unsimulated/beach/sand,
 /area/awaymission/beach)
 "dp" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall3";
 	icon_state = "swall3"
 	},
@@ -1167,7 +1167,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "dS" = (
 /obj/machinery/light{
@@ -1177,7 +1177,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "dT" = (
 /obj/effect/overlay/palmtree_l,
@@ -1211,7 +1211,7 @@
 /area/awaymission/beach)
 "dY" = (
 /turf/unsimulated/beach/sand,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5"
 	},
@@ -1220,11 +1220,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ea" = (
 /turf/unsimulated/beach/sand,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9"
 	},
@@ -1233,11 +1233,11 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ec" = (
 /obj/machinery/computer,
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ed" = (
 /obj/structure/closet/crate,
@@ -1259,16 +1259,16 @@
 /mob/living/simple_animal/hostile/pirate{
 	loot = list(/obj/effect/mob_spawn/human/corpse/pirate)
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "eh" = (
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ei" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "ej" = (
 /obj/structure/table/wood,
@@ -1284,7 +1284,7 @@
 /area/awaymission/beach)
 "el" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/awaymission/beach)
 "em" = (
 /obj/item/beach_ball,

@@ -1798,7 +1798,7 @@ GLOBAL_DATUM_INIT(dview_mob, /mob/dview, new)
 			/obj/vehicle = "VEHICLE",
 			/obj = "O",
 			/datum = "D",
-			/turf/simulated/floor = "SIM_FLOOR",
+			turf/open/floor = "SIM_FLOOR",
 			/turf/closed/wall = "SIM_WALL",
 			/turf/open/ind_floor = "UNSIM_FLOOR",
 			/turf/closed/ind_wall = "UNSIM_WALL",
