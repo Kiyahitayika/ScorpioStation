@@ -108,7 +108,7 @@
 	},
 /area/template_noop)
 "r" = (
-/turf/unsimulated/wall/metal,
+/turf/closed/ind_wall/metal,
 /area/template_noop)
 
 (1,1,1) = {"
