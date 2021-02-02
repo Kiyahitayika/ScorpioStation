@@ -248,10 +248,11 @@
 	else if(pressure > TANK_RUPTURE_PRESSURE)
 //		to_chat(world, "<span class='notice'>[x],[y] tank is rupturing: [pressure] kPa, integrity [integrity]</span>")
 		if(integrity <= 0)
-			var/turf/simulated/T = get_turf(src)
+			var/turf/T = get_turf(src)
 			if(!T)
 				return
-			T.assume_air(air_contents)
+			if(issimulatedturf(T))
+				T.assume_air(air_contents)
 			playsound(loc, 'sound/effects/spray.ogg', 10, 1, -3)
 			qdel(src)
 		else
@@ -260,11 +261,12 @@
 	else if(pressure > TANK_LEAK_PRESSURE)
 //		to_chat(world, "<span class='notice'>[x],[y] tank is leaking: [pressure] kPa, integrity [integrity]</span>")
 		if(integrity <= 0)
-			var/turf/simulated/T = get_turf(src)
+			var/turf/T = get_turf(src)
 			if(!T)
 				return
 			var/datum/gas_mixture/leaked_gas = air_contents.remove_ratio(0.25)
-			T.assume_air(leaked_gas)
+			if(issimulatedturf(T))
+				T.assume_air(leaked_gas)
 		else
 			integrity--
 

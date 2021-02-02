@@ -3,7 +3,7 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
-/turf/simulated/mineral,
+/turf/closed/mineral,
 /area/space/nearstation)
 "ac" = (
 /turf/open/floor/plating/asteroid/airless,
@@ -30,11 +30,11 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/powered)
 "ai" = (
-/turf/simulated/mineral,
+/turf/closed/mineral,
 /area/ruin/powered)
 "aj" = (
 /turf/open/floor/plating/asteroid/airless,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
 	},
@@ -46,7 +46,7 @@
 /area/ruin/powered)
 "al" = (
 /turf/open/floor/plating/asteroid/airless,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	dir = 2;
 	icon_state = "swall_f10";
 	layer = 2
@@ -58,7 +58,7 @@
 	name = "Space Bar"
 	})
 "an" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall3";
 	dir = 2
 	},
@@ -67,7 +67,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/powered)
 "ap" = (
 /obj/structure/table,
@@ -124,7 +124,7 @@
 	name = "Space Bar"
 	})
 "ax" = (
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/powered)
 "ay" = (
 /obj/machinery/door/airlock{
@@ -145,7 +145,7 @@
 "aA" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
 	},
@@ -154,12 +154,12 @@
 /obj/machinery/door/airlock/shuttle{
 	name = "Escape Pod Airlock"
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/powered)
 "aC" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
 	},
@@ -444,7 +444,7 @@
 "bp" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/asteroid/airless,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
 	},
@@ -466,7 +466,7 @@
 "bs" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/asteroid/airless,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
 	},

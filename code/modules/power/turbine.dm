@@ -32,7 +32,7 @@
 	resistance_flags = FIRE_PROOF
 	var/obj/machinery/power/turbine/turbine
 	var/datum/gas_mixture/gas_contained
-	var/turf/simulated/inturf
+	var/turf/inturf
 	var/starter = 0
 	var/rpm = 0
 	var/rpmtarget = 0
@@ -46,12 +46,12 @@
 	desc = "A gas turbine used for backup power generation."
 	icon = 'icons/obj/pipes.dmi'
 	icon_state = "turbine"
-	anchored = 1
-	density = 1
+	anchored = TRUE
+	density = TRUE
 	resistance_flags = FIRE_PROOF
-	var/opened = 0
+	var/opened = FALSE
 	var/obj/machinery/power/compressor/compressor
-	var/turf/simulated/outturf
+	var/turf/outturf
 	var/lastgen
 	var/productivity = 1
 

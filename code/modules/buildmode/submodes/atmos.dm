@@ -11,7 +11,6 @@
 	var/nitrox = 0
 	var/agentbx = 0
 
-
 /datum/buildmode_mode/atmos/show_help(mob/user)
 	to_chat(user, "<span class='notice'>***********************************************************</span>")
 	to_chat(user, "<span class='notice'>Left Mouse Button on turf      = Select corner</span>")
@@ -44,10 +43,10 @@
 	var/ctrl_click = pa.Find("ctrl")
 	if(left_click) //rectangular
 		for(var/turf/T in block(cornerA,cornerB))
-			if(istype(T, /turf/simulated))
+			if(issimulatedturf(T))
 				// fill the turf with the appropriate gasses
 				// this feels slightly icky
-				var/turf/simulated/S = T
+				var/turf/S = T
 				if(S.air)
 					S.air.temperature = temperature
 					S.air.oxygen = ppratio_to_moles(oxygen)

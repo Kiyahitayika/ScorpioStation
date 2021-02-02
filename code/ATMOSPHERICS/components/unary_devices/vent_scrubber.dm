@@ -12,26 +12,26 @@
 	idle_power_usage = 10
 	active_power_usage = 60
 
-	can_unwrench = 1
+	can_unwrench = TRUE
 
 	var/area/initial_loc
 
 	frequency = ATMOS_VENTSCRUB
 
-	var/list/turf/simulated/adjacent_turfs = list()
+	var/list/turf/open/adjacent_turfs = list()
 
-	var/on = 0
+	var/on = FALSE
 	var/scrubbing = 1 //0 = siphoning, 1 = scrubbing
-	var/scrub_O2 = 0
-	var/scrub_N2 = 0
-	var/scrub_CO2 = 1
-	var/scrub_Toxins = 0
-	var/scrub_N2O = 0
+	var/scrub_O2 = FALSE
+	var/scrub_N2 = FALSE
+	var/scrub_CO2 = TRUE
+	var/scrub_Toxins = FALSE
+	var/scrub_N2O = FALSE
 
 	var/volume_rate = 200
 	var/widenet = 0 //is this scrubber acting on the 3x3 area around it.
 
-	var/welded = 0
+	var/welded = FALSE
 
 	var/area_uid
 	var/radio_filter_out
@@ -196,7 +196,7 @@
 		return
 
 	if(!node)
-		on = 0
+		on = FALSE
 
 	if(welded)
 		return 0
@@ -206,7 +206,7 @@
 
 	scrub(loc)
 	if(widenet)
-		for(var/turf/simulated/tile in adjacent_turfs)
+		for(var/turf/open/tile in adjacent_turfs)
 			scrub(tile)
 
 //we populate a list of turfs with nonatmos-blocked cardinal turfs AND
@@ -217,7 +217,7 @@
 	if(istype(T))
 		adjacent_turfs = T.GetAtmosAdjacentTurfs(alldir=1)
 
-/obj/machinery/atmospherics/unary/vent_scrubber/proc/scrub(var/turf/simulated/tile)
+/obj/machinery/atmospherics/unary/vent_scrubber/proc/scrub(var/turf/open/tile)
 	if(!tile || !istype(tile))
 		return 0
 

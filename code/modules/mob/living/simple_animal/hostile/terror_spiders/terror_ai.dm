@@ -321,21 +321,22 @@
 
 /mob/living/simple_animal/hostile/poison/terror_spider/proc/ListValidTurfs()
 	var/list/potentials = list()
-	for(var/turf/simulated/T in oview(3,get_turf(src)))
-		if(T.density == 0 && get_dist(get_turf(src),T) == 3)
-			var/obj/structure/spider/terrorweb/W = locate() in T
-			if(!W)
-				var/obj/structure/grille/G = locate() in T
-				if(!G)
-					var/obj/structure/window/O = locate() in T
-					if(!O)
-						potentials += T
+	for(var/turf/T in oview(3,get_turf(src)))
+		if(!isindtur(T))
+			if(T.density == FALSE && get_dist(get_turf(src),T) == 3)
+				var/obj/structure/spider/terrorweb/W = locate() in T
+				if(!W)
+					var/obj/structure/grille/G = locate() in T
+					if(!G)
+						var/obj/structure/window/O = locate() in T
+						if(!O)
+							potentials += T
 	return potentials
 
 /mob/living/simple_animal/hostile/poison/terror_spider/proc/ListWebbedTurfs()
 	var/list/webbed = list()
-	for(var/turf/simulated/T in oview(3,get_turf(src)))
-		if(T.density == 0 && get_dist(get_turf(src),T) == 3)
+	for(var/turf/T in oview(3,get_turf(src)))
+		if(T.density == FALSE && get_dist(get_turf(src),T) == 3)
 			var/obj/structure/spider/terrorweb/W = locate() in T
 			if(W)
 				webbed += T
@@ -343,8 +344,8 @@
 
 /mob/living/simple_animal/hostile/poison/terror_spider/proc/ListVisibleTurfs()
 	var/list/vturfs = list()
-	for(var/turf/simulated/T in oview(7,get_turf(src)))
-		if(T.density == 0)
+	for(var/turf/T in oview(7,get_turf(src)))
+		if(T.density == FALSE)
 			vturfs += T
 	return vturfs
 

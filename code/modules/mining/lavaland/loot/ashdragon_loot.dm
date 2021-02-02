@@ -199,8 +199,8 @@
 
 	if(target in view(user.client.view, get_turf(user)))
 
-		var/turf/simulated/T = get_turf(target)
-		if(!istype(T))
+		var/turf/T = get_turf(target)
+		if(!istype(T) || isunsimulatedturf(T))
 			return
 		if(!istype(T, turf_type))
 			var/obj/effect/temp_visual/lavastaff/L = new /obj/effect/temp_visual/lavastaff(T)

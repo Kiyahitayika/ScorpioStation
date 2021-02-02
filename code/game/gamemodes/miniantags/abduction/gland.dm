@@ -346,8 +346,10 @@
 		sleep(50)
 		if(!owner)
 			return
-		owner.visible_message("<span class='danger'>[owner] vomits a cloud of plasma!</span>")
-		var/turf/simulated/T = get_turf(owner)
-		if(istype(T))
+		var/turf/T = get_turf(owner)
+		if(issimulatedturf(T))
+			owner.visible_message("<span class='danger'>[owner] vomits a cloud of plasma!</span>")
 			T.atmos_spawn_air(LINDA_SPAWN_TOXINS|LINDA_SPAWN_20C,50)
-		owner.vomit()
+			owner.vomit()
+		else
+			owner.visible_message("<spawn class='notice'[owner] burps. Gross!</span>")

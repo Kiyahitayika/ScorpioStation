@@ -646,7 +646,7 @@
 
 	return
 
-/mob/living/simple_animal/bot/mulebot/Move(turf/simulated/next)
+/mob/living/simple_animal/bot/mulebot/Move(turf/open/next)
 	. = ..()
 
 	if(. && istype(next))

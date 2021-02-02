@@ -42,7 +42,7 @@
 	harmless = TRUE
 	taste_description = "cherry"
 
-/datum/reagent/lube/reaction_turf(turf/simulated/T, volume)
+/datum/reagent/lube/reaction_turf(turf/open/floor/T, volume)
 	if(volume >= 1 && istype(T))
 		T.MakeSlippery(TURF_WET_LUBE)
 
@@ -156,8 +156,8 @@
 		color = data["blood_color"]
 	return ..()
 
-/datum/reagent/blood/reaction_turf(turf/simulated/T, volume)//splash the blood all over the place
-	if(!istype(T))
+/datum/reagent/blood/reaction_turf(turf/T, volume)//splash the blood all over the place
+	if(!issimulatedturf(T))
 		return
 	if(volume < 3)
 		return
@@ -330,8 +330,8 @@
 				M.mind.vampire.nullified = max(5, M.mind.vampire.nullified + 2)
 
 
-/datum/reagent/holywater/reaction_turf(turf/simulated/T, volume)
-	if(!istype(T))
+/datum/reagent/holywater/reaction_turf(turf/T, volume)
+	if(!issimulatedturf(T))
 		return
 	if(volume>=10)
 		for(var/obj/effect/rune/R in T)
@@ -413,7 +413,7 @@
 	color = "#A70FFF"
 	taste_description = "dry mouth"
 
-/datum/reagent/drying_agent/reaction_turf(turf/simulated/T, volume)
+/datum/reagent/drying_agent/reaction_turf(turf/open/floor/T, volume)
 	if(istype(T) && T.wet)
 		T.MakeDry(TURF_WET_WATER)
 

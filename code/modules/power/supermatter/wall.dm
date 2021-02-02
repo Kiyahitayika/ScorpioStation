@@ -29,18 +29,19 @@
 				if(istype(get_step(T, step_overlays[next_direction]),/turf/open/floor/plating/smatter))
 					T.overlays += image('icons/turf/floors.dmi', "smatter_side_[next_direction]")
 
-/turf/closed/wall/smatter
+/turf/closed/smatter/wall
 	name = "supermatter"
 	desc = "thats a wall of supermatter"
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "smatter"
 	temperature = T20C+80
-	density = 1
-	opacity = 1
-	blocks_air = 1
+	density = TRUE
+	opacity = TRUE
+	blocks_air = TRUE
+	indestructible_turf = TRUE
 
 
-/turf/simulated/smatter/New()
+/turf/closed/smatter/wall/New()
 	..()
 
 	name = "supermatter"
@@ -48,9 +49,9 @@
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "smatter"
 	temperature = T20C+80
-	density = 1
-	set_opacity(1)
-	blocks_air = 1
+	density = TRUE
+	set_opacity(TRUE)
+	blocks_air = TRUE
 
 	spawn(2)
 		var/list/step_overlays = list("s" = NORTH, "n" = SOUTH, "w" = EAST, "e" = WEST)
@@ -59,7 +60,7 @@
 			if(istype(turf_to_check,/turf/space) || istype(turf_to_check,/turf/open/floor))
 				turf_to_check.overlays += image('icons/turf/walls.dmi', "smatter_side_[direction]")
 
-/turf/simulated/smatter/Destroy()
+/turf/closed/smatter/wall/Destroy()
 	. = ..()
 
 	var/list/step_overlays = list("n" = NORTH, "s" = SOUTH, "e" = EAST, "w" = WEST)
@@ -69,6 +70,5 @@
 		if(istype(T))
 			T.overlays.Cut()
 			for(var/next_direction in step_overlays)
-				if(istype(get_step(T, step_overlays[next_direction]),/turf/closed/wall/smatter))
+				if(istype(get_step(T, step_overlays[next_direction]),/turf/closed/smatter/wall))
 					T.overlays += image('icons/turf/walls.dmi', "smatter_side_[next_direction]")
-

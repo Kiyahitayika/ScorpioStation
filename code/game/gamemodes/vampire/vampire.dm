@@ -446,19 +446,19 @@ You are weak to holy things and starlight. Don't go into space and avoid the Cha
 	if(!ishuman(owner))
 		owner.alpha = 255
 		return
-	var/turf/simulated/T = get_turf(owner)
+	var/turf/T = get_turf(owner)	// Be a dang vampire on any type o' turf! You do you, dang it! D:<
 	var/light_available = T.get_lumcount(0.5) * 10
 
 	if(!istype(T))
-		return 0
+		return FALSE
 
 	if(!iscloaking)
 		owner.alpha = 255
-		return 0
+		return FALSE
 
 	if(light_available <= 2)
 		owner.alpha = round((255 * 0.15))
-		return 1
+		return TRUE
 	else
 		owner.alpha = round((255 * 0.80))
 

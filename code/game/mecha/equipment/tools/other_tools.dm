@@ -437,8 +437,8 @@
 
 /obj/item/mecha_parts/mecha_equipment/generator/critfail()
 	..()
-	var/turf/simulated/T = get_turf(src)
-	if(!istype(T))
+	var/turf/T = get_turf(src)
+	if(!issimulatedturf(T) || !istype(T))
 		return
 	var/datum/gas_mixture/GM = new
 	if(prob(10))

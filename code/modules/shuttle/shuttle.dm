@@ -497,8 +497,8 @@
 		areaInstance.contents += T1
 
 		//copy over air
-		if(istype(T1, /turf/simulated))
-			var/turf/simulated/Ts1 = T1
+		if(isopenturf(T1))
+			var/turf/open/Ts1 = T1
 			Ts1.copy_air_with_tile(T0)
 
 		areaInstance.moving = TRUE

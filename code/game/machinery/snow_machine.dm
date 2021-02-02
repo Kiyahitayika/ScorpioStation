@@ -77,7 +77,7 @@
 		return
 	for(var/turf/TF in range(1, src))
 		if(issimulatedturf(TF))
-			var/turf/simulated/S = TF
+			var/turf/S = TF
 			affect_turf_temperature(S, cooling_speed)
 		if(prob(50))
 			continue
@@ -99,7 +99,7 @@
 /obj/machinery/snow_machine/proc/affect_turf_temperature(turf/T, modifier)
 	if(!issimulatedturf(T) || T.density)
 		return
-	var/turf/simulated/S = T
+	var/turf/S = T
 	var/initial_temperature = S.air.temperature
 	if(initial_temperature <= lower_temperature_limit) //Can we actually cool this?
 		return
@@ -116,7 +116,7 @@
 	if(T.density)
 		return
 	if(issimulatedturf(T))
-		var/turf/simulated/S = T
+		var/turf/open/S = T
 		if(S.air.temperature > T0C + 1)
 			return
 	if(locate(/obj/effect/snowcloud, T)) //Ice to see you

@@ -1,4 +1,4 @@
-/client/proc/air_status(turf/target as turf)
+/client/proc/air_status(turf/target)
 	set category = "Debug"
 	set name = "Display Air Status"
 
@@ -9,11 +9,11 @@
 		return
 
 	var/datum/gas_mixture/GM = target.return_air()
-	var/burning = 0
-	if(istype(target, /turf/simulated))
-		var/turf/simulated/T = target
+	var/burning = FALSE
+	if(issimulatedturf(T))
+		var/turf/T = target
 		if(T.active_hotspot)
-			burning = 1
+			burning = TRUE
 
 	to_chat(usr, "<span class='notice'>@[target.x],[target.y]: O:[GM.oxygen] T:[GM.toxins] N:[GM.nitrogen] C:[GM.carbon_dioxide] N2O: [GM.sleeping_agent] Agent B: [GM.agent_b] w [GM.temperature] Kelvin, [GM.return_pressure()] kPa [(burning)?("<span class='warning'>BURNING</span>"):(null)]</span>")
 

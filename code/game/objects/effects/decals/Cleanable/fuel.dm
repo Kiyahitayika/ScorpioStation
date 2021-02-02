@@ -23,13 +23,13 @@
 	//Allows liquid fuels to sometimes flow into other tiles.
 	if(amount < 0.5)
 		return
-	var/turf/simulated/S = loc
-	if(!istype(S))
+	var/turf/S = loc
+	if(!isopenturf(S))
 		return
-	for(var/d in GLOB.cardinal)
+	for(var/D in GLOB.cardinal)
 		if(rand(25))
-			var/turf/simulated/target = get_step(src, d)
-			var/turf/simulated/origin = get_turf(src)
+			var/turf/open/target = get_step(src, D)
+			var/turf/open/origin = get_turf(src)
 			if(origin.CanPass(null, target, 0, 0) && target.CanPass(null, origin, 0, 0))
 				if(!locate(/obj/effect/decal/cleanable/liquid_fuel) in target)
 					new/obj/effect/decal/cleanable/liquid_fuel(target, amount * 0.25)
@@ -47,12 +47,11 @@
 	//The spread for flamethrower fuel is much more precise, to create a wide fire pattern.
 	if(amount < 0.1)
 		return
-	var/turf/simulated/S = loc
-	if(!istype(S))
+	var/turf/S = loc
+	if(!issimulatedturf(S))
 		return
-
-	for(var/d in list(turn(dir, 90), turn(dir, -90), dir))
-		var/turf/simulated/O = get_step(S, d)
+	for(var/D in list(turn(dir, 90), turn(dir, -90), dir))
+		var/turf/O = get_step(S, D)
 		if(locate(/obj/effect/decal/cleanable/liquid_fuel/flamethrower_fuel) in O)
 			continue
 		if(O.CanPass(null, S, 0, 0) && S.CanPass(null, O, 0, 0))

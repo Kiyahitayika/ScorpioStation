@@ -3,16 +3,16 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/simulated/mineral,
+/turf/closed/mineral,
 /area/ruin/unpowered)
 "c" = (
-/turf/simulated/mineral/random/high_chance,
+/turf/closed/mineral/random/high_chance,
 /area/ruin/unpowered)
 "d" = (
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
 "e" = (
-/turf/simulated/mineral/clown,
+/turf/closed/mineral/clown,
 /area/ruin/unpowered)
 "f" = (
 /turf/open/floor/plating,
@@ -31,21 +31,21 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "i" = (
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall3";
 	dir = 2
 	},
 /area/ruin/unpowered)
 "j" = (
 /obj/item/shard,
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/unpowered)
 "k" = (
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/unpowered)
 "l" = (
 /obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_s5";
 	dir = 2
 	},
@@ -54,11 +54,11 @@
 /obj/machinery/door/airlock/shuttle{
 	name = "Escape Pod Airlock"
 	},
-/turf/simulated/shuttle/floor,
+/turf/open/shuttle/floor,
 /area/ruin/unpowered)
 "n" = (
 /obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/shuttle/wall{
+/turf/closed/shuttle/wall{
 	icon_state = "swall_s9";
 	dir = 2
 	},

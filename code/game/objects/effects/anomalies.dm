@@ -123,8 +123,8 @@
 
 /obj/effect/anomaly/pyro/anomalyEffect()
 	..()
-	var/turf/simulated/T = get_turf(src)
-	if(istype(T))
+	var/turf/T = get_turf(src)
+	if(issimulatedturf(T))
 		T.atmos_spawn_air(LINDA_SPAWN_HEAT | LINDA_SPAWN_TOXINS, 3)
 
 /////////////////////
@@ -200,8 +200,8 @@
 
 /obj/effect/anomaly/atmos/anomalyEffect()
 	..()
-	var/turf/simulated/T = get_turf(src)
-	if(istype(T))
+	var/turf/T = get_turf(src)
+	if(issimulatedturf(T))
 		var/flag
 		switch(gas_type)
 			if(GAS_CO2)

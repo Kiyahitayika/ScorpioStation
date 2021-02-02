@@ -315,7 +315,7 @@
 
 /obj/effect/landmark/damageturf/New()
 	..()
-	var/turf/simulated/T = get_turf(src)
+	var/turf/T = get_turf(src)
 	if(istype(T))
 		T.break_tile()
 
@@ -324,7 +324,7 @@
 
 /obj/effect/landmark/burnturf/New()
 	..()
-	var/turf/simulated/T = get_turf(src)
+	var/turf/T = get_turf(src)
 	T.burn_tile()
 
 

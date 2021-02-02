@@ -153,13 +153,12 @@ Actual Adjacent procs :
 //simulated_only controls whether only simulated turfs are considered or not
 /turf/proc/reachableAdjacentTurfs(caller, ID, simulated_only)
 	var/list/L = new()
-	var/turf/simulated/T
-
+	var/turf/T
 	for(var/dir in GLOB.cardinal)
-		T = get_step(src,dir)
-		if(!T || (simulated_only && !istype(T)))
+		T = get_step(src, dir)
+		if(!T || (simulated_only && !issimulated(T))
 			continue
-		if(!T.density && !LinkBlockedWithAccess(T,caller, ID))
+		if(!T.density && !LinkBlockedWithAccess(T, caller, ID))
 			L.Add(T)
 	return L
 
@@ -173,12 +172,11 @@ Actual Adjacent procs :
 
 	for(var/obj/structure/window/W in src)
 		if(!W.CanAStarPass(ID, adir))
-			return 1
+			return TRUE
 	for(var/obj/machinery/door/window/W in src)
 		if(!W.CanAStarPass(ID, adir))
-			return 1
+			return TRUE
 	for(var/obj/O in T)
 		if(!O.CanAStarPass(ID, rdir, caller))
-			return 1
-
-	return 0
+			return TRUE
+	return FALSE
