@@ -197,7 +197,7 @@
 		Holder.del_reagent(Id)
 		fireflash_sm(S, 0, rand(20000, 25000) + Volume * 2500, 0, 0, 1)
 
-/datum/reagent/thermite/reaction_turf(turf/S, volume)
+/datum/reagent/thermite/reaction_turf(turf/open/S, volume)
 	if(istype(S))
 		if(!S.reagents)
 			S.create_reagents(volume)
@@ -363,7 +363,7 @@
 	if(method == REAGENT_TOUCH)
 		M.ExtinguishMob()
 
-/datum/reagent/cryostylane/reaction_turf(turf/T, volume)
+/datum/reagent/cryostylane/reaction_turf(turf/open/T, volume)
 	if(!issimulatedturf(T))
 		return
 	if(volume >= 3)

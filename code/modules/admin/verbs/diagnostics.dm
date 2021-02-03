@@ -10,8 +10,8 @@
 
 	var/datum/gas_mixture/GM = target.return_air()
 	var/burning = FALSE
-	if(issimulatedturf(T))
-		var/turf/T = target
+	if(issimulatedturf(target))
+		var/turf/open/T = target
 		if(T.active_hotspot)
 			burning = TRUE
 

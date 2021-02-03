@@ -322,7 +322,7 @@
 /mob/living/simple_animal/hostile/poison/terror_spider/proc/ListValidTurfs()
 	var/list/potentials = list()
 	for(var/turf/T in oview(3,get_turf(src)))
-		if(!isindtur(T))
+		if(issimulatedturf(T))
 			if(T.density == FALSE && get_dist(get_turf(src),T) == 3)
 				var/obj/structure/spider/terrorweb/W = locate() in T
 				if(!W)

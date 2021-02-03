@@ -181,7 +181,7 @@
 
 /obj/item/lava_staff/New()
 	. = ..()
-	banned_turfs = typecacheof(list(/turf/open/space/transit, /turf/unsimulated))
+	banned_turfs = typecacheof(list(/turf/open/space/transit, /turf/open/ind_floor, /turf/closed/ind_wall))
 
 /obj/item/lava_staff/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
 	..()
@@ -200,7 +200,7 @@
 	if(target in view(user.client.view, get_turf(user)))
 
 		var/turf/T = get_turf(target)
-		if(!istype(T) || isunsimulatedturf(T))
+		if(!istype(T) || !issimulatedturf(T))
 			return
 		if(!istype(T, turf_type))
 			var/obj/effect/temp_visual/lavastaff/L = new /obj/effect/temp_visual/lavastaff(T)
