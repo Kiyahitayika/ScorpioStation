@@ -501,7 +501,7 @@
 				if(next == loc)
 					increment_path()
 					return
-				if(istype(next, /turf/simulated))
+				if(issimulatedturf(next))
 //					to_chat(world, "at ([x],[y]) moving to ([next.x],[next.y])")
 
 					var/oldloc = loc

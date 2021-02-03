@@ -162,6 +162,6 @@
 /obj/machinery/atmospherics/pipe/simple/update_underlays()
 	return
 
-/obj/machinery/atmospherics/pipe/simple/hide(var/i)
-	if(level == 1 && istype(loc, /turf/simulated))
+/obj/machinery/atmospherics/pipe/simple/hide(i)
+	if(level == 1 && issimulatedturc(loc))
 		invisibility = i ? 101 : 0

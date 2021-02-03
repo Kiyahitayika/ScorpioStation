@@ -277,7 +277,7 @@
 		return BORDER_2NDTILE
 	if(istype(T2, /turf/closed/mineral))
 		return BORDER_2NDTILE
-	if(!istype(T2, /turf/simulated))
+	if(!issimulatedturf(T2))
 		return BORDER_BETWEEN
 
 	for(var/obj/structure/window/W in T2)

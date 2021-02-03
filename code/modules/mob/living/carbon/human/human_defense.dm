@@ -24,7 +24,7 @@ emp_act
 			var/list/safe_list = list(/obj/item/projectile/beam/lasertag, /obj/item/projectile/beam/practice)
 			if(is_type_in_list(P, safe_list)) //And it's safe
 				visible_message("<span class='danger'>The [P.name] gets reflected by [src]!</span>", \
-				   "<span class='userdanger'>The [P.name] gets reflected by [src]!</span>")		
+				   "<span class='userdanger'>The [P.name] gets reflected by [src]!</span>")
 				P.reflect_back(src)
 				return -1 // complete projectile permutation
 
@@ -442,7 +442,7 @@ emp_act
 		if(prob(I.force * 2)) //blood spatter!
 			bloody = 1
 			var/turf/location = loc
-			if(istype(location, /turf/simulated))
+			if(issimulatedturf(location))
 				add_splatter_floor(location)
 			if(ishuman(user))
 				var/mob/living/carbon/human/H = user
