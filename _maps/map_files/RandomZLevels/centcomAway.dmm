@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
 /turf/closed/wall/r_wall,
@@ -482,7 +482,7 @@
 /area/awaymission/centcomAway/maint)
 "bm" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "bn" = (
 /turf/open/floor/plasteel{
@@ -1060,7 +1060,7 @@
 	tag = ""
 	},
 /obj/structure/lattice/catwalk,
-/turf/space,
+/turf/open/space,
 /area/awaymission/centcomAway/maint)
 "cO" = (
 /obj/structure/cable{
@@ -1083,7 +1083,7 @@
 	tag = ""
 	},
 /obj/structure/lattice/catwalk,
-/turf/space,
+/turf/open/space,
 /area/awaymission/centcomAway/maint)
 "cP" = (
 /obj/structure/table/reinforced,
@@ -1552,7 +1552,7 @@
 	tag = ""
 	},
 /obj/structure/lattice/catwalk,
-/turf/space,
+/turf/open/space,
 /area/awaymission/centcomAway/maint)
 "dV" = (
 /obj/structure/closet/crate,
@@ -1647,7 +1647,7 @@
 	tag = ""
 	},
 /obj/structure/lattice/catwalk,
-/turf/space,
+/turf/open/space,
 /area/awaymission/centcomAway/maint)
 "ei" = (
 /obj/structure/table,
@@ -1695,7 +1695,7 @@
 /obj/structure/cable,
 /obj/machinery/power/tracker,
 /obj/structure/lattice/catwalk,
-/turf/space,
+/turf/open/space,
 /area/awaymission/centcomAway/maint)
 "ep" = (
 /obj/structure/table,

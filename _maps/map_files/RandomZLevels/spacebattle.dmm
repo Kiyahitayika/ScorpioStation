@@ -3,10 +3,10 @@
 /turf/closed/mineral/random,
 /area/space/nearstation)
 "ab" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ac" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -18,7 +18,7 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/syndicate2)
 "ae" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -34,10 +34,10 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/syndicate2)
 "ag" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -135,7 +135,7 @@
 	},
 /area/awaymission/spacebattle/syndicate2)
 "av" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -166,7 +166,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate3)
 "az" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -213,7 +213,7 @@
 	},
 /area/awaymission/spacebattle/syndicate3)
 "aG" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -226,7 +226,7 @@
 	},
 /area/awaymission/spacebattle/syndicate2)
 "aI" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -270,7 +270,7 @@
 	},
 /area/awaymission/spacebattle/syndicate2)
 "aO" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -301,7 +301,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate1)
 "aS" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -462,7 +462,7 @@
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bp" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -475,7 +475,7 @@
 	},
 /area/awaymission/spacebattle/syndicate3)
 "br" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -521,7 +521,7 @@
 /turf/open/floor/plating,
 /area/awaymission/spacebattle/syndicate3)
 "bx" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -534,7 +534,7 @@
 	},
 /area/awaymission/spacebattle/syndicate1)
 "bz" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -573,7 +573,7 @@
 /turf/open/floor/plating,
 /area/awaymission/spacebattle/syndicate1)
 "bE" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -585,7 +585,7 @@
 	icon_state = "propulsion_r";
 	dir = 1
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "bG" = (
 /obj/machinery/door/airlock/external,
@@ -597,10 +597,10 @@
 	icon_state = "propulsion_l";
 	dir = 1
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "bI" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -657,7 +657,7 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "bP" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -684,7 +684,7 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "bT" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 3;
 	icon_state = "swall_f10";
@@ -698,7 +698,7 @@
 	icon_state = "burst_l";
 	dir = 4
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "bV" = (
 /obj/structure/shuttle/engine/heater{
@@ -746,7 +746,7 @@
 	icon_state = "propulsion";
 	dir = 4
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "cd" = (
 /obj/structure/table/reinforced,
@@ -1066,7 +1066,7 @@
 	icon_state = "propulsion_r";
 	dir = 4
 	},
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "dd" = (
 /obj/effect/mob_spawn/human/engineer{
@@ -1140,7 +1140,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/cruiser)
 "dq" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -1450,7 +1450,7 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "eo" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -1462,7 +1462,7 @@
 	},
 /area/awaymission/spacebattle/syndicate4)
 "eq" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -1737,7 +1737,7 @@
 /turf/closed/shuttle/wall,
 /area/awaymission/spacebattle/cruiser)
 "fi" = (
-/turf/space,
+/turf/open/space,
 /area/awaymission/spacebattle/cruiser)
 "fj" = (
 /obj/machinery/door/airlock/external,
@@ -2007,13 +2007,13 @@
 /turf/open/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "gz" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
 /area/awaymission/spacebattle/syndicate4)
 "gA" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -2081,7 +2081,7 @@
 /turf/open/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate7)
 "gM" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -2151,7 +2151,7 @@
 /turf/open/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "gW" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -2333,7 +2333,7 @@
 /turf/open/floor/engine,
 /area/awaymission/spacebattle/cruiser)
 "hz" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -2463,7 +2463,7 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "hT" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
@@ -2556,7 +2556,7 @@
 	},
 /area/awaymission/spacebattle/cruiser)
 "ig" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -2606,11 +2606,11 @@
 /area/awaymission/spacebattle/cruiser)
 "iq" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "ir" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "is" = (
 /turf/closed/shuttle/wall{
@@ -2618,7 +2618,7 @@
 	},
 /area/space/nearstation)
 "it" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -2664,7 +2664,7 @@
 	},
 /area/space/nearstation)
 "iz" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -2676,7 +2676,7 @@
 	},
 /area/awaymission/spacebattle/syndicate5)
 "iB" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -2698,13 +2698,13 @@
 	},
 /area/awaymission/spacebattle/syndicate5)
 "iF" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
 /area/space/nearstation)
 "iG" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -2743,13 +2743,13 @@
 	},
 /area/awaymission/spacebattle/syndicate5)
 "iM" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
 /area/awaymission/spacebattle/syndicate5)
 "iN" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -2767,7 +2767,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/spacebattle/syndicate5)
 "iQ" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -2779,7 +2779,7 @@
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iS" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -2818,13 +2818,13 @@
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iY" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
 /area/awaymission/spacebattle/syndicate6)
 "iZ" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"

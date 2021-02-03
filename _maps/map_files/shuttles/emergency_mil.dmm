@@ -1,13 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
 /obj/machinery/light/spot,
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape)
 "ac" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape)
 "ad" = (
 /obj/machinery/porta_turret{
@@ -20,7 +20,7 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
 "ae" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 2;
 	icon_state = "swallc2"
@@ -38,14 +38,14 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "ah" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 2;
 	icon_state = "swallc1"
 	},
 /area/shuttle/escape)
 "ai" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
@@ -94,7 +94,7 @@
 	},
 /area/shuttle/escape)
 "aq" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
@@ -507,7 +507,7 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "bt" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
@@ -528,7 +528,7 @@
 /turf/open/shuttle/plating,
 /area/shuttle/escape)
 "bw" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2

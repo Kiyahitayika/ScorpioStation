@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
 /obj/machinery/power/tracker,
@@ -18,10 +18,10 @@
 /area/awaymission/northblock)
 "ae" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/awaymission/northblock)
 "af" = (
-/turf/space,
+/turf/open/space,
 /area/awaymission/northblock)
 "ag" = (
 /turf/open/floor/plating/airless,
@@ -33,14 +33,14 @@
 /area/awaymission/northblock)
 "ai" = (
 /obj/machinery/power/solar/fake,
-/turf/space,
+/turf/open/space,
 /area/awaymission/northblock)
 "aj" = (
 /turf/closed/wall,
 /area/awaymission/northblock)
 "ak" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "al" = (
 /obj/machinery/door/window/westright,
@@ -147,7 +147,7 @@
 	},
 /area/awaymission/syndishuttle)
 "aD" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -183,7 +183,7 @@
 /turf/open/floor/plating/airless,
 /area/awaymission/syndishuttle)
 "aK" = (
-/turf/space,
+/turf/open/space,
 /area/awaymission/syndishuttle)
 "aL" = (
 /obj/machinery/recharge_station,
@@ -349,7 +349,7 @@
 /area/awaymission/syndishuttle)
 "bs" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/awaymission/syndishuttle)
 "bt" = (
 /obj/machinery/door/airlock/centcom,
@@ -416,7 +416,7 @@
 	},
 /area/awaymission/northblock)
 "bE" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -891,7 +891,7 @@
 "cQ" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple,
-/turf/space,
+/turf/open/space,
 /area/awaymission/northblock)
 "cR" = (
 /obj/machinery/portable_atmospherics/canister/toxins{
@@ -952,7 +952,7 @@
 	},
 /area/awaymission/research)
 "cY" = (
-/turf/space,
+/turf/open/space,
 /area/awaymission/research)
 "cZ" = (
 /obj/structure/window/reinforced{
@@ -1077,7 +1077,7 @@
 /area/awaymission/research)
 "dm" = (
 /obj/singularity/narsie/sc_Narsie,
-/turf/space,
+/turf/open/space,
 /area/awaymission/research)
 "dn" = (
 /obj/machinery/power/emitter{
@@ -2247,7 +2247,7 @@
 /turf/open/floor/plating,
 /area/awaymission/midblock)
 "fL" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -2292,7 +2292,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/arrivalblock)
 "fQ" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 3;
 	icon_state = "swall_f10";
@@ -2910,7 +2910,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/arrivalblock)
 "hv" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -3067,7 +3067,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/midblock)
 "hR" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
@@ -3538,7 +3538,7 @@
 /turf/open/shuttle/plating,
 /area/awaymission/arrivalblock)
 "je" = (
-/turf/space,
+/turf/open/space,
 /area/awaymission/arrivalblock)
 "jf" = (
 /obj/structure/shuttle/engine/propulsion,

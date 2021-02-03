@@ -866,7 +866,7 @@
 /turf/open/floor/plating,
 /area/awaymission/challenge/start)
 "cw" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "cx" = (
 /obj/machinery/atmospherics/unary/outlet_injector/on{

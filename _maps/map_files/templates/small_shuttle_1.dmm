@@ -1,13 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6"
 	},
 /area/ruin/powered)
 "b" = (
-/turf/space,
+/turf/open/space,
 /area/ruin/powered)
 "c" = (
 /turf/closed/shuttle/wall{
@@ -20,7 +20,7 @@
 /turf/open/shuttle/floor,
 /area/ruin/powered)
 "e" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5"
@@ -94,14 +94,14 @@
 /turf/open/shuttle/floor,
 /area/ruin/powered)
 "s" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10"
 	},
 /area/ruin/powered)
 "t" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9"

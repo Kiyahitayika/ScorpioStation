@@ -509,7 +509,7 @@
 	},
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
-/turf/space,
+/turf/open/space,
 /area/shuttle/administration)
 "xm" = (
 /obj/structure/table/reinforced,
@@ -576,7 +576,7 @@
 	},
 /area/shuttle/administration)
 "xZ" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/administration)
 "yg" = (
 /obj/structure/table/reinforced,

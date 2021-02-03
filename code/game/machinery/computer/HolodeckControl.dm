@@ -239,7 +239,7 @@
 
 /obj/machinery/computer/HolodeckControl/proc/checkInteg(var/area/A)
 	for(var/turf/T in A)
-		if(istype(T, /turf/space))
+		if(istype(T, /turf/open/space))
 			return 0
 
 	return 1
@@ -350,7 +350,7 @@
 
 /turf/open/floor/holofloor/space
 	name = "\proper space"
-	icon = 'icons/turf/space.dmi'
+	icon = 'icons/turf/open/space.dmi'
 	icon_state = "0"
 	plane = PLANE_SPACE
 
@@ -359,7 +359,7 @@
 	. = ..()
 
 /turf/open/floor/holofloor/space/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
-	underlay_appearance.icon = 'icons/turf/space.dmi'
+	underlay_appearance.icon = 'icons/turf/open/space.dmi'
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE
 	return TRUE

@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
 /turf/closed/mineral/random/high_chance,
@@ -15,7 +15,7 @@
 "ae" = (
 /obj/item/circular_saw,
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "af" = (
 /turf/closed/shuttle/wall{
@@ -36,7 +36,7 @@
 	},
 /area/awaymission/BMPship/Aft)
 "ai" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
@@ -45,7 +45,7 @@
 /area/awaymission/BMPship/Aft)
 "aj" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "ak" = (
 /turf/closed/shuttle/wall{
@@ -96,10 +96,10 @@
 /area/awaymission/BMPship/Fore)
 "as" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "at" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
@@ -214,7 +214,7 @@
 	},
 /area/awaymission/BMPship/Gate)
 "aK" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -820,7 +820,7 @@
 	},
 /area/awaymission/BMPship/Fore)
 "cA" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -2074,7 +2074,7 @@
 	},
 /area/awaymission/BMPship/Aft)
 "fm" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
@@ -2490,7 +2490,7 @@
 /turf/open/floor/plating,
 /area/awaymission/BMPship/Aft)
 "gg" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -2633,7 +2633,7 @@
 /area/awaymission/BMPship/Fore)
 "gA" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/open/space,
 /area/awaymission/BMPship/Fore)
 "gB" = (
 /obj/item/shard{
@@ -3123,7 +3123,7 @@
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/helmet/space/syndicate/green/dark,
 /obj/effect/gibspawner/generic,
-/turf/space,
+/turf/open/space,
 /area/awaymission)
 "hV" = (
 /obj/effect/decal/warning_stripes/yellow/partial{
@@ -3203,7 +3203,7 @@
 /area/awaymission/BMPship/Aft)
 "ih" = (
 /obj/item/clothing/suit/space/syndicate/green/dark,
-/turf/space,
+/turf/open/space,
 /area/awaymission)
 "ii" = (
 /obj/structure/window/reinforced{
@@ -3264,7 +3264,7 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "ip" = (
 /turf/closed/shuttle/wall{
@@ -3358,7 +3358,7 @@
 /area/awaymission)
 "iD" = (
 /obj/item/clothing/gloves/color/yellow,
-/turf/space,
+/turf/open/space,
 /area/awaymission)
 "iE" = (
 /turf/closed/shuttle/wall{

@@ -1,12 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "ab" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ac" = (
-/turf/space/transit/east{
+/turf/open/space/transit/east{
 	dir = 8
 	},
 /area/space)
@@ -493,7 +493,7 @@
 	name = "pod 3 in transit";
 	width = 3
 	},
-/turf/space/transit/east{
+/turf/open/space/transit/east{
 	dir = 8
 	},
 /area/space)
@@ -569,7 +569,7 @@
 	name = "supply in transit";
 	width = 12
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "bC" = (
 /obj/docking_port/stationary/transit{
@@ -580,7 +580,7 @@
 	name = "pod 1 in transit";
 	width = 3
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "bD" = (
 /obj/docking_port/stationary/transit{
@@ -591,7 +591,7 @@
 	name = "pod 2 in transit";
 	width = 3
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "bE" = (
 /turf/closed/ind_wall{
@@ -801,7 +801,7 @@
 	name = "emergency in transit";
 	width = 25
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "ch" = (
 /obj/docking_port/stationary/transit{
@@ -812,7 +812,7 @@
 	name = "pod 4 in transit";
 	width = 3
 	},
-/turf/space/transit/east{
+/turf/open/space/transit/east{
 	dir = 8
 	},
 /area/space)
@@ -849,7 +849,7 @@
 	name = "labor in transit";
 	width = 9
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "cn" = (
 /obj/structure/flora/grass/green,
@@ -1262,7 +1262,7 @@
 	name = "mining in transit";
 	width = 7
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "dv" = (
 /obj/structure/holowindow{
@@ -1279,7 +1279,7 @@
 	name = "skipjack in transit";
 	width = 19
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "dx" = (
 /obj/docking_port/stationary/transit{
@@ -1291,7 +1291,7 @@
 	name = "syndicate in transit";
 	width = 18
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/space)
 "dy" = (
 /obj/docking_port/stationary/transit{
@@ -1300,10 +1300,10 @@
 	height = 12;
 	id = "ferry_transit";
 	name = "ferry in transit";
-	turf_type = /turf/space/transit/horizontal;
+	turf_type = /turf/open/space/transit/horizontal;
 	width = 5
 	},
-/turf/space/transit/horizontal,
+/turf/open/space/transit/horizontal,
 /area/space)
 "dz" = (
 /turf/open/ind_floor{
@@ -1407,10 +1407,10 @@
 	height = 5;
 	id = "science_transit";
 	name = "science in transit";
-	turf_type = /turf/space/transit/horizontal;
+	turf_type = /turf/open/space/transit/horizontal;
 	width = 7
 	},
-/turf/space/transit/horizontal,
+/turf/open/space/transit/horizontal,
 /area/space)
 "dO" = (
 /obj/docking_port/stationary{
@@ -1421,7 +1421,7 @@
 	name = "vox bay 1";
 	width = 19
 	},
-/turf/space,
+/turf/open/space,
 /area/space)
 "dP" = (
 /turf/open/floor/beach/water,
@@ -1434,7 +1434,7 @@
 	name = "steel_rain in transit";
 	width = 7
 	},
-/turf/space/transit/horizontal,
+/turf/open/space/transit/horizontal,
 /area/space)
 "dR" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -1478,7 +1478,7 @@
 	name = "recovery ship bay 1";
 	width = 3
 	},
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod1/centcom)
 "dX" = (
 /obj/docking_port/stationary{
@@ -1489,7 +1489,7 @@
 	name = "recovery ship bay 2";
 	width = 3
 	},
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod2/centcom)
 "dY" = (
 /obj/structure/window/reinforced,
@@ -1688,10 +1688,10 @@
 /turf/closed/ind_wall/splashscreen,
 /area/start)
 "eB" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod1/centcom)
 "eC" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod2/centcom)
 "eD" = (
 /turf/closed/shuttle/wall{
@@ -1733,7 +1733,7 @@
 	name = "recovery ship bay 3";
 	width = 3
 	},
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod3/centcom)
 "eI" = (
 /obj/docking_port/stationary{
@@ -1744,7 +1744,7 @@
 	name = "recovery ship bay 4";
 	width = 3
 	},
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod5/centcom)
 "eJ" = (
 /turf/closed/shuttle/wall{
@@ -1865,7 +1865,7 @@
 	name = "supply centcom";
 	width = 12
 	},
-/turf/space,
+/turf/open/space,
 /area/space)
 "fb" = (
 /turf/closed/ind_wall/fakeglass{
@@ -2023,7 +2023,7 @@
 	},
 /area/centcom/control)
 "fx" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod3/centcom)
 "fy" = (
 /obj/structure/table,
@@ -2198,7 +2198,7 @@
 	},
 /area/centcom/ferry)
 "fY" = (
-/turf/space,
+/turf/open/space,
 /area/centcom/evac)
 "fZ" = (
 /obj/machinery/vending/autodrobe,
@@ -2292,7 +2292,7 @@
 /turf/closed/ind_wall,
 /area/centcom)
 "gl" = (
-/turf/space/transit/horizontal,
+/turf/open/space/transit/horizontal,
 /area/space)
 "gm" = (
 /obj/machinery/vending/clothing,
@@ -2694,7 +2694,7 @@
 	name = "centcom bay 2";
 	width = 5
 	},
-/turf/space,
+/turf/open/space,
 /area/space)
 "hw" = (
 /turf/open/ind_floor{
@@ -3293,7 +3293,7 @@
 	name = "Port Docking Bay 1";
 	id_tag = "emergency_away"
 	},
-/turf/space,
+/turf/open/space,
 /area/centcom/evac)
 "je" = (
 /turf/closed/ind_wall/fakeglass{
@@ -3380,7 +3380,7 @@
 /area/syndicate_mothership)
 "jp" = (
 /obj/effect/landmark/shuttle_import,
-/turf/space,
+/turf/open/space,
 /area/space)
 "jq" = (
 /turf/closed/ind_wall/fakeglass{
@@ -3397,7 +3397,7 @@
 	name = "emergency centcom";
 	width = 25
 	},
-/turf/space,
+/turf/open/space,
 /area/space)
 "js" = (
 /obj/machinery/computer/shuttle,
@@ -3463,7 +3463,7 @@
 	color = "#008000";
 	icon_state = "medium"
 	},
-/turf/space/transit,
+/turf/open/space/transit,
 /area/wizard_station)
 "jC" = (
 /turf/open/ind_floor{
@@ -4525,7 +4525,7 @@
 "mB" = (
 /obj/machinery/porta_turret/syndicate/pod,
 /turf/open/floor/pod,
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -4577,7 +4577,7 @@
 /area/syndicate_mothership)
 "mH" = (
 /obj/structure/lattice,
-/turf/space/transit,
+/turf/open/space/transit,
 /area/wizard_station)
 "mI" = (
 /obj/structure/mirror{
@@ -4611,7 +4611,7 @@
 "mL" = (
 /obj/machinery/porta_turret/syndicate/pod,
 /turf/open/floor/pod,
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -4836,7 +4836,7 @@
 "nj" = (
 /obj/machinery/porta_turret/syndicate/pod,
 /turf/open/floor/pod,
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-diagonalWall3";
 	icon_state = "diagonalWall3";
@@ -5010,7 +5010,7 @@
 	turf_type = /turf/open/ind_floor/snow;
 	width = 18
 	},
-/turf/space,
+/turf/open/space,
 /area/space)
 "nD" = (
 /obj/structure/table/wood,
@@ -5117,7 +5117,7 @@
 "nP" = (
 /obj/machinery/porta_turret/syndicate/pod,
 /turf/open/floor/pod,
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -5547,7 +5547,7 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Engine Room B"
 	},
-/turf/space,
+/turf/open/space,
 /area/wizard_station)
 "oU" = (
 /obj/machinery/camera{
@@ -5809,7 +5809,7 @@
 "pT" = (
 /obj/structure/lattice,
 /obj/effect/forcefield,
-/turf/space/transit,
+/turf/open/space/transit,
 /area/wizard_station)
 "qe" = (
 /turf/open/floor/mech_bay_recharge_floor,
@@ -5924,7 +5924,7 @@
 /area/wizard_station)
 "su" = (
 /obj/effect/forcefield,
-/turf/space,
+/turf/open/space,
 /area/wizard_station)
 "sw" = (
 /obj/structure/rack,
@@ -5951,11 +5951,11 @@
 "sB" = (
 /obj/structure/lattice,
 /obj/effect/forcefield,
-/turf/space,
+/turf/open/space,
 /area/wizard_station)
 "sC" = (
 /obj/effect/forcefield,
-/turf/space/transit,
+/turf/open/space/transit,
 /area/wizard_station)
 "sJ" = (
 /turf/closed/ind_wall,
@@ -6120,7 +6120,7 @@
 	},
 /area/centcom/holding)
 "wP" = (
-/turf/space,
+/turf/open/space,
 /area/shuttle/escape_pod5/centcom)
 "xF" = (
 /obj/structure/chair/comfy/shuttle{

@@ -1,9 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -47,7 +47,7 @@
 	},
 /area/shuttle/administration)
 "af" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -316,14 +316,14 @@
 	},
 /area/shuttle/administration)
 "aM" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
 	},
 /area/shuttle/administration)
 "aN" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},

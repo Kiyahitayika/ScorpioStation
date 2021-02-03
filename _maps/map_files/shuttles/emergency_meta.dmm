@@ -1,9 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "ab" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -70,7 +70,7 @@
 	},
 /area/shuttle/escape)
 "al" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
@@ -78,7 +78,7 @@
 	},
 /area/shuttle/escape)
 "am" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f6";
 	icon_state = "swall_f6";
@@ -811,7 +811,7 @@
 	},
 /area/shuttle/escape)
 "bO" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -1021,7 +1021,7 @@
 	},
 /area/shuttle/escape)
 "cf" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
@@ -1036,7 +1036,7 @@
 	},
 /area/shuttle/escape)
 "ch" = (
-/turf/space,
+/turf/open/space,
 /turf/closed/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";

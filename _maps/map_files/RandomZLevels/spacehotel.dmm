@@ -2097,13 +2097,13 @@
 	},
 /area/awaymission)
 "dO" = (
-/turf/space,
+/turf/open/space,
 /area/space)
 "dP" = (
 /obj/effect/view_portal{
 	id = "turbinespace"
 	},
-/turf/space,
+/turf/open/space,
 /area/space/nearstation)
 "dQ" = (
 /turf/closed/ind_wall,
