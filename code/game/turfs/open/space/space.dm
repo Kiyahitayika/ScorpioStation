@@ -1,5 +1,5 @@
 /turf/open/space
-	icon = 'icons/turf/open/space.dmi'
+	icon = 'icons/turf/space.dmi'
 	name = "\proper space"
 	icon_state = "0"
 
@@ -286,7 +286,7 @@
 	destination_z = initial(destination_z)
 
 /turf/open/space/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
-	underlay_appearance.icon = 'icons/turf/open/space.dmi'
+	underlay_appearance.icon = 'icons/turf/space.dmi'
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE
 	return TRUE

@@ -163,5 +163,5 @@
 	return
 
 /obj/machinery/atmospherics/pipe/simple/hide(i)
-	if(level == 1 && issimulatedturc(loc))
+	if(level == 1 && issimulatedturf(loc))
 		invisibility = i ? 101 : 0

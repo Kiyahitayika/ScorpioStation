@@ -1015,7 +1015,7 @@ GLOBAL_LIST_INIT(non_fakeattack_weapons, list(/obj/item/gun/projectile, /obj/ite
 
 					switch(rand(1,4))
 						if(1)
-							halimage = image('icons/turf/open/space.dmi',target,"[rand(1,25)]",TURF_LAYER)
+							halimage = image('icons/turf/space.dmi',target,"[rand(1,25)]",TURF_LAYER)
 						if(2)
 							halimage = image('icons/turf/floors/lava.dmi',target,"smooth",TURF_LAYER)
 						if(3)
