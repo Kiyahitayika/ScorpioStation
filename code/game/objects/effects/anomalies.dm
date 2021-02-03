@@ -181,7 +181,7 @@
 			step_towards(M,src)
 
 	//Damaging the turf
-	if( T && issimulatedturf(T) && prob(turf_removal_chance) )
+	if(T && issimulatedturf(T) && prob(turf_removal_chance))
 		T.ex_act(ex_act_force)
 	return
 

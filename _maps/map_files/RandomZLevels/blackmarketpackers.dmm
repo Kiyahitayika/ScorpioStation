@@ -654,7 +654,7 @@
 	pixel_y = 0;
 	tag = ""
 	},
-/turf/simulated,
+/turf/open,
 /area/awaymission/BMPship/Gate)
 "cc" = (
 /obj/structure/cable{
@@ -3138,14 +3138,14 @@
 /area/awaymission/BMPship/Midship)
 "hW" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated,
+/turf/open,
 /area/awaymission/BMPship/Fore)
 "hX" = (
 /turf/open/floor/plating/airless,
 /area/awaymission/BMPship/Fore)
 "hY" = (
 /obj/effect/gibspawner/robot,
-/turf/simulated,
+/turf/open,
 /area/awaymission/BMPship/Fore)
 "hZ" = (
 /obj/structure/rack,
