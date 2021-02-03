@@ -45,9 +45,9 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 #define is_glass_sheet(O) (is_type_in_typecache(O, GLOB.glass_sheet_types))
 
 //Turfs
-#define issimulatedturf(A) istype(A, /turf/open/floor | /turf/closed/wall)
+#define issimulatedturf(A) istype(A, (/turf/open/floor || /turf/closed/wall))
 
-#define isunsimulatedturf(A) istype(A, /turf/open/ind_floor | /turf/closed/ind_wall)
+#define isunsimulatedturf(A) istype(A, (/turf/open/ind_floor || /turf/closed/ind_wall))
 
 #define isopenturf(A) istype(A, /turf/open)
 
@@ -55,11 +55,11 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 
 #define isspaceturf(A) istype(A, /turf/open/space)
 
-#define isfloorturf(A) istype(A, /turf/open/floor | /turf/open/ind_floor)
+#define isfloorturf(A) istype(A, (/turf/open/floor || /turf/open/ind_floor))
 
-#define iswallturf(A) istype(A, /turf/closed/wall | /turf/closed/ind_wall)
+#define iswallturf(A) istype(A, (/turf/closed/wall || /turf/closed/ind_wall))
 
-#define isreinforcedwallturf(A) istype(A, /turf/closed/wall/r_wall | /turf/closed/ind_wall/r_wall)
+#define isreinforcedwallturf(A) istype(A, (/turf/closed/wall/r_wall || /turf/closed/ind_wall/r_wall))
 
 #define ismineralturf(A) istype(A, /turf/closed/mineral)
 
