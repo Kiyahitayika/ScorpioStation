@@ -58,7 +58,7 @@
 		var/turf/t = get_turf(src)
 		mineral_scan_pulse(t, range)
 
-/proc/mineral_scan_pulse(turf/T, range = world.view)
+/proc/mineral_scan_pulse(turf/closed/T, range = world.view)
 	var/list/minerals = list()
 	for(var/turf/closed/mineral/M in range(range, T))
 		if(M.scan_state)

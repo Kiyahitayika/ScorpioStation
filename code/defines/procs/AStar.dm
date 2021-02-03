@@ -156,7 +156,7 @@ Actual Adjacent procs :
 	var/turf/T
 	for(var/dir in GLOB.cardinal)
 		T = get_step(src, dir)
-		if(!T || (simulated_only && !issimulated(T)))
+		if(!T || (simulated_only && !issimulatedturf(T)))
 			continue
 		if(!T.density && !LinkBlockedWithAccess(T, caller, ID))
 			L.Add(T)
