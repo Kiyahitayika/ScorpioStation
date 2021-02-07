@@ -657,10 +657,9 @@
 						else if(selected_se_block > DNA_SE_LENGTH/2 && selected_se_block < DNA_SE_LENGTH)
 							real_SE_block--
 
-					//As long as the gene block is not one of the occupant's incurable Disability blocks.
-					if(!(block in connected.occupant.dna.incur_blocks))
-						connected.occupant.dna.SetDNASubBlock(real_SE_block, selected_se_subblock, block, DNA_SE)
-						domutcheck(connected.occupant, connected)
+					//testing("Irradiated SE block [real_SE_block]:[selected_se_subblock] ([original_block] now [block]) [(real_SE_block!=selected_se_block) ? "(SHIFTED)":""]!")
+					connected.occupant.dna.SetDNASubBlock(real_SE_block, selected_se_subblock, block, DNA_SE)
+					domutcheck(connected.occupant, connected)
 				else
 					var/radiation = (((radiation_intensity * 2) + radiation_duration) / connected.damage_coeff)
 					connected.occupant.apply_effect(radiation, IRRADIATE, 0)
