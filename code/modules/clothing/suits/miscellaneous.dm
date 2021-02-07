@@ -312,6 +312,22 @@
 	flags = BLOCKHAIR
 	flags_inv = HIDEEARS
 
+/obj/item/clothing/suit/hooded/salmon_costume
+	name = "salmon suit"
+	desc = "A costume made from authentic salmon scales, it reeks!"
+	icon_state = "salmon"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	allowed = list(/obj/item/fish/salmon, /obj/item/fish_eggs/salmon)
+	hoodtype = /obj/item/clothing/head/hooded/salmon_hood
+
+/obj/item/clothing/head/hooded/salmon_hood
+	name = "salmon hood"
+	desc = "A hood attached to a salmon suit."
+	icon_state = "salmon"
+	body_parts_covered = HEAD
+	flags = BLOCKHAIR
+	flags_inv = HIDEEARS
+
 /obj/item/clothing/suit/hooded/bee_costume // It's Hip!
 	name = "bee costume"
 	desc = "Bee the true Queen!"
@@ -804,6 +820,22 @@
 	actions_types = list()
 	adjust_flavour = null
 	resistance_flags = NONE
+
+/obj/item/clothing/suit/jacket/motojacket
+	name = "leather motorcycle jacket"
+	desc = "A vintage classic, loved by rockers, rebels, and punks alike."
+	icon_state = "motojacket_open"
+	item_state = "motojacket_open"
+	ignore_suitadjust = FALSE
+	suit_adjusted = TRUE
+	actions_types = list(/datum/action/item_action/zipper)
+	adjust_flavour = "unzip"
+
+	sprite_sheets = list(
+		"Vox" = 'icons/mob/species/vox/suit.dmi',
+		"Drask" = 'icons/mob/species/drask/suit.dmi',
+		"Grey" = 'icons/mob/species/grey/suit.dmi'
+		)
 
 /obj/item/clothing/suit/jacket/leather/overcoat
 	name = "leather overcoat"

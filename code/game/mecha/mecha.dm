@@ -62,7 +62,6 @@
 	var/list/equipment = new
 	var/obj/item/mecha_parts/mecha_equipment/selected
 	var/max_equip = 3
-	var/datum/events/events
 	var/turf/crashing = null
 	var/occupant_sight_flags = 0
 
@@ -102,7 +101,7 @@
 	var/base_icon_state
 
 	// Holding vars for cosmetic mods
-	var/cosmetics_enabled = TRUE // If false, will not show overlays nor open the paintgun UI.
+	var/cosmetics_enabled = FALSE // If false, will not show overlays nor open the paintgun UI.
 	var/basecoat_icon		// Base mech overlay (for colouring)
 	var/basecoat_colour = "#000000"
 
@@ -111,23 +110,23 @@
 
 	var/decal_icons = 'icons/mecha/mecha_decals.dmi'	// The file where the decal icons are stored. Seperated for neatness.
 	var/icon_decal_root	// Decals. Flame decals, anyone? Might have to make these as datums to hold colour info.
-	var/list/datum/mecha/mecha_decal/decals = list() 
+	var/list/datum/mecha/mecha_decal/decals = list()
 	var/list/datum/mecha/mecha_decal/default_decals = list() // Decals that come with the mech by default go here.
 
 	// Frontloads all the needed image processing to cut down on update checks.
 	var/icon/mech_icon_cache  // Contains the flattened new mech appearance after customization.
 	var/icon/glow_icon_cache  // Contains the glowy bits to be rendered on top.
 
-	// Some mechs with unreasonable numbers of decals can briefly halt the system while it processes. 
+	// Some mechs with unreasonable numbers of decals can briefly halt the system while it processes.
 	// This mode stops some of the more extraneous blends to speed up processing.
 	// This will reduce colour depth and may lead to layering issues if decals are not controlled.
-	var/fast_render_mode = FALSE 
+	var/fast_render_mode = FALSE
 
 	hud_possible = list (DIAG_STAT_HUD, DIAG_BATT_HUD, DIAG_MECH_HUD, DIAG_TRACK_HUD)
 
 /obj/mecha/Initialize()
 	. = ..()
-	events = new
+	icon_state += "-open"
 	add_radio()
 	add_cabin()
 	add_airtank()
@@ -326,7 +325,7 @@
 	decals.Add(decal)
 	redraw_cache()
 	return TRUE
-	
+
 /obj/mecha/proc/strip_decal(var/datum/mecha/mecha_decal/decal)
 	if(decals)
 		decals.Remove(decal)
@@ -368,8 +367,8 @@
 	var/chosen_glitch = rand(1,5)
 	var/chosen_glitch_state = "glitch-[chosen_glitch]"
 	var/icon/glitch_icon = icon('icons/mecha/mecha_decals.dmi', chosen_glitch_state)
-	glitch_icon.Shift(NORTH,rand(-16, 16),TRUE) 
-	glitch_icon.Shift(EAST,rand(-16, 16),TRUE) 
+	glitch_icon.Shift(NORTH,rand(-16, 16),TRUE)
+	glitch_icon.Shift(EAST,rand(-16, 16),TRUE)
 	var/icon/glitch_mech = icon(mech_icon_cache, icon_state)
 	glitch_mech.AddAlphaMask(icon(glitch_icon))
 	var/icon/glitch_overlay = icon(glow_icon_cache, icon_state)
@@ -412,7 +411,6 @@
 	radio.name = "[src] radio"
 	radio.icon = icon
 	radio.icon_state = icon_state
-	radio.subspace_transmission = 1
 
 /obj/mecha/examine(mob/user)
 	. = ..()
@@ -501,12 +499,6 @@
 //////////////////////////////////
 ////////  Movement procs  ////////
 //////////////////////////////////
-
-/obj/mecha/Move(atom/newLoc, direct)
-	. = ..()
-	if(.)
-		events.fireEvent("onMove",get_turf(src))
-
 /obj/mecha/Process_Spacemove(var/movement_dir = 0)
 	. = ..()
 	if(.)
@@ -586,6 +578,8 @@
 		else
 			occupant.clear_alert("mechaport")
 	if(leg_overload_mode)
+		log_message("Leg Overload damage.")
+		take_damage(1, BRUTE, FALSE, FALSE)
 		if(obj_integrity < max_integrity - max_integrity / 3)
 			leg_overload_mode = FALSE
 			step_in = initial(step_in)
@@ -677,12 +671,7 @@
 				return
 			if(isobj(obstacle))
 				var/obj/O = obstacle
-				if(istype(O, /obj/effect/portal)) //derpfix
-					anchored = 0
-					O.Bumped(src)
-					spawn(0) //countering portal teleport spawn(0), hurr
-						anchored = 1
-				else if(!O.anchored)
+				if(!O.anchored)
 					step(obstacle, dir)
 			else if(ismob(obstacle))
 				step(obstacle, dir)
@@ -756,7 +745,7 @@
 				check_for_internal_damage(list(MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST))
 			else
 				check_for_internal_damage(list(MECHA_INT_FIRE,MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST,MECHA_INT_SHORT_CIRCUIT))
-		if(. >= 5 || prob(33))
+		if((. >= 5 || prob(33)) && !(. == 1 && leg_overload_mode)) //If it takes 1 damage and leg_overload_mode is true, do not say TAKING DAMAGE! to the user several times a second.
 			occupant_message("<span class='userdanger'>Taking damage!</span>")
 		log_message("Took [damage_amount] points of damage. Damage type: [damage_type]")
 
@@ -794,7 +783,7 @@
 	user.changeNext_move(CLICK_CD_MELEE)
 	user.do_attack_animation(src, ATTACK_EFFECT_PUNCH)
 	playsound(loc, 'sound/weapons/tap.ogg', 40, 1, -1)
-	user.visible_message("<span class='danger'>[user] hits [name]. Nothing happens</span>", "<span class='danger'>You hit [name] with no visible effect.</span>")
+	user.visible_message("<span class='notice'>[user] hits [name]. Nothing happens</span>", "<span class='notice'>You hit [name] with no visible effect.</span>")
 	log_message("Attack by hand/paw. Attacker - [user].")
 
 
@@ -997,7 +986,7 @@
 		diag_hud_set_mechtracking()
 		return
 
-// Legacy support: adding paintkits disables the cosmetic modification system. 
+// Legacy support: adding paintkits disables the cosmetic modification system.
 // Still has some use for major visual overhauls.
 	else if(istype(W, /obj/item/overhaul_kit))
 		if(occupant)
@@ -1107,6 +1096,9 @@
 		return
 	if(repairing)
 		to_chat(user, "<span class='notice'>[src] is currently being repaired!</span>")
+		return
+	if(state == 0) // If maint protocols are not active, the state is zero
+		to_chat(user, "<span class='warning'>[src] can not be repaired without maintenance protocols active!</span>")
 		return
 	WELDER_ATTEMPT_REPAIR_MESSAGE
 	repairing = TRUE
@@ -1234,7 +1226,7 @@
 	AI.canmove = 1 //Much easier than adding AI checks! Be sure to set this back to 0 if you decide to allow an AI to leave a mech somehow.
 	AI.can_shunt = 0 //ONE AI ENTERS. NO AI LEAVES.
 	to_chat(AI, "[AI.can_dominate_mechs ? "<span class='announce'>Takeover of [name] complete! You are now permanently loaded onto the onboard computer. Do not attempt to leave the station sector!</span>" \
-	: "<span class='notice'>You have been uploaded to a mech's onboard computer."]")
+	: "<span class='notice'>You have been uploaded to a mech computer."]")
 	to_chat(AI, "<span class='boldnotice'>Use Middle-Mouse to activate mech functions and equipment. Click normally for AI interactions.</span>")
 	if(interaction == AI_TRANS_FROM_CARD)
 		GrantActions(AI, FALSE)
@@ -1390,23 +1382,26 @@
 			occupant << sound(nominalsound, volume = 50)
 		if(state)
 			H.throw_alert("locked", /obj/screen/alert/mech_maintenance)
-		return 1
+		return TRUE
 	else
-		return 0
+		return FALSE
 
 /obj/mecha/proc/mmi_move_inside(var/obj/item/mmi/mmi_as_oc as obj,mob/user as mob)
 	if(!mmi_as_oc.brainmob || !mmi_as_oc.brainmob.client)
 		to_chat(user, "<span class='warning'>Consciousness matrix not detected!</span>")
-		return 0
+		return FALSE
 	else if(mmi_as_oc.brainmob.stat)
 		to_chat(user, "<span class='warning'>Beta-rhythm below acceptable level!</span>")
-		return 0
+		return FALSE
 	else if(occupant)
 		to_chat(user, "<span class='warning'>Occupant detected!</span>")
-		return 0
+		return FALSE
 	else if(dna && dna != mmi_as_oc.brainmob.dna.unique_enzymes)
 		to_chat(user, "<span class='warning'>Access denied. [name] is secured with a DNA lock.</span>")
-		return 0
+		return FALSE
+	else if(!operation_allowed(user))
+		to_chat(user, "<span class='warning'>Access denied. [name] is secured with an ID lock.</span>")
+		return FALSE
 
 	if(do_after(user, 40, target = src))
 		if(!occupant)
@@ -1415,24 +1410,24 @@
 			to_chat(user, "<span class='warning'>Occupant detected!</span>")
 	else
 		to_chat(user, "<span class='notice'>You stop inserting the MMI.</span>")
-	return 0
+	return FALSE
 
 /obj/mecha/proc/mmi_moved_inside(obj/item/mmi/mmi_as_oc,mob/user)
 	if(mmi_as_oc && (user in range(1)))
 		if(!mmi_as_oc.brainmob || !mmi_as_oc.brainmob.client)
 			to_chat(user, "Consciousness matrix not detected.")
-			return 0
+			return FALSE
 		else if(mmi_as_oc.brainmob.stat)
 			to_chat(user, "Beta-rhythm below acceptable level.")
-			return 0
+			return FALSE
 		if(!user.unEquip(mmi_as_oc))
 			to_chat(user, "<span class='notice'>\the [mmi_as_oc] is stuck to your hand, you cannot put it in \the [src]</span>")
-			return 0
+			return FALSE
 		var/mob/brainmob = mmi_as_oc.brainmob
 		brainmob.reset_perspective(src)
 		occupant = brainmob
 		brainmob.forceMove(src) //should allow relaymove
-		brainmob.canmove = 1
+		brainmob.canmove = TRUE
 		if(istype(mmi_as_oc, /obj/item/mmi/robotic_brain))
 			var/obj/item/mmi/robotic_brain/R = mmi_as_oc
 			if(R.imprinted_master)
@@ -1447,9 +1442,9 @@
 		if(!hasInternalDamage())
 			to_chat(occupant, sound(nominalsound, volume=50))
 		GrantActions(brainmob)
-		return 1
+		return TRUE
 	else
-		return 0
+		return FALSE
 
 /obj/mecha/proc/pilot_is_mmi()
 	var/atom/movable/mob_container
@@ -1529,7 +1524,11 @@
 		L.client.RemoveViewMod("mecha")
 		zoom_mode = FALSE
 
-/obj/mecha/force_eject_occupant()
+	if(ishuman(L))
+		var/mob/living/carbon/human/H = L
+		H.regenerate_icons() // workaround for 14457
+
+/obj/mecha/force_eject_occupant(mob/target)
 	go_out()
 
 /////////////////////////

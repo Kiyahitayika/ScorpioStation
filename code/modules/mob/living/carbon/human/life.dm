@@ -66,9 +66,7 @@
 		if(!is_station_level(T.z))
 			return
 		var/area/A = get_area(src)
-		if(cryo_ssd(src))
-			var/obj/effect/portal/P = new /obj/effect/portal(T, null, null, 40)
-			P.name = "NT SSD Teleportation Portal"
+		cryo_ssd(src)
 		if(A.fast_despawn)
 			force_cryo_human(src)
 
@@ -409,19 +407,19 @@
 
 ///FIRE CODE
 /mob/living/carbon/human/handle_fire()
-	if(..())
+	. = ..()
+	if(!.)
 		return
 	if(HEATRES in mutations)
 		return
-	if(on_fire)
-		var/thermal_protection = get_thermal_protection()
+	var/thermal_protection = get_thermal_protection()
 
-		if(thermal_protection >= FIRE_IMMUNITY_MAX_TEMP_PROTECT)
-			return
-		if(thermal_protection >= FIRE_SUIT_MAX_TEMP_PROTECT)
-			bodytemperature += 11
-		else
-			bodytemperature += (BODYTEMP_HEATING_MAX + (fire_stacks * 12))
+	if(thermal_protection >= FIRE_IMMUNITY_MAX_TEMP_PROTECT)
+		return
+	if(thermal_protection >= FIRE_SUIT_MAX_TEMP_PROTECT)
+		bodytemperature += 11
+	else
+		bodytemperature += (BODYTEMP_HEATING_MAX + (fire_stacks * 12))
 
 /mob/living/carbon/human/proc/get_thermal_protection()
 	var/thermal_protection = 0 //Simple check to estimate how protected we are against multiple temperatures
@@ -599,7 +597,7 @@
 			if(overeatduration < 100)
 				becomeSlim()
 		else
-			if(overeatduration > 500)
+			if(overeatduration > 500 && !(NO_OBESITY in dna.species.species_traits))
 				becomeFat()
 
 		// nutrition decrease
@@ -698,13 +696,14 @@
 
 	if(alcohol_strength >= slur_start) //slurring
 		Slur(drunk)
-	if(alcohol_strength >= brawl_start) //the drunken martial art
-		if(!istype(martial_art, /datum/martial_art/drunk_brawling))
-			var/datum/martial_art/drunk_brawling/F = new
-			F.teach(src, 1)
-	if(alcohol_strength < brawl_start) //removing the art
-		if(istype(martial_art, /datum/martial_art/drunk_brawling))
-			martial_art.remove(src)
+	if(mind)
+		if(alcohol_strength >= brawl_start) //the drunken martial art
+			if(!istype(mind.martial_art, /datum/martial_art/drunk_brawling))
+				var/datum/martial_art/drunk_brawling/F = new
+				F.teach(src, TRUE)
+		else if(alcohol_strength < brawl_start) //removing the art
+			if(istype(mind.martial_art, /datum/martial_art/drunk_brawling))
+				mind.martial_art.remove(src)
 	if(alcohol_strength >= confused_start && prob(33)) //confused walking
 		if(!confused)
 			Confused(1)

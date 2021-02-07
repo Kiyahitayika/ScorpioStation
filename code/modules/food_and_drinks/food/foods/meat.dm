@@ -30,7 +30,7 @@
 	name = "-meat"
 	var/subjectname = ""
 	var/subjectjob = null
-	tastes = list("tender meat" = 1)
+	tastes = list("salty meat" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/slab/meatproduct
 	name = "meat product"
@@ -333,6 +333,9 @@
 	name = "neaera cube"
 	monkey_type = /datum/species/monkey/skrell
 
+/obj/item/reagent_containers/food/snacks/monkeycube/wryncube
+	name = "wryn larva cube"
+	monkey_type = /datum/species/monkey/wryn
 
 //////////////////////
 //		Eggs		//

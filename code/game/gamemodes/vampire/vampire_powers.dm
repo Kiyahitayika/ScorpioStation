@@ -15,7 +15,7 @@
 	if(!gain_desc)
 		gain_desc = "You have gained \the [src] ability."
 
-/obj/effect/proc_holder/spell/vampire/cast_check(skipcharge = 0, mob/living/user = usr)
+/obj/effect/proc_holder/spell/vampire/cast_check(charge_check = TRUE, start_recharge = TRUE, mob/living/user = usr)
 	if(!user.mind)
 		return 0
 	if(!ishuman(user))
@@ -45,7 +45,7 @@
 		return 0
 	return ..()
 
-/obj/effect/proc_holder/spell/vampire/can_cast(mob/user = usr)
+/obj/effect/proc_holder/spell/vampire/can_cast(mob/user = usr, charge_check = TRUE, show_message = FALSE)
 	if(!user.mind)
 		return 0
 	if(!ishuman(user))
@@ -246,7 +246,7 @@
 		H.update_body()
 		H.reset_hair() //No more winding up with hairstyles you're not supposed to have, and blowing your cover.
 		H.reset_markings() //...Or markings.
-		H.dna.ResetUIFrom(H)
+		H.dna.ResetDNAFrom(H, DNA_UI)
 		H.flavor_text = ""
 	user.update_icons()
 
@@ -264,7 +264,7 @@
 			continue
 		if(ishuman(C))
 			var/mob/living/carbon/human/H = C
-			if(istype(H.l_ear, /obj/item/clothing/ears/earmuffs) || istype(H.r_ear, /obj/item/clothing/ears/earmuffs))
+			if(H.check_ear_prot() >= HEARING_PROTECTION_TOTAL)
 				continue
 		if(!affects(C))
 			continue

@@ -34,7 +34,7 @@
 	if(visualsOnly)
 		return
 
-	H.dna.SetSEState(GLOB.soberblock,1)
+	H.dna.SetDNAState(GLOB.soberblock, TRUE, DNA_SE)
 	genemutcheck(H, GLOB.soberblock, null, MUTCHK_FORCED)
 	H.dna.default_blocks.Add(GLOB.soberblock)
 	H.check_mutations = 1
@@ -135,10 +135,15 @@
 
 	uniform = /obj/item/clothing/under/rank/chef
 	suit = /obj/item/clothing/suit/chef
+	belt = /obj/item/storage/belt/chef
 	shoes = /obj/item/clothing/shoes/black
 	head = /obj/item/clothing/head/chefhat
 	l_ear = /obj/item/radio/headset/headset_service
 	pda = /obj/item/pda/chef
+	backpack_contents = list(
+		/obj/item/eftpos=1,\
+		/obj/item/paper/chef=1,\
+		/obj/item/book/manual/chef_recipes=1)
 
 /datum/outfit/job/chef/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -365,11 +370,11 @@
 		var/obj/item/organ/internal/cyberimp/brain/clown_voice/implant = new
 		implant.insert(H)
 
-	H.dna.SetSEState(GLOB.clumsyblock, TRUE)
+	H.dna.SetDNAState(GLOB.clumsyblock, DNA_SE, TRUE)
 	genemutcheck(H, GLOB.clumsyblock, null, MUTCHK_FORCED)
 	H.dna.default_blocks.Add(GLOB.clumsyblock)
 	if(!ismachineperson(H))
-		H.dna.SetSEState(GLOB.comicblock, TRUE)
+		H.dna.SetDNAState(GLOB.comicblock, DNA_SE, TRUE)
 		genemutcheck(H, GLOB.comicblock, null, MUTCHK_FORCED)
 		H.dna.default_blocks.Add(GLOB.comicblock)
 	H.check_mutations = TRUE
@@ -606,6 +611,7 @@
 	total_positions = 0
 	spawn_positions = 0
 	supervisors = "the head of personnel"
+	department_head = list("Head of Personnel")
 	selection_color = "#dddddd"
 	department_access = list(ACCESS_BAR, ACCESS_CARGO, ACCESS_CARGO_BOT, ACCESS_CHAPEL_OFFICE, ACCESS_CLOWN, ACCESS_CREMATORIUM, ACCESS_EVA, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_GATEWAY, ACCESS_HYDROPONICS, ACCESS_JANITOR, ACCESS_KITCHEN, ACCESS_LIBRARY, ACCESS_MINERAL_STOREROOM, ACCESS_MINING, ACCESS_MINING_STATION, ACCESS_MINT, ACCESS_MORGUE, ACCESS_MAILSORTING, ACCESS_MAINT_TUNNELS, ACCESS_MIME, ACCESS_QM, ACCESS_THEATRE, ACCESS_WAITER)
 	access = list(ACCESS_MAINT_TUNNELS, ACCESS_GATEWAY, ACCESS_EVA, ACCESS_EXTERNAL_AIRLOCKS)

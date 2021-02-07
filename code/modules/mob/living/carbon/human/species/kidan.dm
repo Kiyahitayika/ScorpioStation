@@ -7,6 +7,8 @@
 	unarmed_type = /datum/unarmed_attack/claws
 
 	brute_mod = 0.8
+	hunger_drain = 0.15
+	tox_mod = 1.7
 
 	species_traits = list(IS_WHITELISTED)
 	clothing_flags = HAS_UNDERWEAR | HAS_UNDERSHIRT | HAS_SOCKS
@@ -48,3 +50,7 @@
 /datum/species/kidan/on_species_loss(mob/living/carbon/human/H)
 	..()
 	H.pull_force = MOVE_FORCE_NORMAL
+
+/datum/species/kidan/get_species_runechat_color(mob/living/carbon/human/H)
+	var/obj/item/organ/internal/eyes/E = H.get_int_organ(/obj/item/organ/internal/eyes)
+	return E.eye_colour

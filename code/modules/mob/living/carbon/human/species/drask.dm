@@ -45,7 +45,7 @@
 	cold_level_3 = -1 //Default 120
 	coldmod = -1
 
-	heat_level_1 = 300 //Default 360 - Higher is better
+	heat_level_1 = 310 //Default 370 - Higher is better
 	heat_level_2 = 340 //Default 400
 	heat_level_3 = 400 //Default 460
 	heatmod = 2
@@ -66,6 +66,10 @@
 
 /datum/species/drask/handle_dna(mob/living/carbon/human/H, remove)
 	..()
-	H.dna.SetSEState(GLOB.strongblock, !remove, 1)
+	H.dna.SetDNAState(GLOB.strongblock, !remove, DNA_SE, TRUE)
 	genemutcheck(H, GLOB.strongblock, null, MUTCHK_FORCED)
 	H.dna.default_blocks.Add(GLOB.strongblock)
+
+/datum/species/drask/get_species_runechat_color(mob/living/carbon/human/H)
+	var/obj/item/organ/internal/eyes/E = H.get_int_organ(/obj/item/organ/internal/eyes)
+	return E.eye_colour

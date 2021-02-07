@@ -73,12 +73,14 @@
 	spawn (ROUNDSTART_LOGOUT_REPORT_TIME)
 		display_roundstart_logout_report()
 
-	feedback_set_details("round_start","[time2text(world.realtime)]")
-	if(SSticker && SSticker.mode)
-		feedback_set_details("game_mode","[SSticker.mode]")
-//	if(revdata)
-//		feedback_set_details("revision","[revdata.revision]")
-	feedback_set_details("server_ip","[world.internet_address]:[world.port]")
+	if(SSticker && SSticker.mode && SSdbcore.IsConnected())
+		var/datum/db_query/query_round_game_mode = SSdbcore.NewQuery("UPDATE [format_table_name("round")] SET game_mode=:gm WHERE id=:rid", list(
+			"gm" = SSticker.mode,
+			"rid" = GLOB.round_id
+		))
+		if(query_round_game_mode.warn_execute())
+			qdel(query_round_game_mode)
+
 	generate_station_goals()
 	GLOB.start_state = new /datum/station_state()
 	GLOB.start_state.count()
@@ -186,30 +188,30 @@
 			if(isobserver(M))
 				ghosts++
 
-	if(clients > 0)
-		feedback_set("round_end_clients",clients)
-	if(ghosts > 0)
-		feedback_set("round_end_ghosts",ghosts)
-	if(surviving_humans > 0)
-		feedback_set("survived_human",surviving_humans)
-	if(surviving_total > 0)
-		feedback_set("survived_total",surviving_total)
-	if(escaped_humans > 0)
-		feedback_set("escaped_human",escaped_humans)
-	if(escaped_total > 0)
-		feedback_set("escaped_total",escaped_total)
-	if(escaped_on_shuttle > 0)
-		feedback_set("escaped_on_shuttle",escaped_on_shuttle)
-	if(escaped_on_pod_1 > 0)
-		feedback_set("escaped_on_pod_1",escaped_on_pod_1)
-	if(escaped_on_pod_2 > 0)
-		feedback_set("escaped_on_pod_2",escaped_on_pod_2)
-	if(escaped_on_pod_3 > 0)
-		feedback_set("escaped_on_pod_3",escaped_on_pod_3)
-	if(escaped_on_pod_5 > 0)
-		feedback_set("escaped_on_pod_5",escaped_on_pod_5)
+	if(clients)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", clients, list("clients"))
+	if(ghosts)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", ghosts, list("ghosts"))
+	if(surviving_humans)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", surviving_humans, list("survivors", "human"))
+	if(surviving_total)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", surviving_total, list("survivors", "total"))
+	if(escaped_humans)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_humans, list("escapees", "human"))
+	if(escaped_total)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_total, list("escapees", "total"))
+	if(escaped_on_shuttle)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_shuttle, list("escapees", "on_shuttle"))
+	if(escaped_on_pod_1)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_pod_1, list("escapees", "on_pod_1"))
+	if(escaped_on_pod_2)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_pod_2, list("escapees", "on_pod_2"))
+	if(escaped_on_pod_3)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_pod_3, list("escapees", "on_pod_3"))
+	if(escaped_on_pod_5)
+		SSblackbox.record_feedback("nested tally", "round_end_stats", escaped_on_pod_5, list("escapees", "on_pod_5"))
 
-	send2mainirc("A round of [src.name] has ended - [surviving_total] survivors, [ghosts] ghosts.")
+	SSdiscord.send2discord_simple(DISCORD_WEBHOOK_PRIMARY, "A round of [name] has ended - [surviving_total] survivors, [ghosts] ghosts.")
 	return 0
 
 
@@ -337,7 +339,7 @@
 //////////////////////////
 //Reports player logouts//
 //////////////////////////
-proc/display_roundstart_logout_report()
+/proc/display_roundstart_logout_report()
 	var/msg = "<span class='notice'>Roundstart logout report</span>\n\n"
 	for(var/mob/living/L in GLOB.mob_list)
 
@@ -507,7 +509,7 @@ proc/display_roundstart_logout_report()
 		message_text += G.get_report()
 		message_text += "<hr>"
 
-	print_command_report(message_text, "[command_name()] Orders")
+	print_command_report(message_text, "[command_name()] Orders", FALSE)
 
 /datum/game_mode/proc/declare_station_goal_completion()
 	for(var/V in station_goals)
@@ -523,3 +525,42 @@ proc/display_roundstart_logout_report()
 	var/datum/atom_hud/antag/antaghud = GLOB.huds[ANTAG_HUD_EVENTMISC]
 	antaghud.leave_hud(mob_mind.current)
 	set_antag_hud(mob_mind.current, null)
+
+/**
+  * Picks a random mind weighted according to its antag raffle tickets.
+  *
+  * After get_players_for_role has screened the connected players to determine
+  * eligiible candidates, it will return a list of minds. That list is passed
+  * in to this proc in order to pull one at random, but weighted by the number
+  * of antag raffle tickets the player has earned over time. The more tickets
+  * they've earned, the higher chance they have of being selected.
+  *
+  * Arguments:
+  * * minds - /datum/mind list of eligible candidates
+  *
+  * Returns:
+  * * /datum/mind randomly chosen from the list
+  */
+/datum/game_mode/proc/pickraffle(list/minds)
+	var/list/choices = list()
+	for(var/datum/mind/M in minds)
+		if((M.current) && (M.current.client) && (M.current.client.prefs))
+			choices[M] = M.current.client.prefs.antag_raffle_tickets
+	return pickweight(choices)
+
+/**
+  * Reset a raffle winner's antag raffle tickets to zero.
+  *
+  * After being selected for an antagonist role, the player's number of
+  * antag raffle tickets is reset to 0. They'll need to play some more in
+  * order to earn more tickets. Meanwhile, those who were not chosen for an
+  * antagonist role will have a better chance of being chosen next time.
+  *
+  * Arguments:
+  * * minds - /datum/mind list of those selected as antagonists
+  */
+/datum/game_mode/proc/update_raffle_winners(list/minds)
+	for(var/datum/mind/M in minds)
+		if((M.current) && (M.current.client) && (M.current.client.prefs))
+			M.current.client.prefs.antag_raffle_tickets = 0
+	return TRUE

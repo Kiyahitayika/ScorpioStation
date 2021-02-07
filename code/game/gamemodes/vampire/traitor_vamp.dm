@@ -4,7 +4,7 @@
 	traitors_possible = 3 //hard limit on traitors if scaling is turned off
 	protected_jobs = list("Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Blueshield", "Ark Soft Representative", "Security Pod Pilot", "Magistrate", "Chaplain", "Brig Physician", "Internal Affairs Agent", "Ark Soft Navy Officer", "Special Operations Officer")
 	restricted_jobs = list("AI", "Cyborg")
-	required_players = 30
+	required_players = 10
 	required_enemies = 1	// how many of each type are required
 	recommended_enemies = 3
 	var/protected_species_vampire = list("Machine")
@@ -39,6 +39,7 @@
 		return 0
 
 /datum/game_mode/traitor/vampire/post_setup()
+	update_raffle_winners(vampires)
 	for(var/datum/mind/vampire in vampires)
 		grant_vampire_powers(vampire.current)
 		vampire.special_role = SPECIAL_ROLE_VAMPIRE

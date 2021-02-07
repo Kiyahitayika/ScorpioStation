@@ -46,12 +46,12 @@ GLOBAL_LIST_EMPTY(limb_icon_cache)
 /obj/item/organ/external/proc/sync_colour_to_dna()
 	if(is_robotic())
 		return
-	if(!isnull(dna.GetUIValue(DNA_UI_SKIN_TONE)) && ((dna.species.bodyflags & HAS_SKIN_TONE) || (dna.species.bodyflags & HAS_ICON_SKIN_TONE)))
+	if(!isnull(dna.GetDNAValue(DNA_UI_SKIN_TONE, DNA_UI)) && ((dna.species.bodyflags & HAS_SKIN_TONE) || (dna.species.bodyflags & HAS_ICON_SKIN_TONE)))
 		s_col = null
-		s_tone = dna.GetUIValue(DNA_UI_SKIN_TONE)
+		s_tone = dna.GetDNAValue(DNA_UI_SKIN_TONE, DNA_UI)
 	if(dna.species.bodyflags & HAS_SKIN_COLOR)
 		s_tone = null
-		s_col = rgb(dna.GetUIValue(DNA_UI_SKIN_R), dna.GetUIValue(DNA_UI_SKIN_G), dna.GetUIValue(DNA_UI_SKIN_B))
+		s_col = rgb(dna.GetDNAValue(DNA_UI_SKIN_R, DNA_UI), dna.GetDNAValue(DNA_UI_SKIN_G, DNA_UI), dna.GetDNAValue(DNA_UI_SKIN_B, DNA_UI))
 
 /obj/item/organ/external/head/sync_colour_to_human(var/mob/living/carbon/human/H)
 	..()
@@ -162,10 +162,13 @@ GLOBAL_LIST_EMPTY(limb_icon_cache)
 		new_icon_state = "[icon_name][gendered_icon ? "_f" : ""]"
 	else
 		if(gendered_icon)
-			if(dna.GetUIState(DNA_UI_GENDER))
-				gender = "f"
-			else
-				gender = "m"
+			switch(dna.GetDNATriState(DNA_UI_GENDER, DNA_UI))
+				if(DNA_GENDER_FEMALE)
+					gender = "f"
+				if(DNA_GENDER_MALE)
+					gender = "m"
+				else
+					gender = "f"	//Default to "f" (per line 162). Using a pick("m", "f") will make different body parts different genders for the same character.
 		if(limb_name == "head")
 			var/obj/item/organ/external/head/head_organ = src
 			head_organ.handle_alt_icon()

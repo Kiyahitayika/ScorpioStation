@@ -17,6 +17,7 @@
 	starting_voice = /obj/item/mecha_modkit/voice/honk
 	var/squeak = 0
 
+	cosmetics_enabled = TRUE
 	basecoat_icon = "honker-shell"
 	basecoat_colour = "#880000"
 	glow_icon = "honker-glow"
@@ -167,7 +168,7 @@
 			squeak = 0
 	return result
 
-obj/mecha/combat/honker/Topic(href, href_list)
+/obj/mecha/combat/honker/Topic(href, href_list)
 	..()
 	if(href_list["play_sound"])
 		switch(href_list["play_sound"])

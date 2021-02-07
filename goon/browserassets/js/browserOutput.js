@@ -70,7 +70,14 @@ var opts = {
 	'macros': {},
 
 	// Emoji toggle
-	'enableEmoji': true
+	'enableEmoji': true,
+
+	// Reboot message stuff
+	'rebootIntervalHandler': null,
+
+	// Syndicate codewords
+	'codePhrases': [],
+	'codeResponses': []
 };
 
 var regexHasError = false; //variable to check if regex has excepted
@@ -184,11 +191,18 @@ function highlightTerms(el) {
 
 	if (regexHasError) return; //just stop right there ig the regex is gonna except
 
-	function highlightRecursor(element, term){ //recursor function to do the highlighting proper
+	function highlightRecursor(element, term, className){ //recursor function to do the highlighting proper
 		var regex = new RegExp(term, "gi");
 
-		function replace(str) {
-			return str.replace(regex, '<span class="highlight" style="background-color:'+opts.highlightColor+'">$&</span>');
+		var replace;
+		if (className) {
+			replace = function(str) {
+				return str.replace(regex, '<span class="' + className + '">$&</span>');
+			};
+		} else {
+			replace = function(str) {
+				return str.replace(regex, '<span class="highlight" style="background-color:'+opts.highlightColor+'">$&</span>');
+			};
 		}
 
 		var s = '';
@@ -218,10 +232,10 @@ function highlightTerms(el) {
 				ind = next_tag;
 			}
 		}
-		
+
 		element.innerHTML = s;
 	}
-	
+
 	for (var i = 0; i < opts.highlightTerms.length; i++) { //Each highlight term
 		if(opts.highlightTerms[i]) {
 			if(!opts.highlightRegexEnable){
@@ -241,6 +255,14 @@ function highlightTerms(el) {
 				highlightRecursor(el, opts.highlightTerms[i]);
 			}
 		}
+	}
+
+	// Code phrases
+	for (var i = 0; i < opts.codePhrases.length; i++) {
+		highlightRecursor(el, escapeRegexCharacters(opts.codePhrases[i]), "codephrases");
+	}
+	for (var i = 0; i < opts.codeResponses.length; i++) {
+		highlightRecursor(el, escapeRegexCharacters(opts.codeResponses[i]), "coderesponses");
 	}
 }
 
@@ -572,6 +594,55 @@ function createPopup(contents, width) {
 
 function toggleWasd(state) {
 	opts.wasd = (state == 'on' ? true : false);
+}
+
+function reboot(timeRaw) {
+	var timeLeftSecs = parseInt(timeRaw);
+	const intervalSecs = 1; // tick every 1 second
+
+	rebootFinished();
+	internalOutput('<div class="rebooting internal">The server is restarting. <a href="byond://winset?command=.reconnect" id="reconnectTimer">Reconnect (' + timeLeftSecs + ')</a></div>', 'internal');
+
+	opts.rebootIntervalHandler = setInterval(function() {
+		timeLeftSecs -= intervalSecs;
+		if (timeLeftSecs <= 0) {
+			$("#reconnectTimer").text('Reconnecting...');
+			window.location.href = 'byond://winset?command=.reconnect';
+			clearInterval(opts.rebootIntervalHandler)
+			opts.rebootIntervalHandler = null;
+		} else {
+			$("#reconnectTimer").text('Reconnect (' + timeLeftSecs + ')');
+		}
+	}, intervalSecs * 1000);
+}
+
+function rebootFinished() {
+	if (opts.rebootIntervalHandler != null) {
+		clearInterval(opts.rebootIntervalHandler)
+	}
+	$("<span> Reconnected automatically!</span>").insertBefore("#reconnectTimer");
+	$("#reconnectTimer").remove();
+}
+
+function codewords(phrases, responses) {
+	function cleanCodewords(words) {
+		var arr = [];
+		for (var i in words) {
+			var trimmed = words[i].trim();
+			if (trimmed.length > 0) {
+				arr.push(trimmed);
+			}
+		}
+		return arr;
+	}
+
+	opts.codePhrases = cleanCodewords(phrases.split(","));
+	opts.codeResponses = cleanCodewords(responses.split(","));
+}
+
+function codewordsClear() {
+	opts.codePhrases = [];
+	opts.codeResponses = [];
 }
 
 /*****************************************
@@ -1063,7 +1134,7 @@ $(function() {
 		if ($('.popup .highlightTerm').is(':visible')) {return;}
 		var termInputs = '';
 		for (var i = 0; i < opts.highlightLimit; i++) {
-			termInputs += '<div><input type="text" name="highlightTermInput'+i+'" id="highlightTermInput'+i+'" class="highlightTermInput'+i+'" maxlength="255" value="'+(opts.highlightTerms[i] ? opts.highlightTerms[i] : '')+'" /></div>';
+			termInputs += '<div><input type="text" name="highlightTermInput'+i+'" id="highlightTermInput'+i+'" class="highlightTermInput'+i+'" maxlength="255" value="" /></div>';
 		}
 		var popupContent = '<div class="head">String Highlighting</div>' +
 			'<div class="highlightPopup" id="highlightPopup">' +
@@ -1078,6 +1149,9 @@ $(function() {
 				'</form>' +
 			'</div>';
 		createPopup(popupContent, 250);
+		for(var i = 0; i < opts.highlightLimit; i++){
+			document.querySelector(".highlightTermInput"+i).setAttribute("value",(opts.highlightTerms[i] ? opts.highlightTerms[i] : ''));
+		}
 		document.querySelector(".popup #highlightRegexEnable").checked = opts.highlightRegexEnable;
 	});
 	$('body').on('keyup', '#highlightColor', function() {

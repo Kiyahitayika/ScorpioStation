@@ -28,10 +28,10 @@
 		return
 
 	if(ishuman(user))
-		var/datum/nano_module/appearance_changer/AC = ui_users[user]
+		var/datum/ui_module/appearance_changer/AC = ui_users[user]
 		if(!AC)
 			AC = new(src, user)
-			AC.name = "SalonPro Nano-Mirror&trade;"
+			AC.name = "SalonPro Nano-Mirror"
 			AC.flags = APPEARANCE_ALL_BODY
 			ui_users[user] = AC
 		AC.ui_interact(user)
@@ -121,7 +121,7 @@
 			else
 				race_list += GLOB.whitelisted_species
 
-			var/datum/nano_module/appearance_changer/AC = ui_users[user]
+			var/datum/ui_module/appearance_changer/AC = ui_users[user]
 			if(!AC)
 				AC = new(src, user)
 				AC.name = "Magic Mirror"
@@ -145,17 +145,17 @@
 				if("Mute")
 					voice_mutation = GLOB.muteblock
 			if(voice_mutation)
-				if(H.dna.GetSEState(voice_mutation))
-					H.dna.SetSEState(voice_mutation, FALSE)
+				if(H.dna.GetDNAState(voice_mutation, DNA_SE))
+					H.dna.SetDNAState(voice_mutation, FALSE, DNA_SE)
 					genemutcheck(H, voice_mutation, null, MUTCHK_FORCED)
 				else
-					H.dna.SetSEState(voice_mutation, TRUE)
+					H.dna.SetDNAState(voice_mutation, TRUE, DNA_SE)
 					genemutcheck(H, voice_mutation, null, MUTCHK_FORCED)
 
 			if(voice_choice)
 				curse(user)
 
-/obj/structure/mirror/magic/on_ui_close(mob/user)
+/obj/structure/mirror/magic/ui_close(mob/user)
 	curse(user)
 
 /obj/structure/mirror/magic/attackby(obj/item/I, mob/living/user, params)

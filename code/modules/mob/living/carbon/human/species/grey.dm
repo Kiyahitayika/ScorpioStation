@@ -32,7 +32,7 @@
 
 /datum/species/grey/handle_dna(mob/living/carbon/human/H, remove)
 	..()
-	H.dna.SetSEState(GLOB.remotetalkblock, !remove, 1)
+	H.dna.SetDNAState(GLOB.remotetalkblock, !remove, DNA_SE, TRUE)
 	genemutcheck(H, GLOB.remotetalkblock, null, MUTCHK_FORCED)
 	H.dna.default_blocks.Add(GLOB.remotetalkblock)
 
@@ -88,3 +88,7 @@
 		H.adjustFireLoss(1)
 		return TRUE
 	return ..()
+
+/datum/species/grey/get_species_runechat_color(mob/living/carbon/human/H)
+	var/obj/item/organ/internal/eyes/E = H.get_int_organ(/obj/item/organ/internal/eyes)
+	return E.eye_colour

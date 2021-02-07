@@ -364,6 +364,11 @@
 /mob/living/SetSlur(amount)
 	slurring = max(amount, 0)
 
+	if(slurring && drunk)
+		throw_alert("drunk", /obj/screen/alert/drunk)
+	else
+		clear_alert("drunk")
+
 /mob/living/AdjustSlur(amount, bound_lower = 0, bound_upper = INFINITY)
 	var/new_value = directional_bounded_sum(slurring, amount, bound_lower, bound_upper)
 	SetSlur(new_value)
@@ -371,10 +376,10 @@
 // CULTSLURRING
 
 /mob/living/CultSlur(amount)
-	SetSlur(max(slurring, amount))
+	SetCultSlur(max(cultslurring, amount))
 
 /mob/living/SetCultSlur(amount)
-	slurring = max(amount, 0)
+	cultslurring = max(amount, 0)
 
 /mob/living/AdjustCultSlur(amount, bound_lower = 0, bound_upper = INFINITY)
 	var/new_value = directional_bounded_sum(cultslurring, amount, bound_lower, bound_upper)
@@ -537,10 +542,10 @@
 	CureIfHasDisability(GLOB.twitchblock)
 
 /mob/living/proc/CureIfHasDisability(block)
-	if(dna && dna.GetSEState(block))
-		dna.SetSEState(block, 0, 1) //Fix the gene
+	if(dna && dna.GetDNAState(block, DNA_SE))
+		dna.SetDNAState(block, FALSE, DNA_SE, TRUE) //Fix the gene
 		genemutcheck(src, block,null, MUTCHK_FORCED)
-		dna.UpdateSE()
+		dna.UpdateDNA(DNA_SE)
 
 ///////////////////////////////// FROZEN /////////////////////////////////////
 

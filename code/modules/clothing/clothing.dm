@@ -120,6 +120,12 @@
 	else
 		icon = initial(icon)
 
+/**
+  * Used for any clothing interactions when the user is on fire. (e.g. Cigarettes getting lit.)
+  */
+/obj/item/clothing/proc/catch_fire() //Called in handle_fire()
+	return
+
 //Ears: currently only used for headsets and earmuffs
 /obj/item/clothing/ears
 	name = "ears"
@@ -176,6 +182,7 @@
 	slot_flags = SLOT_EARS | SLOT_TWOEARS
 
 /obj/item/clothing/ears/offear/New(var/obj/O)
+	. = ..()
 	name = O.name
 	desc = O.desc
 	icon = O.icon
@@ -205,7 +212,7 @@
 	strip_delay = 20			//	   but seperated to allow items to protect but not impair vision, like space helmets
 	put_on_delay = 25
 	resistance_flags = NONE
-	species_restricted = list("exclude","Kidan")
+
 /*
 SEE_SELF  // can see self, no matter what
 SEE_MOBS  // can see all mobs, no matter what

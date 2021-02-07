@@ -9,19 +9,6 @@
  */
 
 
-/*
- * SQL sanitization
- */
-
-// Run all strings to be used in an SQL query through this proc first to properly escape out injection attempts.
-/proc/sanitizeSQL(var/t as text)
-	if(isnull(t))
-		return null
-	if(!istext(t))
-		t = "[t]" // Just quietly assume any non-texts are supposed to be text
-	var/sqltext = GLOB.dbcon.Quote(t);
-	return copytext(sqltext, 2, length(sqltext));//Quote() adds quotes around input, we already do that
-
 /proc/format_table_name(table as text)
 	return sqlfdbktableprefix + table
 
@@ -199,7 +186,7 @@
 //checks text for html tags
 //if tag is not in whitelist (var/list/paper_tag_whitelist in global.dm)
 //relpaces < with &lt;
-proc/checkhtml(var/t)
+/proc/checkhtml(var/t)
 	t = sanitize_simple(t, list("&#"="."))
 	var/p = findtext(t,"<",1)
 	while(p)	//going through all the tags
@@ -618,7 +605,6 @@ proc/checkhtml(var/t)
 	text = replacetext(text, "<td>",					"\[cell\]")
 	text = replacetext(text, "<img src = arksoftlogo.png>",	"\[logo\]")
 	return text
-
 
 /datum/html/split_holder
 	var/list/opening

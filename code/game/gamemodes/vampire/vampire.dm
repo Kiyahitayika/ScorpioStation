@@ -11,7 +11,7 @@
 	restricted_jobs = list("AI", "Cyborg")
 	protected_jobs = list("Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Blueshield", "Ark Soft Representative", "Security Pod Pilot", "Magistrate", "Chaplain", "Brig Physician", "Internal Affairs Agent", "Ark Soft Navy Officer", "Special Operations Officer", "Syndicate Officer")
 	protected_species = list("Machine")
-	required_players = 25
+	required_players = 10
 	required_enemies = 1
 	recommended_enemies = 4
 
@@ -45,7 +45,7 @@
 
 	var/list/datum/mind/possible_vampires = get_players_for_role(ROLE_VAMPIRE)
 
-	vampire_amount = round(num_players() / required_players)
+	vampire_amount = 1 + round(num_players() / 10)
 
 	if(possible_vampires.len>0)
 		for(var/i = 0, i < vampire_amount, i++)
@@ -65,6 +65,7 @@
 		return 0
 
 /datum/game_mode/vampire/post_setup()
+	update_raffle_winners(vampires)
 	for(var/datum/mind/vampire in vampires)
 		grant_vampire_powers(vampire.current)
 		forge_vampire_objectives(vampire)
@@ -93,19 +94,27 @@
 			if(vampire.objectives.len)//If the traitor had no objectives, don't need to process this.
 				var/count = 1
 				for(var/datum/objective/objective in vampire.objectives)
-					text += "<br><B>Objective #[count]</B>: [objective.explanation_text]"
 					if(objective.check_completion())
-						feedback_add_details("traitor_objective","[objective.type]|SUCCESS")
+						text += "<br><B>Objective #[count]</B>: [objective.explanation_text] <font color='green'><B>Success!</B></font>"
+						SSblackbox.record_feedback("nested tally", "traitor_objective", 1, list("[objective.type]", "SUCCESS"))
 					else
-						feedback_add_details("traitor_objective","[objective.type]|FAIL")
+						text += "<br><B>Objective #[count]</B>: [objective.explanation_text] <font color='red'>Fail.</font>"
+						SSblackbox.record_feedback("nested tally", "traitor_objective", 1, list("[objective.type]", "FAIL"))
 						traitorwin = 0
 					count++
 
+			var/special_role_text
+			if(vampire.special_role)
+				special_role_text = lowertext(vampire.special_role)
+			else
+				special_role_text = "antagonist"
 
 			if(traitorwin)
-				feedback_add_details("traitor_success","SUCCESS")
+				text += "<br><font color='green'><B>The [special_role_text] was successful!</B></font>"
+				SSblackbox.record_feedback("tally", "traitor_success", 1, "SUCCESS")
 			else
-				feedback_add_details("traitor_success","FAIL")
+				text += "<br><font color='red'><B>The [special_role_text] has failed!</B></font>"
+				SSblackbox.record_feedback("tally", "traitor_success", 1, "FAIL")
 		to_chat(world, text)
 	return 1
 
@@ -271,6 +280,7 @@ You are weak to holy things and starlight. Don't go into space and avoid the Cha
 	var/blood = 0
 	var/old_bloodtotal = 0 //used to see if we increased our blood total
 	var/old_bloodusable = 0 //used to see if we increased our blood usable
+	var/blood_volume_warning = 9999 //Blood volume threshold for warnings
 	if(owner.is_muzzled())
 		to_chat(owner, "<span class='warning'>[owner.wear_mask] prevents you from biting [H]!</span>")
 		draining = null
@@ -283,13 +293,10 @@ You are weak to holy things and starlight. Don't go into space and avoid the Cha
 		H.LAssailant = owner
 	while(do_mob(owner, H, 50))
 		if(!(owner.mind in SSticker.mode.vampires))
-			to_chat(owner, "<span class='warning'>Your fangs have disappeared!</span>")
+			to_chat(owner, "<span class='userdanger'>Your fangs have disappeared!</span>")
 			return
 		old_bloodtotal = bloodtotal
 		old_bloodusable = bloodusable
-		if(!H.blood_volume)
-			to_chat(owner, "<span class='warning'>They've got no blood left to give.</span>")
-			break
 		if(H.stat < DEAD)
 			if(H.ckey || H.player_ghosted) //Requires ckey regardless if monkey or humanoid, or the body has been ghosted before it died
 				blood = min(20, H.blood_volume)	// if they have less than 20 blood, give them the remnant else they get 20 blood
@@ -304,6 +311,17 @@ You are weak to holy things and starlight. Don't go into space and avoid the Cha
 				to_chat(owner, "<span class='notice'><b>You have accumulated [bloodtotal] [bloodtotal > 1 ? "units" : "unit"] of blood[bloodusable != old_bloodusable ? ", and have [bloodusable] left to use" : ""].</b></span>")
 		check_vampire_upgrade()
 		H.blood_volume = max(H.blood_volume - 25, 0)
+		//Blood level warnings (Code 'borrowed' from Fulp)
+		if(H.blood_volume)
+			if(H.blood_volume <= BLOOD_VOLUME_BAD && blood_volume_warning > BLOOD_VOLUME_BAD)
+				to_chat(owner, "<span class='danger'>Your victim's blood volume is dangerously low.</span>")
+			else if(H.blood_volume <= BLOOD_VOLUME_OKAY && blood_volume_warning > BLOOD_VOLUME_OKAY)
+				to_chat(owner, "<span class='warning'>Your victim's blood is at an unsafe level.</span>")
+			blood_volume_warning = H.blood_volume //Set to blood volume, so that you only get the message once
+		else
+			to_chat(owner, "<span class='warning'>You have bled your victim dry!</span>")
+			break
+
 		if(ishuman(owner))
 			var/mob/living/carbon/human/V = owner
 			if(!H.ckey && !H.player_ghosted)//Only runs if there is no ckey and the body has not being ghosted while alive

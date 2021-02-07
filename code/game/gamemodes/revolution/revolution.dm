@@ -14,14 +14,13 @@
 	name = "revolution"
 	config_tag = "revolution"
 	restricted_jobs = list("Security Officer", "Warden", "Detective", "Internal Affairs Agent", "AI", "Cyborg","Captain", "Head of Personnel", "Head of Security", "Chief Engineer", "Research Director", "Chief Medical Officer", "Blueshield", "Ark Soft Representative", "Security Pod Pilot", "Magistrate", "Brig Physician")
-	required_players = 40
+	required_players = 20
 	required_enemies = 1
 	recommended_enemies = 3
 
 	var/finished = 0
 	var/check_counter = 0
 	var/max_headrevs = 3
-	var/headrev_amount = 0
 	var/list/datum/mind/heads_to_kill = list()
 	var/list/possible_revolutionaries = list()
 
@@ -42,9 +41,8 @@
 	if(config.protect_roles_from_antagonist)
 		restricted_jobs += protected_jobs
 
-	headrev_amount = min(required_enemies + round((num_players() - required_players) / 20), recommended_enemies)
 
-	for(var/i in 1 to headrev_amount)
+	for(var/i=1 to max_headrevs)
 		if(possible_revolutionaries.len==0)
 			break
 		var/datum/mind/lenin = pick(possible_revolutionaries)
@@ -69,6 +67,7 @@
 		head_revolutionaries -= trotsky
 		update_rev_icons_removed(trotsky)
 
+	update_raffle_winners(head_revolutionaries)
 	for(var/datum/mind/rev_mind in head_revolutionaries)
 		log_game("[key_name(rev_mind)] has been selected as a head rev")
 		for(var/datum/mind/head_mind in heads)
@@ -325,10 +324,10 @@
 //////////////////////////////////////////////////////////////////////
 /datum/game_mode/revolution/declare_completion()
 	if(finished == 1)
-		feedback_set_details("round_end_result","revolution win - heads killed")
+		SSticker.mode_result = "revolution win - heads killed"
 		to_chat(world, "<span class='redtext'>The heads of staff were killed or exiled! The revolutionaries win!</span>")
 	else if(finished == 2)
-		feedback_set_details("round_end_result","revolution loss - rev heads killed")
+		SSticker.mode_result = "revolution loss - rev heads killed"
 		to_chat(world, "<span class='redtext'>The heads of staff managed to stop the revolution!</span>")
 	..()
 	return TRUE

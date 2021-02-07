@@ -223,12 +223,13 @@ DROP TABLE IF EXISTS `feedback`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `feedback` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `time` datetime NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `datetime` datetime NOT NULL,
   `round_id` int(8) NOT NULL,
-  `var_name` varchar(32) NOT NULL,
-  `var_value` int(16) DEFAULT NULL,
-  `details` text,
+  `key_name` varchar(32) NOT NULL,
+  `key_type` enum('text', 'amount', 'tally', 'nested tally', 'associative') NOT NULL,
+  `version` tinyint(3) UNSIGNED NOT NULL,
+  `json` LONGTEXT NOT NULL COLLATE 'utf8mb4_general_ci',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -255,24 +256,21 @@ CREATE TABLE `player` (
   `be_role` mediumtext,
   `default_slot` smallint(4) DEFAULT '1',
   `toggles` int(8) DEFAULT '383',
+  `toggles_2` INT NULL DEFAULT '0',
   `sound` mediumint(8) DEFAULT '31',
-  `randomslot` tinyint(1) DEFAULT '0',
   `volume` smallint(4) DEFAULT '100',
-  `nanoui_fancy` smallint(4) DEFAULT '1',
-  `show_ghostitem_attack` smallint(4) DEFAULT '1',
   `lastchangelog` varchar(32) NOT NULL DEFAULT '0',
-  `windowflashing` smallint(4) DEFAULT '1',
-  `ghost_anonsay` tinyint(1) NOT NULL DEFAULT '0',
+  `antag_raffle_tickets` int NOT NULL DEFAULT 0,
   `exp` mediumtext,
   `clientfps` smallint(4) DEFAULT '0',
   `atklog` smallint(4) DEFAULT '0',
   `fuid` bigint(20) NULL DEFAULT NULL,
   `fupdate` smallint(4) NULL DEFAULT '0',
-  `afk_watch` tinyint(1) NOT NULL DEFAULT '0',
   `parallax` tinyint(1) DEFAULT '8',
   `max_chat_length` tinyint(1) DEFAULT '110',
   `chat_on_map` tinyint(1) DEFAULT '1',
   `see_chat_non_mob` tinyint(1) DEFAULT '1',
+  `byond_date` DATE DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `ckey` (`ckey`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
@@ -612,4 +610,27 @@ CREATE TABLE `changelog` (
 	`cl_type` ENUM('FIX','WIP','TWEAK','SOUNDADD','SOUNDDEL','CODEADD','CODEDEL','IMAGEADD','IMAGEDEL','SPELLCHECK','EXPERIMENT') NOT NULL,
 	`cl_entry` TEXT NOT NULL,
 	PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+
+
+--
+-- Table structure for table `round`
+--
+DROP TABLE IF EXISTS `round`;
+CREATE TABLE `round` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `initialize_datetime` DATETIME NOT NULL,
+  `start_datetime` DATETIME NULL,
+  `shutdown_datetime` DATETIME NULL,
+  `end_datetime` DATETIME NULL,
+  `server_ip` INT(10) UNSIGNED NOT NULL,
+  `server_port` SMALLINT(5) UNSIGNED NOT NULL,
+  `commit_hash` CHAR(40) NULL,
+  `game_mode` VARCHAR(32) NULL,
+  `game_mode_result` VARCHAR(64) NULL,
+  `end_state` VARCHAR(64) NULL,
+  `shuttle_name` VARCHAR(64) NULL,
+  `map_name` VARCHAR(32) NULL,
+  `station_name` VARCHAR(80) NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;

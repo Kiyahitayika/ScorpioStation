@@ -15,7 +15,6 @@
 		handle_robot_cell()
 		process_locks()
 		update_items()
-		process_queued_alarms()
 		adjust_mental_integrity(MENTAL_INTEGRITY_PER_SECOND_RATE * seconds)
 
 
@@ -49,7 +48,7 @@
 
 /mob/living/silicon/robot/proc/handle_equipment()
 	if(camera && !scrambledcodes)
-		if(stat == DEAD || wires.IsCameraCut())
+		if(stat == DEAD || wires.is_cut(WIRE_BORG_CAMERA))
 			camera.status = 0
 		else
 			camera.status = 1
@@ -148,7 +147,8 @@
 
 //Robots on fire
 /mob/living/silicon/robot/handle_fire()
-	if(..())
+	. = ..()
+	if(!.)
 		return
 	if(fire_stacks > 0)
 		fire_stacks--
@@ -156,8 +156,6 @@
 	else
 		ExtinguishMob()
 
-	//adjustFireLoss(3)
-	return
 
 /mob/living/silicon/robot/update_fire()
 	overlays -= image("icon"='icons/mob/OnFire.dmi', "icon_state"="Generic_mob_burning")

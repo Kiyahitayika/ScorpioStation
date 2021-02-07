@@ -3,14 +3,14 @@
 /datum/game_mode
 	var/list/datum/mind/syndicates = list()
 
-proc/issyndicate(mob/living/M as mob)
+/proc/issyndicate(mob/living/M as mob)
 	return istype(M) && M.mind && SSticker && SSticker.mode && (M.mind in SSticker.mode.syndicates)
 
 /datum/game_mode/nuclear
 	name = "nuclear emergency"
 	config_tag = "nuclear"
-	required_players = 40
-	required_enemies = 3
+	required_players = 30	// 30 players - 5 players to be the nuke ops = 25 players remaining
+	required_enemies = 5
 	recommended_enemies = 5
 
 	var/const/agents_possible = 5 //If we ever need more syndicate agents.
@@ -35,10 +35,14 @@ proc/issyndicate(mob/living/M as mob)
 	if(possible_syndicates.len < 1)
 		return 0
 
-	agent_number = min(required_enemies + round((num_players() - required_players) / 20), recommended_enemies)
+	if(LAZYLEN(possible_syndicates) > agents_possible)
+		agent_number = agents_possible
+	else
+		agent_number = possible_syndicates.len
 
-	if(length(possible_syndicates) < agent_number)
-		agent_number = length(possible_syndicates)
+	var/n_players = num_players()
+	if(agent_number > n_players)
+		agent_number = n_players/2
 
 	while(agent_number > 0)
 		var/datum/mind/new_syndicate = pick(possible_syndicates)
@@ -99,11 +103,12 @@ proc/issyndicate(mob/living/M as mob)
 
 	var/obj/effect/landmark/nuke_spawn = locate("landmark*Nuclear-Bomb")
 
-	var/nuke_code = "[rand(10000, 99999)]"
+	var/nuke_code = rand(10000, 99999)
 	var/leader_selected = 0
 	var/agent_number = 1
 	var/spawnpos = 1
 
+	update_raffle_winners(syndicates)
 	for(var/datum/mind/synd_mind in syndicates)
 		if(spawnpos > synd_spawn.len)
 			spawnpos = 2
@@ -332,47 +337,47 @@ proc/issyndicate(mob/living/M as mob)
 	//herp //Used for tracking if the syndies got the shuttle off of the z-level	//NO, DON'T FUCKING NAME VARS LIKE THIS
 
 	if(!disk_rescued && station_was_nuked && !syndies_didnt_escape)
-		feedback_set_details("round_end_result","nuclear win - syndicate nuke")
+		SSticker.mode_result = "nuclear win - syndicate nuke"
 		to_chat(world, "<FONT size = 3><B>Syndicate Major Victory!</B></FONT>")
 		to_chat(world, "<B>[syndicate_name()] operatives have destroyed [station_name()]!</B>")
 
 	else if(!disk_rescued && station_was_nuked && syndies_didnt_escape)
-		feedback_set_details("round_end_result","nuclear halfwin - syndicate nuke - did not evacuate in time")
+		SSticker.mode_result = "nuclear halfwin - syndicate nuke - did not evacuate in time"
 		to_chat(world, "<FONT size = 3><B>Total Annihilation</B></FONT>")
 		to_chat(world, "<B>[syndicate_name()] operatives destroyed [station_name()] but did not leave the area in time and got caught in the explosion.</B> Next time, don't lose the disk!")
 
 	else if(!disk_rescued && !station_was_nuked && nuke_off_station && !syndies_didnt_escape)
-		feedback_set_details("round_end_result","nuclear halfwin - blew wrong station")
+		SSticker.mode_result = "nuclear halfwin - blew wrong station"
 		to_chat(world, "<FONT size = 3><B>Crew Minor Victory</B></FONT>")
 		to_chat(world, "<B>[syndicate_name()] operatives secured the authentication disk but blew up something that wasn't [station_name()].</B> Next time, don't lose the disk!")
 
 	else if(!disk_rescued && !station_was_nuked && nuke_off_station && syndies_didnt_escape)
-		feedback_set_details("round_end_result","nuclear halfwin - blew wrong station - did not evacuate in time")
+		SSticker.mode_result = "nuclear halfwin - blew wrong station - did not evacuate in time"
 		to_chat(world, "<FONT size = 3><B>[syndicate_name()] operatives have earned Darwin Award!</B></FONT>")
 		to_chat(world, "<B>[syndicate_name()] operatives blew up something that wasn't [station_name()] and got caught in the explosion.</B> Next time, don't lose the disk!")
 
 	else if(disk_rescued && is_operatives_are_dead())
-		feedback_set_details("round_end_result","nuclear loss - evacuation - disk secured - syndi team dead")
+		SSticker.mode_result = "nuclear loss - evacuation - disk secured - syndi team dead"
 		to_chat(world, "<FONT size = 3><B>Crew Major Victory!</B></FONT>")
 		to_chat(world, "<B>The Research Staff has saved the disc and killed the [syndicate_name()] Operatives</B>")
 
 	else if(disk_rescued)
-		feedback_set_details("round_end_result","nuclear loss - evacuation - disk secured")
+		SSticker.mode_result = "nuclear loss - evacuation - disk secured"
 		to_chat(world, "<FONT size = 3><B>Crew Major Victory</B></FONT>")
 		to_chat(world, "<B>The Research Staff has saved the disc and stopped the [syndicate_name()] Operatives!</B>")
 
 	else if(!disk_rescued && is_operatives_are_dead())
-		feedback_set_details("round_end_result","nuclear loss - evacuation - disk not secured")
+		SSticker.mode_result = "nuclear loss - evacuation - disk not secured"
 		to_chat(world, "<FONT size = 3><B>Syndicate Minor Victory!</B></FONT>")
 		to_chat(world, "<B>The Research Staff failed to secure the authentication disk but did manage to kill most of the [syndicate_name()] Operatives!</B>")
 
 	else if(!disk_rescued && crew_evacuated)
-		feedback_set_details("round_end_result","nuclear halfwin - detonation averted")
+		SSticker.mode_result = "nuclear halfwin - detonation averted"
 		to_chat(world, "<FONT size = 3><B>Syndicate Minor Victory!</B></FONT>")
 		to_chat(world, "<B>[syndicate_name()] operatives recovered the abandoned authentication disk but detonation of [station_name()] was averted.</B> Next time, don't lose the disk!")
 
 	else if(!disk_rescued && !crew_evacuated)
-		feedback_set_details("round_end_result","nuclear halfwin - interrupted")
+		SSticker.mode_result = "nuclear halfwin - interrupted"
 		to_chat(world, "<FONT size = 3><B>Neutral Victory</B></FONT>")
 		to_chat(world, "<B>Round was mysteriously interrupted!</B>")
 	..()

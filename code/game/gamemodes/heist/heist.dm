@@ -1,6 +1,5 @@
-/*
-VOX HEIST ROUNDTYPE
-*/
+// VOX HEIST ROUNDTYPE
+
 GLOBAL_LIST_EMPTY(cortical_stacks) // Stacks for 'leave nobody behind' objective. Clumsy, rewrite sometime.
 
 /datum/game_mode/
@@ -66,6 +65,7 @@ GLOBAL_LIST_EMPTY(cortical_stacks) // Stacks for 'leave nobody behind' objective
 	var/index = 1
 
 	//Spawn the vox!
+	update_raffle_winners(raiders)
 	for(var/datum/mind/raider in raiders)
 
 		if(index > GLOB.raider_spawn.len)
@@ -235,20 +235,22 @@ GLOBAL_LIST_EMPTY(cortical_stacks) // Stacks for 'leave nobody behind' objective
 
 	to_chat(world, "<span class='warning'><FONT size = 3><B>[win_type] [win_group] victory!</B></FONT></span>")
 	to_chat(world, "[win_msg]")
-	feedback_set_details("round_end_result","heist - [win_type] [win_group]")
+	SSticker.mode_result = "heist - [win_type] [win_group]"
 
 	var/count = 1
 	for(var/datum/objective/objective in raid_objectives)
 		to_chat(world, "<br><B>Objective #[count]</B>: [objective.explanation_text]")
 		if(objective.check_completion())
-			feedback_add_details("traitor_objective","[objective.type]|SUCCESS")
+			to_chat(world, "<br><B>Objective #[count]</B>: [objective.explanation_text] <font color='green'><B>Success!</B></font>")
+			SSblackbox.record_feedback("nested tally", "traitor_objective", 1, list("[objective.type]", "SUCCESS"))
 		else
-			feedback_add_details("traitor_objective","[objective.type]|FAIL")
+			to_chat(world, "<br><B>Objective #[count]</B>: [objective.explanation_text] <font color='red'>Fail.</font>")
+			SSblackbox.record_feedback("nested tally", "traitor_objective", 1, list("[objective.type]", "FAIL"))
 		count++
 
 	..()
 
-datum/game_mode/proc/auto_declare_completion_heist()
+/datum/game_mode/proc/auto_declare_completion_heist()
 	if(raiders.len)
 		var/check_return = 0
 		if(GAMEMODE_IS_HEIST)
@@ -285,18 +287,18 @@ datum/game_mode/proc/auto_declare_completion_heist()
 	return ..()
 
 
-/obj/vox/win_button
+/obj/machinery/vox_win_button
 	name = "shoal contact computer"
 	desc = "Used to contact the Vox Shoal, generally to arrange for pickup."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "tcstation"
 
-/obj/vox/win_button/New()
+/obj/machinery/vox_win_button/New()
 	. = ..()
 	overlays += icon('icons/obj/computer.dmi', "syndie")
 
-/obj/vox/win_button/attack_hand(mob/user)
-	if(!GAMEMODE_IS_HEIST || (world.time < 10 MINUTES)) //has to be heist, and at least ten minutes into the round
+/obj/machinery/vox_win_button/attack_hand(mob/user)
+	if(!GAMEMODE_IS_HEIST || (world.time < 10 MINUTES)) // has to be heist, and at least ten minutes into the round
 		to_chat(user, "<span class='warning'>\The [src] does not appear to have a connection.</span>")
 		return 0
 

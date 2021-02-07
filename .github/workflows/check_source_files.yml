@@ -1,0 +1,20 @@
+name: 'Check Source Files'
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  check_source_files:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Project
+      uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v2-beta
+
+    - name: Check Source Files
+      run: './tools/scorpio/check_source_files/action.sh'

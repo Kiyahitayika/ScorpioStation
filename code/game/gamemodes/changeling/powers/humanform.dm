@@ -24,7 +24,7 @@
 	if(!user)
 		return 0
 	to_chat(user, "<span class='notice'>We transform our appearance.</span>")
-	user.dna.SetSEState(GLOB.monkeyblock,0,1)
+	user.dna.SetDNAState(GLOB.monkeyblock, FALSE, DNA_SE, TRUE)
 	genemutcheck(user,GLOB.monkeyblock,null,MUTCHK_FORCED)
 	if(istype(user))
 		user.set_species(chosen_dna.species.type)
@@ -32,13 +32,12 @@
 	user.real_name = chosen_dna.real_name
 	domutcheck(user,null,MUTCHK_FORCED)
 	user.flavor_text = ""
-	user.dna.UpdateSE()
-	user.dna.UpdateUI()
+	user.dna.UpdateDNA(DNA_ALL)
 	user.sync_organ_dna(1)
 	user.UpdateAppearance()
 
 	changeling.purchasedpowers -= src
 	//O.mind.changeling.purchasedpowers += new /datum/action/changeling/lesserform(null)
 	src.Remove(user)
-	feedback_add_details("changeling_powers","LFT")
+	SSblackbox.record_feedback("nested tally", "changeling_powers", 1, list("[name]"))
 	return 1

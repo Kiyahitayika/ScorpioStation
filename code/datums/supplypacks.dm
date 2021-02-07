@@ -55,6 +55,8 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	var/list/announce_beacons = list() // Particular beacons that we'll notify the relevant department when we reach
 	var/special = FALSE //Event/Station Goals/Admin enabled packs
 	var/special_enabled = FALSE
+	/// List of names for being done in TGUI
+	var/list/ui_manifest = list()
 
 
 /datum/supply_packs/New()
@@ -63,7 +65,11 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 		if(!path)	continue
 		var/atom/movable/AM = path
 		manifest += "<li>[initial(AM.name)]</li>"
+		// Add the name to the UI manifest
+		ui_manifest += "[initial(AM.name)]"
 	manifest += "</ul>"
+
+
 
 ////// Use the sections to keep things tidy please /Malkevin
 
@@ -343,6 +349,14 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 					/obj/item/clothing/suit/armor/bulletproof)
 	cost = 15
 	containername = "tactical armor crate"
+
+/datum/supply_packs/security/armory/webbing
+	name = "Webbing Crate"
+	contains = list(/obj/item/storage/belt/security/webbing,
+					/obj/item/storage/belt/security/webbing,
+					/obj/item/storage/belt/security/webbing)
+	cost = 15
+	containername = "tactical webbing crate"
 
 /datum/supply_packs/security/armory/swat
 	name = "SWAT gear crate"
@@ -980,12 +994,6 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	containername = "shield generators crate"
 	access = ACCESS_TELEPORTER
 
-/datum/supply_packs/science/modularpc
-	name = "Deluxe Silicate Selections restocking unit"
-	cost = 15
-	contains = list(/obj/item/vending_refill/modularpc)
-	containername = "computer supply crate"
-
 /datum/supply_packs/science/transfer_valves
 	name = "Tank Transfer Valves Crate"
 	contains = list(/obj/item/transfer_valve,
@@ -1065,13 +1073,17 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	cost = 20
 	containername = "farwa crate"
 
-
 /datum/supply_packs/organic/wolpin
 	name = "Wolpin Crate"
 	contains = list (/obj/item/storage/box/monkeycubes/wolpincubes)
 	cost = 20
 	containername = "wolpin crate"
 
+/datum/supply_packs/organic/wrynlarvae
+	name = "Wryn Larvae Crate"
+	contains = list(/obj/item/storage/box/monkeycubes/wryncubes)
+	cost = 20
+	containername ="wryn crate"
 
 /datum/supply_packs/organic/skrell
 	name = "Neaera Crate"
@@ -1617,6 +1629,13 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 	cost = 15
 	containername = "mafia supply crate"
 
+/datum/supply_packs/misc/sunglasses
+	name = "Sunglasses Crate"
+	contains = list(/obj/item/clothing/glasses/sunglasses,
+					/obj/item/clothing/glasses/sunglasses,
+					/obj/item/clothing/glasses/sunglasses)
+	cost = 30
+	containername = "sunglasses crate"
 /datum/supply_packs/misc/randomised
 	var/num_contained = 3 //number of items picked to be contained in a randomised crate
 	contains = list(/obj/item/clothing/head/collectable/chef,
@@ -1787,6 +1806,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 /datum/supply_packs/misc/station_goal/bsa
 	name = "Bluespace Artillery Parts"
 	cost = 150
+	special_enabled = TRUE
 	contains = list(/obj/item/circuitboard/machine/bsa/front,
 					/obj/item/circuitboard/machine/bsa/middle,
 					/obj/item/circuitboard/machine/bsa/back,
@@ -1794,9 +1814,21 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 					)
 	containername = "bluespace artillery parts crate"
 
+
+/datum/supply_packs/misc/station_goal/bluespace_tap
+	name = "Bluespace Harvester Parts"
+	cost = 150
+	special_enabled = TRUE
+	contains = list(
+					/obj/item/circuitboard/machine/bluespace_tap,
+					/obj/item/paper/bluespace_tap
+					)
+	containername = "bluespace harvester parts crate"
+
 /datum/supply_packs/misc/station_goal/dna_vault
 	name = "DNA Vault Parts"
 	cost = 120
+	special_enabled = TRUE
 	contains = list(
 					/obj/item/circuitboard/machine/dna_vault
 					)
@@ -1805,6 +1837,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 /datum/supply_packs/misc/station_goal/dna_probes
 	name = "DNA Vault Samplers"
 	cost = 30
+	special_enabled = TRUE
 	contains = list(/obj/item/dna_probe,
 					/obj/item/dna_probe,
 					/obj/item/dna_probe,
@@ -1816,6 +1849,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 /datum/supply_packs/misc/station_goal/shield_sat
 	name = "Shield Generator Satellite"
 	cost = 30
+	special_enabled = TRUE
 	contains = list(
 					/obj/machinery/satellite/meteor_shield,
 					/obj/machinery/satellite/meteor_shield,
@@ -1826,6 +1860,7 @@ GLOBAL_LIST_INIT(all_supply_groups, list(SUPPLY_EMERGENCY,SUPPLY_SECURITY,SUPPLY
 /datum/supply_packs/misc/station_goal/shield_sat_control
 	name = "Shield System Control Board"
 	cost = 50
+	special_enabled = TRUE
 	contains = list(
 					/obj/item/circuitboard/computer/sat_control
 					)
