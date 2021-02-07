@@ -369,6 +369,12 @@
 	if(!isemptylist(loadout_gear))
 		gearlist = list2params(loadout_gear)
 
+	// correct fields that cannot be null before saving any characters
+	if(isnull(alt_head))
+		alt_head = initial(alt_head)
+	if(isnull(autohiss_mode))
+		autohiss_mode = initial(autohiss_mode)
+
 	var/datum/db_query/firstquery = SSdbcore.NewQuery("SELECT slot FROM [format_table_name("characters")] WHERE ckey=:ckey ORDER BY slot", list(
 		"ckey" = C.ckey
 	))
@@ -453,7 +459,7 @@
 													"f_style" = f_style,
 													"markingstyleslist" = markingstyleslist,
 													"ha_style" = ha_style,
-													"alt_head" = alt_head,
+													"alt_head" = alt_head || "",
 													"e_colour" = e_colour,
 													"underwear" = underwear,
 													"undershirt" = undershirt,

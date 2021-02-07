@@ -6,6 +6,7 @@
 	layer = 3.5
 	max_integrity = 100
 	armor = list("melee" = 50, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	flags_2 = RAD_PROTECT_CONTENTS_2 | RAD_NO_CONTAMINATE_2
 
 /obj/structure/sign/play_attack_sound(damage_amount, damage_type = BRUTE, damage_flag = 0)
 	switch(damage_type)
@@ -24,7 +25,7 @@
 	if(!I.use_tool(src, user, 0, volume = I.tool_volume))
 		return
 	to_chat(user, "You unfasten the sign with [I].")
-	var/obj/item/sign/S = new(src.loc)
+	var/obj/item/sign/S = new(loc)
 	S.name = name
 	S.desc = desc
 	S.icon_state = icon_state
@@ -42,8 +43,9 @@
 	resistance_flags = FLAMMABLE
 	var/sign_state = ""
 
-/obj/item/sign/attackby(obj/item/tool as obj, mob/user as mob)	//construction
-	if(istype(tool, /obj/item/screwdriver) && isturf(user.loc))
+/obj/item/sign/screwdriver_act(mob/user)	//construction
+	if(isturf(user.loc) && !(istype(src, /obj/item/sign/barsign)))
+	// Please don't use a screwdriver on the sign/barsign.
 		var/direction = input("In which direction?", "Select direction.") in list("North", "East", "South", "West", "Cancel")
 		if(direction == "Cancel")
 			return
@@ -64,7 +66,7 @@
 		S.name = name
 		S.desc = desc
 		S.icon_state = sign_state
-		to_chat(user, "You fasten \the [S] with your [tool].")
+		to_chat(user, "You fasten \the [S] with your screwdriver.")
 		qdel(src)
 	else
 		return ..()
@@ -152,10 +154,10 @@
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "xeno_warning"
 
-/obj/structure/sign/redcross
+/obj/structure/sign/lifestar
 	name = "medbay"
-	desc = "The Intergalactic symbol of Medical institutions. You'll probably get help here.'"
-	icon_state = "redcross"
+	desc = "The Star of Life, a symbol of Medical Aid."
+	icon_state = "lifestar"
 
 /obj/structure/sign/greencross
 	name = "medbay"
